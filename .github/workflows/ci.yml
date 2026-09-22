@@ -1,0 +1,94 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - run: ruff check .
+      - run: ruff format --check .
+
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        database: [sqlite, postgres]
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: apelevate
+          POSTGRES_PASSWORD: apelevate
+          POSTGRES_DB: apelevate
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U apelevate" --health-interval 2s --health-timeout 3s
+          --health-retries 20
+    env:
+      DATABASE_URL: ${{ matrix.database == 'postgres' && 'postgres://apelevate:apelevate@localhost:5432/apelevate' || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - run: pytest --cov --cov-report=term-missing:skip-covered
+
+  deploy-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - name: manage.py check --deploy with production settings
+        run: python manage.py check --deploy --fail-level WARNING
+        env:
+          DJANGO_DEBUG: "0"
+          DJANGO_SECURE: "1"
+          DJANGO_SECRET_KEY: ci-only-${{ github.run_id }}-not-a-real-secret-but-long-enough-for-the-check
+          DJANGO_ALLOWED_HOSTS: apelevate.example
+          PAYMENTS_BACKEND: paypal
+          PAYPAL_CLIENT_ID: ci
+          PAYPAL_CLIENT_SECRET: ci
+      - name: migrations are in sync with models
+        run: python manage.py makemigrations --check --dry-run
+        env:
+          DJANGO_SECRET_KEY: ci
+      - name: Docker image builds
+        run: docker build -t apelevate:ci .
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Boot the compose stack and hit it
+        run: |
+          docker compose up -d --build --wait --wait-timeout 180 db
+          docker compose up -d --build web
+          for i in $(seq 1 60); do curl -fsS http://localhost:8000/ >/dev/null && break; sleep 2; done
+          curl -fsS http://localhost:8000/classes/ | grep -q "Upcoming classes"
+      - if: failure()
+        run: docker compose logs

@@ -1,0 +1,40 @@
+# `make up`: the app on PostgreSQL at http://localhost:8000, with the demo data loaded.
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: apelevate
+      POSTGRES_USER: apelevate
+      POSTGRES_PASSWORD: apelevate
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U apelevate -d apelevate"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  web:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://apelevate:apelevate@db:5432/apelevate
+      # Local demo only: debug on so seed_demo runs and the fake payment provider is used.
+      DJANGO_DEBUG: "1"
+      DJANGO_ALLOWED_HOSTS: localhost,127.0.0.1
+      PAYMENTS_BACKEND: fake
+    command: >
+      sh -c "python manage.py migrate --noinput &&
+             python manage.py seed_curriculum &&
+             python manage.py seed_demo &&
+             gunicorn config.wsgi --bind 0.0.0.0:8000 --workers 2 --access-logfile -"
+    ports:
+      - "8000:8000"
+    volumes:
+      - private_media:/app/private_media
+
+volumes:
+  pgdata:
+  private_media:
