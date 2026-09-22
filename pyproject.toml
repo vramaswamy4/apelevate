@@ -31,6 +31,7 @@ ignore = ["RUF012"]
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["S101", "S105", "S106"]
 "*/management/commands/seed_demo.py" = ["S105", "S106"]
+"scripts/**" = ["S105", "S603"]  # dev tooling: demo password, runs manage.py
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "config.settings_test"

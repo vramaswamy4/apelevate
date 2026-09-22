@@ -59,7 +59,6 @@ down: ## Stop docker compose and remove its volumes
 	docker compose down -v
 
 screenshots: install ## Regenerate docs/screenshots with Playwright
-	$(BIN)/pip install --quiet playwright==1.63.0
 	$(BIN)/python -m playwright install chromium
 	$(PY) scripts/screenshots.py
 

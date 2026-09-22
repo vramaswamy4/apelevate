@@ -89,6 +89,6 @@ class DecisionForm(forms.Form):
     note = forms.CharField(
         required=False,
         max_length=1000,
-        label="Note to the applicant (optional)",
+        label="Note to the applicant",
         widget=forms.Textarea(attrs={"rows": 2}),
     )

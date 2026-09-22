@@ -3,6 +3,28 @@
 The refresh of the recovered 2022 app, newest first. `docs/ORIGINAL.md` numbers the problems
 (S1, X1, C1, …), and the entries here refer to those numbers.
 
+## Phase 3: redesign (2026-09-22)
+
+- **Design system** (`static/css/app.css`): one stylesheet, no framework. Colour, spacing,
+  radius and type tokens on `:root`; dark theme is a second set of token values (OS preference,
+  or a toggle stored in `localStorage`). Components: header and nav, buttons, cards, badges,
+  chips, stats, lists, tables that turn into labelled cards on phones, tabs, forms, alerts,
+  empty states.
+- **Replaced** Bootstrap 5 + Bootstrap 4 + jQuery + Font Awesome (all from CDNs, sometimes on
+  the same page) and seven copies of the same inline `<style>` block.
+- **Brand kept:** the "AP" monogram is cropped from the 2022 logo and used as a CSS mask, so it
+  takes the theme colour; the purple and the amber accent come from the 2022 palette.
+- **Accessibility:** every field has a `<label>`; help text and errors are wired to inputs with
+  `aria-describedby` / `aria-invalid`; visible focus rings; skip link; `aria-current` on nav;
+  contrast checked in both themes (the 2022 white-on-amber buttons were about 1.7:1).
+- **htmx** (vendored, 2.0.10) where it removes a page load: enrol (panel, nav balance and
+  enrolled count update in place), staff decisions, class filters, and the topic picker.
+- **Every page redesigned**, with new copy. Phone fixes found in a browser pass: nav wraps, stats
+  two across, the enrol panel comes first on class pages.
+- **Screenshots** in `docs/screenshots/` from `make screenshots` (Playwright, throwaway database).
+  `docs/screenshots/2022/` shows the original code rendered on its original stack (Django 4.0.6)
+  for comparison; no screenshots from 2022 itself survive.
+
 ## Phase 2: fix and modernise (2026-09-22)
 
 - **Stack:** Django 4.0.6 → 5.2 LTS on Python 3.12+ (3.13 in Docker and CI). Dependencies
