@@ -1,6 +1,7 @@
 # Runtime dependencies, pinned. Update deliberately and run the full suite.
 Django==5.2.17
 django-environ==0.14.0
+django-storages[google]==1.14.6
 gunicorn==26.2.0
 httpx==0.28.1
 psycopg[binary]==3.3.6

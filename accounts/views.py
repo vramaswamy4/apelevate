@@ -1,13 +1,17 @@
 from pathlib import Path
 
+from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth import login
+from django.contrib.auth import views as auth_views
 from django.contrib.auth.decorators import login_not_required
 from django.core.paginator import Paginator
 from django.http import FileResponse, Http404
 from django.shortcuts import get_object_or_404, redirect, render
+from django.urls import reverse_lazy
 from django.views.decorators.http import require_POST
 
+from core.demo import is_demo_account
 from core.htmx import is_htmx
 from core.permissions import staff_required
 
@@ -20,6 +24,10 @@ from .services import ApplicationError, decide_application, submit_application
 def signup(request):
     if request.user.is_authenticated:
         return redirect("dashboard")
+    if settings.DEMO_MODE:
+        # Sign-up is off in the public demo so visitors never put real details where the shared
+        # demo staff account could read them.
+        return render(request, "accounts/signup_closed.html")
     form = SignUpForm(request.POST or None)
     if request.method == "POST" and form.is_valid():
         user = form.save()
@@ -27,6 +35,19 @@ def signup(request):
         messages.success(request, f"Welcome to APElevate, {user.first_name}.")
         return redirect("dashboard")
     return render(request, "accounts/signup.html", {"form": form})
+
+
+_password_change = auth_views.PasswordChangeView.as_view(
+    template_name="accounts/password_change.html",
+    success_url=reverse_lazy("accounts:profile"),
+)
+
+
+def password_change(request):
+    if is_demo_account(request.user):
+        messages.info(request, "Demo accounts are shared, so their passwords can't be changed.")
+        return redirect("accounts:profile")
+    return _password_change(request)
 
 
 def profile(request):

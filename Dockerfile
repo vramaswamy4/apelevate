@@ -19,4 +19,6 @@ RUN DJANGO_SECRET_KEY=build-only DJANGO_DEBUG=0 python manage.py collectstatic -
 
 USER app
 EXPOSE 8000
-CMD ["gunicorn", "config.wsgi", "--bind", "0.0.0.0:8000", "--workers", "3", "--access-logfile", "-"]
+# Shell form so PORT and WEB_CONCURRENCY (set by the host) are expanded; exec keeps gunicorn PID 1.
+CMD exec gunicorn config.wsgi --bind 0.0.0.0:${PORT:-8000} --workers ${WEB_CONCURRENCY:-2} \
+    --timeout 60 --access-logfile -

@@ -3,6 +3,7 @@
 from datetime import timedelta
 
 from django.conf import settings
+from django.contrib.auth.models import Permission
 from django.core.files.base import ContentFile
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
@@ -12,10 +13,9 @@ from accounts.models import MentorApplication, MentorProfile, User
 from catalog.models import Subject, Subtopic, Unit
 from classes.models import ClassRequest, Enrolment, TutoringClass
 from classes.services import enrol
+from core.demo import DEMO_PASSWORD as PASSWORD
 from payments.bundles import get_bundle
 from payments.services import complete_purchase, start_purchase
-
-PASSWORD = "apelevate-demo"
 
 # A tiny valid PDF, so the demo application's files download and open.
 PDF = (
@@ -44,8 +44,8 @@ class Command(BaseCommand):
     help = f"Create demo users (password: {PASSWORD}), classes, enrolments and requests."
 
     def handle(self, *args, **options):
-        if not settings.DEBUG:
-            raise CommandError("seed_demo only runs with DJANGO_DEBUG=1.")
+        if not (settings.DEBUG or settings.DEMO_MODE):
+            raise CommandError("seed_demo only runs with DJANGO_DEBUG=1 or DEMO_MODE=1.")
         if not Subject.objects.exists():
             raise CommandError("Run `manage.py seed_curriculum` first.")
         if User.objects.filter(email=PEOPLE["mentor"][0]).exists():
@@ -74,7 +74,10 @@ class Command(BaseCommand):
         calc = Subject.objects.get(slug="ap-calculus-ab")
         physics = Subject.objects.get(slug="ap-physics-1")
 
-        self._user(*PEOPLE["admin"], is_staff=True, is_superuser=True)
+        admin = self._user(*PEOPLE["admin"], is_staff=True, is_superuser=not settings.DEMO_MODE)
+        if settings.DEMO_MODE:
+            # The public demo's staff login is shared, so its Django admin is read-only.
+            admin.user_permissions.set(Permission.objects.filter(codename__startswith="view_"))
         priya = self._user(*PEOPLE["mentor"])
         omar = self._user(*PEOPLE["mentor2"])
         sam = self._user(*PEOPLE["student"])

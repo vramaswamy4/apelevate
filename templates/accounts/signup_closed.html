@@ -1,0 +1,7 @@
+{% extends "accounts/_auth_layout.html" %}
+{% block title %}Sign-up is off in the demo{% endblock %}
+{% block auth %}
+<h1 class="auth__title">Sign-up is off in the demo</h1>
+<p class="muted auth__sub">This is a public demo, so instead of creating an account, sign in as one of the demo users: a student, a mentor, a staff reviewer or a mentor applicant.</p>
+<a class="btn btn--primary btn--block" href="{% url 'accounts:login' %}">See the demo accounts</a>
+{% endblock %}

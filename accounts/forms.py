@@ -48,6 +48,16 @@ class ProfileForm(EmailNormalizingMixin, forms.ModelForm):
         fields = ["first_name", "last_name", "email", "timezone"]
         help_texts = {"timezone": "Class times are shown in this time zone."}
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        from core.demo import is_demo_account
+
+        if is_demo_account(self.instance):
+            # Shared demo logins: visitors can try the time zone, not rename the account.
+            for name in ("first_name", "last_name", "email"):
+                self.fields[name].disabled = True
+                self.fields[name].help_text = "Fixed for demo accounts."
+
 
 class MentorApplicationForm(forms.ModelForm):
     bio = forms.CharField(label="About you", **LONG_TEXT)

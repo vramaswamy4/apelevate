@@ -124,6 +124,8 @@ MEDIA_ROOT = env.path("DJANGO_MEDIA_ROOT", default=BASE_DIR / "media")
 MEDIA_URL = "media/"
 # Mentor CVs and score reports. Outside MEDIA_ROOT and never served by URL.
 PRIVATE_MEDIA_ROOT = env.path("DJANGO_PRIVATE_MEDIA_ROOT", default=BASE_DIR / "private_media")
+# Production on Cloud Run: a private GCS bucket instead of local disk (see accounts/storage.py).
+PRIVATE_STORAGE_BUCKET = env("PRIVATE_STORAGE_BUCKET", default="")
 FILE_UPLOAD_MAX_MEMORY_SIZE = 5 * 1024 * 1024
 DATA_UPLOAD_MAX_MEMORY_SIZE = 12 * 1024 * 1024
 
@@ -132,7 +134,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 EMAIL_BACKEND = env(
     "DJANGO_EMAIL_BACKEND",
     default="django.core.mail.backends.console.EmailBackend"
-    if DEBUG
+    if DEBUG or env.bool("DEMO_MODE", default=False)
     else "django.core.mail.backends.smtp.EmailBackend",
 )
 EMAIL_HOST = env("EMAIL_HOST", default="localhost")
@@ -141,6 +143,11 @@ EMAIL_USE_TLS = env.bool("EMAIL_USE_TLS", default=True)
 EMAIL_HOST_USER = env("EMAIL_HOST_USER", default="")
 EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD", default="")
 DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="APElevate <no-reply@apelevate.localhost>")
+
+# Public demo: shows the demo accounts on the sign-in page, lets seed/reset commands run with
+# DEBUG off, and stops anyone changing the shared demo accounts' email or password.
+DEMO_MODE = env.bool("DEMO_MODE", default=False)
+DEMO_EMAIL_DOMAIN = "apelevate.test"
 
 # Payments: "fake" (no network; development and tests) or "paypal".
 PAYMENTS_BACKEND = env("PAYMENTS_BACKEND", default="fake" if DEBUG else "paypal")

@@ -1,0 +1,52 @@
+name: Deploy
+
+# Runs after CI passes on main: build the image, migrate, then roll out the new revision.
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # keyless auth to Google Cloud through Workload Identity Federation
+    env:
+      REGION: ${{ vars.GCP_REGION }}
+      IMAGE: ${{ vars.GCP_REGION }}-docker.pkg.dev/${{ vars.GCP_PROJECT_ID }}/apelevate/web:${{ github.event.workflow_run.head_sha || github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_DEPLOYER_SA }}
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Build and push the image
+        run: |
+          gcloud auth configure-docker "$REGION-docker.pkg.dev" --quiet
+          docker build -t "$IMAGE" .
+          docker push "$IMAGE"
+      - name: Migrate the database (before any new code serves traffic)
+        run: |
+          gcloud run jobs update apelevate-migrate --region "$REGION" --image "$IMAGE" --quiet
+          gcloud run jobs execute apelevate-migrate --region "$REGION" --wait --quiet
+      - name: Point the nightly reset job at the new image
+        run: gcloud run jobs update apelevate-reset --region "$REGION" --image "$IMAGE" --quiet
+      - name: Deploy the web service
+        run: gcloud run deploy apelevate --region "$REGION" --image "$IMAGE" --quiet
+      - name: Smoke test
+        run: |
+          URL=$(gcloud run services describe apelevate --region "$REGION" --format 'value(status.url)')
+          curl -fsS "$URL/" -o /dev/null
+          curl -fsS "$URL/classes/" | grep -q "Upcoming classes"
+          echo "Live at $URL"

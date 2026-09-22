@@ -8,6 +8,23 @@
   <input type="hidden" name="next" value="{{ next }}">
   <button class="btn btn--primary btn--block" type="submit">Sign in</button>
 </form>
+{% if demo_mode %}
+<section class="demo-accounts" aria-labelledby="demo-accounts-title">
+  <h2 id="demo-accounts-title" class="demo-accounts__title">Demo accounts</h2>
+  <p class="muted small">Password for all of them: <code>{{ demo_password }}</code></p>
+  <ul class="demo-accounts__list">{% for email, role, blurb in demo_accounts %}
+    <li><button type="button" class="demo-account" data-demo-email="{{ email }}" data-demo-password="{{ demo_password }}"><strong>{{ role }}</strong><span class="muted">{{ blurb }}</span></button></li>
+  {% endfor %}</ul>
+</section>
+<script>
+  document.querySelectorAll("[data-demo-email]").forEach((button) => button.addEventListener("click", () => {
+    document.getElementById("id_username").value = button.dataset.demoEmail;
+    document.getElementById("id_password").value = button.dataset.demoPassword;
+    button.closest("form, .auth__card").querySelector("form").requestSubmit();
+  }));
+</script>
+{% else %}
 <p class="auth__links"><a href="{% url 'accounts:password_reset' %}">Forgot your password?</a></p>
 <p class="auth__links muted">New here? <a href="{% url 'accounts:signup' %}">Create an account</a></p>
+{% endif %}
 {% endblock %}

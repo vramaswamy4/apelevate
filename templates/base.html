@@ -14,6 +14,7 @@
 </head>
 <body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
   <a class="skip-link" href="#main">Skip to content</a>
+  {% if demo_mode %}<div class="demo-banner" role="note">Public demo: payments are simulated, everything resets every night, and anything you enter is visible to other visitors. Please don't enter real personal information.</div>{% endif %}
   <header class="site-header">
     <div class="container site-header__inner">
       <a class="brand" href="{% url 'home' %}"><span class="brand__mark" aria-hidden="true"></span><span class="brand__name">APElevate</span></a>
