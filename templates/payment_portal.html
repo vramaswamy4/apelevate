@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% endblock %}
+{% block nav3 %}<a class="nav-link active" href="{% url 'purchase' %}">Purchase Tokens</a>{%endblock%}
+
+{% block main %}
+<div class="container text-center">
+      <div class="row">
+
+        <div class="col">
+          <h1>Payment Portal</h1>
+        </div>
+      </div>
+        <div class="row">
+        <div class="col">
+            <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+  <!-- Set up a container element for the button -->
+  <div id="paypal-button-container"></div>
+  <script>
+    paypal.Buttons({
+      // Sets up the transaction when a payment button is clicked
+      createOrder: (data, actions) => {
+        return actions.order.create({
+          purchase_units: [{
+            amount: {
+              value: {{cost}} // Can also reference a variable or function
+            }
+          }]
+        });
+      },
+      // Finalize the transaction after payer approval
+      onApprove: (data, actions) => {
+        return actions.order.capture().then(function(orderData) {
+          // Successful capture! For dev/demo purposes:
+          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+          const transaction = orderData.purchase_units[0].payments.captures[0];
+          // alert(`Transaction ${transaction.status}: ${transaction.id}\n\nYou May Enrol in a class now`);
+          // When ready to go live, remove the alert and show a success message within this page. For example:
+          // const element = document.getElementById('paypal-button-container');
+          // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+          // actions.redirect('payment-complete');
+          window.location.href="{% url 'payment-complete' cost %}"
+        });
+      }
+    }).render('#paypal-button-container');
+  </script>
+
+        </div>
+        </div>
+
+    </div>
+
+{% endblock %}

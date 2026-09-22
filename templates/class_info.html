@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load custom_tags %}
+
+{% block main %}
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col">
+          <h1>Class Details</h1>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+    </div>
+
+<div class="container text-center">
+      <div class="row gy-3">
+          <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    {% define "True" as first %}
+
+                    {% for subtopic in subtopics %}
+                        {% if first == "True" %}
+                            <h5 class="card-title">{{subtopic.unit.subject.sub_name}}:</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{subtopic.unit.unit_name}}:</h6>
+                            <p style = "text-align: left">{{object.class_desc}}</p>
+                            <p style = "text-align:left"> Subtopics:</p>
+                            <ul style = "text-align: left">
+                            {% define "False" as first %}
+                         {% endif %}
+                            <li>{{subtopic.st_name}}</li>
+                    {% endfor %}
+                            </ul>
+                    <p style = "text-align: left">Mentor: {{ object.mentor.first_name }} {{ object.mentor.last_name }}</p>
+                    <p style = "text-align: left">Date: {{ object.date }}</p>
+                    <p style = "text-align: left">Time: {{ object.time }}</p>
+            <form method="POST" action="">
+                    {% csrf_token %}
+                <input class="btn btn-primary" style="background-color: #7030A0; border: none;" type="submit" value="Enrol">
+            </form>
+        </div>
+      </div>
+  </div>
+{% endblock %}

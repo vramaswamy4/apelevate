@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% endblock %}
+{% block nav3 %}<a class="nav-link active" href="{% url 'purchase' %}">Purchase Tokens</a>{%endblock%}
+
+{% block main %}
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h1>Purchase Tokens</h1>
+        </div>
+      </div>
+
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">1 Tokens</h5>
+        <p class="card-text">Each class costs 1 token</p>
+        <a href="payment_portal/{{ 20 }}" class="btn btn-primary" style="background-color: #7030A0; border: none;">$20</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">5 Tokens</h5>
+        <p class="card-text">Each class costs 1 token</p>
+        <a href="payment_portal/{{ 80 }}" class="btn btn-primary" style="background-color: #7030A0; border: none;">$80</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">10 Tokens</h5>
+        <p class="card-text">Each class costs 1 token</p>
+        <a href="payment_portal/{{ 120 }}" class="btn btn-primary" style="background-color: #7030A0; border: none;">$120</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">20 Tokens</h5>
+        <p class="card-text">Each class costs 1 token</p>
+        <a href="payment_portal/{{ 180 }}" class="btn btn-primary" style="background-color: #7030A0; border: none;">$180</a>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+
+
+{% endblock %}

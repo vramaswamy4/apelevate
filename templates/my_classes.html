@@ -1,0 +1,65 @@
+{% extends "base2.html" %}
+{% load custom_tags %}
+
+{% block nav2 %}<a class="nav-link active" href="{% url 'my_classes' %}">My Classes</a>{%endblock%}
+
+{% block main %}
+
+<div class="container text-center">
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col">
+          <h1>My Classes</h1>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+    </div>
+
+<div class="container text-center">
+    {% for obj in object %}
+        {% if obj.mentor == user %}
+        <div class="row gy-3">
+          <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    {% define "True" as first %}
+                    {% for subtopic in obj.subtopics.all %}
+                        {% if first == "True" %}
+                            <h5 class="card-title">{{subtopic.unit.subject.sub_name}}:</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{subtopic.unit.unit_name}}:</h6>
+                            <p style = "text-align: left">{{obj.class_desc}}</p>
+                            <p style = "text-align:left"> Subtopics:</p>
+                            <ul style = "text-align: left">
+                            {% define "False" as first %}
+                         {% endif %}
+                            <li>{{subtopic.st_name}}</li>
+                    {% endfor %}
+                            </ul>
+                    <p style = "text-align: left">Mentor: {{ obj.mentor.first_name }} {{ object.mentor.last_name }}</p>
+                    <p style = "text-align: left">Date: {{ obj.date }}</p>
+                    <p style = "text-align: left">Time: {{ obj.time }}</p>
+                    <p style = "text-align: left">Zoom ID: {{ obj.zoom_ID }}</p>
+                    <p style = "text-align: left">Zoom Password: {{ obj.zoom_password }}</p>
+                    <p style = "text-align: left">Zoom Link: {{ obj.zoom_link }}</p>
+                    <p style = "text-align: left">Enrolled Students:</p>
+                    {% for student in obj.students.all %}
+                        <ul style = "text-align: left">
+                            <li>{{student.user.first_name}} {{student.user.last_name}}</li>
+                        </ul>
+                    {% endfor %}
+
+<!--          <a href="class-info/{{ obj.id }}" class="btn btn-primary" style="background-color: #7030A0; border: none;">Details</a>-->
+        </div>
+      </div>
+          </div>
+                </div>
+            {% endif %}
+
+    {% endfor %}
+  </div>
+
+{% endblock %}

@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+{% load custom_tags %}
+
+{% block nav2 %}<a class="nav-link " href="{% url 'my_classes' %}">My Classes</a>{%endblock%}
+{% block head %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 90%;
+<!--        background: #ebd1ff !important;-->
+    }
+    .user_card {
+        width: 500px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: #671e9e;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        color: white;
+
+
+    }
+
+    .form_container {
+        margin-top: 20px;
+    }
+
+    #form-title{
+        color: #fff;
+
+    }
+
+    .login_btn {
+        width: 100%;
+        background: #f7ba5b !important;
+        color: white !important;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: #f7ba5b !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+
+    #messages{
+        background-color: grey;
+        color: #fff;
+        padding: 10px;
+        margin-top: 10px;
+    }
+</style>
+{% endblock %}
+{% block main %}
+
+    <div class="container text-center">
+      <div class="row">
+
+        <div class="col">
+          <h1>Mentor Application</h1>
+        </div>
+      </div>
+<div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+        <div class="user_card">
+
+            <div class="d-flex justify-content-center form_container">
+
+    <form method="POST" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <div class="row">
+            <div class="col">
+                <p>Self Description:</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    {{ form.mentor_desc }}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p >Subject:</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3" style = "justify-content: center;">
+<!--                        <div class="input-group-append">-->
+<!--                            <span class="input-group-text"><i class="fas fa-user"></i></span>-->
+<!--                        </div>-->
+                       <select name="subject" id="subject">
+                      <option value="Chemistry">Chemistry</option>
+                      <option value="Physics">Physics</option>
+
+                    </select>
+
+                    </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>Tell us about your experience with AP Exams for your selected subject:</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    {{ form.q1 }}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>Tell us about your experience with teaching:</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    {{ form.q2 }}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>What qualities about you do you think will make you a good Mentor on AP Elevate?</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    {{ form.q3 }}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>Please upload a screenshot of your AP Score report :</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    {{ form.cred_proof }}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>Please upload your CV :</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    {{ form.cv }}
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+                        <div class="d-flex justify-content-center mt-3 login_container">
+                            <input href="{% url 'signup' %}" class="btn login_btn" type="submit" value="Submit">
+                        </div>
+                </form>
+
+                        </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{%endblock%}

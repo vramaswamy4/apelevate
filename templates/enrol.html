@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load custom_tags %}
+
+{% block nav1 %}<a class="nav-link active" href="{% url 'enrol' %}">Classes</a>{%endblock%}
+{% block head %}
+<style>
+    .enrol-filter{
+        width:20%;
+        background-color:#f5d6ff;
+        text-align: top;
+        float: left;
+        height: 200px;
+        color: white;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+    }
+</style>
+{% endblock %}
+{% block main %}
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col">
+          <h1>Enrol in a class</h1>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+    </div>
+
+<div class="enrol-filter" style = "background-color:#f5d6ff; color:black"; text-align:top; >
+
+    <form>
+        <p><strong>Filters: </strong></p>
+        <label for="subjects">Subject: </label>
+        <select id="subjects" name="subjects">
+          <option value="volvo">Chemistry</option>
+          <option value="saab">Physics</option>
+        </select>
+        <br><br>
+        <label for="mentor">Mentor: </label>
+        <select id="mentor" name="mentor">
+          <option value="volvo">Mentor Mentor</option>
+        </select>
+        <br><br>
+        <a href="{% url 'enrol-filtered' %}" class="btn btn-primary" style="background-color: #7030A0; border: none;">Filter</a>
+        <a href="{% url 'enrol' %}" class="btn btn-primary" style="background-color: #7030A0; border: none;">Remove Filters</a>
+    </form>
+
+</div>
+
+<div class="container text-center">
+    {% for obj in object %}
+        {% define "False" as enroled %}
+
+        {% for student in obj.students.all %}
+        {% if  student.user == user %}
+            {% define "True" as enroled %}
+        {% endif %}
+        {% if enroled == "False" %}
+      <div class="row gy-3">
+          <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    {% define "True" as first %}
+                    {% for subtopic in obj.subtopics.all %}
+                        {% if first == "True" %}
+                            <h5 class="card-title">{{subtopic.unit.subject.sub_name}}:</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{subtopic.unit.unit_name}}:</h6>
+                            <p style = "text-align:left"> Subtopics:</p>
+                            <ul style = "text-align: left">
+                            {% define "False" as first %}
+                         {% endif %}
+                            <li>{{subtopic.st_name}}</li>
+                    {% endfor %}
+                            </ul>
+                    <p style = "text-align: left">{{obj.class_desc}}</p>
+
+          <a href="class-info/{{ obj.id }}" class="btn btn-primary" style="background-color: #7030A0; border: none;">Details</a>
+        </div>
+      </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+    {% endfor %}
+  </div>
+
+{% endblock %}
