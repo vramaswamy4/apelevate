@@ -4,7 +4,6 @@ version = "2.0.0"
 description = "A marketplace for AP-exam tutoring: students buy tokens and enrol in mentor-led classes."
 requires-python = ">=3.12"
 readme = "README.md"
-license = { file = "LICENSE" }
 
 # Dependencies are pinned in requirements.txt / requirements-dev.txt, which is what hosts and CI
 # install. This file holds tool configuration.

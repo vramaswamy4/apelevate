@@ -111,15 +111,52 @@ erDiagram
     Subjects }o--o{ Mentors : "subjects (M2M)"
     Subtopics }o--o{ Classes : "subtopics (M2M)"
     Students }o--o{ Classes : "students (M2M)"
-
-    Subjects { text sub_name  text sub_desc  file sub_outline }
-    Units { int unit_number  text unit_name }
-    Subtopics { float st_number  text st_name }
-    Students { file profile_pic  int Tokens }
-    Mentors { text mentor_desc  float hrs_taught  int no_students  float revenue  text paypal  text referral_code }
-    MentorApplications { text mentor_desc  text q1  text q2  text q3  file cred_proof  file cv  bool decided }
-    Classes { text class_desc  char30 zoom_ID  char30 zoom_password  char30 zoom_link  date date  time time }
-    ClassRequests { text notes  bool active }
+    Subjects {
+        text sub_name
+        text sub_desc
+        file sub_outline
+    }
+    Units {
+        int unit_number
+        text unit_name
+    }
+    Subtopics {
+        float st_number
+        text st_name
+    }
+    Students {
+        file profile_pic
+        int Tokens
+    }
+    Mentors {
+        text mentor_desc
+        float hrs_taught
+        int no_students
+        float revenue
+        text paypal
+        text referral_code
+    }
+    MentorApplications {
+        text mentor_desc
+        text q1
+        text q2
+        text q3
+        file cred_proof
+        file cv
+        bool decided
+    }
+    Classes {
+        text class_desc
+        char30 zoom_ID
+        char30 zoom_password
+        char30 zoom_link
+        date date
+        time time
+    }
+    ClassRequests {
+        text notes
+        bool active
+    }
 ```
 
 The curriculum tree is `Subjects → Units → Subtopics`, and a class covers a set of subtopics.

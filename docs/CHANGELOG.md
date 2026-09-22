@@ -3,6 +3,15 @@
 The refresh of the recovered 2022 app, newest first. `docs/ORIGINAL.md` numbers the problems
 (S1, X1, C1, …), and the entries here refer to those numbers.
 
+## Phase 4: README (2026-09-22)
+
+- Rewrote the README for a reader who has never seen the project: what it is, an honest
+  history (including what's unknown and why the 2022 layout made deployment hard), how to run
+  it, the data model and the rules the database enforces, a problem-then / fix-now table, the
+  reasoning behind the refresh (tests, database constraints, payments, the Makefile and Docker,
+  configuration, secure defaults, the design system), key decisions, and known limitations.
+- Diagrams in README and ORIGINAL.md validated with Mermaid's parser.
+
 ## Phase 3: redesign (2026-09-22)
 
 - **Design system** (`static/css/app.css`): one stylesheet, no framework. Colour, spacing,
