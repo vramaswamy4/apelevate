@@ -10,3 +10,8 @@ venv/
 .idea/
 .DS_Store
 whole.json
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+private_media/

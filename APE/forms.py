@@ -15,21 +15,20 @@ class ClassForm(forms.ModelForm):
         model = Classes
         fields = ['class_desc', 'zoom_ID', 'zoom_password', 'zoom_link', 'date', 'time']
 
+def _subject_choices():
+    return [(name, name) for name in Subjects.objects.values_list('sub_name', flat=True)]
+
+
+def _unit_choices():
+    return [(name, name) for name in Units.objects.values_list('unit_name', flat=True)]
+
+
 class ClassFormSubject(forms.Form):
-    qs = list(Subjects.objects.values_list('sub_name', flat=True))
-    # qs = list(Subjects.objects.all())
-    qsfinal = []
-    for item in qs:
-        qsfinal.append((item, item))
-    subject = forms.ChoiceField(choices = qsfinal)
+    subject = forms.ChoiceField(choices=_subject_choices)
     subjectform = forms.BooleanField(widget=forms.HiddenInput, initial=True)
 
 class ClassFormUnit(forms.Form):
-    qs = list(Units.objects.values_list('unit_name', flat=True))
-    qsfinal = []
-    for item in qs:
-        qsfinal.append((item, item))
-    unit = forms.ChoiceField(choices = qsfinal)
+    unit = forms.ChoiceField(choices=_unit_choices)
     unitform = forms.BooleanField(widget=forms.HiddenInput, initial=True)
 
 class MenAppForm(forms.ModelForm):
