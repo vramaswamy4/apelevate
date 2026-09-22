@@ -1,0 +1,9 @@
+{% if subtopics %}<fieldset class="field{% if errors %} field--invalid{% endif %}">
+  <legend class="field__label">Topics</legend>
+  <p class="field__help">Pick the topics this class covers.</p>
+  {% if errors %}<ul class="field__errors">{% for e in errors %}<li>{{ e }}</li>{% endfor %}</ul>{% endif %}
+  <div class="checkgrid">{% regroup subtopics by unit as units %}{% for group in units %}
+    <div class="checkgrid__group"><p class="checkgrid__unit">Unit {{ group.grouper.number }}: {{ group.grouper.name }}</p>
+    {% for t in group.list %}<label class="check"><input type="checkbox" name="subtopics" value="{{ t.pk }}"{% if selected and t.pk|stringformat:"s" in selected %} checked{% endif %}> {{ t.code }} {{ t.name }}</label>{% endfor %}</div>
+  {% endfor %}</div>
+</fieldset>{% else %}<div class="field{% if errors %} field--invalid{% endif %}"><p class="field__label">Topics</p><p class="field__help">Choose a subject to see its topics.</p>{% if errors %}<ul class="field__errors">{% for e in errors %}<li>{{ e }}</li>{% endfor %}</ul>{% endif %}</div>{% endif %}

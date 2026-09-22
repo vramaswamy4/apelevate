@@ -1,0 +1,8 @@
+{% if field.is_hidden %}{{ field }}{% else %}<div class="field{% if field.errors %} field--invalid{% endif %}{% if field.widget_type == 'checkbox' %} field--check{% endif %}">
+  {% if field.use_fieldset %}<fieldset>{% if field.label %}<legend class="field__label">{{ field.label }}{% if not field.field.required %} <span class="field__optional">optional</span>{% endif %}</legend>{% endif %}
+  {% else %}{% if field.label and field.widget_type != 'checkbox' %}<label class="field__label" for="{{ field.id_for_label }}">{{ field.label }}{% if not field.field.required %} <span class="field__optional">optional</span>{% endif %}</label>{% endif %}{% endif %}
+  {% if field.help_text %}<p class="field__help" id="{{ field.auto_id }}_helptext">{{ field.help_text }}</p>{% endif %}
+  {% if field.errors %}<ul class="field__errors" id="{{ field.auto_id }}_error">{% for error in field.errors %}<li>{{ error }}</li>{% endfor %}</ul>{% endif %}
+  {% if field.widget_type == 'checkbox' %}<label class="check" for="{{ field.id_for_label }}">{{ field }} {{ field.label }}</label>{% else %}{{ field }}{% endif %}
+  {% if field.use_fieldset %}</fieldset>{% endif %}
+</div>{% endif %}

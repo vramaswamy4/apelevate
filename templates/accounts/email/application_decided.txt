@@ -1,0 +1,9 @@
+{% autoescape off %}Hi {{ application.user.first_name }},
+
+{% if application.status == "accepted" %}Your application to mentor {{ application.subject }} on APElevate was accepted. You can now schedule classes from the Teach section.{% else %}Thanks for applying to mentor {{ application.subject }} on APElevate. We aren't able to accept your application this time.{% endif %}
+{% if application.decision_note %}
+Note from the reviewer:
+{{ application.decision_note }}
+{% endif %}
+The APElevate team
+{% endautoescape %}

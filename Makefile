@@ -21,7 +21,7 @@ install: $(BIN)/activate ## Create .venv and install pinned dependencies
 .env:
 	cp .env.example .env
 
-dev: install .env migrate run ## Set everything up and start the dev server (SQLite, demo data)
+dev: install .env migrate seed run ## Set everything up and start the dev server (SQLite, demo data)
 
 run: ## Start the dev server on :8000
 	$(PY) manage.py runserver

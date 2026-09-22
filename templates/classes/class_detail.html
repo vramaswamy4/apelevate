@@ -1,0 +1,36 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}{{ class.title }}{% endblock %}
+{% block content %}
+<p class="breadcrumb"><a href="{% url 'classes:list' %}">Classes</a> / <a href="{{ class.subject.get_absolute_url }}">{{ class.subject.name }}</a></p>
+<header class="page-header"><div><h1>{{ class.title }}</h1><p class="muted">with {{ class.mentor.user.get_full_name }}</p></div></header>
+<div class="layout-2 layout-2--wide-left">
+  <article class="stack">
+    <section class="card">
+      <dl class="meta">
+        <div><dt>When</dt><dd><time datetime="{{ class.starts_at|date:'c' }}">{{ class.starts_at|date:"l j F, g:i A" }}</time> <span class="muted">({{ class.starts_at|date:"e" }})</span></dd></div>
+        <div><dt>Length</dt><dd>{{ class.duration_minutes|minutes }}</dd></div>
+        <div><dt>Subject</dt><dd>{{ class.subject.name }}</dd></div>
+        <div><dt>Enrolled</dt><dd>{{ class.enrolment_count }} student{{ class.enrolment_count|pluralize }}</dd></div>
+      </dl>
+      {% if class.description %}<div class="prose"><p>{{ class.description|linebreaksbr }}</p></div>{% endif %}
+    </section>
+    <section class="card">
+      <h2 class="card__title">Topics covered</h2>
+      <ul class="chips">{% for t in class.subtopics.all %}<li class="chip">{{ t.code }} {{ t.name }}</li>{% endfor %}</ul>
+    </section>
+    <section class="card">
+      <h2 class="card__title">Your mentor</h2>
+      <p><strong>{{ class.mentor.user.get_full_name }}</strong></p>
+      <p class="muted">{{ class.mentor.bio }}</p>
+    </section>
+    {% if roster is not None %}
+    <section class="card">
+      <h2 class="card__title">Roster ({{ roster|length }})</h2>
+      {% if roster %}<ul class="list list--compact">{% for e in roster %}<li class="list__item"><span>{{ e.student.get_full_name }}</span><span class="muted">{{ e.student.email }}</span></li>{% endfor %}</ul>
+      {% else %}<p class="muted">Nobody has enrolled yet.</p>{% endif %}
+    </section>
+    {% endif %}
+  </article>
+  <aside>{% include "classes/_enrol_panel.html" %}</aside>
+</div>
+{% endblock %}

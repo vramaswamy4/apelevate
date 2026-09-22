@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ subject.name }}{% endblock %}
+{% block content %}
+<p class="breadcrumb"><a href="{% url 'catalog:subject_list' %}">Subjects</a></p>
+<header class="page-header">
+  <div><h1>{{ subject.name }}</h1><p class="muted">{{ subject.description }}</p></div>
+  <a class="btn btn--primary" href="{% url 'classes:list' %}?subject={{ subject.slug }}">Classes for {{ subject.name }}</a>
+</header>
+<div class="layout-2 layout-2--wide-left">
+  <section>
+    <h2 class="section__title">Units</h2>
+    <div class="stack">
+    {% for unit in subject.units.all %}
+      <details class="unit" {% if forloop.first %}open{% endif %}>
+        <summary class="unit__summary"><span class="unit__n">Unit {{ unit.number }}</span> {{ unit.name }}</summary>
+        <ol class="topics">{% for t in unit.subtopics.all %}<li><span class="topics__code">{{ t.code }}</span> {{ t.name }}</li>{% endfor %}</ol>
+        {% if user.is_authenticated %}<p class="unit__cta"><a href="{% url 'classes:requests' %}?unit={{ unit.pk }}">Request a class on this unit</a></p>{% endif %}
+      </details>
+    {% endfor %}
+    </div>
+  </section>
+  <aside>
+    <h2 class="section__title">Coming up</h2>
+    {% if upcoming %}<div class="stack">{% for c in upcoming %}{% include "partials/class_card.html" %}{% endfor %}</div>
+    {% else %}
+      {% if user.is_authenticated %}{% url 'classes:requests' as req_url %}{% include "partials/empty.html" with title="No classes scheduled" body="Ask for one and mentors for this subject will see it." href=req_url cta="Request a class" %}
+      {% else %}{% include "partials/empty.html" with title="No classes scheduled" body="Check back soon." %}{% endif %}
+    {% endif %}
+  </aside>
+</div>
+{% endblock %}

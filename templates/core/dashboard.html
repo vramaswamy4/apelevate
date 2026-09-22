@@ -1,0 +1,39 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<header class="page-header">
+  <div><h1>Hi, {{ user.first_name }}</h1><p class="muted">Here's what's next.</p></div>
+  <div class="cluster"><a class="btn btn--primary" href="{% url 'classes:list' %}">Find a class</a></div>
+</header>
+
+<div class="stat-grid">
+  <a class="stat" href="{% url 'payments:buy' %}"><span class="stat__label">Tokens</span><span class="stat__value">{{ user.token_balance }}</span><span class="stat__hint">Buy more</span></a>
+  <a class="stat" href="{% url 'classes:mine' %}"><span class="stat__label">Upcoming classes</span><span class="stat__value">{{ next_classes|length }}</span><span class="stat__hint">My classes</span></a>
+  {% if nav_is_mentor %}<a class="stat" href="{% url 'classes:teach' %}"><span class="stat__label">Mentor portal</span><span class="stat__value stat__value--text">Teach</span><span class="stat__hint">Your classes and stats</span></a>
+  {% elif application and application.is_pending %}<div class="stat"><span class="stat__label">Mentor application</span><span class="stat__value stat__value--text">In review</span><span class="stat__hint">{{ application.subject }}</span></div>
+  {% else %}<a class="stat" href="{% url 'accounts:apply' %}"><span class="stat__label">Scored a 5?</span><span class="stat__value stat__value--text">Mentor</span><span class="stat__hint">Apply to teach</span></a>{% endif %}
+</div>
+
+<section class="section">
+  <h2 class="section__title">Your next classes</h2>
+  {% if next_classes %}
+    <ul class="list">
+      {% for e in next_classes %}{% with c=e.tutoring_class %}
+      <li class="list__item">
+        <div><a href="{{ c.get_absolute_url }}"><strong>{{ c.title }}</strong></a><p class="muted">{{ c.subject.name }} · with {{ c.mentor.user.get_full_name }}</p></div>
+        <time class="list__aside" datetime="{{ c.starts_at|date:'c' }}">{{ c.starts_at|date:"D j M, g:i A" }}</time>
+      </li>{% endwith %}{% endfor %}
+    </ul>
+  {% else %}
+    {% url 'classes:list' as classes_url %}
+    {% include "partials/empty.html" with title="No classes booked yet" body="Browse upcoming classes and enrol with a token." href=classes_url cta="Browse classes" %}
+  {% endif %}
+</section>
+
+{% if suggestions %}
+<section class="section">
+  <div class="section__head"><h2 class="section__title">You might like</h2><a href="{% url 'classes:list' %}">All classes</a></div>
+  <div class="grid grid--3">{% for c in suggestions %}{% include "partials/class_card.html" %}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

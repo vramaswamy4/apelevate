@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Profile and settings</h1><p class="muted">{{ user.email }}</p></div></header>
+<div class="layout-2">
+  <section class="card">
+    <h2 class="card__title">Your details</h2>
+    <form method="post" class="form" novalidate>{% csrf_token %}
+      {% include "partials/form_errors.html" %}
+      <div class="form__row">{{ form.first_name.as_field_group }}{{ form.last_name.as_field_group }}</div>
+      {{ form.email.as_field_group }}
+      {{ form.timezone.as_field_group }}
+      <div class="cluster"><button class="btn btn--primary" type="submit">Save changes</button><a class="btn btn--ghost" href="{% url 'accounts:password_change' %}">Change password</a></div>
+    </form>
+  </section>
+  <aside class="stack">
+    <section class="card">
+      <h2 class="card__title">Mentoring</h2>
+      {% if user.is_mentor %}
+        <p>You're a mentor for {{ user.mentor.subjects.all|join:", " }}.</p>
+        <a class="btn btn--secondary" href="{% url 'classes:teach' %}">Open the mentor portal</a>
+      {% endif %}
+      {% if applications %}
+        <ul class="list list--compact">{% for a in applications %}
+          <li class="list__item"><span>{{ a.subject }}</span><span class="badge {% if a.status == 'accepted' %}badge--success{% elif a.status == 'rejected' %}badge--muted{% else %}badge--warning{% endif %}">{{ a.get_status_display }}</span></li>
+        {% endfor %}</ul>
+      {% elif not user.is_mentor %}
+        <p class="muted">Scored a 5 on an AP exam? Apply to teach it.</p>
+      {% endif %}
+      <p><a href="{% url 'accounts:apply' %}">{% if user.is_mentor %}Apply for another subject{% else %}Apply to mentor{% endif %}</a></p>
+    </section>
+  </aside>
+</div>
+{% endblock %}

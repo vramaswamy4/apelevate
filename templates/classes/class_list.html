@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Classes{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Upcoming classes</h1><p class="muted">Live on Zoom. One token enrols you in one class.</p></div></header>
+<form class="filters" method="get" hx-get="{% url 'classes:list' %}" hx-target="#results" hx-trigger="change" hx-push-url="true" role="search" aria-label="Filter classes">
+  {{ form.subject.as_field_group }}
+  {{ form.mentor.as_field_group }}
+  <noscript><button class="btn btn--secondary" type="submit">Filter</button></noscript>
+</form>
+<div id="results" aria-live="polite">{% include "classes/_class_results.html" %}</div>
+{% endblock %}

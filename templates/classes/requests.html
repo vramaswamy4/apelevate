@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Class requests{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Class requests</h1><p class="muted">Need a unit nobody's teaching yet? Ask, and mentors for that subject will see it on their dashboard.</p></div></header>
+<div class="layout-2">
+  <form method="post" class="card form" novalidate>{% csrf_token %}
+    <h2 class="card__title">New request</h2>
+    {% include "partials/form_errors.html" %}
+    {% for field in form %}{{ field.as_field_group }}{% endfor %}
+    <div><button class="btn btn--primary" type="submit">Send request</button></div>
+  </form>
+  <section>
+    <h2 class="section__title">Your requests</h2>
+    {% if requests %}<ul class="list">{% for r in requests %}
+      <li class="list__item">
+        <div><strong>{{ r.unit.subject.name }}</strong>: Unit {{ r.unit.number }}, {{ r.unit.name }}{% if r.notes %}<p class="muted">{{ r.notes }}</p>{% endif %}</div>
+        {% if r.is_open %}<form method="post" action="{% url 'classes:close_request' r.pk %}">{% csrf_token %}<button class="btn btn--ghost btn--sm" type="submit">Close</button></form>
+        {% else %}<span class="badge badge--muted">Closed</span>{% endif %}
+      </li>{% endfor %}</ul>
+    {% else %}<p class="muted">You haven't asked for any classes yet.</p>{% endif %}
+  </section>
+</div>
+{% endblock %}

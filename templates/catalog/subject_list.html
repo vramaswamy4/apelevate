@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Subjects{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Subjects</h1><p class="muted">Each subject follows the College Board's units and topics.</p></div></header>
+<div class="grid grid--3">
+  {% for subject in subjects %}
+    <article class="card">
+      <h2 class="card__title"><a class="stretched" href="{{ subject.get_absolute_url }}">{{ subject.name }}</a></h2>
+      <p class="muted">{{ subject.description }}</p>
+      <p class="card__meta">{{ subject.unit_count }} units · {{ subject.upcoming_class_count }} upcoming class{{ subject.upcoming_class_count|pluralize:"es" }}</p>
+    </article>
+  {% empty %}
+    {% include "partials/empty.html" with title="No subjects yet" body="Staff add subjects in the admin, or run manage.py seed_curriculum." %}
+  {% endfor %}
+</div>
+{% endblock %}

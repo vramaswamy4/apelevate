@@ -1,0 +1,31 @@
+{% load ui %}<section class="card enrol-panel" id="enrol-panel">
+  {% if error %}<div class="alert alert--error" role="alert">{{ error }}{% if "Buy tokens" in error %} <a href="{% url 'payments:buy' %}">Buy tokens</a>{% endif %}</div>{% endif %}
+  {% if can_see_meeting %}
+    <h2 class="card__title">{% if is_owner %}Your class{% elif user.is_staff and not class.is_enrolled %}Meeting details{% else %}You're enrolled{% endif %}</h2>
+    <dl class="meta meta--stacked">
+      <div><dt>Zoom link</dt><dd><a href="{{ class.meeting_url }}" rel="noopener" target="_blank">{{ class.meeting_url|truncatechars:48 }}</a></dd></div>
+      {% if class.meeting_id %}<div><dt>Meeting ID</dt><dd><code>{{ class.meeting_id }}</code></dd></div>{% endif %}
+      {% if class.meeting_passcode %}<div><dt>Passcode</dt><dd><code>{{ class.meeting_passcode }}</code></dd></div>{% endif %}
+    </dl>
+    <a class="btn btn--primary btn--block" href="{{ class.meeting_url }}" rel="noopener" target="_blank">Open in Zoom</a>
+  {% elif class.has_started %}
+    <h2 class="card__title">This class has started</h2>
+    <p class="muted">Enrolment closes when a class begins.</p>
+  {% elif user.is_authenticated %}
+    <h2 class="card__title">Enrol for {{ enrolment_cost }} token</h2>
+    <p class="muted">You have {{ user.token_balance }} token{{ user.token_balance|pluralize }}. The Zoom link appears here once you're in.</p>
+    {% if user.token_balance >= enrolment_cost %}
+      <form method="post" action="{% url 'classes:enrol' class.pk %}" hx-post="{% url 'classes:enrol' class.pk %}" hx-target="#enrol-panel" hx-swap="outerHTML">{% csrf_token %}
+        <button class="btn btn--primary btn--block" type="submit">Enrol now</button>
+      </form>
+    {% else %}
+      <a class="btn btn--primary btn--block" href="{% url 'payments:buy' %}">Buy tokens to enrol</a>
+    {% endif %}
+  {% else %}
+    <h2 class="card__title">Enrol for {{ enrolment_cost }} token</h2>
+    <p class="muted">Create a free account, buy tokens, and you're in.</p>
+    <a class="btn btn--primary btn--block" href="{% url 'accounts:signup' %}">Create an account</a>
+    <a class="btn btn--ghost btn--block" href="{% url 'accounts:login' %}?next={{ request.path|urlencode }}">I have an account</a>
+  {% endif %}
+</section>
+{% if request.method == "POST" %}{% with oob=True %}{% include "partials/token_balance.html" %}{% endwith %}{% endif %}

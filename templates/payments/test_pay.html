@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}Test checkout{% endblock %}
+{% block content %}
+<div class="auth"><div class="card auth__card">
+  <span class="badge badge--warning">Test mode</span>
+  <h1 class="auth__title">Confirm test payment</h1>
+  <p class="muted">This stands in for PayPal in development. The server still runs the same capture and verification code, then credits your tokens.</p>
+  <dl class="meta meta--stacked"><div><dt>Tokens</dt><dd>{{ purchase.tokens }}</dd></div><div><dt>Amount</dt><dd>{{ purchase.amount_cents|cents }} {{ purchase.currency }}</dd></div><div><dt>Order</dt><dd><code>{{ purchase.provider_order_id }}</code></dd></div></dl>
+  <form method="post" action="{% url 'payments:capture' purchase.pk %}">{% csrf_token %}<button class="btn btn--primary btn--block" type="submit">Pay {{ purchase.amount_cents|cents }}</button></form>
+  <p class="auth__links"><a href="{% url 'payments:buy' %}">Cancel</a></p>
+</div></div>
+{% endblock %}

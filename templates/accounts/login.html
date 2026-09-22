@@ -1,0 +1,13 @@
+{% extends "accounts/_auth_layout.html" %}
+{% block title %}Sign in{% endblock %}
+{% block auth %}
+<h1 class="auth__title">Welcome back</h1>
+<form method="post" class="form" novalidate>{% csrf_token %}
+  {% include "partials/form_errors.html" %}
+  {% for field in form %}{{ field.as_field_group }}{% endfor %}
+  <input type="hidden" name="next" value="{{ next }}">
+  <button class="btn btn--primary btn--block" type="submit">Sign in</button>
+</form>
+<p class="auth__links"><a href="{% url 'accounts:password_reset' %}">Forgot your password?</a></p>
+<p class="auth__links muted">New here? <a href="{% url 'accounts:signup' %}">Create an account</a></p>
+{% endblock %}

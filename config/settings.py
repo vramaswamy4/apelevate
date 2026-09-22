@@ -21,7 +21,7 @@ SECRET_KEY = env("DJANGO_SECRET_KEY", default="")
 if not SECRET_KEY:
     if not DEBUG:
         raise ImproperlyConfigured("DJANGO_SECRET_KEY must be set when DJANGO_DEBUG is off.")
-    SECRET_KEY = "dev-only-insecure-key-never-use-in-production"
+    SECRET_KEY = "dev-only-insecure-key-never-use-in-production"  # noqa: S105 (DEBUG only)
 
 ALLOWED_HOSTS = env.list(
     "DJANGO_ALLOWED_HOSTS", default=["localhost", "127.0.0.1", "[::1]"] if DEBUG else []
@@ -36,7 +36,12 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
-    "APE",
+    "django.forms",
+    "core",
+    "accounts",
+    "catalog",
+    "classes",
+    "payments",
 ]
 
 MIDDLEWARE = [
@@ -46,6 +51,10 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
+    # Secure by default: every view needs a signed-in user unless it's marked
+    # @login_not_required. Forgetting a decorator fails closed.
+    "django.contrib.auth.middleware.LoginRequiredMiddleware",
+    "core.middleware.UserTimezoneMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
@@ -62,10 +71,13 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "core.context_processors.nav",
             ],
         },
     },
 ]
+
+FORM_RENDERER = "core.forms.FormRenderer"
 
 WSGI_APPLICATION = "config.wsgi.application"
 
@@ -73,6 +85,11 @@ WSGI_APPLICATION = "config.wsgi.application"
 # DATABASE_URL to PostgreSQL.
 DATABASES = {"default": env.db("DATABASE_URL", default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}")}
 DATABASES["default"]["CONN_MAX_AGE"] = env.int("DATABASE_CONN_MAX_AGE", default=60)
+
+AUTH_USER_MODEL = "accounts.User"
+LOGIN_URL = "accounts:login"
+LOGIN_REDIRECT_URL = "dashboard"
+LOGOUT_REDIRECT_URL = "home"
 
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
@@ -100,6 +117,10 @@ STORAGES = {
 
 MEDIA_ROOT = env.path("DJANGO_MEDIA_ROOT", default=BASE_DIR / "media")
 MEDIA_URL = "media/"
+# Mentor CVs and score reports. Outside MEDIA_ROOT and never served by URL.
+PRIVATE_MEDIA_ROOT = env.path("DJANGO_PRIVATE_MEDIA_ROOT", default=BASE_DIR / "private_media")
+FILE_UPLOAD_MAX_MEMORY_SIZE = 5 * 1024 * 1024
+DATA_UPLOAD_MAX_MEMORY_SIZE = 12 * 1024 * 1024
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
@@ -116,6 +137,12 @@ EMAIL_HOST_USER = env("EMAIL_HOST_USER", default="")
 EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD", default="")
 DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="APElevate <no-reply@apelevate.localhost>")
 
+# Payments: "fake" (no network; development and tests) or "paypal".
+PAYMENTS_BACKEND = env("PAYMENTS_BACKEND", default="fake" if DEBUG else "paypal")
+PAYPAL_CLIENT_ID = env("PAYPAL_CLIENT_ID", default="")
+PAYPAL_CLIENT_SECRET = env("PAYPAL_CLIENT_SECRET", default="")
+PAYPAL_ENVIRONMENT = env("PAYPAL_ENVIRONMENT", default="sandbox")
+
 # HTTPS hardening. Off by default so `runserver` works over plain HTTP; production sets
 # DJANGO_SECURE=1 behind a TLS-terminating proxy.
 SECURE = env.bool("DJANGO_SECURE", default=False)
@@ -127,6 +154,9 @@ if SECURE:
     SECURE_HSTS_SECONDS = env.int("DJANGO_HSTS_SECONDS", default=60 * 60 * 24 * 30)
     SECURE_HSTS_INCLUDE_SUBDOMAINS = True
     SECURE_HSTS_PRELOAD = env.bool("DJANGO_HSTS_PRELOAD", default=False)
+    if not SECURE_HSTS_PRELOAD:
+        # Preloading is close to irreversible for a domain, so it's a deliberate opt-in.
+        SILENCED_SYSTEM_CHECKS = ["security.W021"]
 SECURE_CONTENT_TYPE_NOSNIFF = True
 SECURE_REFERRER_POLICY = "same-origin"
 X_FRAME_OPTIONS = "DENY"

@@ -1,0 +1,15 @@
+{% extends "accounts/_auth_layout.html" %}
+{% block title %}Create an account{% endblock %}
+{% block auth %}
+<h1 class="auth__title">Create your account</h1>
+<p class="muted auth__sub">Free to join. You only pay for the classes you take.</p>
+<form method="post" class="form" novalidate>{% csrf_token %}
+  {% include "partials/form_errors.html" %}
+  <div class="form__row">{{ form.first_name.as_field_group }}{{ form.last_name.as_field_group }}</div>
+  {{ form.email.as_field_group }}
+  {{ form.password1.as_field_group }}
+  {{ form.password2.as_field_group }}
+  <button class="btn btn--primary btn--block" type="submit">Create account</button>
+</form>
+<p class="auth__links muted">Already have an account? <a href="{% url 'accounts:login' %}">Sign in</a></p>
+{% endblock %}

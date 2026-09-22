@@ -1,0 +1,17 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}Receipt{% endblock %}
+{% block content %}
+<div class="auth"><div class="card auth__card">
+  {% if purchase.status == "completed" %}
+    <span class="badge badge--success">Paid</span>
+    <h1 class="auth__title">{{ purchase.tokens }} token{{ purchase.tokens|pluralize }} added</h1>
+    <p class="muted">Your balance is now {{ user.token_balance }}.</p>
+  {% else %}
+    <span class="badge badge--muted">{{ purchase.get_status_display }}</span>
+    <h1 class="auth__title">Payment not completed</h1>
+    <p class="muted">No tokens were added for this order.</p>
+  {% endif %}
+  <dl class="meta meta--stacked"><div><dt>Amount</dt><dd>{{ purchase.amount_cents|cents }} {{ purchase.currency }}</dd></div><div><dt>Date</dt><dd>{{ purchase.created_at|date:"j F Y, g:i A" }}</dd></div><div><dt>Reference</dt><dd><code>{{ purchase.provider_order_id }}</code></dd></div></dl>
+  <a class="btn btn--primary btn--block" href="{% url 'classes:list' %}">Find a class</a>
+</div></div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Mentor applications{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Mentor applications</h1></div></header>
+<nav class="tabs" aria-label="Filter by status">
+  {% for value, label in statuses %}<a href="?status={{ value }}" {% if value == status %}aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}
+</nav>
+{% if page.object_list %}
+<div class="table-wrap">
+  <table class="table">
+    <thead><tr><th scope="col">Applicant</th><th scope="col">Subject</th><th scope="col">Submitted</th>{% if status != 'pending' %}<th scope="col">Reviewed by</th>{% endif %}<th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead>
+    <tbody>{% for a in page.object_list %}
+      <tr>
+        <td data-label="Applicant"><strong>{{ a.user.get_full_name }}</strong><br><span class="muted">{{ a.user.email }}</span></td>
+        <td data-label="Subject">{{ a.subject }}</td>
+        <td data-label="Submitted"><time datetime="{{ a.submitted_at|date:'c' }}">{{ a.submitted_at|date:"j M Y" }}</time></td>
+        {% if status != 'pending' %}<td data-label="Reviewed by">{{ a.reviewed_by|default:"—" }}</td>{% endif %}
+        <td class="table__action"><a class="btn btn--secondary btn--sm" href="{% url 'accounts:review_detail' a.pk %}">{% if a.is_pending %}Review{% else %}View{% endif %}</a></td>
+      </tr>{% endfor %}
+    </tbody>
+  </table>
+</div>
+{% with query="status="|add:status %}{% include "partials/pagination.html" %}{% endwith %}
+{% else %}
+  {% include "partials/empty.html" with title="Nothing here" body="No applications with this status." %}
+{% endif %}
+{% endblock %}

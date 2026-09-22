@@ -1,0 +1,7 @@
+{% if page.object_list %}
+  <div class="grid grid--3">{% for c in page.object_list %}{% include "partials/class_card.html" %}{% endfor %}</div>
+  {% with query=request.GET.urlencode %}{% include "partials/pagination.html" %}{% endwith %}
+{% else %}
+  {% if user.is_authenticated %}{% url 'classes:requests' as req_url %}{% include "partials/empty.html" with title="No classes match" body="Try another subject or mentor, or ask for a class on the unit you need." href=req_url cta="Request a class" %}
+  {% else %}{% include "partials/empty.html" with title="No classes match" body="Try another subject or mentor." %}{% endif %}
+{% endif %}

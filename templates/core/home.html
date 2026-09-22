@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="hero__copy">
+    <p class="eyebrow">AP exam prep, live on Zoom</p>
+    <h1 class="hero__title">Learn AP from students who just scored a 5.</h1>
+    <p class="hero__lede">Mentors are recent AP students we've checked: score report, CV and an application. They teach small live classes on one unit at a time. Buy tokens, pick a class, and one token gets you in.</p>
+    <div class="cluster">
+      <a class="btn btn--primary btn--lg" href="{% url 'accounts:signup' %}">Create a free account</a>
+      <a class="btn btn--secondary btn--lg" href="{% url 'classes:list' %}">Browse classes</a>
+    </div>
+  </div>
+  <div class="hero__art" aria-hidden="true"><span class="hero__mark"></span></div>
+</section>
+
+<section class="section">
+  <h2 class="section__title">How it works</h2>
+  <ol class="steps">
+    <li class="step"><span class="step__n">1</span><h3>Pick a unit</h3><p>Every class is tagged with the College Board units and topics it covers.</p></li>
+    <li class="step"><span class="step__n">2</span><h3>Enrol with a token</h3><p>Tokens come in bundles from $20 for one down to $9 each for twenty.</p></li>
+    <li class="step"><span class="step__n">3</span><h3>Join on Zoom</h3><p>The meeting link shows up in My classes as soon as you're in.</p></li>
+  </ol>
+</section>
+
+<section class="section">
+  <div class="section__head"><h2 class="section__title">Subjects</h2><a href="{% url 'catalog:subject_list' %}">All subjects</a></div>
+  <div class="grid grid--3">
+    {% for subject in subjects %}
+      <article class="card">
+        <h3 class="card__title"><a class="stretched" href="{{ subject.get_absolute_url }}">{{ subject.name }}</a></h3>
+        <p class="muted">{{ subject.description }}</p>
+        <p class="card__meta">{{ subject.unit_count }} units · {{ subject.upcoming_class_count }} upcoming class{{ subject.upcoming_class_count|pluralize:"es" }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% if upcoming %}
+<section class="section">
+  <div class="section__head"><h2 class="section__title">Coming up</h2><a href="{% url 'classes:list' %}">All classes</a></div>
+  <div class="grid grid--3">{% for c in upcoming %}{% include "partials/class_card.html" %}{% endfor %}</div>
+</section>
+{% endif %}
+
+<section class="section callout">
+  <div>
+    <h2 class="section__title">Scored a 5? Teach it.</h2>
+    <p class="muted">Apply with your score report and CV. Once you're approved you can schedule classes for your subjects.</p>
+  </div>
+  <a class="btn btn--secondary" href="{% url 'accounts:signup' %}">Sign up, then apply</a>
+</section>
+{% endblock %}

@@ -1,0 +1,3 @@
+{% extends "base.html" %}
+{% block title %}Page not found{% endblock %}
+{% block content %}<div class="empty empty--page"><p class="eyebrow">Error 404</p><h1>Page not found</h1><p class="muted">The link may be old, or the page may have moved.</p><a class="btn btn--primary" href="{% url 'home' %}">Go home</a></div>{% endblock %}

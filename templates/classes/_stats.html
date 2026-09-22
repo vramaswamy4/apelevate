@@ -1,0 +1,6 @@
+<div class="stat-grid stat-grid--4">
+  <div class="stat"><span class="stat__label">Hours taught</span><span class="stat__value">{{ summary.hours_taught }}</span><span class="stat__hint">{{ summary.classes_taught }} class{{ summary.classes_taught|pluralize:"es" }}</span></div>
+  <div class="stat"><span class="stat__label">Students</span><span class="stat__value">{{ summary.distinct_students }}</span><span class="stat__hint">different people</span></div>
+  <div class="stat"><span class="stat__label">Enrolments</span><span class="stat__value">{{ summary.enrolments }}</span><span class="stat__hint">{{ summary.tokens_earned }} token{{ summary.tokens_earned|pluralize }} earned</span></div>
+  <div class="stat"><span class="stat__label">Upcoming</span><span class="stat__value">{{ summary.upcoming_classes }}</span><span class="stat__hint">scheduled</span></div>
+</div>

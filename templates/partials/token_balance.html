@@ -1,0 +1,4 @@
+<a id="token-balance" class="token-chip" href="{% url 'payments:buy' %}" {% if oob %}hx-swap-oob="true"{% endif %} title="Token balance: 1 token enrols you in one class">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 9.5h4.5a1.75 1.75 0 0 1 0 3.5h-3a1.75 1.75 0 0 0 0 3.5H15"/></svg>
+  <span><strong>{{ nav_token_balance }}</strong> <span class="token-chip__label">token{{ nav_token_balance|pluralize }}</span></span>
+</a>

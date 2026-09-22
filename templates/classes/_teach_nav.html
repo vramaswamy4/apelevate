@@ -1,0 +1,5 @@
+<nav class="tabs" aria-label="Mentor portal">
+  <a href="{% url 'classes:teach' %}" {% if tab == 'overview' %}aria-current="page"{% endif %}>Overview</a>
+  <a href="{% url 'classes:teach_classes' %}" {% if tab == 'classes' %}aria-current="page"{% endif %}>Classes</a>
+  <a href="{% url 'classes:analytics' %}" {% if tab == 'analytics' %}aria-current="page"{% endif %}>Analytics</a>
+</nav>

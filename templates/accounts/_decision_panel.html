@@ -1,0 +1,18 @@
+<section class="card" id="decision">
+  <h2 class="card__title">Decision</h2>
+  {% if error %}<div class="alert alert--error" role="alert">{{ error }}</div>{% endif %}
+  {% if application.is_pending %}
+    <form method="post" action="{% url 'accounts:review_decide' application.pk %}" class="form" hx-post="{% url 'accounts:review_decide' application.pk %}" hx-target="#decision" hx-swap="outerHTML">{% csrf_token %}
+      {{ form.note.as_field_group }}
+      <div class="cluster">
+        <button class="btn btn--primary" type="submit" name="decision" value="accept">Accept</button>
+        <button class="btn btn--danger" type="submit" name="decision" value="reject">Reject</button>
+      </div>
+      <p class="muted small">Accepting makes them a mentor for {{ application.subject }}. Either way they get an email.</p>
+    </form>
+  {% else %}
+    <p><span class="badge {% if application.status == 'accepted' %}badge--success{% else %}badge--muted{% endif %}">{{ application.get_status_display }}</span></p>
+    <p class="muted">By {{ application.reviewed_by|default:"a deleted user" }} on {{ application.reviewed_at|date:"j F Y, g:i A" }}.</p>
+    {% if application.decision_note %}<blockquote class="quote">{{ application.decision_note }}</blockquote>{% endif %}
+  {% endif %}
+</section>

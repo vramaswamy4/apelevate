@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}Your classes{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Your classes</h1></div><a class="btn btn--primary" href="{% url 'classes:create' %}">Schedule a class</a></header>
+{% include "classes/_teach_nav.html" with tab="classes" %}
+<nav class="segmented" aria-label="Show"><a href="?when=upcoming" {% if when != 'past' %}aria-current="page"{% endif %}>Upcoming</a><a href="?when=past" {% if when == 'past' %}aria-current="page"{% endif %}>Past</a></nav>
+{% if page.object_list %}
+<div class="table-wrap"><table class="table">
+  <thead><tr><th scope="col">Class</th><th scope="col">When</th><th scope="col" class="num">Enrolled</th></tr></thead>
+  <tbody>{% for c in page.object_list %}<tr>
+    <td data-label="Class"><a href="{{ c.get_absolute_url }}"><strong>{{ c.title }}</strong></a><br><span class="muted">{{ c.subject.name }}</span></td>
+    <td data-label="When"><time datetime="{{ c.starts_at|date:'c' }}">{{ c.starts_at|date:"D j M Y, g:i A" }}</time><br><span class="muted">{{ c.duration_minutes|minutes }}</span></td>
+    <td data-label="Enrolled" class="num">{{ c.enrolment_count }}</td>
+  </tr>{% endfor %}</tbody>
+</table></div>
+{% with query="when="|add:when %}{% include "partials/pagination.html" %}{% endwith %}
+{% else %}{% include "partials/empty.html" with title="No classes here yet" %}{% endif %}
+{% endblock %}

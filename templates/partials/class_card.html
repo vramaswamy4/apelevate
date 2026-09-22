@@ -1,0 +1,10 @@
+{% load ui %}<article class="card class-card">
+  <div class="class-card__top">
+    <span class="badge">{{ c.subject.name }}</span>
+    {% if c.is_enrolled %}<span class="badge badge--success">Enrolled</span>{% endif %}
+  </div>
+  <h3 class="card__title"><a href="{{ c.get_absolute_url }}" class="stretched">{{ c.title }}</a></h3>
+  <p class="class-card__when"><time datetime="{{ c.starts_at|date:'c' }}">{{ c.starts_at|date:"D j M, g:i A" }}</time> · {{ c.duration_minutes|minutes }}</p>
+  <ul class="chips" aria-label="Topics">{% for t in c.subtopics.all|slice:":3" %}<li class="chip">{{ t.code }} {{ t.name }}</li>{% endfor %}{% if c.subtopics.all|length > 3 %}<li class="chip chip--more">+{{ c.subtopics.all|length|add:"-3" }} more</li>{% endif %}</ul>
+  <p class="class-card__foot muted">with {{ c.mentor.user.get_full_name }} · {{ c.enrolment_count }} enrolled</p>
+</article>

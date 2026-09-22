@@ -1,0 +1,54 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}Buy tokens{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Buy tokens</h1><p class="muted">One token enrols you in one class. You have <strong>{{ user.token_balance }}</strong>.</p></div></header>
+{% if provider.is_test %}<div class="alert alert--info">Test mode: payments are simulated and no money moves.</div>{% endif %}
+<div class="grid grid--4 bundles">
+  {% for b in bundles %}
+  <article class="card bundle{% if b.key == 'ten' %} bundle--featured{% endif %}">
+    {% if b.key == 'ten' %}<span class="badge badge--brand bundle__flag">Most popular</span>{% endif %}
+    <h2 class="bundle__tokens">{{ b.tokens }} token{{ b.tokens|pluralize }}</h2>
+    <p class="bundle__price">{{ b.price_cents|cents }}</p>
+    <p class="muted">{{ b.cents_per_token|cents }} per class</p>
+    {% if provider.name == "paypal" %}
+      <div class="paypal-slot" data-bundle="{{ b.key }}" data-checkout-url="{% url 'payments:checkout' b.key %}"></div>
+    {% else %}
+      <form method="post" action="{% url 'payments:checkout' b.key %}">{% csrf_token %}<button class="btn {% if b.key == 'ten' %}btn--primary{% else %}btn--secondary{% endif %} btn--block" type="submit">Buy {{ b.tokens }}</button></form>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+<div class="alert alert--error" id="payment-error" role="alert" hidden></div>
+
+<section class="section">
+  <h2 class="section__title">Recent purchases</h2>
+  {% if purchases %}<div class="table-wrap"><table class="table">
+    <thead><tr><th scope="col">Date</th><th scope="col">Tokens</th><th scope="col" class="num">Amount</th><th scope="col">Status</th></tr></thead>
+    <tbody>{% for p in purchases %}<tr><td data-label="Date">{{ p.created_at|date:"j M Y, g:i A" }}</td><td data-label="Tokens">{{ p.tokens }}</td><td data-label="Amount" class="num">{{ p.amount_cents|cents }}</td><td data-label="Status"><span class="badge {% if p.status == 'completed' %}badge--success{% elif p.status == 'failed' %}badge--danger{% else %}badge--muted{% endif %}">{{ p.get_status_display }}</span></td></tr>{% endfor %}</tbody>
+  </table></div>{% else %}<p class="muted">No purchases yet.</p>{% endif %}
+</section>
+
+{% if provider.name == "paypal" %}
+<script src="https://www.paypal.com/sdk/js?client-id={{ paypal_client_id|urlencode }}&currency=USD&intent=capture"></script>
+<script>
+  (function () {
+    const csrf = "{{ csrf_token }}";
+    const errorBox = document.getElementById("payment-error");
+    const post = (url) => fetch(url, {method: "POST", headers: {"X-CSRFToken": csrf, "Accept": "application/json"}})
+      .then((r) => r.json().then((body) => { if (!r.ok) throw new Error(body.error || "Payment failed"); return body; }));
+    const showError = (err) => { errorBox.textContent = err.message; errorBox.hidden = false; };
+    document.querySelectorAll(".paypal-slot").forEach((slot) => {
+      let purchaseId = null;
+      paypal.Buttons({
+        style: {layout: "vertical", height: 40, tagline: false},
+        // The server creates the order with the amount from its own price table.
+        createOrder: () => post(slot.dataset.checkoutUrl).then((d) => { purchaseId = d.purchaseId; return d.orderID; }),
+        // The server captures and verifies; the browser only learns where to go next.
+        onApprove: () => post(`{% url 'payments:capture' 0 %}`.replace("/0/", `/${purchaseId}/`)).then((d) => { window.location = d.redirect; }),
+        onError: showError,
+      }).render(slot);
+    });
+  })();
+</script>
+{% endif %}
+{% endblock %}

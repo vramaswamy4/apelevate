@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Apply to mentor{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Apply to mentor</h1><p class="muted">We review every application by hand, usually within a week.</p></div></header>
+{% if pending %}
+  <div class="card card--narrow">
+    <span class="badge badge--warning">In review</span>
+    <h2 class="card__title">Your application for {{ pending.subject }} is in review</h2>
+    <p class="muted">Sent {{ pending.submitted_at|date:"j F Y" }}. We'll email {{ user.email }} when there's a decision.</p>
+  </div>
+{% elif no_subjects_left %}
+  <div class="card card--narrow"><p>You already mentor every subject we offer.</p></div>
+{% else %}
+<div class="layout-2">
+  <form method="post" enctype="multipart/form-data" class="card form" novalidate>{% csrf_token %}
+    {% include "partials/form_errors.html" %}
+    {{ form.subject.as_field_group }}
+    {{ form.bio.as_field_group }}
+    {{ form.ap_experience.as_field_group }}
+    {{ form.teaching_experience.as_field_group }}
+    {{ form.motivation.as_field_group }}
+    <div class="form__row">{{ form.score_report.as_field_group }}{{ form.cv.as_field_group }}</div>
+    <div><button class="btn btn--primary" type="submit">Send application</button></div>
+  </form>
+  <aside class="card card--quiet">
+    <h2 class="card__title">What we look for</h2>
+    <ul class="bullets">
+      <li>A 5 (or a strong 4) on the exam you want to teach</li>
+      <li>Some experience explaining things: tutoring, clubs, helping classmates</li>
+      <li>A clear idea of which parts of the course trip students up</li>
+    </ul>
+    <p class="muted">Your score report and CV are stored privately and only staff reviewing your application can open them.</p>
+  </aside>
+</div>
+{% endif %}
+{% endblock %}

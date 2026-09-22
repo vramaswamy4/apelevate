@@ -1,0 +1,29 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}Analytics{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Analytics</h1><p class="muted">Computed from your classes and enrolments. Times in {{ user.timezone }}.</p></div></header>
+{% include "classes/_teach_nav.html" with tab="analytics" %}
+{% include "classes/_stats.html" %}
+<div class="layout-2">
+  <section class="card">
+    <h2 class="card__title">By month</h2>
+    {% if monthly %}<div class="table-wrap"><table class="table table--plain">
+      <thead><tr><th scope="col">Month</th><th scope="col" class="num">Classes</th><th scope="col" class="num">Hours</th><th scope="col" class="num">Enrolments</th><th scope="col" class="num">Students</th></tr></thead>
+      <tbody>{% for m in monthly %}<tr><td data-label="Month">{{ m.month|date:"F Y" }}</td><td data-label="Classes" class="num">{{ m.classes }}</td><td data-label="Hours" class="num">{{ m.hours }}</td><td data-label="Enrolments" class="num">{{ m.enrolments }}</td><td data-label="Students" class="num">{{ m.students }}</td></tr>{% endfor %}</tbody>
+    </table></div>{% else %}<p class="muted">Stats appear after your first class has run.</p>{% endif %}
+  </section>
+  <section class="card">
+    <h2 class="card__title">By subject</h2>
+    {% if by_subject %}<ul class="bars">{% for s in by_subject %}
+      <li class="bars__row"><span class="bars__label">{{ s.tutoring_class__subject__name }}</span><span class="bars__track"><span class="bars__fill" style="--value: {% widthratio s.enrolments by_subject.0.enrolments 100 %}%"></span></span><span class="bars__value">{{ s.enrolments }} enrolment{{ s.enrolments|pluralize }}, {{ s.students }} student{{ s.students|pluralize }}</span></li>
+    {% endfor %}</ul>{% else %}<p class="muted">No enrolments yet.</p>{% endif %}
+  </section>
+</div>
+<section class="section">
+  <h2 class="section__title">Recent classes</h2>
+  {% if recent %}<div class="table-wrap"><table class="table">
+    <thead><tr><th scope="col">Class</th><th scope="col">Date</th><th scope="col" class="num">Length</th><th scope="col" class="num">Enrolled</th></tr></thead>
+    <tbody>{% for c in recent %}<tr><td data-label="Class"><a href="{{ c.get_absolute_url }}">{{ c.title }}</a><br><span class="muted">{{ c.subject.name }}</span></td><td data-label="Date">{{ c.starts_at|date:"j M Y" }}</td><td data-label="Length" class="num">{{ c.duration_minutes|minutes }}</td><td data-label="Enrolled" class="num">{{ c.enrolment_count }}</td></tr>{% endfor %}</tbody>
+  </table></div>{% else %}<p class="muted">None yet.</p>{% endif %}
+</section>
+{% endblock %}

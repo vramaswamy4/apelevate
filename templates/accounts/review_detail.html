@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Application from {{ application.user.get_full_name }}{% endblock %}
+{% block content %}
+<p class="breadcrumb"><a href="{% url 'accounts:review_list' %}">Applications</a></p>
+<header class="page-header"><div><h1>{{ application.user.get_full_name }}</h1><p class="muted">{{ application.subject }} · sent {{ application.submitted_at|date:"j F Y" }} · {{ application.user.email }}</p></div></header>
+<div class="layout-2">
+  <article class="card prose">
+    <h2>About them</h2><p>{{ application.bio|linebreaksbr }}</p>
+    <h2>Experience with {{ application.subject }}</h2><p>{{ application.ap_experience|linebreaksbr }}</p>
+    <h2>Teaching experience</h2><p>{{ application.teaching_experience|linebreaksbr }}</p>
+    <h2>Why they'd be a good mentor</h2><p>{{ application.motivation|linebreaksbr }}</p>
+  </article>
+  <aside class="stack">
+    <section class="card">
+      <h2 class="card__title">Documents</h2>
+      <ul class="list list--compact">
+        <li class="list__item"><span>AP score report</span><a class="btn btn--ghost btn--sm" href="{% url 'accounts:review_file' application.pk 'score_report' %}">Download</a></li>
+        <li class="list__item"><span>CV</span><a class="btn btn--ghost btn--sm" href="{% url 'accounts:review_file' application.pk 'cv' %}">Download</a></li>
+      </ul>
+    </section>
+    {% include "accounts/_decision_panel.html" %}
+  </aside>
+</div>
+{% endblock %}

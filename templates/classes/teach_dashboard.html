@@ -1,0 +1,23 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}Mentor portal{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Mentor portal</h1><p class="muted">You teach {{ subjects|join:", " }}.</p></div><a class="btn btn--primary" href="{% url 'classes:create' %}">Schedule a class</a></header>
+{% include "classes/_teach_nav.html" with tab="overview" %}
+{% include "classes/_stats.html" %}
+<div class="layout-2 layout-2--wide-left">
+  <section class="section">
+    <h2 class="section__title">Next up</h2>
+    {% if upcoming %}<ul class="list">{% for c in upcoming %}
+      <li class="list__item"><div><a href="{{ c.get_absolute_url }}"><strong>{{ c.title }}</strong></a><p class="muted">{{ c.subject.name }} · {{ c.duration_minutes|minutes }} · {{ c.enrolment_count }} enrolled</p></div><time class="list__aside" datetime="{{ c.starts_at|date:'c' }}">{{ c.starts_at|date:"D j M, g:i A" }}</time></li>
+    {% endfor %}</ul>
+    {% else %}{% url 'classes:create' as create_url %}{% include "partials/empty.html" with title="Nothing scheduled" body="Schedule a class and it's open for enrolment straight away." href=create_url cta="Schedule a class" %}{% endif %}
+  </section>
+  <section class="section">
+    <h2 class="section__title">Students are asking for</h2>
+    {% if open_requests %}<ul class="list">{% for r in open_requests %}
+      <li class="list__item list__item--stack"><div><strong>{{ r.unit.subject.name }}</strong>: Unit {{ r.unit.number }}, {{ r.unit.name }}{% if r.notes %}<p class="muted">"{{ r.notes }}"</p>{% endif %}</div><a class="btn btn--ghost btn--sm" href="{% url 'classes:create' %}?subject={{ r.unit.subject_id }}">Schedule one</a></li>
+    {% endfor %}</ul>
+    {% else %}<p class="muted">No open requests for your subjects.</p>{% endif %}
+  </section>
+</div>
+{% endblock %}
