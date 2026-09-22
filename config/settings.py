@@ -83,7 +83,12 @@ WSGI_APPLICATION = "config.wsgi.application"
 
 # SQLite by default so a fresh clone runs with no services; docker-compose and production set
 # DATABASE_URL to PostgreSQL.
-DATABASES = {"default": env.db("DATABASE_URL", default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}")}
+# An empty DATABASE_URL counts as unset.
+DATABASES = {
+    "default": env.db_url_config(
+        env("DATABASE_URL", default="") or f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
+    )
+}
 DATABASES["default"]["CONN_MAX_AGE"] = env.int("DATABASE_CONN_MAX_AGE", default=60)
 
 AUTH_USER_MODEL = "accounts.User"
