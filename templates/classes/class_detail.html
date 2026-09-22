@@ -10,7 +10,7 @@
         <div><dt>When</dt><dd><time datetime="{{ class.starts_at|date:'c' }}">{{ class.starts_at|date:"l j F, g:i A" }}</time> <span class="muted">({{ class.starts_at|date:"e" }})</span></dd></div>
         <div><dt>Length</dt><dd>{{ class.duration_minutes|minutes }}</dd></div>
         <div><dt>Subject</dt><dd>{{ class.subject.name }}</dd></div>
-        <div><dt>Enrolled</dt><dd>{{ class.enrolment_count }} student{{ class.enrolment_count|pluralize }}</dd></div>
+        <div><dt>Enrolled</dt><dd id="enrolled-count">{{ class.enrolment_count }} student{{ class.enrolment_count|pluralize }}</dd></div>
       </dl>
       {% if class.description %}<div class="prose"><p>{{ class.description|linebreaksbr }}</p></div>{% endif %}
     </section>

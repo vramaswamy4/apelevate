@@ -461,8 +461,10 @@ svg {
   .nav {
     order: 3;
     width: 100%;
+    flex-wrap: wrap;
     margin-inline: calc(var(--space-3) * -1);
     padding-inline: var(--space-1);
+    overflow: visible;
   }
 
   .token-chip__label {
@@ -1202,8 +1204,8 @@ fieldset.field {
 
 .stat-grid {
   display: grid;
-  gap: var(--space-4);
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr));
   margin-bottom: var(--space-2);
 }
 
@@ -1448,6 +1450,7 @@ a.stat:hover {
   border-bottom: 1px solid var(--border);
   margin-bottom: var(--space-5);
   overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .tabs a {

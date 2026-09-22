@@ -28,4 +28,5 @@
     <a class="btn btn--ghost btn--block" href="{% url 'accounts:login' %}?next={{ request.path|urlencode }}">I have an account</a>
   {% endif %}
 </section>
-{% if request.method == "POST" %}{% with oob=True %}{% include "partials/token_balance.html" %}{% endwith %}{% endif %}
+{% if request.method == "POST" %}{% with oob=True %}{% include "partials/token_balance.html" %}{% endwith %}
+<dd id="enrolled-count" hx-swap-oob="true">{{ class.enrolment_count }} student{{ class.enrolment_count|pluralize }}</dd>{% endif %}

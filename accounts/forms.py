@@ -35,7 +35,8 @@ class SignUpForm(EmailNormalizingMixin, UserCreationForm):
 class LoginForm(AuthenticationForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields["username"].widget.attrs.update({"autocomplete": "email", "type": "email"})
+        self.fields["username"].widget.input_type = "email"
+        self.fields["username"].widget.attrs["autocomplete"] = "email"
 
     def clean_username(self):
         return self.cleaned_data["username"].strip().lower()
