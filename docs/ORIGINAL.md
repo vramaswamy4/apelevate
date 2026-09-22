@@ -17,10 +17,39 @@ database, driven by Django's test client). File references point at that commit.
 | Hosting | `Procfile` runs `gunicorn APElevate.wsgi`; `runtime.txt` pins `python-3.10.1` (Heroku style). No PythonAnywhere config is in the repo. |
 | Git history | None before the recovery commit. The original repository's history is not part of the export. |
 
-So the data model was written in summer 2022, and the mentor-application review (`accepted`, then
-renamed to `decided`) was added in February 2023. **Open question:** "built in 2022" is accurate for
-most of it, but the migrations show work continuing into February 2023. How should the history
-read?
+The app was built between July 2022 and February 2023: the data model in summer 2022, and the
+mentor-application review (`accepted`, then renamed to `decided`) in February 2023. It was hosted on
+PythonAnywhere, and that account no longer exists, so there's no record of what was live or who
+used it. This export is the only surviving copy.
+
+### How the export was laid out
+
+The original repository (preserved as `APElevate-master.zip`) held the Django project one folder
+below the repository root, with the default `startproject` name repeated:
+
+```
+APElevate-master/            <- git root
+  .idea/                     <- PyCharm settings, committed
+  APElevate/                 <- Django project root (manage.py lives here)
+    APElevate/               <- settings package
+    APE/                     <- the app (with __pycache__/*.pyc committed)
+    templates/  static/
+    staticfiles/             <- collectstatic output, committed (Django admin's CSS and JS)
+    db.sqlite3               <- development database, committed
+    whole.json               <- a `dumpdata` of that database, committed
+    Procfile                 <- empty
+    requirements             <- no .txt extension, UTF-16 encoded
+    runtime.txt
+```
+
+That layout breaks deployment in three ways. Heroku looks for `requirements.txt` and `Procfile` at
+the repository root: here one was a folder down, misnamed and in UTF-16 (what PowerShell's
+`pip freeze > requirements` writes), and the other was empty. On PythonAnywhere, the WSGI file and
+the virtualenv have to point at the inner `APElevate/` folder, and `APElevate/APElevate/` makes it
+easy to point one level off. The recovery commit already flattened the tree by one level, re-encoded
+the requirements as `requirements.txt`, and dropped the database, dump, bytecode and IDE files. The
+refresh goes further: the settings package is renamed to `config/`, so no folder shares a name
+with its parent.
 
 Size: about 770 lines of Python outside migrations (about 520 of them in the `APE` app), 30
 templates (six are five-line stubs), and a 15-line stylesheet. Most styling is Bootstrap from a CDN
@@ -64,8 +93,8 @@ Not built, though a model field or a stub template exists: the subjects and unit
 (`subjects.html` is a stub), profile and edit profile (stubs), mentor analytics (`analytics.html`
 is a stub linking to a URL name that doesn't exist, and no view or URL fills in `Mentors.hrs_taught`,
 `no_students` or `revenue`), adding subjects (stub), application details (stub), and class requests
-(`ClassRequests` has a model and an admin registration but no view). **Open question:** did a
-deployed version have any of these, or is this export what was live?
+(`ClassRequests` has a model and an admin registration but no view). Whether a deployed version
+went further is unknown (see "Decisions for the refresh").
 
 ## Data model
 
@@ -262,18 +291,19 @@ flow is broken; **Medium** is a real bug in a less central path; **Low** covers 
 - The curriculum tree (subject → unit → subtopic, with classes tagged by subtopic) is a sensible
   model for AP courses and worth keeping.
 
-## Open questions for Vinith
+## Decisions for the refresh
 
-1. **Dates.** The migrations run from July 2022 to February 2023. Is "built in 2022, finished in
-   early 2023" right?
-2. **What was live?** Did the deployed site differ from this export (for example, real PayPal
-   credentials, or a working version of analytics or the subjects browser)? Did it have real
-   users or mentors, and how many, if you know?
-3. **Original screenshots.** Do any exist, for the README's before-and-after?
-4. **Product decisions for Phase 2** (these change what the app does, so they're yours to make):
-   - Enrolment should cost one token. That's what the purchase page says ("Each class costs 1
-     token"). Should I enforce it?
-   - Payments: verify PayPal orders server-side (keeps the product the same), or leave payment as a
-     sandbox and credit tokens only through a verified callback?
-   - Should an accepted application create a real `Mentors` profile, so the analytics fields mean
-     something?
+Answers to the open questions from the first draft of this document:
+
+1. **Dates:** the history says July 2022 to February 2023.
+2. **What was live:** unknown. The PythonAnywhere account was deleted, so the refresh treats this
+   export as the product and finishes the parts that were never built, instead of guessing at what
+   existed.
+3. **Original screenshots:** none survive. The "before" screenshots in `docs/screenshots/2022/` are
+   of this export, rendered as-is on its original stack.
+4. **Product rules:** enrolling costs one token and is enforced. Payments are verified on the
+   server. Accepting an application creates a real mentor profile, and the mentor's stats (hours
+   taught, students, enrolments) are computed from classes and enrolments rather than stored as
+   counters.
+5. **Old credentials:** the secret key and Gmail app password from the original settings belong to
+   accounts that no longer exist. They're out of scope.
