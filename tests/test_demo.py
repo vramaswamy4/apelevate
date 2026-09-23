@@ -82,6 +82,7 @@ def test_demo_staff_has_a_read_only_admin(client):
     assert client.get(reverse("admin:accounts_user_add")).status_code == 403
 
 
+@pytest.mark.django_db(transaction=True)  # flush can't run inside the test's transaction (Postgres)
 def test_reset_restores_the_demo(client):
     User.objects.filter(email="mentor@apelevate.test").update(first_name="Vandal")
     call_command("reset_demo", stdout=io.StringIO())
