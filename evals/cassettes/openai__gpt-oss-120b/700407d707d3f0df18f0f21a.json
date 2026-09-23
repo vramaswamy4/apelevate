@@ -1,0 +1,82 @@
+{
+ "data": {
+  "summary": "The two\u2011week plan front\u2011loads the weak Integration unit while giving a broad sweep of the entire AP Calculus AB curriculum. Week\u202f1 introduces core concepts and intensive practice, especially on Unit\u202f6. Week\u202f2 is a mixed review and timed practice session covering all units to solidify knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Build foundational skills and strengthen Unit\u202f6 (Integration and Accumulation of Change).",
+    "hours": 10,
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.5",
+     "3.1",
+     "3.2",
+     "4.1",
+     "4.4",
+     "5.1",
+     "5.2",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Do 15 limit\u2011evaluation problems (1.1\u20111.5) and check answers with the solution key.",
+     "Complete 12 derivative\u2011definition exercises (2.1\u20112.2) and verify using the power rule (2.5).",
+     "Solve 8 chain\u2011rule and implicit\u2011differentiation problems (3.1\u20113.2).",
+     "Work through 6 related\u2011rates scenarios (4.4) and write the full set\u2011up for each.",
+     "Practice 10 Mean Value/Extreme Value theorem questions (5.1\u20115.2).",
+     "Complete the Riemann\u2011sum worksheet: 5 approximations for 6.2, write the summation notation for 6.3, and evaluate a definite integral using the Fundamental Theorem of Calculus (6.4).",
+     "Time yourself: 20 mixed\u2011topic free\u2011response questions covering topics above; grade with the AP scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Mixed review and timed practice of all units.",
+    "hours": 10,
+    "topics": [
+     "1.3",
+     "1.4",
+     "2.3",
+     "2.4",
+     "3.3",
+     "3.4",
+     "4.2",
+     "4.3",
+     "5.3",
+     "5.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Review graph\u2011based limit estimation (1.3\u20111.4) with 10 practice graphs.",
+     "Do 12 derivative\u2011application problems (2.3\u20112.4) focusing on continuity and differentiability.",
+     "Complete 8 inverse\u2011function differentiation questions (3.3\u20113.4).",
+     "Solve 6 motion\u2011context problems linking position, velocity, and acceleration (4.2\u20114.3).",
+     "Analyze 10 functions for increasing/decreasing intervals and apply the First Derivative Test (5.3\u20115.4).",
+     "Model 5 differential\u2011equation situations, verify solutions, and sketch slope fields (7.1\u20117.4).",
+     "Finish 8 integration\u2011application tasks: average value, area between curves, and applied accumulation (8.1\u20118.4).",
+     "Take a full 90\u2011minute timed practice exam, then compare answers to the official scoring guidelines."
+    ]
+   }
+  ],
+  "final_week_advice": "After the timed practice, review any missed questions, focus on the underlying concepts that caused errors, and do a quick 30\u2011minute refresher of key formulas and theorems before the exam day."
+ },
+ "raw": "{\n  \"summary\": \"The two\u2011week plan front\u2011loads the weak Integration unit while giving a broad sweep of the entire AP Calculus AB curriculum. Week\u202f1 introduces core concepts and intensive practice, especially on Unit\u202f6. Week\u202f2 is a mixed review and timed practice session covering all units to solidify knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Build foundational skills and strengthen Unit\u202f6 (Integration and Accumulation of Change).\",\n      \"hours\": 10,\n      \"topics\": [\n        \"1.1\",\"1.2\",\"1.5\",\n        \"2.1\",\"2.2\",\"2.5\",\n        \"3.1\",\"3.2\",\n        \"4.1\",\"4.4\",\n        \"5.1\",\"5.2\",\n        \"6.1\",\"6.2\",\"6.3\",\"6.4\"\n      ],\n      \"classes\": [],\n      \"tasks\": [\n        \"Do 15 limit\u2011evaluation problems (1.1\u20111.5) and check answers with the solution key.\",\n        \"Complete 12 derivative\u2011definition exercises (2.1\u20112.2) and verify using the power rule (2.5).\",\n        \"Solve 8 chain\u2011rule and implicit\u2011differentiation problems (3.1\u20113.2).\",\n        \"Work through 6 related\u2011rates scenarios (4.4) and write the full set\u2011up for each.\",\n        \"Practice 10 Mean Value/Extreme Value theorem questions (5.1\u20115.2).\",\n        \"Complete the Riemann\u2011sum worksheet: 5 approximations for 6.2, write the summation notation for 6.3, and evaluate a definite integral using the Fundamental Theorem of Calculus (6.4).\",\n        \"Time yourself: 20 mixed\u2011topic free\u2011response questions covering topics above; grade with the AP scoring guide.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Mixed review and timed practice of all units.\",\n      \"hours\": 10,\n      \"topics\": [\n        \"1.3\",\"1.4\",\n        \"2.3\",\"2.4\",\n        \"3.3\",\"3.4\",\n        \"4.2\",\"4.3\",\n        \"5.3\",\"5.4\",\n        \"7.1\",\"7.2\",\"7.3\",\"7.4\",\n        \"8.1\",\"8.2\",\"8.3\",\"8.4\"\n      ],\n      \"classes\": [],\n      \"tasks\": [\n        \"Review graph\u2011based limit estimation (1.3\u20111.4) with 10 practice graphs.\",\n        \"Do 12 derivative\u2011application problems (2.3\u20112.4) focusing on continuity and differentiability.\",\n        \"Complete 8 inverse\u2011function differentiation questions (3.3\u20113.4).\",\n        \"Solve 6 motion\u2011context problems linking position, velocity, and acceleration (4.2\u20114.3).\",\n        \"Analyze 10 functions for increasing/decreasing intervals and apply the First Derivative Test (5.3\u20115.4).\",\n        \"Model 5 differential\u2011equation situations, verify solutions, and sketch slope fields (7.1\u20117.4).\",\n        \"Finish 8 integration\u2011application tasks: average value, area between curves, and applied accumulation (8.1\u20118.4).\",\n        \"Take a full 90\u2011minute timed practice exam, then compare answers to the official scoring guidelines.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the timed practice, review any missed questions, focus on the underlying concepts that caused errors, and do a quick 30\u2011minute refresher of key formulas and theorems before the exam day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1192,
+ "output_tokens": 954,
+ "latency_ms": 2255
+}

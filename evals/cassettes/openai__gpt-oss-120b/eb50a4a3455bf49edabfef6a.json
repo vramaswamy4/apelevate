@@ -1,0 +1,189 @@
+{
+ "data": {
+  "summary": "The 10\u2011week plan front\u2011loads the student\u2019s weak units (3 and 5) with focused practice and live class support, then moves through the remaining curriculum while keeping each week within the 6\u2011hour limit. The final two weeks are dedicated to mixed review and timed AP\u2011style practice to consolidate knowledge and build test stamina.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce and practice core concepts of Unit\u202f3 (Chain Rule and Implicit Differentiation).",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Watch a tutorial on the Chain Rule and work through 5 example problems.",
+     "Do 8 implicit differentiation problems, checking answers with solution guide.",
+     "Create a one\u2011page summary sheet of rules for 3.1 and 3.2."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Live class reinforcement for Unit\u202f3 and extend to Inverse Functions.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [
+     10600
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class #10600 and take detailed notes on 3.1\u20113.2.",
+     "Complete the class worksheet on Chain Rule and Implicit Differentiation (10 problems).",
+     "Practice 5 problems on differentiating inverse functions (3.3)."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Begin Unit\u202f5 \u2013 Mean Value Theorem and Extreme Value Theorem.",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read the textbook section on 5.1\u20115.2 and annotate key hypotheses.",
+     "Do 12 FRQ\u2011style questions on MVT and EVT, grading with the AP scoring guide.",
+     "Write a concise proof outline for the Mean Value Theorem."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Complete Unit\u202f5 analytical applications and start contextual differentiation.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "4.1"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 8 problems determining increasing/decreasing intervals (5.3).",
+     "Complete 6 First Derivative Test problems (5.4).",
+     "Do 5 contextual interpretation questions (4.1) linking derivative to real\u2011world meaning."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Live class for Unit\u202f5 and review critical points.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [
+     10601
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class #10601; focus on teacher explanations of 5.1\u20115.3.",
+     "Redo 4 of the class\u2019s practice problems, this time timing yourself.",
+     "Create a master table of critical points, extrema, and test results for a sample function."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Unit\u202f6 \u2013 Foundations of Integration and Riemann sums.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Watch a video on accumulation of change (6.1) and take notes.",
+     "Complete 10 Riemann\u2011sum problems using left, right, and midpoint approximations (6.2\u20116.3).",
+     "Summarize the connection between sums and the definite integral in a one\u2011page cheat sheet."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Unit\u202f7 \u2013 Modeling with Differential Equations.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Write and solve 4 differential\u2011equation models (7.1).",
+     "Verify solutions for 4 given DEs (7.2).",
+     "Sketch slope fields for 3 equations and interpret behavior (7.3)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Live class for Unit\u202f6 and finish Fundamental Theorem of Calculus.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.4"
+    ],
+    "classes": [
+     10602
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class #10602; focus on 6.1\u20116.2 concepts.",
+     "Complete the class\u2019s FTC worksheet (5 problems).",
+     "Do 6 mixed problems that require moving between accumulation functions and definite integrals."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mixed review of Units\u202f1,\u202f2,\u202f4,\u202f8 \u2013 reinforce limits, basic differentiation, and integration applications.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.1",
+     "2.2",
+     "4.2",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do a set of 12 short FRQs covering limits, derivative definition, and motion applications.",
+     "Create a two\u2011column chart comparing techniques for finding average value (8.1) vs. net change (8.2).",
+     "Review notes and rewrite key formulas for Units\u202f1\u20112."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Final comprehensive review and timed AP practice.",
+    "topics": [
+     "1.3",
+     "1.4",
+     "2.3",
+     "2.4",
+     "3.4",
+     "5.4",
+     "6.4",
+     "7.4",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 55\u2011minute full\u2011length practice section (mixed multiple\u2011choice and FRQ).",
+     "Score the section using the official answer key and note any remaining weak spots.",
+     "Do a rapid\u2011review worksheet covering one key concept from each listed topic."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on test\u2011taking strategy: review your scoring rubric, practice pacing, and do a final timed full\u2011section. Rest well the night before the exam and trust the systematic preparation you\u2019ve built over the past ten weeks."
+ },
+ "raw": "{\n  \"summary\": \"The 10\u2011week plan front\u2011loads the student\u2019s weak units (3 and 5) with focused practice and live class support, then moves through the remaining curriculum while keeping each week within the 6\u2011hour limit. The final two weeks are dedicated to mixed review and timed AP\u2011style practice to consolidate knowledge and build test stamina.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce and practice core concepts of Unit\u202f3 (Chain Rule and Implicit Differentiation).\",\n      \"topics\": [\"3.1\", \"3.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch a tutorial on the Chain Rule and work through 5 example problems.\",\n        \"Do 8 implicit differentiation problems, checking answers with solution guide.\",\n        \"Create a one\u2011page summary sheet of rules for 3.1 and 3.2.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Live class reinforcement for Unit\u202f3 and extend to Inverse Functions.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\"],\n      \"classes\": [10600],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class #10600 and take detailed notes on 3.1\u20113.2.\",\n        \"Complete the class worksheet on Chain Rule and Implicit Differentiation (10 problems).\",\n        \"Practice 5 problems on differentiating inverse functions (3.3).\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Begin Unit\u202f5 \u2013 Mean Value Theorem and Extreme Value Theorem.\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read the textbook section on 5.1\u20115.2 and annotate key hypotheses.\",\n        \"Do 12 FRQ\u2011style questions on MVT and EVT, grading with the AP scoring guide.\",\n        \"Write a concise proof outline for the Mean Value Theorem.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Complete Unit\u202f5 analytical applications and start contextual differentiation.\",\n      \"topics\": [\"5.3\", \"5.4\", \"4.1\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Solve 8 problems determining increasing/decreasing intervals (5.3).\",\n        \"Complete 6 First Derivative Test problems (5.4).\",\n        \"Do 5 contextual interpretation questions (4.1) linking derivative to real\u2011world meaning.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Live class for Unit\u202f5 and review critical points.\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"],\n      \"classes\": [10601],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class #10601; focus on teacher explanations of 5.1\u20115.3.\",\n        \"Redo 4 of the class\u2019s practice problems, this time timing yourself.\",\n        \"Create a master table of critical points, extrema, and test results for a sample function.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Unit\u202f6 \u2013 Foundations of Integration and Riemann sums.\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch a video on accumulation of change (6.1) and take notes.\",\n        \"Complete 10 Riemann\u2011sum problems using left, right, and midpoint approximations (6.2\u20116.3).\",\n        \"Summarize the connection between sums and the definite integral in a one\u2011page cheat sheet.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Unit\u202f7 \u2013 Modeling with Differential Equations.\",\n      \"topics\": [\"7.1\", \"7.2\", \"7.3\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Write and solve 4 differential\u2011equation models (7.1).\",\n        \"Verify solutions for 4 given DEs (7.2).\",\n        \"Sketch slope fields for 3 equations and interpret behavior (7.3).\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Live class for Unit\u202f6 and finish Fundamental Theorem of Calculus.\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.4\"],\n      \"classes\": [10602],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class #10602; focus on 6.1\u20116.2 concepts.\",\n        \"Complete the class\u2019s FTC worksheet (5 problems).\",\n        \"Do 6 mixed problems that require moving between accumulation functions and definite integrals.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Mixed review of Units\u202f1,\u202f2,\u202f4,\u202f8 \u2013 reinforce limits, basic differentiation, and integration applications.\",\n      \"topics\": [\"1.1\", \"1.2\", \"2.1\", \"2.2\", \"4.2\", \"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Do a set of 12 short FRQs covering limits, derivative definition, and motion applications.\",\n        \"Create a two\u2011column chart comparing techniques for finding average value (8.1) vs. net change (8.2).\",\n        \"Review notes and rewrite key formulas for Units\u202f1\u20112.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Final comprehensive review and timed AP practice.\",\n      \"topics\": [\"1.3\", \"1.4\", \"2.3\", \"2.4\", \"3.4\", \"5.4\", \"6.4\", \"7.4\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Take a 55\u2011minute full\u2011length practice section (mixed multiple\u2011choice and FRQ).\",\n        \"Score the section using the official answer key and note any remaining weak spots.\",\n        \"Do a rapid\u2011review worksheet covering one key concept from each listed topic.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, focus on test\u2011taking strategy: review your scoring rubric, practice pacing, and do a final timed full\u2011section. Rest well the night before the exam and trust the systematic preparation you\u2019ve built over the past ten weeks.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1287,
+ "output_tokens": 1840,
+ "latency_ms": 4607
+}

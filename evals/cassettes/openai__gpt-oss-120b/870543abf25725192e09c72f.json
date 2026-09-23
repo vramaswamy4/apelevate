@@ -1,0 +1,138 @@
+{
+ "data": {
+  "summary": "The six\u2011week plan front\u2011loads the weak Fluids unit, integrates a live class in week\u202f3, and spreads the remaining units evenly while keeping each week to 4\u202fhours. The final week is dedicated to mixed review and timed free\u2011response practice to build stamina before the October\u202f13 exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 4,
+    "focus": "Introduce Fluids concepts and refresh basic kinematics.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "1.1",
+     "1.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read the textbook sections for 8.1 and 8.2; create a one\u2011page summary of density and pressure definitions.",
+     "Do 10 free\u2011response questions on density and pressure, checking answers with the scoring guide.",
+     "Watch a short video on 1.1 and 1.2; sketch displacement\u2011time and velocity\u2011time graphs for three different motions.",
+     "Complete 5 practice problems on 1.1\u20111.2, focusing on vector sign conventions."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 4,
+    "focus": "Complete Fluids unit and start Force & Translational Dynamics.",
+    "topics": [
+     "8.3",
+     "8.4",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read sections 8.3\u20118.4; list three real\u2011world examples of fluid forces and conservation laws.",
+     "Solve 8.3\u20118.4 problem set (8 questions), then compare solutions to answer key.",
+     "Review 2.1\u20112.2 concepts; draw free\u2011body diagrams for two systems with multiple objects.",
+     "Complete 6 quantitative problems on center of mass and free\u2011body diagram analysis."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 4,
+    "focus": "Live class on Fluids and begin Work, Energy, Power.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "3.1",
+     "3.2"
+    ],
+    "classes": [
+     10400
+    ],
+    "tasks": [
+     "Attend live class 10400; actively take notes on 8.1\u20118.3 and ask one question.",
+     "After class, redo the class\u2019s practice worksheet (5 problems) without notes.",
+     "Read textbook sections 3.1\u20113.2; write a concise formula sheet for kinetic energy and work.",
+     "Do 8 free\u2011response questions covering 3.1\u20113.2, grading with the AP scoring rubric."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 4,
+    "focus": "Linear Momentum and introductory Rotational Dynamics.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Watch a tutorial on linear momentum; solve 5 problems on 4.1\u20114.2 (impulse and conservation).",
+     "Create a comparison chart of linear vs angular quantities (momentum vs angular momentum).",
+     "Study 5.1\u20115.2; complete 6 rotational\u2011kinematics problems linking linear and rotational motion.",
+     "Do a mixed set of 4 free\u2011response questions (2 from momentum, 2 from rotational kinematics)."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 4,
+    "focus": "Rotational Energy, Angular Momentum, and Oscillations.",
+    "topics": [
+     "6.1",
+     "6.3",
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read sections 6.1 and 6.3; derive the rotational kinetic energy formula and angular impulse relation.",
+     "Complete 6 problems on rotational energy and angular momentum conservation.",
+     "Watch a video on simple harmonic motion; work through 5 problems on 7.1\u20117.2 (period, frequency).",
+     "Finish a set of 4 free\u2011response questions that combine rotating systems with SHM concepts."
+    ]
+   },
+   {
+    "week": 6,
+    "hours": 4,
+    "focus": "Mixed review and timed free\u2011response practice.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.1",
+     "2.2",
+     "3.1",
+     "3.2",
+     "4.1",
+     "4.2",
+     "5.1",
+     "5.2",
+     "6.1",
+     "6.3",
+     "7.1",
+     "7.2",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Set a 90\u2011minute timer and complete a full\u2011length AP free\u2011response practice set (one question from each unit).",
+     "Mark answers using the official scoring guide; note any recurring errors.",
+     "Review error log; redo the three most missed problems with step\u2011by\u2011step solutions.",
+     "Create a one\u2011page \u201ccheat sheet\u201d summarizing key formulas and sign conventions for all units."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the timed practice to simulate exam conditions, focus on pacing, and review your error log right before the test. Get plenty of rest the night before and arrive early to the testing center."
+ },
+ "raw": "{\n  \"summary\": \"The six\u2011week plan front\u2011loads the weak Fluids unit, integrates a live class in week\u202f3, and spreads the remaining units evenly while keeping each week to 4\u202fhours. The final week is dedicated to mixed review and timed free\u2011response practice to build stamina before the October\u202f13 exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 4,\n      \"focus\": \"Introduce Fluids concepts and refresh basic kinematics.\",\n      \"topics\": [\"8.1\", \"8.2\", \"1.1\", \"1.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the textbook sections for 8.1 and 8.2; create a one\u2011page summary of density and pressure definitions.\",\n        \"Do 10 free\u2011response questions on density and pressure, checking answers with the scoring guide.\",\n        \"Watch a short video on 1.1 and 1.2; sketch displacement\u2011time and velocity\u2011time graphs for three different motions.\",\n        \"Complete 5 practice problems on 1.1\u20111.2, focusing on vector sign conventions.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 4,\n      \"focus\": \"Complete Fluids unit and start Force & Translational Dynamics.\",\n      \"topics\": [\"8.3\", \"8.4\", \"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read sections 8.3\u20118.4; list three real\u2011world examples of fluid forces and conservation laws.\",\n        \"Solve 8.3\u20118.4 problem set (8 questions), then compare solutions to answer key.\",\n        \"Review 2.1\u20112.2 concepts; draw free\u2011body diagrams for two systems with multiple objects.\",\n        \"Complete 6 quantitative problems on center of mass and free\u2011body diagram analysis.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 4,\n      \"focus\": \"Live class on Fluids and begin Work, Energy, Power.\",\n      \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"3.1\", \"3.2\"],\n      \"classes\": [10400],\n      \"tasks\": [\n        \"Attend live class 10400; actively take notes on 8.1\u20118.3 and ask one question.\",\n        \"After class, redo the class\u2019s practice worksheet (5 problems) without notes.\",\n        \"Read textbook sections 3.1\u20113.2; write a concise formula sheet for kinetic energy and work.\",\n        \"Do 8 free\u2011response questions covering 3.1\u20113.2, grading with the AP scoring rubric.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 4,\n      \"focus\": \"Linear Momentum and introductory Rotational Dynamics.\",\n      \"topics\": [\"4.1\", \"4.2\", \"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch a tutorial on linear momentum; solve 5 problems on 4.1\u20114.2 (impulse and conservation).\",\n        \"Create a comparison chart of linear vs angular quantities (momentum vs angular momentum).\",\n        \"Study 5.1\u20115.2; complete 6 rotational\u2011kinematics problems linking linear and rotational motion.\",\n        \"Do a mixed set of 4 free\u2011response questions (2 from momentum, 2 from rotational kinematics).\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 4,\n      \"focus\": \"Rotational Energy, Angular Momentum, and Oscillations.\",\n      \"topics\": [\"6.1\", \"6.3\", \"7.1\", \"7.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read sections 6.1 and 6.3; derive the rotational kinetic energy formula and angular impulse relation.\",\n        \"Complete 6 problems on rotational energy and angular momentum conservation.\",\n        \"Watch a video on simple harmonic motion; work through 5 problems on 7.1\u20117.2 (period, frequency).\",\n        \"Finish a set of 4 free\u2011response questions that combine rotating systems with SHM concepts.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"hours\": 4,\n      \"focus\": \"Mixed review and timed free\u2011response practice.\",\n      \"topics\": [\"1.1\", \"1.2\", \"2.1\", \"2.2\", \"3.1\", \"3.2\", \"4.1\", \"4.2\", \"5.1\", \"5.2\", \"6.1\", \"6.3\", \"7.1\", \"7.2\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Set a 90\u2011minute timer and complete a full\u2011length AP free\u2011response practice set (one question from each unit).\",\n        \"Mark answers using the official scoring guide; note any recurring errors.\",\n        \"Review error log; redo the three most missed problems with step\u2011by\u2011step solutions.\",\n        \"Create a one\u2011page \u201ccheat sheet\u201d summarizing key formulas and sign conventions for all units.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use the timed practice to simulate exam conditions, focus on pacing, and review your error log right before the test. Get plenty of rest the night before and arrive early to the testing center.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1044,
+ "output_tokens": 1435,
+ "latency_ms": 3349
+}

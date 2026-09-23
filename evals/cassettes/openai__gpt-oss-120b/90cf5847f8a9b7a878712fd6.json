@@ -1,0 +1,215 @@
+{
+ "data": {
+  "summary": "This 12\u2011week plan front\u2011loads the student\u2019s weak units, allocating 6 hours each week to master core concepts and practice AP\u2011style free\u2011response questions. The first eight weeks introduce new material, while weeks 9\u201110 consolidate later units. The final two weeks are dedicated to mixed review and timed practice to build speed and confidence before the November 24 exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 6,
+    "focus": "Atomic Structure fundamentals and basic mole concepts.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "1.7"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read the textbook sections for 1.1, 1.5, and 1.7.",
+     "Do 15 practice problems on mole\u2011to\u2011mass conversions and electron configuration.",
+     "Create a one\u2011page cheat sheet of periodic trends and valence electron rules."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 6,
+    "focus": "Compound bonding and molecular geometry.",
+    "topics": [
+     "2.1",
+     "2.5",
+     "2.7"
+    ],
+    "classes": [],
+    "tasks": [
+     "Watch a video on ionic, covalent, and metallic bonds.",
+     "Draw Lewis structures for 10 compounds, checking formal charges.",
+     "Complete VSEPR practice set: predict shapes for 12 molecules."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 6,
+    "focus": "Intermolecular forces and states of matter.",
+    "topics": [
+     "3.1",
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Summarize the three main intermolecular forces in a table.",
+     "Solve 12 ideal\u2011gas\u2011law problems, converting between moles, pressure, volume, and temperature.",
+     "Explain how intermolecular forces affect boiling points in a short paragraph."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 6,
+    "focus": "Stoichiometry and net ionic equations.",
+    "topics": [
+     "4.2",
+     "4.5"
+    ],
+    "classes": [],
+    "tasks": [
+     "Balance 10 redox reactions and write the corresponding net ionic equations.",
+     "Complete a stoichiometry worksheet with limiting\u2011reactant calculations.",
+     "Check answers against the scoring guide and note common errors."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 6,
+    "focus": "Reaction rates and introductory rate laws.",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Calculate reaction rates from given concentration\u2011time data for 8 experiments.",
+     "Derive the rate law for a simple reaction using initial\u2011rate method.",
+     "Do 5 free\u2011response FRQs on rate laws, grading with the AP rubric."
+    ]
+   },
+   {
+    "week": 6,
+    "hours": 6,
+    "focus": "Thermochemistry basics and energy diagrams.",
+    "topics": [
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Label endothermic and exothermic processes on 6 energy\u2011diagram sketches.",
+     "Solve calorimetry problems involving specific heat and heat of reaction.",
+     "Write a brief explanation of how enthalpy changes relate to bond making/breaking."
+    ]
+   },
+   {
+    "week": 7,
+    "hours": 6,
+    "focus": "Chemical equilibrium concepts and calculations.",
+    "topics": [
+     "7.1",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Calculate equilibrium constants (K) from given concentrations for 8 reactions.",
+     "Practice Q vs. K comparisons to predict direction of shift.",
+     "Complete a mixed\u2011practice set of equilibrium FRQs, checking work with the scoring guide."
+    ]
+   },
+   {
+    "week": 8,
+    "hours": 6,
+    "focus": "Acids, bases, and buffer systems.",
+    "topics": [
+     "8.1",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Determine pH for 6 strong\u2011acid/strong\u2011base solutions and 6 weak\u2011acid buffers.",
+     "Construct a Henderson\u2011Hasselbalch table for a buffer problem.",
+     "Write and balance acid\u2011base net ionic equations for 5 reactions."
+    ]
+   },
+   {
+    "week": 9,
+    "hours": 6,
+    "focus": "Thermodynamics and spontaneity.",
+    "topics": [
+     "9.1",
+     "9.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Calculate entropy changes for 5 processes using \u0394S = q_rev/T.",
+     "Compute Gibbs free energy for 7 reactions and decide if they are spontaneous.",
+     "Do 4 FRQs that require interpreting \u0394G and \u0394S together."
+    ]
+   },
+   {
+    "week": 10,
+    "hours": 6,
+    "focus": "Electrochemistry fundamentals and review of earlier units.",
+    "topics": [
+     "9.4",
+     "5.3",
+     "6.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Draw cell diagrams for 5 galvanic cells and calculate cell potentials.",
+     "Analyze concentration\u2011time graphs for 4 reactions (5.3).",
+     "Solve heat\u2011transfer problems involving thermal equilibrium (6.3)."
+    ]
+   },
+   {
+    "week": 11,
+    "hours": 6,
+    "focus": "Mixed review of all units.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "2.1",
+     "2.5",
+     "3.1",
+     "4.5",
+     "5.1",
+     "6.1",
+     "7.1",
+     "8.1",
+     "9.1"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete a 30\u2011minute timed practice set covering one problem from each listed topic.",
+     "Review incorrect answers and rewrite solutions correctly.",
+     "Update the cheat sheet with any remaining gaps."
+    ]
+   },
+   {
+    "week": 12,
+    "hours": 6,
+    "focus": "Full\u2011length timed practice exam and final review.",
+    "topics": [
+     "1.7",
+     "2.7",
+     "3.4",
+     "4.2",
+     "5.2",
+     "6.2",
+     "7.3",
+     "8.3",
+     "9.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Take a 90\u2011minute AP Chemistry practice exam under test conditions.",
+     "Score the exam using the official rubric and note weak areas.",
+     "Spend the remaining time revisiting any missed concepts from the listed topics."
+    ]
+   }
+  ],
+  "final_week_advice": "After the timed practice, focus on polishing your answer organization, double\u2011checking unit conversions, and memorizing key equations. Get plenty of rest the night before the exam, and on test day allocate your time wisely: quick scans, answer easy FRQs first, and leave a few minutes for final checks."
+ },
+ "raw": "{\n  \"summary\": \"This 12\u2011week plan front\u2011loads the student\u2019s weak units, allocating 6 hours each week to master core concepts and practice AP\u2011style free\u2011response questions. The first eight weeks introduce new material, while weeks 9\u201110 consolidate later units. The final two weeks are dedicated to mixed review and timed practice to build speed and confidence before the November 24 exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 6,\n      \"focus\": \"Atomic Structure fundamentals and basic mole concepts.\",\n      \"topics\": [\"1.1\", \"1.5\", \"1.7\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the textbook sections for 1.1, 1.5, and 1.7.\",\n        \"Do 15 practice problems on mole\u2011to\u2011mass conversions and electron configuration.\",\n        \"Create a one\u2011page cheat sheet of periodic trends and valence electron rules.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 6,\n      \"focus\": \"Compound bonding and molecular geometry.\",\n      \"topics\": [\"2.1\", \"2.5\", \"2.7\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch a video on ionic, covalent, and metallic bonds.\",\n        \"Draw Lewis structures for 10 compounds, checking formal charges.\",\n        \"Complete VSEPR practice set: predict shapes for 12 molecules.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 6,\n      \"focus\": \"Intermolecular forces and states of matter.\",\n      \"topics\": [\"3.1\", \"3.3\", \"3.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Summarize the three main intermolecular forces in a table.\",\n        \"Solve 12 ideal\u2011gas\u2011law problems, converting between moles, pressure, volume, and temperature.\",\n        \"Explain how intermolecular forces affect boiling points in a short paragraph.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 6,\n      \"focus\": \"Stoichiometry and net ionic equations.\",\n      \"topics\": [\"4.2\", \"4.5\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Balance 10 redox reactions and write the corresponding net ionic equations.\",\n        \"Complete a stoichiometry worksheet with limiting\u2011reactant calculations.\",\n        \"Check answers against the scoring guide and note common errors.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 6,\n      \"focus\": \"Reaction rates and introductory rate laws.\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Calculate reaction rates from given concentration\u2011time data for 8 experiments.\",\n        \"Derive the rate law for a simple reaction using initial\u2011rate method.\",\n        \"Do 5 free\u2011response FRQs on rate laws, grading with the AP rubric.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"hours\": 6,\n      \"focus\": \"Thermochemistry basics and energy diagrams.\",\n      \"topics\": [\"6.1\", \"6.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Label endothermic and exothermic processes on 6 energy\u2011diagram sketches.\",\n        \"Solve calorimetry problems involving specific heat and heat of reaction.\",\n        \"Write a brief explanation of how enthalpy changes relate to bond making/breaking.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"hours\": 6,\n      \"focus\": \"Chemical equilibrium concepts and calculations.\",\n      \"topics\": [\"7.1\", \"7.3\", \"7.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Calculate equilibrium constants (K) from given concentrations for 8 reactions.\",\n        \"Practice Q vs. K comparisons to predict direction of shift.\",\n        \"Complete a mixed\u2011practice set of equilibrium FRQs, checking work with the scoring guide.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"hours\": 6,\n      \"focus\": \"Acids, bases, and buffer systems.\",\n      \"topics\": [\"8.1\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Determine pH for 6 strong\u2011acid/strong\u2011base solutions and 6 weak\u2011acid buffers.\",\n        \"Construct a Henderson\u2011Hasselbalch table for a buffer problem.\",\n        \"Write and balance acid\u2011base net ionic equations for 5 reactions.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"hours\": 6,\n      \"focus\": \"Thermodynamics and spontaneity.\",\n      \"topics\": [\"9.1\", \"9.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Calculate entropy changes for 5 processes using \u0394S = q_rev/T.\",\n        \"Compute Gibbs free energy for 7 reactions and decide if they are spontaneous.\",\n        \"Do 4 FRQs that require interpreting \u0394G and \u0394S together.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"hours\": 6,\n      \"focus\": \"Electrochemistry fundamentals and review of earlier units.\",\n      \"topics\": [\"9.4\", \"5.3\", \"6.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Draw cell diagrams for 5 galvanic cells and calculate cell potentials.\",\n        \"Analyze concentration\u2011time graphs for 4 reactions (5.3).\",\n        \"Solve heat\u2011transfer problems involving thermal equilibrium (6.3).\"\n      ]\n    },\n    {\n      \"week\": 11,\n      \"hours\": 6,\n      \"focus\": \"Mixed review of all units.\",\n      \"topics\": [\"1.1\",\"1.5\",\"2.1\",\"2.5\",\"3.1\",\"4.5\",\"5.1\",\"6.1\",\"7.1\",\"8.1\",\"9.1\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete a 30\u2011minute timed practice set covering one problem from each listed topic.\",\n        \"Review incorrect answers and rewrite solutions correctly.\",\n        \"Update the cheat sheet with any remaining gaps.\"\n      ]\n    },\n    {\n      \"week\": 12,\n      \"hours\": 6,\n      \"focus\": \"Full\u2011length timed practice exam and final review.\",\n      \"topics\": [\"1.7\",\"2.7\",\"3.4\",\"4.2\",\"5.2\",\"6.2\",\"7.3\",\"8.3\",\"9.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Take a 90\u2011minute AP Chemistry practice exam under test conditions.\",\n        \"Score the exam using the official rubric and note weak areas.\",\n        \"Spend the remaining time revisiting any missed concepts from the listed topics.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the timed practice, focus on polishing your answer organization, double\u2011checking unit conversions, and memorizing key equations. Get plenty of rest the night before the exam, and on test day allocate your time wisely: quick scans, answer easy FRQs first, and leave a few minutes for final checks.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1234,
+ "output_tokens": 1633,
+ "latency_ms": 4516
+}

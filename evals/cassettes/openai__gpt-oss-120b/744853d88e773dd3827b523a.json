@@ -1,0 +1,189 @@
+{
+ "data": {
+  "summary": "The eight\u2011week plan systematically covers all AP Physics\u202f1 units, allocating the 6\u202fhours each week to a balanced mix of instruction, practice, and review. Live classes are slotted in their designated weeks, and the final two weeks focus on comprehensive review and timed exam practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce basic kinematics and build vector intuition.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [
+     10300
+    ],
+    "hours": 6,
+    "tasks": [
+     "Watch live Class\u202f10300 and take detailed notes on scalars/vectors and displacement/velocity.",
+     "Do 15 free\u2011response kinematics questions covering 1.1\u20131.3; check answers with the scoring guide.",
+     "Create a one\u2011page summary sheet of key equations for 1.1\u20131.3."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Complete kinematics and begin force fundamentals.",
+    "topics": [
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 10 problems on reference frames and two\u2011dimensional motion (1.4\u20111.5).",
+     "Draw free\u2011body diagrams for 5 different systems (2.1\u20112.2).",
+     "Complete a worksheet converting linear to vector quantities for 2.1\u20112.2."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Energy concepts and integrate live class material.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "2.3",
+     "2.4"
+    ],
+    "classes": [
+     10301
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live Class\u202f10301; focus on translational kinetic energy and energy conservation.",
+     "Do 12 mixed\u2011topic problems on work, potential energy, and conservation (3.1\u20113.4).",
+     "Answer 5 free\u2011response questions on Newton's third and first laws (2.3\u20112.4).",
+     "Summarize the relationship between work and energy in a one\u2011page cheat sheet."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Complete energy unit and start linear momentum.",
+    "topics": [
+     "3.5",
+     "4.1",
+     "4.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Calculate power for 8 real\u2011world scenarios (3.5).",
+     "Solve 10 impulse\u2011momentum problems (4.1\u20114.2).",
+     "Create a concept map linking work, energy, and momentum."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Linear momentum conservation and introduce rotational kinematics.",
+    "topics": [
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Complete 8 collision problems covering elastic and inelastic cases (4.3\u20114.4).",
+     "Work through 6 rotational\u2011kinematics questions (5.1\u20115.2).",
+     "Write a short explanation of how linear and rotational motion connect (5.2)."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Torque, rotational inertia, and energy of rotating systems.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Calculate torque and rotational inertia for 5 objects (5.3\u20115.4).",
+     "Solve 8 problems on rotational kinetic energy and torque\u2011work (6.1\u20116.2).",
+     "Create flashcards for all rotational formulas."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Review oscillations and fluid dynamics; mixed concept reinforcement.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do 10 SHM free\u2011response questions covering all subtopics (7.1\u20117.4).",
+     "Complete a fluid\u2011dynamics worksheet on pressure, density, and conservation laws (8.1\u20118.4).",
+     "Take a 30\u2011minute timed quiz mixing oscillation and fluid problems."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Timed full\u2011exam practice and comprehensive review.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a full\u2011length AP Physics\u202f1 practice exam under timed conditions.",
+     "Score the exam using the official rubric; note any remaining weak spots.",
+     "Review incorrect answers and redo those problems with solution guides."
+    ]
+   }
+  ],
+  "final_week_advice": "After the timed practice, focus on the few topics that still feel shaky; do targeted drills for those areas, and keep reviewing your summary sheets daily up to the exam day."
+ },
+ "raw": "{\n  \"summary\": \"The eight\u2011week plan systematically covers all AP Physics\u202f1 units, allocating the 6\u202fhours each week to a balanced mix of instruction, practice, and review. Live classes are slotted in their designated weeks, and the final two weeks focus on comprehensive review and timed exam practice.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce basic kinematics and build vector intuition.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\"],\n      \"classes\": [10300],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch live Class\u202f10300 and take detailed notes on scalars/vectors and displacement/velocity.\",\n        \"Do 15 free\u2011response kinematics questions covering 1.1\u20131.3; check answers with the scoring guide.\",\n        \"Create a one\u2011page summary sheet of key equations for 1.1\u20131.3.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Complete kinematics and begin force fundamentals.\",\n      \"topics\": [\"1.4\", \"1.5\", \"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Solve 10 problems on reference frames and two\u2011dimensional motion (1.4\u20111.5).\",\n        \"Draw free\u2011body diagrams for 5 different systems (2.1\u20112.2).\",\n        \"Complete a worksheet converting linear to vector quantities for 2.1\u20112.2.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Energy concepts and integrate live class material.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"2.3\", \"2.4\"],\n      \"classes\": [10301],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live Class\u202f10301; focus on translational kinetic energy and energy conservation.\",\n        \"Do 12 mixed\u2011topic problems on work, potential energy, and conservation (3.1\u20113.4).\",\n        \"Answer 5 free\u2011response questions on Newton's third and first laws (2.3\u20112.4).\",\n        \"Summarize the relationship between work and energy in a one\u2011page cheat sheet.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Complete energy unit and start linear momentum.\",\n      \"topics\": [\"3.5\", \"4.1\", \"4.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Calculate power for 8 real\u2011world scenarios (3.5).\",\n        \"Solve 10 impulse\u2011momentum problems (4.1\u20114.2).\",\n        \"Create a concept map linking work, energy, and momentum.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Linear momentum conservation and introduce rotational kinematics.\",\n      \"topics\": [\"4.3\", \"4.4\", \"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Complete 8 collision problems covering elastic and inelastic cases (4.3\u20114.4).\",\n        \"Work through 6 rotational\u2011kinematics questions (5.1\u20115.2).\",\n        \"Write a short explanation of how linear and rotational motion connect (5.2).\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Torque, rotational inertia, and energy of rotating systems.\",\n      \"topics\": [\"5.3\", \"5.4\", \"6.1\", \"6.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Calculate torque and rotational inertia for 5 objects (5.3\u20115.4).\",\n        \"Solve 8 problems on rotational kinetic energy and torque\u2011work (6.1\u20116.2).\",\n        \"Create flashcards for all rotational formulas.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Review oscillations and fluid dynamics; mixed concept reinforcement.\",\n      \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Do 10 SHM free\u2011response questions covering all subtopics (7.1\u20117.4).\",\n        \"Complete a fluid\u2011dynamics worksheet on pressure, density, and conservation laws (8.1\u20118.4).\",\n        \"Take a 30\u2011minute timed quiz mixing oscillation and fluid problems.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Timed full\u2011exam practice and comprehensive review.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Take a full\u2011length AP Physics\u202f1 practice exam under timed conditions.\",\n        \"Score the exam using the official rubric; note any remaining weak spots.\",\n        \"Review incorrect answers and redo those problems with solution guides.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the timed practice, focus on the few topics that still feel shaky; do targeted drills for those areas, and keep reviewing your summary sheets daily up to the exam day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1055,
+ "output_tokens": 1767,
+ "latency_ms": 4242
+}

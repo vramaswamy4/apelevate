@@ -1,0 +1,203 @@
+{
+ "data": {
+  "summary": "This 12\u2011week plan tackles the student\u2019s weak units first, interleaving review and practice, and reserves the final two weeks for mixed review and timed practice. Each week is capped at 6 hours and includes concrete tasks that can be completed in a single sitting.",
+  "final_week_advice": "Use the last two weeks for full\u2011length practice exams, timed problem sets, and targeted review of any remaining weak spots. Focus on pacing, error analysis, and reinforcing conceptual links across units.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Atomic Structure fundamentals",
+    "topics": [
+     "1.1",
+     "1.5",
+     "1.7"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do 10 multiple\u2011choice questions on molar mass and atomic structure, then check answers against the scoring guide",
+     "Sketch electron configurations for 5 elements and label valence electrons"
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Atomic spectroscopy and composition",
+    "topics": [
+     "1.2",
+     "1.3",
+     "1.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 8 problems on mass spectroscopy data interpretation",
+     "Create a table comparing elemental composition of 3 pure substances"
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Chemical bonding basics",
+    "topics": [
+     "2.1",
+     "2.5",
+     "2.7"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Draw Lewis structures for 6 molecules, noting formal charges",
+     "Classify 4 compounds as ionic, covalent, or metallic"
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Intermolecular forces & solids",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Match 5 substances to their dominant intermolecular forces",
+     "Explain why ice floats using solid structure concepts"
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Gas laws & kinetic theory",
+    "topics": [
+     "3.4",
+     "3.5",
+     "4.5"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Calculate pressure changes using the ideal gas law in 4 scenarios",
+     "Solve 6 stoichiometry problems involving gas reactions"
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Reaction rates & kinetics",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Plot concentration vs. time data for 3 reactions",
+     "Determine rate laws for 4 reactions from given data"
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Thermochemistry basics",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Draw energy diagrams for 3 endothermic and exothermic processes",
+     "Calculate heat changes using calorimetry equations"
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Equilibrium fundamentals",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Compute Q and K for 3 reactions, predict direction",
+     "Set up and solve equilibrium expressions for 2 systems"
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Acids & bases review",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Calculate pH for 4 strong acid/base solutions",
+     "Determine Ka and Kb for 3 weak acids/bases"
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Electrochemistry & thermodynamics",
+    "topics": [
+     "9.1",
+     "9.3",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Compute \u0394G for 3 reactions, relate to spontaneity",
+     "Sketch cell diagrams for 2 galvanic cells and calculate E\u00b0"
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Mixed review & practice",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.4",
+     "5.1",
+     "6.1",
+     "7.1",
+     "8.1",
+     "9.1"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 60\u2011minute timed practice quiz covering all units",
+     "Review incorrect answers and rewrite explanations"
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Final timed practice",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.4",
+     "5.1",
+     "6.1",
+     "7.1",
+     "8.1",
+     "9.1"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Complete a full-length 90\u2011minute practice exam under test conditions",
+     "Analyze performance, identify remaining weak areas, and plan brief review sessions"
+    ]
+   }
+  ]
+ },
+ "raw": "{\"summary\":\"This 12\u2011week plan tackles the student\u2019s weak units first, interleaving review and practice, and reserves the final two weeks for mixed review and timed practice. Each week is capped at 6 hours and includes concrete tasks that can be completed in a single sitting.\",\"final_week_advice\":\"Use the last two weeks for full\u2011length practice exams, timed problem sets, and targeted review of any remaining weak spots. Focus on pacing, error analysis, and reinforcing conceptual links across units.\",\"weeks\":[{\"week\":1,\"focus\":\"Atomic Structure fundamentals\",\"topics\":[\"1.1\",\"1.5\",\"1.7\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do 10 multiple\u2011choice questions on molar mass and atomic structure, then check answers against the scoring guide\",\"Sketch electron configurations for 5 elements and label valence electrons\"]},{\"week\":2,\"focus\":\"Atomic spectroscopy and composition\",\"topics\":[\"1.2\",\"1.3\",\"1.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Solve 8 problems on mass spectroscopy data interpretation\",\"Create a table comparing elemental composition of 3 pure substances\"]},{\"week\":3,\"focus\":\"Chemical bonding basics\",\"topics\":[\"2.1\",\"2.5\",\"2.7\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Draw Lewis structures for 6 molecules, noting formal charges\",\"Classify 4 compounds as ionic, covalent, or metallic\"]},{\"week\":4,\"focus\":\"Intermolecular forces & solids\",\"topics\":[\"3.1\",\"3.2\",\"3.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Match 5 substances to their dominant intermolecular forces\",\"Explain why ice floats using solid structure concepts\"]},{\"week\":5,\"focus\":\"Gas laws & kinetic theory\",\"topics\":[\"3.4\",\"3.5\",\"4.5\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Calculate pressure changes using the ideal gas law in 4 scenarios\",\"Solve 6 stoichiometry problems involving gas reactions\"]},{\"week\":6,\"focus\":\"Reaction rates & kinetics\",\"topics\":[\"5.1\",\"5.2\",\"5.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Plot concentration vs. time data for 3 reactions\",\"Determine rate laws for 4 reactions from given data\"]},{\"week\":7,\"focus\":\"Thermochemistry basics\",\"topics\":[\"6.1\",\"6.2\",\"6.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Draw energy diagrams for 3 endothermic and exothermic processes\",\"Calculate heat changes using calorimetry equations\"]},{\"week\":8,\"focus\":\"Equilibrium fundamentals\",\"topics\":[\"7.1\",\"7.2\",\"7.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Compute Q and K for 3 reactions, predict direction\",\"Set up and solve equilibrium expressions for 2 systems\"]},{\"week\":9,\"focus\":\"Acids & bases review\",\"topics\":[\"8.1\",\"8.2\",\"8.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Calculate pH for 4 strong acid/base solutions\",\"Determine Ka and Kb for 3 weak acids/bases\"]},{\"week\":10,\"focus\":\"Electrochemistry & thermodynamics\",\"topics\":[\"9.1\",\"9.3\",\"9.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Compute \u0394G for 3 reactions, relate to spontaneity\",\"Sketch cell diagrams for 2 galvanic cells and calculate E\u00b0\"]},{\"week\":11,\"focus\":\"Mixed review & practice\",\"topics\":[\"1.1\",\"2.1\",\"3.4\",\"5.1\",\"6.1\",\"7.1\",\"8.1\",\"9.1\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Take a 60\u2011minute timed practice quiz covering all units\",\"Review incorrect answers and rewrite explanations\"]},{\"week\":12,\"focus\":\"Final timed practice\",\"topics\":[\"1.1\",\"2.1\",\"3.4\",\"5.1\",\"6.1\",\"7.1\",\"8.1\",\"9.1\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Complete a full-length 90\u2011minute practice exam under test conditions\",\"Analyze performance, identify remaining weak areas, and plan brief review sessions\"]}]}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1295,
+ "output_tokens": 946,
+ "latency_ms": 1502
+}

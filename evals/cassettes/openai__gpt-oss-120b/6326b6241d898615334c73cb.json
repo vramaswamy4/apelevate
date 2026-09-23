@@ -1,0 +1,177 @@
+{
+ "data": {
+  "summary": "The plan front\u2011loads the student\u2019s weak units (2, 4, 6) with focused live classes and targeted practice, then moves through the remaining units while keeping a steady mix of concept work, free\u2011response drills, and timed practice. The final week is dedicated to mixed review and timed exam\u2011style problems to consolidate knowledge and build stamina.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 8,
+    "focus": "Build foundational differentiation skills (Unit\u202f2) and attend live Class\u202f11300.",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "classes": [
+     11300
+    ],
+    "tasks": [
+     "Watch the recorded lecture for Class\u202f11300 and take concise notes on average vs. instantaneous rate.",
+     "Do 12 free\u2011response questions on defining the derivative and using derivative notation; check answers with the scoring guide.",
+     "Complete 8 derivative estimation problems from a textbook table; verify with calculator.",
+     "Create a one\u2011page summary sheet of the Power Rule with example problems."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 8,
+    "focus": "Master limits and continuity (Unit\u202f1) and begin composite differentiation.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "3.1"
+    ],
+    "classes": [],
+    "tasks": [
+     "Solve 10 limit problems involving algebraic manipulation and tables; write a brief justification for each.",
+     "Graph three functions and estimate limits from the graphs; compare with analytic results.",
+     "Practice the Chain Rule on 6 composite functions; record each step on paper.",
+     "Do 5 FRQs that combine limits with the definition of the derivative."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 8,
+    "focus": "Implicit, inverse functions, and related differentiation techniques (Unit\u202f3).",
+    "topics": [
+     "3.2",
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete 8 implicit differentiation problems, then solve for dy/dx explicitly.",
+     "Work through 6 inverse function differentiation examples, checking with the inverse function theorem.",
+     "Practice differentiating inverse trigonometric functions in 5 problems.",
+     "Take a timed 15\u2011minute mini\u2011quiz covering all three sub\u2011topics."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 8,
+    "focus": "Contextual applications of differentiation (Unit\u202f4) and attend live Class\u202f11301.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [
+     11301
+    ],
+    "tasks": [
+     "Review notes from Class\u202f11301; write a one\u2011sentence interpretation for each derivative context.",
+     "Solve 4 related\u2011rates problems involving motion and 4 problems involving non\u2011motion rates.",
+     "Create a concept map linking position, velocity, acceleration, and rates of change.",
+     "Do 6 FRQs that require setting up and solving a related\u2011rates equation; self\u2011grade with the rubric."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 8,
+    "focus": "Analytical applications of differentiation (Unit\u202f5).",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Apply the Mean Value Theorem to 4 functions; write the theorem statement each time.",
+     "Identify critical points and classify extrema for 6 different functions using the First Derivative Test.",
+     "Create a table of intervals of increase/decrease for 5 functions and verify with graphs.",
+     "Complete a mixed\u2011practice set of 8 FRQs covering all Unit\u202f5 concepts."
+    ]
+   },
+   {
+    "week": 6,
+    "hours": 8,
+    "focus": "Integration fundamentals (Unit\u202f6) and attend live Class\u202f11302.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [
+     11302
+    ],
+    "tasks": [
+     "Review Class\u202f11302 notes; summarize the connection between Riemann sums and definite integrals.",
+     "Compute 5 Riemann sum approximations (left, right, midpoint) for given functions.",
+     "Practice evaluating definite integrals using the Fundamental Theorem of Calculus in 6 problems.",
+     "Do 4 FRQs that require setting up an accumulation function and interpreting its meaning."
+    ]
+   },
+   {
+    "week": 7,
+    "hours": 8,
+    "focus": "Mixed review and timed practice for the whole AP Calculus AB exam.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Take a full\u2011length 90\u2011minute timed practice exam (all sections).",
+     "Mark the exam using the official scoring guide; note any recurring errors.",
+     "Review each incorrect problem, re\u2011doing it with a focus on the underlying concept.",
+     "Create a final cheat\u2011sheet of key formulas, theorems, and common FRQ strategies."
+    ]
+   }
+  ],
+  "final_week_advice": "After the review week, spend any remaining days doing additional timed sections, focusing on speed and accuracy. Rest well the night before the exam, and on test day bring your cheat\u2011sheet, a calculator, and confidence in the systematic problem\u2011solving process you have practiced."
+ },
+ "raw": "{\n  \"summary\": \"The plan front\u2011loads the student\u2019s weak units (2, 4, 6) with focused live classes and targeted practice, then moves through the remaining units while keeping a steady mix of concept work, free\u2011response drills, and timed practice. The final week is dedicated to mixed review and timed exam\u2011style problems to consolidate knowledge and build stamina.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 8,\n      \"focus\": \"Build foundational differentiation skills (Unit\u202f2) and attend live Class\u202f11300.\",\n      \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"],\n      \"classes\": [11300],\n      \"tasks\": [\n        \"Watch the recorded lecture for Class\u202f11300 and take concise notes on average vs. instantaneous rate.\",\n        \"Do 12 free\u2011response questions on defining the derivative and using derivative notation; check answers with the scoring guide.\",\n        \"Complete 8 derivative estimation problems from a textbook table; verify with calculator.\",\n        \"Create a one\u2011page summary sheet of the Power Rule with example problems.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 8,\n      \"focus\": \"Master limits and continuity (Unit\u202f1) and begin composite differentiation.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"3.1\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Solve 10 limit problems involving algebraic manipulation and tables; write a brief justification for each.\",\n        \"Graph three functions and estimate limits from the graphs; compare with analytic results.\",\n        \"Practice the Chain Rule on 6 composite functions; record each step on paper.\",\n        \"Do 5 FRQs that combine limits with the definition of the derivative.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 8,\n      \"focus\": \"Implicit, inverse functions, and related differentiation techniques (Unit\u202f3).\",\n      \"topics\": [\"3.2\", \"3.3\", \"3.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete 8 implicit differentiation problems, then solve for dy/dx explicitly.\",\n        \"Work through 6 inverse function differentiation examples, checking with the inverse function theorem.\",\n        \"Practice differentiating inverse trigonometric functions in 5 problems.\",\n        \"Take a timed 15\u2011minute mini\u2011quiz covering all three sub\u2011topics.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 8,\n      \"focus\": \"Contextual applications of differentiation (Unit\u202f4) and attend live Class\u202f11301.\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"],\n      \"classes\": [11301],\n      \"tasks\": [\n        \"Review notes from Class\u202f11301; write a one\u2011sentence interpretation for each derivative context.\",\n        \"Solve 4 related\u2011rates problems involving motion and 4 problems involving non\u2011motion rates.\",\n        \"Create a concept map linking position, velocity, acceleration, and rates of change.\",\n        \"Do 6 FRQs that require setting up and solving a related\u2011rates equation; self\u2011grade with the rubric.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 8,\n      \"focus\": \"Analytical applications of differentiation (Unit\u202f5).\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Apply the Mean Value Theorem to 4 functions; write the theorem statement each time.\",\n        \"Identify critical points and classify extrema for 6 different functions using the First Derivative Test.\",\n        \"Create a table of intervals of increase/decrease for 5 functions and verify with graphs.\",\n        \"Complete a mixed\u2011practice set of 8 FRQs covering all Unit\u202f5 concepts.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"hours\": 8,\n      \"focus\": \"Integration fundamentals (Unit\u202f6) and attend live Class\u202f11302.\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"],\n      \"classes\": [11302],\n      \"tasks\": [\n        \"Review Class\u202f11302 notes; summarize the connection between Riemann sums and definite integrals.\",\n        \"Compute 5 Riemann sum approximations (left, right, midpoint) for given functions.\",\n        \"Practice evaluating definite integrals using the Fundamental Theorem of Calculus in 6 problems.\",\n        \"Do 4 FRQs that require setting up an accumulation function and interpreting its meaning.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"hours\": 8,\n      \"focus\": \"Mixed review and timed practice for the whole AP Calculus AB exam.\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Take a full\u2011length 90\u2011minute timed practice exam (all sections).\",\n        \"Mark the exam using the official scoring guide; note any recurring errors.\",\n        \"Review each incorrect problem, re\u2011doing it with a focus on the underlying concept.\",\n        \"Create a final cheat\u2011sheet of key formulas, theorems, and common FRQ strategies.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the review week, spend any remaining days doing additional timed sections, focusing on speed and accuracy. Rest well the night before the exam, and on test day bring your cheat\u2011sheet, a calculator, and confidence in the systematic problem\u2011solving process you have practiced.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1289,
+ "output_tokens": 1529,
+ "latency_ms": 3503
+}

@@ -1,0 +1,191 @@
+{
+ "data": {
+  "summary": "The 10\u2011week plan introduces each AP Calculus AB unit in a logical order, allocating 5 study hours per week. Early weeks focus on foundational limits and differentiation, then move through applications, integration, and differential equations. The final two weeks are dedicated to mixed review and timed practice to solidify understanding and improve exam speed.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Foundations: limits and basic differentiation concepts",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [
+     11000,
+     11001
+    ],
+    "hours": 5,
+    "tasks": [
+     "Watch the live class on limits (11000) and take detailed notes on 1.1 and 1.2.",
+     "Do 8 practice problems estimating limits from graphs (1.1) and tables (1.2).",
+     "Watch the live class on average/instantaneous rates (11001) and complete the guided worksheet.",
+     "Complete 10 derivative\u2011definition problems (2.1) and check answers with the scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Derivative rules and power rule",
+    "topics": [
+     "2.3",
+     "2.4",
+     "2.5",
+     "5.1"
+    ],
+    "classes": [
+     11004
+    ],
+    "hours": 5,
+    "tasks": [
+     "Review class notes on power rule (2.5) and solve 12 mixed\u2011rule derivative problems.",
+     "Practice estimating derivatives at points (2.3) with 6 graph\u2011based questions.",
+     "Read the textbook section on continuity \u2194 differentiability (2.4) and write a one\u2011page summary.",
+     "Attend live class on Mean Value Theorem (11004) and complete the in\u2011class worksheet."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Chain rule and implicit differentiation",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Watch the recorded tutorial on the chain rule and do 10 chain\u2011rule derivative problems.",
+     "Do 8 implicit differentiation problems (including related rates set\u2011ups) and verify each step.",
+     "Create a cheat sheet listing chain\u2011rule and implicit\u2011diff formulas."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Inverse functions and trigonometric inverses",
+    "topics": [
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Solve 6 problems differentiating inverse functions (3.3).",
+     "Complete 8 derivative problems involving inverse trig functions (3.4).",
+     "Check answers against the AP scoring guidelines and note common errors."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Contextual applications of differentiation",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Do 5 motion\u2011context problems connecting position, velocity, acceleration (4.2).",
+     "Complete 6 related\u2011rates problems (4.4) and write a brief explanation of each set\u2011up.",
+     "Answer 4 rate\u2011of\u2011change in non\u2011motion contexts (4.3).",
+     "Summarize how derivative meaning changes with context (4.1) in a paragraph."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Extrema and first\u2011derivative test",
+    "topics": [
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Identify critical points and classify them in 8 functions (5.2).",
+     "Determine increasing/decreasing intervals for 6 functions (5.3).",
+     "Apply the First Derivative Test to 5 functions and record conclusions (5.4).",
+     "Review the Mean Value Theorem notes from week 2."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Integration basics and Riemann sums",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read the section on accumulation of change (6.1) and write 3 real\u2011world examples.",
+     "Complete 10 Riemann\u2011sum approximation problems (6.2 & 6.3) using left, right, and midpoint sums.",
+     "Translate a summation notation problem into a definite integral (6.3)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Fundamental Theorem of Calculus and applications",
+    "topics": [
+     "6.4",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Solve 8 problems applying the Fundamental Theorem of Calculus (6.4).",
+     "Find average values of functions on given intervals (8.1) in 6 calculations.",
+     "Work through 5 position\u2011velocity\u2011acceleration integration problems (8.2)."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Differential equations and slope fields",
+    "topics": [
+     "7.1",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Model 4 real\u2011world situations with differential equations (7.1).",
+     "Sketch slope fields for 3 differential equations (7.3).",
+     "Practice reasoning from slope fields by answering 5 interpretation questions (7.4)."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Mixed review and timed practice",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.1",
+     "2.5",
+     "3.1",
+     "4.4",
+     "5.2",
+     "6.4",
+     "7.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 55\u2011minute full\u2011length AP practice section covering all units; mark answers against the scoring guide.",
+     "Review every missed question, rewriting the solution step\u2011by\u2011step.",
+     "Do a rapid\u2011fire set of 20 mixed\u2011topic free\u2011response questions (2 per unit) in 30 minutes.",
+     "Create a final one\u2011page cheat sheet summarizing key formulas and strategies."
+    ]
+   }
+  ],
+  "final_week_advice": "On the day before the exam, skim your cheat sheet, do a short 15\u2011minute warm\u2011up of a few FRQs, and focus on breathing and confidence. Trust the systematic practice you\u2019ve built over the past weeks."
+ },
+ "raw": "{\n  \"summary\": \"The 10\u2011week plan introduces each AP Calculus AB unit in a logical order, allocating 5 study hours per week. Early weeks focus on foundational limits and differentiation, then move through applications, integration, and differential equations. The final two weeks are dedicated to mixed review and timed practice to solidify understanding and improve exam speed.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Foundations: limits and basic differentiation concepts\",\n      \"topics\": [\"1.1\", \"1.2\", \"2.1\", \"2.2\"],\n      \"classes\": [11000, 11001],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch the live class on limits (11000) and take detailed notes on 1.1 and 1.2.\",\n        \"Do 8 practice problems estimating limits from graphs (1.1) and tables (1.2).\",\n        \"Watch the live class on average/instantaneous rates (11001) and complete the guided worksheet.\",\n        \"Complete 10 derivative\u2011definition problems (2.1) and check answers with the scoring guide.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Derivative rules and power rule\",\n      \"topics\": [\"2.3\", \"2.4\", \"2.5\", \"5.1\"],\n      \"classes\": [11004],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Review class notes on power rule (2.5) and solve 12 mixed\u2011rule derivative problems.\",\n        \"Practice estimating derivatives at points (2.3) with 6 graph\u2011based questions.\",\n        \"Read the textbook section on continuity \u2194 differentiability (2.4) and write a one\u2011page summary.\",\n        \"Attend live class on Mean Value Theorem (11004) and complete the in\u2011class worksheet.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Chain rule and implicit differentiation\",\n      \"topics\": [\"3.1\", \"3.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch the recorded tutorial on the chain rule and do 10 chain\u2011rule derivative problems.\",\n        \"Do 8 implicit differentiation problems (including related rates set\u2011ups) and verify each step.\",\n        \"Create a cheat sheet listing chain\u2011rule and implicit\u2011diff formulas.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Inverse functions and trigonometric inverses\",\n      \"topics\": [\"3.3\", \"3.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Solve 6 problems differentiating inverse functions (3.3).\",\n        \"Complete 8 derivative problems involving inverse trig functions (3.4).\",\n        \"Check answers against the AP scoring guidelines and note common errors.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Contextual applications of differentiation\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Do 5 motion\u2011context problems connecting position, velocity, acceleration (4.2).\",\n        \"Complete 6 related\u2011rates problems (4.4) and write a brief explanation of each set\u2011up.\",\n        \"Answer 4 rate\u2011of\u2011change in non\u2011motion contexts (4.3).\",\n        \"Summarize how derivative meaning changes with context (4.1) in a paragraph.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Extrema and first\u2011derivative test\",\n      \"topics\": [\"5.2\", \"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Identify critical points and classify them in 8 functions (5.2).\",\n        \"Determine increasing/decreasing intervals for 6 functions (5.3).\",\n        \"Apply the First Derivative Test to 5 functions and record conclusions (5.4).\",\n        \"Review the Mean Value Theorem notes from week 2.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Integration basics and Riemann sums\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read the section on accumulation of change (6.1) and write 3 real\u2011world examples.\",\n        \"Complete 10 Riemann\u2011sum approximation problems (6.2 & 6.3) using left, right, and midpoint sums.\",\n        \"Translate a summation notation problem into a definite integral (6.3).\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Fundamental Theorem of Calculus and applications\",\n      \"topics\": [\"6.4\", \"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Solve 8 problems applying the Fundamental Theorem of Calculus (6.4).\",\n        \"Find average values of functions on given intervals (8.1) in 6 calculations.\",\n        \"Work through 5 position\u2011velocity\u2011acceleration integration problems (8.2).\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Differential equations and slope fields\",\n      \"topics\": [\"7.1\", \"7.3\", \"7.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Model 4 real\u2011world situations with differential equations (7.1).\",\n        \"Sketch slope fields for 3 differential equations (7.3).\",\n        \"Practice reasoning from slope fields by answering 5 interpretation questions (7.4).\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Mixed review and timed practice\",\n      \"topics\": [\"1.1\",\"1.2\",\"2.1\",\"2.5\",\"3.1\",\"4.4\",\"5.2\",\"6.4\",\"7.1\",\"8.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Take a 55\u2011minute full\u2011length AP practice section covering all units; mark answers against the scoring guide.\",\n        \"Review every missed question, rewriting the solution step\u2011by\u2011step.\",\n        \"Do a rapid\u2011fire set of 20 mixed\u2011topic free\u2011response questions (2 per unit) in 30 minutes.\",\n        \"Create a final one\u2011page cheat sheet summarizing key formulas and strategies.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"On the day before the exam, skim your cheat sheet, do a short 15\u2011minute warm\u2011up of a few FRQs, and focus on breathing and confidence. Trust the systematic practice you\u2019ve built over the past weeks.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1274,
+ "output_tokens": 1595,
+ "latency_ms": 3653
+}

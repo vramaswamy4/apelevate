@@ -3,6 +3,17 @@
 The refresh of the recovered 2022 app, newest first. `docs/ORIGINAL.md` numbers the problems
 (S1, X1, C1, …), and the entries here refer to those numbers.
 
+## LLM study planner (2026-09-23)
+
+- New `planner` app: week-by-week plans from an open-weights model (Groq, OpenAI-compatible
+  API), with code-computed context, strict JSON schema output, code checks, one corrective
+  retry, per-user and global limits, caching, and usage recorded per plan.
+- Eval suite: 24 cases, recorded responses, `make eval` / `make eval-replay`,
+  `docs/EVALS.md`. Prompt v2 came out of v1's results (clean plans 62% → 88%);
+  `gpt-oss-120b` chosen over `gpt-oss-20b` (valid plans 100% vs 71%).
+- Handles Groq's post-generation schema rejections (400 `json_validate_failed`) as a
+  retryable rule break; sets the output token limit explicitly.
+
 ## Hosting (2026-09-23)
 
 - Live at https://apelevate-1065774348021.us-west1.run.app: Cloud Run (us-west1) + Neon

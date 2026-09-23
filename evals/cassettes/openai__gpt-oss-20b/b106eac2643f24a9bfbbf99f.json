@@ -1,0 +1,261 @@
+{
+ "data": {
+  "summary": "This 16\u2011week plan starts with the weak Unit\u202f1, interleaves new material with practice, and reserves the final two weeks for mixed review and timed practice. Each week is capped at 5\u202fhours and includes concrete tasks that can be completed in one sitting.",
+  "final_week_advice": "Use the last two weeks for full-length timed practice exams and targeted review of any remaining weak spots. Focus on pacing, question\u2011type familiarity, and quick error analysis.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Build a solid foundation in limits and continuity.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Do 10 limit\u2011value problems from the textbook, then check solutions.",
+     "Sketch the graph of f(x)=x^2 and estimate limits at x=2 from both sides.",
+     "Write a short summary of the algebraic properties of limits and test them on 5 sample problems."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Apply limit concepts and attend live class.",
+    "topics": [
+     "1.4",
+     "1.5"
+    ],
+    "classes": [
+     10800
+    ],
+    "hours": 5,
+    "tasks": [
+     "Complete the live class on 1.1\u20111.3, take notes on key points.",
+     "Do 8 table\u2011based limit problems and record the results.",
+     "Solve 5 algebraic limit problems using properties, then self\u2011grade."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Transition to differentiation basics.",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Derive the definition of the derivative for f(x)=x^2.",
+     "Compute the derivative of f(x)=sin x at x=\u03c0/4 using limit definition.",
+     "Estimate the derivative of f(x)=x^3 at x=1 from a graph."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Connect differentiability and continuity.",
+    "topics": [
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Prove that differentiability implies continuity for f(x)=x^2.",
+     "Apply the power rule to find f'(x) for f(x)=x^5-3x^2+7.",
+     "Solve 4 power\u2011rule problems and check against a solution key."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Chain rule and implicit differentiation.",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Use the chain rule to differentiate y=sin(x^2).",
+     "Solve 3 implicit differentiation problems (e.g., x^2+y^2=25).",
+     "Check answers with a calculator or software."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Inverse functions and trig inverses.",
+    "topics": [
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Differentiate f^{-1}(x)=ln x and verify using inverse rule.",
+     "Differentiate arcsin x and arccos x, then solve 2 practice problems.",
+     "Compare results with known derivatives."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Interpret derivatives in context.",
+    "topics": [
+     "4.1",
+     "4.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Explain in words what the derivative of distance vs. time represents.",
+     "Model a car\u2019s motion with s(t)=t^3-6t^2+9t and find velocity and acceleration.",
+     "Plot the functions and label key points."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Rates of change and related rates.",
+    "topics": [
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Solve 3 related\u2011rates problems (e.g., leaking tank).",
+     "Write a brief explanation of the related\u2011rates method.",
+     "Check solutions with a reference guide."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mean Value Theorem and extrema.",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "State the Mean Value Theorem and apply it to f(x)=x^3-3x+1 on [0,2].",
+     "Identify all critical points of f(x)=x^4-4x^2 and classify them using the MVT."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Increasing/decreasing and first derivative test.",
+    "topics": [
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Determine intervals where f(x)=x^3-3x+1 is increasing/decreasing.",
+     "Use the first derivative test to find local extrema of f(x)=x^4-4x^2.",
+     "Verify results with a graphing calculator."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Riemann sums and definite integrals.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Approximate the area under f(x)=x^2 on [0,3] using 4 subintervals.",
+     "Write the Riemann sum notation for the same problem.",
+     "Compute the exact integral using the Fundamental Theorem of Calculus."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Fundamental Theorem of Calculus and accumulation functions.",
+    "topics": [
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Prove FTC Part\u202fI for f(x)=x^2.",
+     "Find the accumulation function A(x)=\u222b_0^x t^2 dt and evaluate A(5).",
+     "Check with a symbolic calculator."
+    ]
+   },
+   {
+    "week": 13,
+    "focus": "Differential equations basics.",
+    "topics": [
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Model a population growth problem with dy/dt=ky.",
+     "Verify that y(t)=Ce^{kt} satisfies the differential equation.",
+     "Solve for C given y(0)=10 and k=0.3."
+    ]
+   },
+   {
+    "week": 14,
+    "focus": "Slope fields and reasoning.",
+    "topics": [
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Sketch a slope field for dy/dt=1-y^2.",
+     "Use the field to predict behavior of solutions starting at y(0)=0.5.",
+     "Compare with analytical solution y(t)=tanh(t)."
+    ]
+   },
+   {
+    "week": 15,
+    "focus": "Applications of integration \u2013 averages and areas.",
+    "topics": [
+     "8.1",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Find the average value of f(x)=x^2 on [0,2].",
+     "Compute the area between y=x^2 and y=2x on [0,2].",
+     "Verify with numerical integration."
+    ]
+   },
+   {
+    "week": 16,
+    "focus": "Mixed review and timed practice.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.1",
+     "2.5",
+     "5.3",
+     "6.4",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 50\u2011minute timed practice quiz covering all reviewed topics.",
+     "Review incorrect answers and write a brief explanation for each.",
+     "Create a one\u2011page cheat sheet summarizing key formulas and theorems."
+    ]
+   }
+  ]
+ },
+ "raw": "{\"summary\":\"This 16\u2011week plan starts with the weak Unit\u202f1, interleaves new material with practice, and reserves the final two weeks for mixed review and timed practice. Each week is capped at 5\u202fhours and includes concrete tasks that can be completed in one sitting.\",\"final_week_advice\":\"Use the last two weeks for full-length timed practice exams and targeted review of any remaining weak spots. Focus on pacing, question\u2011type familiarity, and quick error analysis.\",\"weeks\":[{\"week\":1,\"focus\":\"Build a solid foundation in limits and continuity.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Do 10 limit\u2011value problems from the textbook, then check solutions.\",\"Sketch the graph of f(x)=x^2 and estimate limits at x=2 from both sides.\",\"Write a short summary of the algebraic properties of limits and test them on 5 sample problems.\"],\"classes\":[]},{\"week\":2,\"focus\":\"Apply limit concepts and attend live class.\",\"topics\":[\"1.4\",\"1.5\"],\"classes\":[10800],\"hours\":5,\"tasks\":[\"Complete the live class on 1.1\u20111.3, take notes on key points.\",\"Do 8 table\u2011based limit problems and record the results.\",\"Solve 5 algebraic limit problems using properties, then self\u2011grade.\"],\"classes\":[10800]},{\"week\":3,\"focus\":\"Transition to differentiation basics.\",\"topics\":[\"2.1\",\"2.2\",\"2.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Derive the definition of the derivative for f(x)=x^2.\",\"Compute the derivative of f(x)=sin x at x=\u03c0/4 using limit definition.\",\"Estimate the derivative of f(x)=x^3 at x=1 from a graph.\"],\"classes\":[]},{\"week\":4,\"focus\":\"Connect differentiability and continuity.\",\"topics\":[\"2.4\",\"2.5\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Prove that differentiability implies continuity for f(x)=x^2.\",\"Apply the power rule to find f'(x) for f(x)=x^5-3x^2+7.\",\"Solve 4 power\u2011rule problems and check against a solution key.\"],\"classes\":[]},{\"week\":5,\"focus\":\"Chain rule and implicit differentiation.\",\"topics\":[\"3.1\",\"3.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Use the chain rule to differentiate y=sin(x^2).\",\"Solve 3 implicit differentiation problems (e.g., x^2+y^2=25).\",\"Check answers with a calculator or software.\"],\"classes\":[]},{\"week\":6,\"focus\":\"Inverse functions and trig inverses.\",\"topics\":[\"3.3\",\"3.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Differentiate f^{-1}(x)=ln x and verify using inverse rule.\",\"Differentiate arcsin x and arccos x, then solve 2 practice problems.\",\"Compare results with known derivatives.\"],\"classes\":[]},{\"week\":7,\"focus\":\"Interpret derivatives in context.\",\"topics\":[\"4.1\",\"4.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Explain in words what the derivative of distance vs. time represents.\",\"Model a car\u2019s motion with s(t)=t^3-6t^2+9t and find velocity and acceleration.\",\"Plot the functions and label key points.\"],\"classes\":[]},{\"week\":8,\"focus\":\"Rates of change and related rates.\",\"topics\":[\"4.3\",\"4.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Solve 3 related\u2011rates problems (e.g., leaking tank).\",\"Write a brief explanation of the related\u2011rates method.\",\"Check solutions with a reference guide.\"],\"classes\":[]},{\"week\":9,\"focus\":\"Mean Value Theorem and extrema.\",\"topics\":[\"5.1\",\"5.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"State the Mean Value Theorem and apply it to f(x)=x^3-3x+1 on [0,2].\",\"Identify all critical points of f(x)=x^4-4x^2 and classify them using the MVT.\"],\"classes\":[]},{\"week\":10,\"focus\":\"Increasing/decreasing and first derivative test.\",\"topics\":[\"5.3\",\"5.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Determine intervals where f(x)=x^3-3x+1 is increasing/decreasing.\",\"Use the first derivative test to find local extrema of f(x)=x^4-4x^2.\",\"Verify results with a graphing calculator.\"],\"classes\":[]},{\"week\":11,\"focus\":\"Riemann sums and definite integrals.\",\"topics\":[\"6.1\",\"6.2\",\"6.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Approximate the area under f(x)=x^2 on [0,3] using 4 subintervals.\",\"Write the Riemann sum notation for the same problem.\",\"Compute the exact integral using the Fundamental Theorem of Calculus.\"],\"classes\":[]},{\"week\":12,\"focus\":\"Fundamental Theorem of Calculus and accumulation functions.\",\"topics\":[\"6.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Prove FTC Part\u202fI for f(x)=x^2.\",\"Find the accumulation function A(x)=\u222b_0^x t^2 dt and evaluate A(5).\",\"Check with a symbolic calculator.\"],\"classes\":[]},{\"week\":13,\"focus\":\"Differential equations basics.\",\"topics\":[\"7.1\",\"7.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Model a population growth problem with dy/dt=ky.\",\"Verify that y(t)=Ce^{kt} satisfies the differential equation.\",\"Solve for C given y(0)=10 and k=0.3.\"],\"classes\":[]},{\"week\":14,\"focus\":\"Slope fields and reasoning.\",\"topics\":[\"7.3\",\"7.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Sketch a slope field for dy/dt=1-y^2.\",\"Use the field to predict behavior of solutions starting at y(0)=0.5.\",\"Compare with analytical solution y(t)=tanh(t).\"],\"classes\":[]},{\"week\":15,\"focus\":\"Applications of integration \u2013 averages and areas.\",\"topics\":[\"8.1\",\"8.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Find the average value of f(x)=x^2 on [0,2].\",\"Compute the area between y=x^2 and y=2x on [0,2].\",\"Verify with numerical integration.\"],\"classes\":[]},{\"week\":16,\"focus\":\"Mixed review and timed practice.\",\"topics\":[\"1.1\",\"1.2\",\"2.1\",\"2.5\",\"5.3\",\"6.4\",\"8.1\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Take a 50\u2011minute timed practice quiz covering all reviewed topics.\",\"Review incorrect answers and write a brief explanation for each.\",\"Create a one\u2011page cheat sheet summarizing key formulas and theorems.\"],\"classes\":[]}]}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1218,
+ "output_tokens": 1501,
+ "latency_ms": 1934
+}

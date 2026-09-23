@@ -1,0 +1,76 @@
+{
+ "data": {
+  "summary": "The three\u2011week plan front\u2011loads the weak Unit\u202f2 while still introducing the core concepts of each AP Physics\u202f1 unit. Weeks\u202f1 and\u202f2 build new knowledge with focused practice, and Week\u202f3 is dedicated to mixed review and timed free\u2011response practice covering all remaining units before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 7,
+    "focus": "Strengthen Unit\u202f2 (Force and Translational Dynamics) and review basic kinematics.",
+    "topics": [
+     "2.2",
+     "2.5",
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [
+     10100
+    ],
+    "tasks": [
+     "Watch the live Class\u202f10100 recording, taking notes on free\u2011body diagrams and Newton's\u202f2nd law.",
+     "Do 12 free\u2011response FRQs on free\u2011body diagrams and applying F=ma; compare answers to the scoring guide.",
+     "Complete 8 practice problems on vectors and displacement (1.1\u20111.2).",
+     "Create a one\u2011page summary sheet of Newton's laws with example diagrams."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 7,
+    "focus": "Introduce work, energy, momentum, and rotational basics.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.4",
+     "4.1",
+     "4.3",
+     "5.1",
+     "5.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Solve 10 problems on kinetic energy and work (3.1\u20113.2).",
+     "Do 8 FRQs on conservation of energy (3.4) and momentum (4.3).",
+     "Work through 6 rotational\u2011kinematics questions (5.1) and 6 torque problems (5.3).",
+     "Write a brief explanation linking linear and rotational motion (5.2) even though it isn\u2019t a listed topic, to solidify connections."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 7,
+    "focus": "Mixed review and timed practice for all remaining units.",
+    "topics": [
+     "6.1",
+     "6.4",
+     "7.1",
+     "7.3",
+     "8.2",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Take a 45\u2011minute timed practice exam covering Units\u202f6\u20118 (mix of multiple\u2011choice and FRQs).",
+     "Review each question, marking errors against the scoring guide.",
+     "Do 5 free\u2011response questions on angular momentum and conservation (6.4).",
+     "Complete 6 SHM problems (7.1, 7.3) and 4 fluid\u2011pressure questions (8.2, 8.4).",
+     "Update the master summary sheet with key formulas from Units\u202f6\u20118."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on speed and accuracy: simulate exam conditions, use your summary sheet for quick formula recall, and identify any lingering weak spots to review briefly before the test."
+ },
+ "raw": "{\n  \"summary\": \"The three\u2011week plan front\u2011loads the weak Unit\u202f2 while still introducing the core concepts of each AP Physics\u202f1 unit. Weeks\u202f1 and\u202f2 build new knowledge with focused practice, and Week\u202f3 is dedicated to mixed review and timed free\u2011response practice covering all remaining units before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 7,\n      \"focus\": \"Strengthen Unit\u202f2 (Force and Translational Dynamics) and review basic kinematics.\",\n      \"topics\": [\"2.2\", \"2.5\", \"1.1\", \"1.2\", \"1.3\"],\n      \"classes\": [10100],\n      \"tasks\": [\n        \"Watch the live Class\u202f10100 recording, taking notes on free\u2011body diagrams and Newton's\u202f2nd law.\",\n        \"Do 12 free\u2011response FRQs on free\u2011body diagrams and applying F=ma; compare answers to the scoring guide.\",\n        \"Complete 8 practice problems on vectors and displacement (1.1\u20111.2).\",\n        \"Create a one\u2011page summary sheet of Newton's laws with example diagrams.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 7,\n      \"focus\": \"Introduce work, energy, momentum, and rotational basics.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.4\", \"4.1\", \"4.3\", \"5.1\", \"5.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Solve 10 problems on kinetic energy and work (3.1\u20113.2).\",\n        \"Do 8 FRQs on conservation of energy (3.4) and momentum (4.3).\",\n        \"Work through 6 rotational\u2011kinematics questions (5.1) and 6 torque problems (5.3).\",\n        \"Write a brief explanation linking linear and rotational motion (5.2) even though it isn\u2019t a listed topic, to solidify connections.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 7,\n      \"focus\": \"Mixed review and timed practice for all remaining units.\",\n      \"topics\": [\"6.1\", \"6.4\", \"7.1\", \"7.3\", \"8.2\", \"8.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Take a 45\u2011minute timed practice exam covering Units\u202f6\u20118 (mix of multiple\u2011choice and FRQs).\",\n        \"Review each question, marking errors against the scoring guide.\",\n        \"Do 5 free\u2011response questions on angular momentum and conservation (6.4).\",\n        \"Complete 6 SHM problems (7.1, 7.3) and 4 fluid\u2011pressure questions (8.2, 8.4).\",\n        \"Update the master summary sheet with key formulas from Units\u202f6\u20118.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, focus on speed and accuracy: simulate exam conditions, use your summary sheet for quick formula recall, and identify any lingering weak spots to review briefly before the test.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1042,
+ "output_tokens": 812,
+ "latency_ms": 2158
+}

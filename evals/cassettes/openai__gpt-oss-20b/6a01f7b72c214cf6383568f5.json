@@ -1,0 +1,104 @@
+{
+ "data": {
+  "summary": "This six\u2011week plan tackles the weak Fluid unit first, then cycles through the remaining units, ending with a mixed review. Each week uses the full four hours, with concrete tasks and a single live class in week\u202f3 that covers key Fluid topics.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Start with Fluids fundamentals",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Read textbook section on 8.1 and 8.2, then solve 5 problems on density and pressure. Mark solutions using the rubric."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Apply Newton\u2019s laws to fluids",
+    "topics": [
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Watch lecture video on 8.3, then complete 3 free\u2011response questions on fluid forces. Review 8.4 by summarizing conservation principles in 200 words."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Live class on Fluids",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3"
+    ],
+    "classes": [
+     10400
+    ],
+    "hours": 4,
+    "tasks": [
+     "Attend live class 10400. Take notes on key equations. After class, redo 2 practice problems from the class handout and compare answers with peers."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Cover Kinematics and Forces",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.2",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Solve 4 kinematics problems involving vectors. Then tackle 3 Newton\u2019s Second Law problems, marking each solution."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Review and mixed practice",
+    "topics": [
+     "3.1",
+     "4.1",
+     "5.1",
+     "6.1",
+     "7.1"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Timed 30\u2011minute quiz covering one problem from each listed topic. Review mistakes and rewrite solutions."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Final timed practice",
+    "topics": [
+     "1.3",
+     "2.4",
+     "3.4",
+     "4.3",
+     "5.3",
+     "6.4",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Take a full-length 60\u2011minute practice exam. Score yourself, then analyze errors and create a one\u2011page summary of key concepts to remember."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on consolidating your understanding, practicing under timed conditions, and identifying any lingering weak spots before the exam."
+ },
+ "raw": "{\"summary\":\"This six\u2011week plan tackles the weak Fluid unit first, then cycles through the remaining units, ending with a mixed review. Each week uses the full four hours, with concrete tasks and a single live class in week\u202f3 that covers key Fluid topics.\",\"weeks\":[{\"week\":1,\"focus\":\"Start with Fluids fundamentals\",\"topics\":[\"8.1\",\"8.2\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Read textbook section on 8.1 and 8.2, then solve 5 problems on density and pressure. Mark solutions using the rubric.\"]},{\"week\":2,\"focus\":\"Apply Newton\u2019s laws to fluids\",\"topics\":[\"8.3\",\"8.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Watch lecture video on 8.3, then complete 3 free\u2011response questions on fluid forces. Review 8.4 by summarizing conservation principles in 200 words.\"]},{\"week\":3,\"focus\":\"Live class on Fluids\",\"topics\":[\"8.1\",\"8.2\",\"8.3\"],\"classes\":[10400],\"hours\":4,\"tasks\":[\"Attend live class 10400. Take notes on key equations. After class, redo 2 practice problems from the class handout and compare answers with peers.\"]},{\"week\":4,\"focus\":\"Cover Kinematics and Forces\",\"topics\":[\"1.1\",\"1.2\",\"2.2\",\"2.5\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Solve 4 kinematics problems involving vectors. Then tackle 3 Newton\u2019s Second Law problems, marking each solution.\"]},{\"week\":5,\"focus\":\"Review and mixed practice\",\"topics\":[\"3.1\",\"4.1\",\"5.1\",\"6.1\",\"7.1\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Timed 30\u2011minute quiz covering one problem from each listed topic. Review mistakes and rewrite solutions.\"]},{\"week\":6,\"focus\":\"Final timed practice\",\"topics\":[\"1.3\",\"2.4\",\"3.4\",\"4.3\",\"5.3\",\"6.4\",\"7.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Take a full-length 60\u2011minute practice exam. Score yourself, then analyze errors and create a one\u2011page summary of key concepts to remember.\"]}],\"final_week_advice\":\"In the last week, focus on consolidating your understanding, practicing under timed conditions, and identifying any lingering weak spots before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1044,
+ "output_tokens": 563,
+ "latency_ms": 775
+}

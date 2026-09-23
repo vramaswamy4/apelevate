@@ -1,0 +1,244 @@
+{
+ "data": {
+  "summary": "This 16\u2011week plan starts with the student\u2019s weak units, interleaves new material, and ends with mixed review and timed practice. Each week is limited to 4 hours and includes concrete tasks that can be completed in one sitting. Live classes are scheduled exactly when they occur, and every unit appears at least once.",
+  "final_week_advice": "In the last week, focus on full-length timed practice exams and quick concept reviews to solidify confidence before the AP test.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Atomic Structure fundamentals",
+    "topics": [
+     "1.1",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Read 1.1 and 1.5 notes; write a 200\u2011word summary of moles and electron configuration.",
+     "Do 10 practice problems on mole calculations and electron shell diagrams; check answers with the scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Mass Spectroscopy and Composition",
+    "topics": [
+     "1.2",
+     "1.3"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Watch a 15\u2011min video on mass spectroscopy; take notes on key steps.",
+     "Solve 8 mass spec problems; annotate each step and compare with model solutions."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Mixtures and Periodic Trends",
+    "topics": [
+     "1.4",
+     "1.7"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Create flashcards for mixture types and periodic trend facts.",
+     "Do 12 mixed\u2011question worksheet covering 1.4 and 1.7; self\u2011grade with rubric."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Valence Electrons and Ionic Compounds",
+    "topics": [
+     "1.8"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Draw 5 Lewis structures for common ions; explain valence electron count.",
+     "Answer 6 short\u2011answer questions on ionic compound formation; peer\u2011review with a study partner."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Live Class 1 \u2013 Moles, Spectroscopy, Composition",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [
+     9300
+    ],
+    "hours": 4,
+    "tasks": [
+     "Attend live class; take detailed notes on instructor explanations.",
+     "After class, review notes and complete 5 class\u2011assigned practice problems."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Chemical Bonds and Forces",
+    "topics": [
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Read 2.1 and 2.2; diagram bond types and potential energy curves.",
+     "Do 10 bond identification problems; record answers and rationale."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Ionic Solids and Metals",
+    "topics": [
+     "2.3",
+     "2.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Sketch crystal lattices for ionic solids; list key properties of metals.",
+     "Solve 6 comparison questions on ionic vs metallic bonding; self\u2011grade."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Live Class 2 \u2013 Lewis Diagrams & Resonance",
+    "topics": [
+     "2.5",
+     "2.6"
+    ],
+    "classes": [
+     9301
+    ],
+    "hours": 4,
+    "tasks": [
+     "Participate in live class; practice drawing Lewis structures and resonance forms.",
+     "Post\u2011class, complete 4 resonance exercises; compare with model solutions."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "VSEPR and Hybridization",
+    "topics": [
+     "2.7"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Create a VSEPR chart for 5 molecules; determine hybridization states.",
+     "Answer 5 hybridization multiple\u2011choice questions; check with answer key."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Intermolecular Forces and Solids",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Write a paragraph explaining how forces affect solid properties.",
+     "Do 8 practice problems on predicting melting points from force types."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Gases and Ideal Gas Law",
+    "topics": [
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Derive the ideal gas equation; solve 6 sample problems with different variables."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Kinetic Theory and Reaction Rates",
+    "topics": [
+     "3.5",
+     "5.1"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Summarize kinetic molecular theory in 3 sentences; diagram collision theory.",
+     "Solve 5 rate\u2011law problems; record rate constants and units."
+    ]
+   },
+   {
+    "week": 13,
+    "focus": "Stoichiometry and Thermochemistry",
+    "topics": [
+     "4.5",
+     "6.1"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Perform a full stoichiometry calculation for a given reaction; show all steps.",
+     "Answer 4 calorimetry questions; calculate \u0394H for each."
+    ]
+   },
+   {
+    "week": 14,
+    "focus": "Equilibrium Concepts",
+    "topics": [
+     "7.1",
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Explain Le Chatelier\u2019s principle with 3 examples; calculate Q and K for a reaction."
+    ]
+   },
+   {
+    "week": 15,
+    "focus": "Acids, Bases, and Electrochemistry",
+    "topics": [
+     "8.1",
+     "9.1"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Compute pH for a given strong acid; discuss entropy change in a chemical reaction."
+    ]
+   },
+   {
+    "week": 16,
+    "focus": "Mixed Review & Timed Practice",
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.2",
+     "6.2",
+     "7.4",
+     "8.2",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Take a 60\u2011minute timed practice quiz covering all reviewed topics; score and analyze mistakes.",
+     "Review flashcards for each unit; spend 20 minutes on weak areas identified in the quiz."
+    ]
+   }
+  ]
+ },
+ "raw": "{\"summary\":\"This 16\u2011week plan starts with the student\u2019s weak units, interleaves new material, and ends with mixed review and timed practice. Each week is limited to 4 hours and includes concrete tasks that can be completed in one sitting. Live classes are scheduled exactly when they occur, and every unit appears at least once.\",\"final_week_advice\":\"In the last week, focus on full-length timed practice exams and quick concept reviews to solidify confidence before the AP test.\",\"weeks\":[{\"week\":1,\"focus\":\"Atomic Structure fundamentals\",\"topics\":[\"1.1\",\"1.5\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Read 1.1 and 1.5 notes; write a 200\u2011word summary of moles and electron configuration.\",\"Do 10 practice problems on mole calculations and electron shell diagrams; check answers with the scoring guide.\"]},{\"week\":2,\"focus\":\"Mass Spectroscopy and Composition\",\"topics\":[\"1.2\",\"1.3\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Watch a 15\u2011min video on mass spectroscopy; take notes on key steps.\",\"Solve 8 mass spec problems; annotate each step and compare with model solutions.\"]},{\"week\":3,\"focus\":\"Mixtures and Periodic Trends\",\"topics\":[\"1.4\",\"1.7\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Create flashcards for mixture types and periodic trend facts.\",\"Do 12 mixed\u2011question worksheet covering 1.4 and 1.7; self\u2011grade with rubric.\"]},{\"week\":4,\"focus\":\"Valence Electrons and Ionic Compounds\",\"topics\":[\"1.8\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Draw 5 Lewis structures for common ions; explain valence electron count.\",\"Answer 6 short\u2011answer questions on ionic compound formation; peer\u2011review with a study partner.\"]},{\"week\":5,\"focus\":\"Live Class 1 \u2013 Moles, Spectroscopy, Composition\",\"topics\":[\"1.1\",\"1.2\",\"1.3\"],\"classes\":[9300],\"hours\":4,\"tasks\":[\"Attend live class; take detailed notes on instructor explanations.\",\"After class, review notes and complete 5 class\u2011assigned practice problems.\"]},{\"week\":6,\"focus\":\"Chemical Bonds and Forces\",\"topics\":[\"2.1\",\"2.2\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Read 2.1 and 2.2; diagram bond types and potential energy curves.\",\"Do 10 bond identification problems; record answers and rationale.\"]},{\"week\":7,\"focus\":\"Ionic Solids and Metals\",\"topics\":[\"2.3\",\"2.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Sketch crystal lattices for ionic solids; list key properties of metals.\",\"Solve 6 comparison questions on ionic vs metallic bonding; self\u2011grade.\"]},{\"week\":8,\"focus\":\"Live Class 2 \u2013 Lewis Diagrams & Resonance\",\"topics\":[\"2.5\",\"2.6\"],\"classes\":[9301],\"hours\":4,\"tasks\":[\"Participate in live class; practice drawing Lewis structures and resonance forms.\",\"Post\u2011class, complete 4 resonance exercises; compare with model solutions.\"]},{\"week\":9,\"focus\":\"VSEPR and Hybridization\",\"topics\":[\"2.7\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Create a VSEPR chart for 5 molecules; determine hybridization states.\",\"Answer 5 hybridization multiple\u2011choice questions; check with answer key.\"]},{\"week\":10,\"focus\":\"Intermolecular Forces and Solids\",\"topics\":[\"3.1\",\"3.2\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Write a paragraph explaining how forces affect solid properties.\",\"Do 8 practice problems on predicting melting points from force types.\"]},{\"week\":11,\"focus\":\"Gases and Ideal Gas Law\",\"topics\":[\"3.3\",\"3.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Derive the ideal gas equation; solve 6 sample problems with different variables.\"]},{\"week\":12,\"focus\":\"Kinetic Theory and Reaction Rates\",\"topics\":[\"3.5\",\"5.1\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Summarize kinetic molecular theory in 3 sentences; diagram collision theory.\",\"Solve 5 rate\u2011law problems; record rate constants and units.\"]},{\"week\":13,\"focus\":\"Stoichiometry and Thermochemistry\",\"topics\":[\"4.5\",\"6.1\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Perform a full stoichiometry calculation for a given reaction; show all steps.\",\"Answer 4 calorimetry questions; calculate \u0394H for each.\"]},{\"week\":14,\"focus\":\"Equilibrium Concepts\",\"topics\":[\"7.1\",\"7.3\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Explain Le Chatelier\u2019s principle with 3 examples; calculate Q and K for a reaction.\"]},{\"week\":15,\"focus\":\"Acids, Bases, and Electrochemistry\",\"topics\":[\"8.1\",\"9.1\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Compute pH for a given strong acid; discuss entropy change in a chemical reaction.\"]},{\"week\":16,\"focus\":\"Mixed Review & Timed Practice\",\"topics\":[\"1.1\",\"2.5\",\"3.4\",\"4.5\",\"5.2\",\"6.2\",\"7.4\",\"8.2\",\"9.3\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Take a 60\u2011minute timed practice quiz covering all reviewed topics; score and analyze mistakes.\",\"Review flashcards for each unit; spend 20 minutes on weak areas identified in the quiz.\"]}]}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1223,
+ "output_tokens": 1206,
+ "latency_ms": 1763
+}

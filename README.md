@@ -18,6 +18,7 @@ server-verified payments and a new interface. The original code is kept in the h
 - [Run it](#run-it)
 - [History](#history)
 - [What it does](#what-it-does)
+- [The study planner (LLM)](#the-study-planner-llm)
 - [Data model](#data-model)
 - [Stack](#stack)
 - [What changed in the refresh](#what-changed-in-the-refresh)
@@ -75,6 +76,8 @@ Other targets:
 make test          # 210 tests, about 2 seconds
 make cov           # the same with a coverage report (90% of lines)
 make lint          # ruff check + ruff format --check
+make eval          # study-planner evals against the models (needs LLM_API_KEY)
+make eval-replay   # re-score the recorded eval responses offline
 make check         # Django's production checklist (check --deploy) with production settings
 make up            # the app on PostgreSQL 17 with docker compose, demo data loaded
 make screenshots   # regenerate docs/screenshots with Playwright
@@ -157,6 +160,52 @@ Phone: [home](docs/screenshots/phone-home.png) · [class](docs/screenshots/phone
 [mentor portal](docs/screenshots/phone-mentor-portal.png). The 2022 pages are in
 [`docs/screenshots/2022/`](docs/screenshots/2022/), rendered from the original code on Django
 4.0.6 because no screenshots from the time survive.
+
+## The study planner (LLM)
+
+Added in 2026, not part of the original. A student picks a subject, an exam date, the hours
+they can study each week and the units they find hardest, and gets a week-by-week plan up to
+the exam: which topics each week, concrete tasks, and the live classes on APElevate that fit.
+It's written by an open-weights model (`openai/gpt-oss-120b` on Groq's free tier) and checked
+by code before anyone sees it.
+
+```mermaid
+flowchart LR
+  F[Form: subject, exam date,<br/>hours, weak units] --> C[context.py<br/>weeks, dates, real topic codes,<br/>classes by week]
+  C --> M[Model<br/>strict JSON schema]
+  M --> K{checks.py}
+  K -- rule broken --> R[One retry with<br/>the errors listed]
+  R --> K
+  K -- still broken --> E[Error, no plan]
+  K -- ok --> P[Plan + warnings,<br/>tokens, latency saved]
+```
+
+- **Code computes, the model judges.** The number of weeks, each week's start date, which
+  week each class falls in, and the only topic codes and class ids that exist are worked out
+  by code and handed to the model as data. The model decides what to study when.
+- **Nothing invented reaches a student.** Every plan is checked: an unknown topic or class, a
+  class in the wrong week, more hours than the student has, or wrong week numbering is a rule
+  break. The model gets one corrective retry with the errors listed; if the plan is still
+  wrong, the student gets an error. Softer problems (a unit never covered, a weak unit left
+  late) are shown with the plan.
+- **No free text goes to the model**, only form choices, so there's nothing to inject a prompt
+  through.
+- **Provider-agnostic.** Plain HTTP to any OpenAI-compatible API (`planner/llm.py`), so
+  switching models or hosts is configuration. A fake model with the same interface runs the
+  whole feature offline in development and tests.
+- **Cost controls.** A daily limit per user, a global daily token budget kept under the
+  provider's free quota, identical requests served from a cache, and tokens, latency, model
+  and attempts recorded on every plan.
+
+**Evals.** `make eval` runs 24 fixed cases (every subject; one-week sprints and 16-week caps;
+one hour a week and twenty; no weak units and all of them; no classes and one almost every
+week) through the same code path the page uses, and scores valid plans, first-attempt
+success, clean plans, quality warnings, class use, latency and tokens. Responses are recorded,
+so `make eval-replay` re-scores everything offline without a key. The results and the model
+decision are in [`docs/EVALS.md`](docs/EVALS.md). Two things they changed: prompt v2 fixed a
+contradiction between two rules that v1's results exposed (clean plans 62% → 88%), and
+`gpt-oss-120b` was chosen over the faster `gpt-oss-20b` because it returned a valid plan in
+24 of 24 cases against 17.
 
 ---
 
@@ -243,6 +292,7 @@ the same transaction as the ledger row. `manage.py audit_wallets` checks the two
 | Config | Secrets in `settings.py` | Environment variables (django-environ), `.env.example` |
 | Tests | None | pytest-django: 210 tests, 90% line coverage |
 | Tooling | None | ruff, pre-commit, Makefile, Dockerfile, docker compose, GitHub Actions |
+| LLM | None | `gpt-oss-120b` on Groq via an OpenAI-compatible client, schema-checked, evaluated |
 | Hosting | PythonAnywhere | Google Cloud Run + Neon Postgres, Terraform, keyless CD from GitHub Actions |
 
 ---
@@ -416,6 +466,8 @@ accounts/      email-login User, MentorProfile, MentorApplication, review, priva
 catalog/       Subject → Unit → Subtopic, subject pages, seed_curriculum
 classes/       TutoringClass, Enrolment, ClassRequest, enrolment service, mentor portal, stats
 payments/      bundles, TokenPurchase, TokenEntry ledger, wallet, PayPal and fake providers
+planner/       study planner: context, prompt, checks, LLM client, service, eval harness
+evals/         eval cases, recorded model responses, results per model and prompt
 templates/     one base layout, partials, per-app pages
 static/        css/app.css (design system), js/app.js (theme toggle), vendor/htmx.min.js
 tests/         pytest-django suite

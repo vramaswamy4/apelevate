@@ -32,8 +32,15 @@ class Command(BaseCommand):
             help="Seconds to wait between live calls (free-tier rate limits).",
         )
         parser.add_argument("--report", action="store_true", help="Rewrite docs/EVALS.md.")
+        parser.add_argument(
+            "--reasoning-effort",
+            default=None,
+            help="Override LLM_REASONING_EFFORT (gpt-oss: low/medium/high; Qwen: none/default).",
+        )
 
-    def handle(self, *args, model, case, fresh, offline, delay, report, **options):
+    def handle(
+        self, *args, model, case, fresh, offline, delay, report, reasoning_effort, **options
+    ):
         cases = load_cases(case)
         if not cases:
             raise CommandError("No matching cases.")
@@ -42,7 +49,9 @@ class Command(BaseCommand):
                 recorder = FakeLLM()
                 recorder.calls = 0
             else:
-                recorder = RecordingLLM(get_llm(name), fresh=fresh, offline=offline)
+                recorder = RecordingLLM(
+                    get_llm(name, reasoning_effort), fresh=fresh, offline=offline
+                )
 
             def on_result(r, recorder=recorder):
                 mark = "PASS" if r.ok and not r.warnings else ("ok" if r.ok else "FAIL")

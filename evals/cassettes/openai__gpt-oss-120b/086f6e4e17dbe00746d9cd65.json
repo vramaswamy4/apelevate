@@ -1,0 +1,221 @@
+{
+ "data": {
+  "summary": "The 12\u2011week plan spreads the 2\u2011hour weekly study load across all AP Calculus AB units, beginning with the weak units (7 and 8) and revisiting them before the exam. Early weeks introduce differential equations and integration applications, then move through limits, differentiation, and integration fundamentals. The final two weeks are dedicated to mixed review and timed practice, ensuring the student consolidates knowledge and hones test\u2011taking speed.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce differential equations and practice basic modeling.",
+    "hours": 2,
+    "topics": [
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read the unit overview for Unit 7 and watch a short video on modeling with differential equations.",
+     "Do 5 practice problems on setting up differential equations from word problems.",
+     "Verify solutions for each problem using the provided answer key."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Continue differential equations and begin slope\u2011field interpretation.",
+    "hours": 2,
+    "topics": [
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Sketch slope fields for 3 given differential equations.",
+     "Answer 5 conceptual questions interpreting behavior from slope fields.",
+     "Complete a short quiz checking ability to verify solutions (7.2)."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Introduce applications of integration and average value.",
+    "hours": 2,
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read the section on average value of a function (8.1).",
+     "Solve 4 problems finding average values on given intervals.",
+     "Work through 3 problems connecting position, velocity, and acceleration using integrals (8.2)."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Further integration applications and area between curves.",
+    "hours": 2,
+    "topics": [
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Do 5 problems applying accumulation functions in real\u2011world contexts (8.3).",
+     "Calculate areas between curves for 4 pairs of functions (8.4).",
+     "Review notes from weeks 1\u20113 and create a one\u2011page summary of key formulas."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Limits and continuity \u2013 foundational concepts.",
+    "hours": 2,
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5"
+    ],
+    "classes": [],
+    "tasks": [
+     "Watch a tutorial on limit notation and algebraic properties.",
+     "Complete 8 limit\u2011evaluation problems covering each sub\u2011topic.",
+     "Estimate limits from graphs and tables for 4 additional examples."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Differentiation basics \u2013 rates of change and power rule.",
+    "hours": 2,
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "tasks": [
+     "Derive the derivative definition for 2 functions and compute instantaneous rates (2.1\u20112.2).",
+     "Estimate derivatives at given points (2.3) for 5 functions.",
+     "Practice applying the power rule on 10 polynomial functions (2.5).",
+     "Explain why differentiability implies continuity in a short paragraph (2.4)."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Composite, implicit, and inverse differentiation.",
+    "hours": 2,
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Solve 4 chain\u2011rule problems involving trigonometric and exponential functions (3.1).",
+     "Complete 3 implicit differentiation exercises (3.2).",
+     "Differentiate inverse functions for 2 cases (3.3).",
+     "Practice differentiating inverse trig functions (3.4) with 3 problems."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Contextual applications of differentiation \u2013 related rates and motion.",
+    "hours": 2,
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Interpret derivative meaning in 3 real\u2011world scenarios (4.1).",
+     "Work through 4 straight\u2011line motion problems linking position, velocity, acceleration (4.2).",
+     "Solve 3 non\u2011motion rate\u2011of\u2011change problems (4.3).",
+     "Complete 2 related\u2011rates problems (4.4)."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Analytical applications \u2013 extrema and first\u2011derivative test.",
+    "hours": 2,
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Apply the Mean Value Theorem to 3 functions (5.1).",
+     "Identify critical points and classify extrema for 5 functions (5.2\u20115.4).",
+     "Determine intervals of increase/decrease for 4 functions (5.3)."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Integration fundamentals \u2013 Riemann sums and FTC.",
+    "hours": 2,
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Explore accumulation of change with 2 short simulations (6.1).",
+     "Compute areas using left, right, and midpoint Riemann sums for 4 functions (6.2).",
+     "Write definite integrals using summation notation for 3 examples (6.3).",
+     "Apply the Fundamental Theorem of Calculus to evaluate 5 integrals (6.4)."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Mixed review \u2013 revisit weak units and key concepts.",
+    "hours": 2,
+    "topics": [
+     "7.1",
+     "7.3",
+     "8.1",
+     "8.4",
+     "5.2",
+     "4.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Do a set of 6 mixed problems: 2 differential\u2011equation modeling, 2 slope\u2011field interpretation, 1 average\u2011value integration, 1 area\u2011between\u2011curves.",
+     "Review notes and create a one\u2011page cheat sheet of formulas for Units 7 and 8.",
+     "Take a 15\u2011minute timed quiz covering the listed topics."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Full\u2011length timed practice and final review.",
+    "hours": 2,
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.1",
+     "4.2",
+     "5.4",
+     "6.4",
+     "7.2",
+     "8.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete a 30\u2011question timed practice set covering all listed topics.",
+     "Mark answers against the scoring guide and note any remaining weak areas.",
+     "Review incorrect problems and rewrite solutions correctly."
+    ]
+   }
+  ],
+  "final_week_advice": "On the last week, focus on pacing and accuracy. Simulate exam conditions, use the cheat sheet only for quick reference, and spend any remaining time reviewing the specific problems you missed. Ensure you are comfortable with calculator use and the free\u2011response format before the exam day."
+ },
+ "raw": "{\n  \"summary\": \"The 12\u2011week plan spreads the 2\u2011hour weekly study load across all AP Calculus AB units, beginning with the weak units (7 and 8) and revisiting them before the exam. Early weeks introduce differential equations and integration applications, then move through limits, differentiation, and integration fundamentals. The final two weeks are dedicated to mixed review and timed practice, ensuring the student consolidates knowledge and hones test\u2011taking speed.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce differential equations and practice basic modeling.\",\n      \"hours\": 2,\n      \"topics\": [\"7.1\", \"7.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the unit overview for Unit 7 and watch a short video on modeling with differential equations.\",\n        \"Do 5 practice problems on setting up differential equations from word problems.\",\n        \"Verify solutions for each problem using the provided answer key.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Continue differential equations and begin slope\u2011field interpretation.\",\n      \"hours\": 2,\n      \"topics\": [\"7.3\", \"7.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Sketch slope fields for 3 given differential equations.\",\n        \"Answer 5 conceptual questions interpreting behavior from slope fields.\",\n        \"Complete a short quiz checking ability to verify solutions (7.2).\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Introduce applications of integration and average value.\",\n      \"hours\": 2,\n      \"topics\": [\"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the section on average value of a function (8.1).\",\n        \"Solve 4 problems finding average values on given intervals.\",\n        \"Work through 3 problems connecting position, velocity, and acceleration using integrals (8.2).\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Further integration applications and area between curves.\",\n      \"hours\": 2,\n      \"topics\": [\"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Do 5 problems applying accumulation functions in real\u2011world contexts (8.3).\",\n        \"Calculate areas between curves for 4 pairs of functions (8.4).\",\n        \"Review notes from weeks 1\u20113 and create a one\u2011page summary of key formulas.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Limits and continuity \u2013 foundational concepts.\",\n      \"hours\": 2,\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch a tutorial on limit notation and algebraic properties.\",\n        \"Complete 8 limit\u2011evaluation problems covering each sub\u2011topic.\",\n        \"Estimate limits from graphs and tables for 4 additional examples.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Differentiation basics \u2013 rates of change and power rule.\",\n      \"hours\": 2,\n      \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Derive the derivative definition for 2 functions and compute instantaneous rates (2.1\u20112.2).\",\n        \"Estimate derivatives at given points (2.3) for 5 functions.\",\n        \"Practice applying the power rule on 10 polynomial functions (2.5).\",\n        \"Explain why differentiability implies continuity in a short paragraph (2.4).\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Composite, implicit, and inverse differentiation.\",\n      \"hours\": 2,\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Solve 4 chain\u2011rule problems involving trigonometric and exponential functions (3.1).\",\n        \"Complete 3 implicit differentiation exercises (3.2).\",\n        \"Differentiate inverse functions for 2 cases (3.3).\",\n        \"Practice differentiating inverse trig functions (3.4) with 3 problems.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Contextual applications of differentiation \u2013 related rates and motion.\",\n      \"hours\": 2,\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Interpret derivative meaning in 3 real\u2011world scenarios (4.1).\",\n        \"Work through 4 straight\u2011line motion problems linking position, velocity, acceleration (4.2).\",\n        \"Solve 3 non\u2011motion rate\u2011of\u2011change problems (4.3).\",\n        \"Complete 2 related\u2011rates problems (4.4).\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Analytical applications \u2013 extrema and first\u2011derivative test.\",\n      \"hours\": 2,\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Apply the Mean Value Theorem to 3 functions (5.1).\",\n        \"Identify critical points and classify extrema for 5 functions (5.2\u20115.4).\",\n        \"Determine intervals of increase/decrease for 4 functions (5.3).\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Integration fundamentals \u2013 Riemann sums and FTC.\",\n      \"hours\": 2,\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Explore accumulation of change with 2 short simulations (6.1).\",\n        \"Compute areas using left, right, and midpoint Riemann sums for 4 functions (6.2).\",\n        \"Write definite integrals using summation notation for 3 examples (6.3).\",\n        \"Apply the Fundamental Theorem of Calculus to evaluate 5 integrals (6.4).\"\n      ]\n    },\n    {\n      \"week\": 11,\n      \"focus\": \"Mixed review \u2013 revisit weak units and key concepts.\",\n      \"hours\": 2,\n      \"topics\": [\"7.1\", \"7.3\", \"8.1\", \"8.4\", \"5.2\", \"4.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Do a set of 6 mixed problems: 2 differential\u2011equation modeling, 2 slope\u2011field interpretation, 1 average\u2011value integration, 1 area\u2011between\u2011curves.\",\n        \"Review notes and create a one\u2011page cheat sheet of formulas for Units 7 and 8.\",\n        \"Take a 15\u2011minute timed quiz covering the listed topics.\"\n      ]\n    },\n    {\n      \"week\": 12,\n      \"focus\": \"Full\u2011length timed practice and final review.\",\n      \"hours\": 2,\n      \"topics\": [\"1.1\", \"2.5\", \"3.1\", \"4.2\", \"5.4\", \"6.4\", \"7.2\", \"8.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete a 30\u2011question timed practice set covering all listed topics.\",\n        \"Mark answers against the scoring guide and note any remaining weak areas.\",\n        \"Review incorrect problems and rewrite solutions correctly.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"On the last week, focus on pacing and accuracy. Simulate exam conditions, use the cheat sheet only for quick reference, and spend any remaining time reviewing the specific problems you missed. Ensure you are comfortable with calculator use and the free\u2011response format before the exam day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1197,
+ "output_tokens": 1787,
+ "latency_ms": 4207
+}

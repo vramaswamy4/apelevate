@@ -1,0 +1,80 @@
+{
+ "data": {
+  "final_week_advice": "In the final week, focus on integrating concepts, practicing under timed conditions, and addressing any lingering misconceptions before the exam.",
+  "summary": "This 3\u2011week plan tackles the student\u2019s weak unit (Force and Translational Dynamics) first, then covers the remaining units in the middle week, and ends with a mixed review week. Each week uses the 7 available hours, includes concrete tasks, and incorporates the single live class available in week\u202f1.",
+  "weeks": [
+   {
+    "classes": [
+     10100
+    ],
+    "focus": "Master force concepts and free\u2011body diagrams",
+    "hours": 7,
+    "tasks": [
+     "Watch the live class on 2.2 and 2.5 and take detailed notes",
+     "Do 15 free\u2011body diagram practice problems, then self\u2011grade using the rubric",
+     "Solve 10 kinematics problems on displacement and velocity (1.2)",
+     "Create a 5\u2011minute video explaining how to set up a free\u2011body diagram for a sliding block"
+    ],
+    "topics": [
+     "2.2",
+     "2.5",
+     "1.2",
+     "1.3"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Cover remaining units and apply concepts",
+    "hours": 7,
+    "tasks": [
+     "Do 20 problems on kinetic energy and work (3.1,3.2) and check solutions",
+     "Solve 10 linear momentum problems (4.1) and record reasoning",
+     "Work through 5 rotational kinematics problems (5.1) and diagram each step",
+     "Complete 10 oscillation problems (7.1) focusing on energy conservation",
+     "Tackle 5 fluid density problems (8.1) and explain the concept in writing"
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "4.1",
+     "5.1",
+     "6.1",
+     "7.1",
+     "8.1"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review and timed practice",
+    "hours": 7,
+    "tasks": [
+     "Take a 60\u2011minute timed quiz covering all topics listed",
+     "Identify top 3 mistakes and write a brief reflection on each",
+     "Redo the most challenging problem from each topic",
+     "Create a summary sheet linking concepts across units",
+     "Schedule a 30\u2011minute mock exam session with a peer or tutor"
+    ],
+    "topics": [
+     "1.1",
+     "1.4",
+     "2.1",
+     "2.3",
+     "3.3",
+     "4.2",
+     "5.3",
+     "6.3",
+     "7.4",
+     "8.4"
+    ],
+    "week": 3
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\":\"In the final week, focus on integrating concepts, practicing under timed conditions, and addressing any lingering misconceptions before the exam.\",\"summary\":\"This 3\u2011week plan tackles the student\u2019s weak unit (Force and Translational Dynamics) first, then covers the remaining units in the middle week, and ends with a mixed review week. Each week uses the 7 available hours, includes concrete tasks, and incorporates the single live class available in week\u202f1.\",\"weeks\":[{\"classes\":[10100],\"focus\":\"Master force concepts and free\u2011body diagrams\",\"hours\":7,\"tasks\":[\"Watch the live class on 2.2 and 2.5 and take detailed notes\",\"Do 15 free\u2011body diagram practice problems, then self\u2011grade using the rubric\",\"Solve 10 kinematics problems on displacement and velocity (1.2)\",\"Create a 5\u2011minute video explaining how to set up a free\u2011body diagram for a sliding block\"],\"topics\":[\"2.2\",\"2.5\",\"1.2\",\"1.3\"],\"week\":1},{\"classes\":[],\"focus\":\"Cover remaining units and apply concepts\",\"hours\":7,\"tasks\":[\"Do 20 problems on kinetic energy and work (3.1,3.2) and check solutions\",\"Solve 10 linear momentum problems (4.1) and record reasoning\",\"Work through 5 rotational kinematics problems (5.1) and diagram each step\",\"Complete 10 oscillation problems (7.1) focusing on energy conservation\",\"Tackle 5 fluid density problems (8.1) and explain the concept in writing\"],\"topics\":[\"3.1\",\"3.2\",\"4.1\",\"5.1\",\"6.1\",\"7.1\",\"8.1\"],\"week\":2},{\"classes\":[],\"focus\":\"Mixed review and timed practice\",\"hours\":7,\"tasks\":[\"Take a 60\u2011minute timed quiz covering all topics listed\",\"Identify top 3 mistakes and write a brief reflection on each\",\"Redo the most challenging problem from each topic\",\"Create a summary sheet linking concepts across units\",\"Schedule a 30\u2011minute mock exam session with a peer or tutor\"],\"topics\":[\"1.1\",\"1.4\",\"2.1\",\"2.3\",\"3.3\",\"4.2\",\"5.3\",\"6.3\",\"7.4\",\"8.4\"],\"week\":3}]}\n",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1042,
+ "output_tokens": 589,
+ "latency_ms": 1240
+}

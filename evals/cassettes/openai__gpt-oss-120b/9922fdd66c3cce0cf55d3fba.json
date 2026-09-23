@@ -1,0 +1,145 @@
+{
+ "data": {
+  "summary": "The eight\u2011week plan front\u2011loads the weak Thermochemistry unit and then cycles through the remaining units, ensuring every unit appears at least once before the final two review weeks. Each week the student spends a focused hour on a few key topics with concrete practice tasks, and the last two weeks are dedicated to mixed review and timed free\u2011response practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce Thermochemistry fundamentals.",
+    "topics": [
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Read the textbook sections on endothermic/exothermic processes and energy diagrams.",
+     "Do 5 practice problems calculating \u0394H for simple reactions, then check answers with the solution key."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Connect Thermochemistry to atomic concepts and heat transfer.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Calculate moles and molar mass for three compounds, then use them to find heat transferred in a calorimetry example.",
+     "Watch a short video on thermal equilibrium and write a one\u2011paragraph summary."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Build foundation in bonding and equilibrium introduction.",
+    "topics": [
+     "2.1",
+     "2.5",
+     "7.1"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Draw Lewis structures for five molecules, labeling formal charges.",
+     "Complete 4 introductory equilibrium multiple\u2011choice questions and explain why each answer is correct."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Explore gases and direction of reversible reactions.",
+    "topics": [
+     "3.4",
+     "3.5",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Solve 3 ideal\u2011gas\u2011law problems that require converting between conditions.",
+     "Determine the favored direction for 4 reactions using Le\u202fChatelier\u2019s principle."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Stoichiometry, basic kinetics, and acid\u2011base intro.",
+    "topics": [
+     "4.5",
+     "5.1",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Balance 5 equations and compute reactant/product masses for each.",
+     "Calculate reaction rates from given concentration\u2011time data for 3 simple reactions.",
+     "List the definitions of acids and bases from the textbook and give one real\u2011world example of each."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Rate laws and basic thermodynamics.",
+    "topics": [
+     "5.2",
+     "5.3",
+     "9.1",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Write the rate law for 4 reactions using provided experimental data.",
+     "Plot concentration vs. time for a first\u2011order reaction and determine the rate constant.",
+     "Answer 3 short\u2011answer questions on entropy and Gibbs free energy, then compare your responses to the scoring guide."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Mixed review of later topics.",
+    "topics": [
+     "6.4",
+     "7.3",
+     "8.2",
+     "9.2"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Perform a calorimetry calculation using heat capacity (6.4).",
+     "Calculate the reaction quotient and equilibrium constant for 2 given reactions (7.3).",
+     "Determine pH/pOH for 3 strong acid/base solutions (8.2).",
+     "Compute entropy change for a phase change using given data (9.2)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Timed free\u2011response practice and comprehensive review.",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.4",
+     "4.5",
+     "5.2",
+     "6.1",
+     "7.1",
+     "8.1",
+     "9.1"
+    ],
+    "classes": [],
+    "hours": 1,
+    "tasks": [
+     "Complete a 55\u2011minute mixed\u2011unit FRQ set (one question from each listed topic).",
+     "Mark answers against the AP scoring guidelines and note any recurring errors.",
+     "Review the error log and rewrite one incorrect solution correctly."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on timed practice, identify weak spots, and do a quick recap of any persistent trouble areas. Keep a calm test\u2011day routine and trust the systematic review you\u2019ve built."
+ },
+ "raw": "{\n  \"summary\": \"The eight\u2011week plan front\u2011loads the weak Thermochemistry unit and then cycles through the remaining units, ensuring every unit appears at least once before the final two review weeks. Each week the student spends a focused hour on a few key topics with concrete practice tasks, and the last two weeks are dedicated to mixed review and timed free\u2011response practice.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce Thermochemistry fundamentals.\",\n      \"topics\": [\"6.1\", \"6.2\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Read the textbook sections on endothermic/exothermic processes and energy diagrams.\",\n        \"Do 5 practice problems calculating \u0394H for simple reactions, then check answers with the solution key.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Connect Thermochemistry to atomic concepts and heat transfer.\",\n      \"topics\": [\"1.1\", \"1.5\", \"6.3\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Calculate moles and molar mass for three compounds, then use them to find heat transferred in a calorimetry example.\",\n        \"Watch a short video on thermal equilibrium and write a one\u2011paragraph summary.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Build foundation in bonding and equilibrium introduction.\",\n      \"topics\": [\"2.1\", \"2.5\", \"7.1\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Draw Lewis structures for five molecules, labeling formal charges.\",\n        \"Complete 4 introductory equilibrium multiple\u2011choice questions and explain why each answer is correct.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Explore gases and direction of reversible reactions.\",\n      \"topics\": [\"3.4\", \"3.5\", \"7.2\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Solve 3 ideal\u2011gas\u2011law problems that require converting between conditions.\",\n        \"Determine the favored direction for 4 reactions using Le\u202fChatelier\u2019s principle.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Stoichiometry, basic kinetics, and acid\u2011base intro.\",\n      \"topics\": [\"4.5\", \"5.1\", \"8.1\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Balance 5 equations and compute reactant/product masses for each.\",\n        \"Calculate reaction rates from given concentration\u2011time data for 3 simple reactions.\",\n        \"List the definitions of acids and bases from the textbook and give one real\u2011world example of each.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Rate laws and basic thermodynamics.\",\n      \"topics\": [\"5.2\", \"5.3\", \"9.1\", \"9.3\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Write the rate law for 4 reactions using provided experimental data.\",\n        \"Plot concentration vs. time for a first\u2011order reaction and determine the rate constant.\",\n        \"Answer 3 short\u2011answer questions on entropy and Gibbs free energy, then compare your responses to the scoring guide.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Mixed review of later topics.\",\n      \"topics\": [\"6.4\", \"7.3\", \"8.2\", \"9.2\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Perform a calorimetry calculation using heat capacity (6.4).\",\n        \"Calculate the reaction quotient and equilibrium constant for 2 given reactions (7.3).\",\n        \"Determine pH/pOH for 3 strong acid/base solutions (8.2).\",\n        \"Compute entropy change for a phase change using given data (9.2).\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Timed free\u2011response practice and comprehensive review.\",\n      \"topics\": [\"1.1\", \"2.1\", \"3.4\", \"4.5\", \"5.2\", \"6.1\", \"7.1\", \"8.1\", \"9.1\"],\n      \"classes\": [],\n      \"hours\": 1,\n      \"tasks\": [\n        \"Complete a 55\u2011minute mixed\u2011unit FRQ set (one question from each listed topic).\",\n        \"Mark answers against the AP scoring guidelines and note any recurring errors.\",\n        \"Review the error log and rewrite one incorrect solution correctly.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, focus on timed practice, identify weak spots, and do a quick recap of any persistent trouble areas. Keep a calm test\u2011day routine and trust the systematic review you\u2019ve built.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1160,
+ "output_tokens": 1419,
+ "latency_ms": 3293
+}

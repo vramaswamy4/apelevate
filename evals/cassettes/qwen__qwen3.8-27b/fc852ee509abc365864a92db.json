@@ -1,0 +1,162 @@
+{
+ "data": {
+  "final_week_advice": "Focus on timed practice and reviewing weak areas like Thermochemistry.",
+  "summary": "This 8-week plan prioritizes the weak unit (Thermochemistry) in the first half while covering all other units sequentially. The final two weeks are dedicated to mixed review and timed practice to solidify retention before the exam.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Master Thermochemistry basics and start Atomic Structure.",
+    "hours": 1,
+    "tasks": [
+     "Do 5 practice problems on heat transfer and calorimetry (6.3, 6.4).",
+     "Review electron configuration rules and solve 3 problems (1.5)."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "1.1",
+     "1.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Complete Atomic Structure and begin Compound Structure.",
+    "hours": 1,
+    "tasks": [
+     "Analyze 2 mass spectra to determine elemental composition (1.2, 1.3).",
+     "Draw Lewis structures for 5 molecules including resonance (2.5, 2.6)."
+    ],
+    "topics": [
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.6",
+     "1.7",
+     "1.8",
+     "2.1",
+     "2.5",
+     "2.6"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Finish Compound Structure and start Properties of Substances.",
+    "hours": 1,
+    "tasks": [
+     "Determine VSEPR shapes for 4 molecules (2.7).",
+     "Calculate molar mass and percent composition for 2 substances (1.1, 1.3)."
+    ],
+    "topics": [
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.7",
+     "3.1",
+     "3.2"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Cover Gases and start Chemical Reactions.",
+    "hours": 1,
+    "tasks": [
+     "Solve 3 ideal gas law problems (3.4).",
+     "Balance 4 chemical equations and identify net ionic equations (4.2, 4.3)."
+    ],
+    "topics": [
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Complete Chemical Reactions and start Kinetics.",
+    "hours": 1,
+    "tasks": [
+     "Perform stoichiometry calculations for 2 limiting reactant problems (4.5).",
+     "Calculate reaction rates from concentration data (5.1)."
+    ],
+    "topics": [
+     "4.4",
+     "4.5",
+     "5.1",
+     "5.2"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Finish Kinetics and start Equilibrium.",
+    "hours": 1,
+    "tasks": [
+     "Determine rate laws from experimental data (5.2).",
+     "Calculate equilibrium constants for 2 reactions (7.3, 7.4)."
+    ],
+    "topics": [
+     "5.3",
+     "5.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Cover Acids and Bases and start Thermodynamics.",
+    "hours": 1,
+    "tasks": [
+     "Calculate pH for 3 strong acid/base solutions (8.2).",
+     "Determine Gibbs free energy for 2 reactions (9.3)."
+    ],
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "9.1",
+     "9.2",
+     "9.3",
+     "9.4"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review and timed practice.",
+    "hours": 1,
+    "tasks": [
+     "Do 10 free-response questions covering Thermochemistry and Equilibrium.",
+     "Review error analysis for calorimetry experiments (6.4)."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 8
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on timed practice and reviewing weak areas like Thermochemistry.\", \"summary\": \"This 8-week plan prioritizes the weak unit (Thermochemistry) in the first half while covering all other units sequentially. The final two weeks are dedicated to mixed review and timed practice to solidify retention before the exam.\", \"weeks\": [{\"classes\": [], \"focus\": \"Master Thermochemistry basics and start Atomic Structure.\", \"hours\": 1, \"tasks\": [\"Do 5 practice problems on heat transfer and calorimetry (6.3, 6.4).\", \"Review electron configuration rules and solve 3 problems (1.5).\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\", \"1.1\", \"1.5\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Complete Atomic Structure and begin Compound Structure.\", \"hours\": 1, \"tasks\": [\"Analyze 2 mass spectra to determine elemental composition (1.2, 1.3).\", \"Draw Lewis structures for 5 molecules including resonance (2.5, 2.6).\"], \"topics\": [\"1.2\", \"1.3\", \"1.4\", \"1.6\", \"1.7\", \"1.8\", \"2.1\", \"2.5\", \"2.6\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Finish Compound Structure and start Properties of Substances.\", \"hours\": 1, \"tasks\": [\"Determine VSEPR shapes for 4 molecules (2.7).\", \"Calculate molar mass and percent composition for 2 substances (1.1, 1.3).\"], \"topics\": [\"2.2\", \"2.3\", \"2.4\", \"2.7\", \"3.1\", \"3.2\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Cover Gases and start Chemical Reactions.\", \"hours\": 1, \"tasks\": [\"Solve 3 ideal gas law problems (3.4).\", \"Balance 4 chemical equations and identify net ionic equations (4.2, 4.3).\"], \"topics\": [\"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Complete Chemical Reactions and start Kinetics.\", \"hours\": 1, \"tasks\": [\"Perform stoichiometry calculations for 2 limiting reactant problems (4.5).\", \"Calculate reaction rates from concentration data (5.1).\"], \"topics\": [\"4.4\", \"4.5\", \"5.1\", \"5.2\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Finish Kinetics and start Equilibrium.\", \"hours\": 1, \"tasks\": [\"Determine rate laws from experimental data (5.2).\", \"Calculate equilibrium constants for 2 reactions (7.3, 7.4).\"], \"topics\": [\"5.3\", \"5.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Cover Acids and Bases and start Thermodynamics.\", \"hours\": 1, \"tasks\": [\"Calculate pH for 3 strong acid/base solutions (8.2).\", \"Determine Gibbs free energy for 2 reactions (9.3).\"], \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"8.4\", \"9.1\", \"9.2\", \"9.3\", \"9.4\"], \"week\": 7}, {\"classes\": [], \"focus\": \"Mixed review and timed practice.\", \"hours\": 1, \"tasks\": [\"Do 10 free-response questions covering Thermochemistry and Equilibrium.\", \"Review error analysis for calorimetry experiments (6.4).\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 8}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 977,
+ "output_tokens": 909,
+ "latency_ms": 2424
+}

@@ -1,0 +1,131 @@
+{
+ "data": {
+  "summary": "This 8\u2011week plan tackles all AP Calculus AB units, front\u2011loading the student\u2019s weak areas (Units\u202f7 and\u202f8) while interleaving review and practice. Each week\u2019s 6\u202fhours are split into focused topic study, a concrete task, and a short recap. Week\u202f3 includes the live class on differential equations, and the final week is a mixed review with timed practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Start with Limits and Continuity to build a solid foundation.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read and summarize the definition of a limit (1.2). Then solve 5 limit problems using algebraic properties and check answers with a limit calculator."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Continue Limits, introduce continuity and power rule.",
+    "topics": [
+     "1.4",
+     "1.5",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Estimate limits from tables (1.4). Practice 5 problems on determining limits algebraically (1.5). Solve 3 derivative problems using the power rule (2.5)."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Differential Equations live class and related concepts.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "2.1"
+    ],
+    "classes": [
+     11100
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class on 7.1 & 7.2. After class, sketch a slope field for a simple DE (7.3) and verify a proposed solution (7.2). Then solve 3 average rate problems (2.1)."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Chain rule and implicit differentiation.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do 5 chain rule problems (3.1). Solve 3 implicit differentiation problems (3.2). Write the derivative of a given function using notation (2.2)."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Related rates and applications of derivatives.",
+    "topics": [
+     "4.1",
+     "4.4",
+     "5.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Interpret a derivative in a real\u2011world context (4.1). Complete 4 related\u2011rates problems (4.4). Determine intervals of increase/decrease for a function (5.3)."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Applications of Integration and average value.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Find the average value of a function on an interval (8.1). Connect position, velocity, and acceleration using integrals (8.2). Apply the Fundamental Theorem of Calculus to evaluate a definite integral (6.4)."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Review of Differential Equations and Integration applications.",
+    "topics": [
+     "7.3",
+     "7.4",
+     "8.4",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Sketch a slope field for a more complex DE (7.3). Reason about solutions using the slope field (7.4). Find area between curves (8.4). Use the First Derivative Test to identify relative extrema (5.4)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Mixed review and timed practice.",
+    "topics": [
+     "1.1",
+     "2.3",
+     "3.4",
+     "5.2",
+     "6.2",
+     "8.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 45\u2011minute timed practice test covering all topics. Then review mistakes, focusing on the most common errors. Finish with 10 free\u2011response questions on rate laws and integration applications, marking them against the scoring guide."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the last week to simulate exam conditions, identify weak spots, and solidify strategies for time management and question interpretation."
+ },
+ "raw": "{\"summary\":\"This 8\u2011week plan tackles all AP Calculus AB units, front\u2011loading the student\u2019s weak areas (Units\u202f7 and\u202f8) while interleaving review and practice. Each week\u2019s 6\u202fhours are split into focused topic study, a concrete task, and a short recap. Week\u202f3 includes the live class on differential equations, and the final week is a mixed review with timed practice.\",\"weeks\":[{\"week\":1,\"focus\":\"Start with Limits and Continuity to build a solid foundation.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Read and summarize the definition of a limit (1.2). Then solve 5 limit problems using algebraic properties and check answers with a limit calculator.\"]},{\"week\":2,\"focus\":\"Continue Limits, introduce continuity and power rule.\",\"topics\":[\"1.4\",\"1.5\",\"2.5\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Estimate limits from tables (1.4). Practice 5 problems on determining limits algebraically (1.5). Solve 3 derivative problems using the power rule (2.5).\"]},{\"week\":3,\"focus\":\"Differential Equations live class and related concepts.\",\"topics\":[\"7.1\",\"7.2\",\"2.1\"],\"classes\":[11100],\"hours\":6,\"tasks\":[\"Attend live class on 7.1 & 7.2. After class, sketch a slope field for a simple DE (7.3) and verify a proposed solution (7.2). Then solve 3 average rate problems (2.1).\"]},{\"week\":4,\"focus\":\"Chain rule and implicit differentiation.\",\"topics\":[\"3.1\",\"3.2\",\"2.2\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do 5 chain rule problems (3.1). Solve 3 implicit differentiation problems (3.2). Write the derivative of a given function using notation (2.2).\"]},{\"week\":5,\"focus\":\"Related rates and applications of derivatives.\",\"topics\":[\"4.1\",\"4.4\",\"5.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Interpret a derivative in a real\u2011world context (4.1). Complete 4 related\u2011rates problems (4.4). Determine intervals of increase/decrease for a function (5.3).\"]},{\"week\":6,\"focus\":\"Applications of Integration and average value.\",\"topics\":[\"8.1\",\"8.2\",\"6.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Find the average value of a function on an interval (8.1). Connect position, velocity, and acceleration using integrals (8.2). Apply the Fundamental Theorem of Calculus to evaluate a definite integral (6.4).\"]},{\"week\":7,\"focus\":\"Review of Differential Equations and Integration applications.\",\"topics\":[\"7.3\",\"7.4\",\"8.4\",\"5.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Sketch a slope field for a more complex DE (7.3). Reason about solutions using the slope field (7.4). Find area between curves (8.4). Use the First Derivative Test to identify relative extrema (5.4).\"]},{\"week\":8,\"focus\":\"Mixed review and timed practice.\",\"topics\":[\"1.1\",\"2.3\",\"3.4\",\"5.2\",\"6.2\",\"8.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Take a 45\u2011minute timed practice test covering all topics. Then review mistakes, focusing on the most common errors. Finish with 10 free\u2011response questions on rate laws and integration applications, marking them against the scoring guide.\"]}],\"final_week_advice\":\"Use the last week to simulate exam conditions, identify weak spots, and solidify strategies for time management and question interpretation.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1221,
+ "output_tokens": 842,
+ "latency_ms": 1369
+}

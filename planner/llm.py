@@ -46,10 +46,21 @@ class Completion:
 
 class OpenAICompatibleLLM:
     def __init__(
-        self, base_url, api_key, model, *, reasoning_effort=None, timeout=60.0, transport=None
+        self,
+        base_url,
+        api_key,
+        model,
+        *,
+        reasoning_effort=None,
+        max_tokens=4096,
+        timeout=60.0,
+        transport=None,
     ):
         self.model = model
         self.reasoning_effort = reasoning_effort
+        # Explicit, because some providers default to 2,048 output tokens, which truncates a
+        # long plan from a reasoning model mid-JSON.
+        self.max_tokens = max_tokens
         self._http = httpx.Client(
             base_url=base_url.rstrip("/"),
             timeout=timeout,
@@ -62,6 +73,7 @@ class OpenAICompatibleLLM:
             "model": self.model,
             "messages": messages,
             "temperature": temperature,
+            "max_completion_tokens": self.max_tokens,
             # Constrained decoding: the provider guarantees the output parses against the schema.
             "response_format": {
                 "type": "json_schema",
@@ -147,7 +159,7 @@ class FakeLLM:
         return Completion(data, raw, self.model, len(str(messages)) // 4, len(raw) // 4, 0)
 
 
-def get_llm(model=None):
+def get_llm(model=None, reasoning_effort=None):
     backend = settings.LLM_BACKEND
     if backend == "fake":
         return FakeLLM()
@@ -158,6 +170,6 @@ def get_llm(model=None):
             settings.LLM_BASE_URL,
             settings.LLM_API_KEY,
             model or settings.LLM_MODEL,
-            reasoning_effort=settings.LLM_REASONING_EFFORT or None,
+            reasoning_effort=reasoning_effort or settings.LLM_REASONING_EFFORT or None,
         )
     raise ImproperlyConfigured(f"Unknown LLM_BACKEND {backend!r}")

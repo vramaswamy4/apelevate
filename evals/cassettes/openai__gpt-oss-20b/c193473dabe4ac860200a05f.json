@@ -1,0 +1,164 @@
+{
+ "data": {
+  "summary": "This 10\u2011week plan tackles the weak units first, interleaves new material with practice, and ends with a mixed review and timed practice. Each week is capped at 6 hours and includes concrete tasks and, when available, a live class that aligns with that week\u2019s topics.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Master the fundamentals of limits and continuity.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read and summarize 1.1, 1.2, 1.3; do 10 limit\u2011value problems from the textbook; write a short reflection on how limits predict instantaneous change."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Apply the chain rule and implicit differentiation in depth.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "2.5"
+    ],
+    "classes": [
+     10600
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend Class 1; review notes; solve 15 chain\u2011rule problems; solve 10 implicit\u2011differentiation problems; create a cheat sheet for both techniques."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Explore inverse functions and their derivatives.",
+    "topics": [
+     "3.3",
+     "3.4",
+     "2.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do 10 problems on differentiating inverse functions; solve 8 inverse trigonometric derivative problems; compare with power rule results from 2.5."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Connect derivatives to real\u2011world motion and related rates.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Model a velocity\u2013time graph; compute acceleration from a position function; solve 5 related\u2011rates problems; write a paragraph explaining the physical meaning of the derivative."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Use the Mean Value Theorem and Extreme Value Theorem.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "classes": [
+     10601
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend Class 2; practice 12 MVT problems; find extrema on 3 different functions; determine increasing/decreasing intervals for each."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Apply the First Derivative Test to locate local extrema.",
+    "topics": [
+     "5.4",
+     "4.3",
+     "2.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 10 first\u2011derivative test problems; analyze 5 applied rate\u2011change problems; review derivative estimation from 2.3."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Understand accumulation of change and Riemann sums.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Compute areas using left/right/midpoint Riemann sums for 3 functions; derive the definite integral notation; write a short proof of the Fundamental Theorem of Calculus."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Integrate differential equations and sketch slope fields.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [
+     10602
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend Class 3; solve 8 first\u2011order differential equations; sketch slope fields for 2 equations; verify solutions analytically."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Apply integration to real\u2011world contexts and area between curves.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Find average values of two functions; compute area between curves for 2 pairs of functions; solve 5 applied integration problems."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Mixed review and timed practice for exam readiness.",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.1",
+     "4.2",
+     "5.1",
+     "6.1",
+     "7.1",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 60\u2011minute timed practice test covering all units; review mistakes; create a one\u2011page cheat sheet summarizing key formulas and theorems."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, focus on consolidating knowledge through timed practice and targeted review of weak spots. Use the cheat sheet to quickly recall formulas during the exam."
+ },
+ "raw": "{\"summary\":\"This 10\u2011week plan tackles the weak units first, interleaves new material with practice, and ends with a mixed review and timed practice. Each week is capped at 6 hours and includes concrete tasks and, when available, a live class that aligns with that week\u2019s topics.\",\"weeks\":[{\"week\":1,\"focus\":\"Master the fundamentals of limits and continuity.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Read and summarize 1.1, 1.2, 1.3; do 10 limit\u2011value problems from the textbook; write a short reflection on how limits predict instantaneous change.\"]},{\"week\":2,\"focus\":\"Apply the chain rule and implicit differentiation in depth.\",\"topics\":[\"3.1\",\"3.2\",\"2.5\"],\"classes\":[10600],\"hours\":6,\"tasks\":[\"Attend Class 1; review notes; solve 15 chain\u2011rule problems; solve 10 implicit\u2011differentiation problems; create a cheat sheet for both techniques.\"]},{\"week\":3,\"focus\":\"Explore inverse functions and their derivatives.\",\"topics\":[\"3.3\",\"3.4\",\"2.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do 10 problems on differentiating inverse functions; solve 8 inverse trigonometric derivative problems; compare with power rule results from 2.5.\"]},{\"week\":4,\"focus\":\"Connect derivatives to real\u2011world motion and related rates.\",\"topics\":[\"4.1\",\"4.2\",\"4.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Model a velocity\u2013time graph; compute acceleration from a position function; solve 5 related\u2011rates problems; write a paragraph explaining the physical meaning of the derivative.\"]},{\"week\":5,\"focus\":\"Use the Mean Value Theorem and Extreme Value Theorem.\",\"topics\":[\"5.1\",\"5.2\",\"5.3\"],\"classes\":[10601],\"hours\":6,\"tasks\":[\"Attend Class 2; practice 12 MVT problems; find extrema on 3 different functions; determine increasing/decreasing intervals for each.\"]},{\"week\":6,\"focus\":\"Apply the First Derivative Test to locate local extrema.\",\"topics\":[\"5.4\",\"4.3\",\"2.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Solve 10 first\u2011derivative test problems; analyze 5 applied rate\u2011change problems; review derivative estimation from 2.3.\"]},{\"week\":7,\"focus\":\"Understand accumulation of change and Riemann sums.\",\"topics\":[\"6.1\",\"6.2\",\"6.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Compute areas using left/right/midpoint Riemann sums for 3 functions; derive the definite integral notation; write a short proof of the Fundamental Theorem of Calculus.\"]},{\"week\":8,\"focus\":\"Integrate differential equations and sketch slope fields.\",\"topics\":[\"7.1\",\"7.2\",\"7.3\"],\"classes\":[10602],\"hours\":6,\"tasks\":[\"Attend Class 3; solve 8 first\u2011order differential equations; sketch slope fields for 2 equations; verify solutions analytically.\"]},{\"week\":9,\"focus\":\"Apply integration to real\u2011world contexts and area between curves.\",\"topics\":[\"8.1\",\"8.2\",\"8.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Find average values of two functions; compute area between curves for 2 pairs of functions; solve 5 applied integration problems.\"]},{\"week\":10,\"focus\":\"Mixed review and timed practice for exam readiness.\",\"topics\":[\"1.1\",\"2.1\",\"3.1\",\"4.2\",\"5.1\",\"6.1\",\"7.1\",\"8.1\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Take a 60\u2011minute timed practice test covering all units; review mistakes; create a one\u2011page cheat sheet summarizing key formulas and theorems.\"]}],\"final_week_advice\":\"In the final week, focus on consolidating knowledge through timed practice and targeted review of weak spots. Use the cheat sheet to quickly recall formulas during the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1287,
+ "output_tokens": 906,
+ "latency_ms": 1378
+}

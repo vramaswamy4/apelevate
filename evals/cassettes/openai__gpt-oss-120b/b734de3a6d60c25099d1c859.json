@@ -1,0 +1,258 @@
+{
+ "data": {
+  "summary": "The 16\u2011week plan front\u2011loads Units\u202f1 and\u202f2 to address the student\u2019s weak areas, then moves through the remaining units in a logical sequence while keeping each week to 4 hours. The final two weeks are dedicated to mixed review and timed practice to consolidate knowledge and build test stamina.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 4,
+    "focus": "Begin Unit\u202f1 \u2013 foundational concepts of moles and atomic structure.",
+    "topics": [
+     "1.1",
+     "1.5"
+    ],
+    "classes": [],
+    "tasks": [
+     "Do 10 practice problems on calculating moles and molar mass; check answers with the solution key.",
+     "Create a concept map linking atomic number, electron configuration, and periodic trends."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 4,
+    "focus": "Continue Unit\u202f1 \u2013 spectroscopy and composition of mixtures.",
+    "topics": [
+     "1.2",
+     "1.3",
+     "1.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Watch a short video on mass spectroscopy; then label a sample spectrum.",
+     "Complete 8 free\u2011response questions on elemental composition of pure substances and mixtures."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 4,
+    "focus": "Finish Unit\u202f1 \u2013 periodic trends and valence concepts.",
+    "topics": [
+     "1.7",
+     "1.8"
+    ],
+    "classes": [],
+    "tasks": [
+     "Fill out a periodic trends table (atomic radius, ionization energy, electronegativity).",
+     "Do 12 FRQ items on predicting ionic compounds from valence electron patterns."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 4,
+    "focus": "Start Unit\u202f2 \u2013 bond types and intramolecular forces.",
+    "topics": [
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Draw and label covalent, ionic, and metallic bonds for given formulas.",
+     "Solve 6 problems calculating bond energy changes using potential energy curves."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 4,
+    "focus": "Unit\u202f1 review & reinforce concepts through live class.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [
+     9300
+    ],
+    "tasks": [
+     "Participate in Class\u202f9300 and take notes on any misconceptions.",
+     "After class, redo 5 class examples without looking at notes.",
+     "Complete a timed set of 5 FRQs covering moles, spectroscopy, and composition."
+    ]
+   },
+   {
+    "week": 6,
+    "hours": 4,
+    "focus": "Continue Unit\u202f2 \u2013 structures of solids and metals.",
+    "topics": [
+     "2.3",
+     "2.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Sketch lattice structures for ionic solids and metallic alloys.",
+     "Answer 8 FRQs comparing properties of ionic vs metallic solids."
+    ]
+   },
+   {
+    "week": 7,
+    "hours": 4,
+    "focus": "Unit\u202f2 \u2013 Lewis structures, resonance, and formal charge.",
+    "topics": [
+     "2.5",
+     "2.6"
+    ],
+    "classes": [],
+    "tasks": [
+     "Draw Lewis diagrams for 10 molecules, indicating formal charges.",
+     "Complete 6 resonance\u2011structure problems and justify the major contributor."
+    ]
+   },
+   {
+    "week": 8,
+    "hours": 4,
+    "focus": "Unit\u202f2 \u2013 VSEPR & hybridization, reinforced by live class.",
+    "topics": [
+     "2.7",
+     "2.5",
+     "2.6"
+    ],
+    "classes": [
+     9301
+    ],
+    "tasks": [
+     "Attend Class\u202f9301; focus on VSEPR predictions.",
+     "After class, predict shapes for 8 new molecules and compare with answer key.",
+     "Do a 10\u2011minute timed quiz on Lewis diagrams, resonance, and VSEPR."
+    ]
+   },
+   {
+    "week": 9,
+    "hours": 4,
+    "focus": "Unit\u202f3 \u2013 intermolecular forces and states of matter.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Create a table of IMFs for solids, liquids, gases; include examples.",
+     "Solve 7 problems on phase changes using the kinetic molecular theory."
+    ]
+   },
+   {
+    "week": 10,
+    "hours": 4,
+    "focus": "Unit\u202f3 \u2013 gases and ideal gas law.",
+    "topics": [
+     "3.4",
+     "3.5"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete 12 practice calculations using PV=nRT and kinetic theory relationships.",
+     "Do a set of 5 FRQs that require converting between units and applying the ideal gas law."
+    ]
+   },
+   {
+    "week": 11,
+    "hours": 4,
+    "focus": "Unit\u202f4 \u2013 reaction basics and stoichiometry.",
+    "topics": [
+     "4.1",
+     "4.5"
+    ],
+    "classes": [],
+    "tasks": [
+     "Balance 10 chemical equations, including net ionic forms.",
+     "Perform stoichiometry calculations for 8 reaction scenarios."
+    ]
+   },
+   {
+    "week": 12,
+    "hours": 4,
+    "focus": "Unit\u202f5 \u2013 reaction rates and rate laws.",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Plot concentration vs. time graphs for first\u2011order reactions.",
+     "Write rate laws for 6 given reactions and determine the rate\u2011determining step."
+    ]
+   },
+   {
+    "week": 13,
+    "hours": 4,
+    "focus": "Unit\u202f5 \u2013 elementary reactions and concentration changes.",
+    "topics": [
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Solve 9 problems on integrated rate laws for zero, first, and second order.",
+     "Identify elementary steps in 5 complex mechanisms."
+    ]
+   },
+   {
+    "week": 14,
+    "hours": 4,
+    "focus": "Unit\u202f6 \u2013 thermochemistry fundamentals.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Calculate enthalpy changes for 7 reactions using Hess\u2019s law.",
+     "Interpret energy diagrams for exothermic and endothermic processes."
+    ]
+   },
+   {
+    "week": 15,
+    "hours": 4,
+    "focus": "Mixed review \u2013 Units\u202f1\u20116, timed practice.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "2.1",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.2",
+     "6.1"
+    ],
+    "classes": [],
+    "tasks": [
+     "Take a 45\u2011minute timed practice set covering at least one question from each listed unit.",
+     "Review each missed question, rewrite the solution, and note the underlying concept."
+    ]
+   },
+   {
+    "week": 16,
+    "hours": 4,
+    "focus": "Comprehensive review & exam strategy.",
+    "topics": [
+     "7.1",
+     "7.3",
+     "8.1",
+     "8.3",
+     "9.3",
+     "9.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete a full\u2011length AP Chemistry practice exam (timed).",
+     "Analyze results, focusing on any remaining weak spots; create a quick\u2011reference sheet for formulas."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, simulate test conditions: work in a quiet space, use only allowed calculators, and stick to the 3\u2011hour exam limit. After the practice exam, spend the remaining time reviewing errors, reinforcing key equations, and practicing quick recall of concepts. Stay confident and trust the systematic preparation you\u2019ve built over the past 16 weeks."
+ },
+ "raw": "{\n  \"summary\": \"The 16\u2011week plan front\u2011loads Units\u202f1 and\u202f2 to address the student\u2019s weak areas, then moves through the remaining units in a logical sequence while keeping each week to 4 hours. The final two weeks are dedicated to mixed review and timed practice to consolidate knowledge and build test stamina.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 4,\n      \"focus\": \"Begin Unit\u202f1 \u2013 foundational concepts of moles and atomic structure.\",\n      \"topics\": [\"1.1\", \"1.5\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Do 10 practice problems on calculating moles and molar mass; check answers with the solution key.\",\n        \"Create a concept map linking atomic number, electron configuration, and periodic trends.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 4,\n      \"focus\": \"Continue Unit\u202f1 \u2013 spectroscopy and composition of mixtures.\",\n      \"topics\": [\"1.2\", \"1.3\", \"1.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch a short video on mass spectroscopy; then label a sample spectrum.\",\n        \"Complete 8 free\u2011response questions on elemental composition of pure substances and mixtures.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 4,\n      \"focus\": \"Finish Unit\u202f1 \u2013 periodic trends and valence concepts.\",\n      \"topics\": [\"1.7\", \"1.8\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Fill out a periodic trends table (atomic radius, ionization energy, electronegativity).\",\n        \"Do 12 FRQ items on predicting ionic compounds from valence electron patterns.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 4,\n      \"focus\": \"Start Unit\u202f2 \u2013 bond types and intramolecular forces.\",\n      \"topics\": [\"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Draw and label covalent, ionic, and metallic bonds for given formulas.\",\n        \"Solve 6 problems calculating bond energy changes using potential energy curves.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f1 review & reinforce concepts through live class.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\"],\n      \"classes\": [9300],\n      \"tasks\": [\n        \"Participate in Class\u202f9300 and take notes on any misconceptions.\",\n        \"After class, redo 5 class examples without looking at notes.\",\n        \"Complete a timed set of 5 FRQs covering moles, spectroscopy, and composition.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"hours\": 4,\n      \"focus\": \"Continue Unit\u202f2 \u2013 structures of solids and metals.\",\n      \"topics\": [\"2.3\", \"2.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Sketch lattice structures for ionic solids and metallic alloys.\",\n        \"Answer 8 FRQs comparing properties of ionic vs metallic solids.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f2 \u2013 Lewis structures, resonance, and formal charge.\",\n      \"topics\": [\"2.5\", \"2.6\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Draw Lewis diagrams for 10 molecules, indicating formal charges.\",\n        \"Complete 6 resonance\u2011structure problems and justify the major contributor.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f2 \u2013 VSEPR & hybridization, reinforced by live class.\",\n      \"topics\": [\"2.7\", \"2.5\", \"2.6\"],\n      \"classes\": [9301],\n      \"tasks\": [\n        \"Attend Class\u202f9301; focus on VSEPR predictions.\",\n        \"After class, predict shapes for 8 new molecules and compare with answer key.\",\n        \"Do a 10\u2011minute timed quiz on Lewis diagrams, resonance, and VSEPR.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f3 \u2013 intermolecular forces and states of matter.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Create a table of IMFs for solids, liquids, gases; include examples.\",\n        \"Solve 7 problems on phase changes using the kinetic molecular theory.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f3 \u2013 gases and ideal gas law.\",\n      \"topics\": [\"3.4\", \"3.5\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete 12 practice calculations using PV=nRT and kinetic theory relationships.\",\n        \"Do a set of 5 FRQs that require converting between units and applying the ideal gas law.\"\n      ]\n    },\n    {\n      \"week\": 11,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f4 \u2013 reaction basics and stoichiometry.\",\n      \"topics\": [\"4.1\", \"4.5\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Balance 10 chemical equations, including net ionic forms.\",\n        \"Perform stoichiometry calculations for 8 reaction scenarios.\"\n      ]\n    },\n    {\n      \"week\": 12,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f5 \u2013 reaction rates and rate laws.\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Plot concentration vs. time graphs for first\u2011order reactions.\",\n        \"Write rate laws for 6 given reactions and determine the rate\u2011determining step.\"\n      ]\n    },\n    {\n      \"week\": 13,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f5 \u2013 elementary reactions and concentration changes.\",\n      \"topics\": [\"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Solve 9 problems on integrated rate laws for zero, first, and second order.\",\n        \"Identify elementary steps in 5 complex mechanisms.\"\n      ]\n    },\n    {\n      \"week\": 14,\n      \"hours\": 4,\n      \"focus\": \"Unit\u202f6 \u2013 thermochemistry fundamentals.\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Calculate enthalpy changes for 7 reactions using Hess\u2019s law.\",\n        \"Interpret energy diagrams for exothermic and endothermic processes.\"\n      ]\n    },\n    {\n      \"week\": 15,\n      \"hours\": 4,\n      \"focus\": \"Mixed review \u2013 Units\u202f1\u20116, timed practice.\",\n      \"topics\": [\"1.1\",\"1.5\",\"2.1\",\"2.5\",\"3.4\",\"4.5\",\"5.2\",\"6.1\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Take a 45\u2011minute timed practice set covering at least one question from each listed unit.\",\n        \"Review each missed question, rewrite the solution, and note the underlying concept.\"\n      ]\n    },\n    {\n      \"week\": 16,\n      \"hours\": 4,\n      \"focus\": \"Comprehensive review & exam strategy.\",\n      \"topics\": [\"7.1\",\"7.3\",\"8.1\",\"8.3\",\"9.3\",\"9.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete a full\u2011length AP Chemistry practice exam (timed).\",\n        \"Analyze results, focusing on any remaining weak spots; create a quick\u2011reference sheet for formulas.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the final week, simulate test conditions: work in a quiet space, use only allowed calculators, and stick to the 3\u2011hour exam limit. After the practice exam, spend the remaining time reviewing errors, reinforcing key equations, and practicing quick recall of concepts. Stay confident and trust the systematic preparation you\u2019ve built over the past 16 weeks.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1223,
+ "output_tokens": 1873,
+ "latency_ms": 4282
+}

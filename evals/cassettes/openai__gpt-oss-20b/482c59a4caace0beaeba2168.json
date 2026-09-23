@@ -1,0 +1,86 @@
+{
+ "data": {
+  "final_week_advice": "Use the remaining time to take a full-length timed practice test, then review all incorrect answers in detail, focusing on the units that were most challenging.",
+  "summary": "This 4\u2011week plan covers every AP Chemistry unit with focused, concrete tasks and a single live class in week\u202f4. Each week uses the full 5\u202fhours, balancing new content, practice, and review, and the final week is a mixed\u2011review session to solidify concepts before the exam.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Build a strong foundation in atomic structure and basic properties.",
+    "hours": 5,
+    "tasks": [
+     "Read the textbook section on 1.1 and write a 200\u2011word summary of moles and molar mass.",
+     "Do 10 practice problems on converting grams to moles, then check answers with the scoring guide.",
+     "Watch the recorded lecture on 1.5 and diagram the electron configuration of sodium.",
+     "Solve 5 multiple\u2011choice questions on periodic trends (1.7) and explain each answer choice."
+    ],
+    "topics": [
+     "1.1",
+     "1.5",
+     "1.7"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Explore compound structure, bonding, and basic reaction representations.",
+    "hours": 5,
+    "tasks": [
+     "Create flashcards for ionic, covalent, and metallic bonds (2.1).",
+     "Draw Lewis structures for 5 molecules (2.5) and label formal charges.",
+     "Write out the balanced equation for the reaction of HCl with NaOH and then convert it to a net ionic equation (4.3).",
+     "Answer 8 practice questions on Lewis diagrams and reaction representations, marking each with the rubric."
+    ],
+    "topics": [
+     "2.1",
+     "2.5",
+     "4.3"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Apply kinetics and thermochemistry fundamentals.",
+    "hours": 5,
+    "tasks": [
+     "Plot a rate vs. concentration graph for a first\u2011order reaction (5.1).",
+     "Calculate \u0394H for the combustion of methane using Hess\u2019s law (6.1).",
+     "Sketch an energy diagram for the reaction and label activation energy (6.2).",
+     "Complete 6 timed practice problems on rate laws and heat transfer, recording time taken."
+    ],
+    "topics": [
+     "5.1",
+     "6.1",
+     "6.2"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [
+     9900
+    ],
+    "focus": "Integrate equilibrium concepts and review all units with a live class.",
+    "hours": 5,
+    "tasks": [
+     "Attend live class #9900 on equilibrium (7.1).",
+     "After class, solve 4 equilibrium constant problems (7.3).",
+     "Review 1.2 by interpreting a mass\u2011spectrometry spectrum for a pure element.",
+     "Do a stoichiometry worksheet (4.5) involving a multi\u2011step reaction.",
+     "Practice 5 rate\u2011law questions (5.2) and compare answers with the scoring guide."
+    ],
+    "topics": [
+     "7.1",
+     "7.3",
+     "1.2",
+     "4.5",
+     "5.2"
+    ],
+    "week": 4
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\":\"Use the remaining time to take a full-length timed practice test, then review all incorrect answers in detail, focusing on the units that were most challenging.\",\"summary\":\"This 4\u2011week plan covers every AP Chemistry unit with focused, concrete tasks and a single live class in week\u202f4. Each week uses the full 5\u202fhours, balancing new content, practice, and review, and the final week is a mixed\u2011review session to solidify concepts before the exam.\",\"weeks\":[{\"classes\":[],\"focus\":\"Build a strong foundation in atomic structure and basic properties.\",\"hours\":5,\"tasks\":[\"Read the textbook section on 1.1 and write a 200\u2011word summary of moles and molar mass.\",\"Do 10 practice problems on converting grams to moles, then check answers with the scoring guide.\",\"Watch the recorded lecture on 1.5 and diagram the electron configuration of sodium.\",\"Solve 5 multiple\u2011choice questions on periodic trends (1.7) and explain each answer choice.\"],\"topics\":[\"1.1\",\"1.5\",\"1.7\"],\"week\":1},{\"classes\":[],\"focus\":\"Explore compound structure, bonding, and basic reaction representations.\",\"hours\":5,\"tasks\":[\"Create flashcards for ionic, covalent, and metallic bonds (2.1).\",\"Draw Lewis structures for 5 molecules (2.5) and label formal charges.\",\"Write out the balanced equation for the reaction of HCl with NaOH and then convert it to a net ionic equation (4.3).\",\"Answer 8 practice questions on Lewis diagrams and reaction representations, marking each with the rubric.\"],\"topics\":[\"2.1\",\"2.5\",\"4.3\"],\"week\":2},{\"classes\":[],\"focus\":\"Apply kinetics and thermochemistry fundamentals.\",\"hours\":5,\"tasks\":[\"Plot a rate vs. concentration graph for a first\u2011order reaction (5.1).\",\"Calculate \u0394H for the combustion of methane using Hess\u2019s law (6.1).\",\"Sketch an energy diagram for the reaction and label activation energy (6.2).\",\"Complete 6 timed practice problems on rate laws and heat transfer, recording time taken.\"],\"topics\":[\"5.1\",\"6.1\",\"6.2\"],\"week\":3},{\"classes\":[9900],\"focus\":\"Integrate equilibrium concepts and review all units with a live class.\",\"hours\":5,\"tasks\":[\"Attend live class #9900 on equilibrium (7.1).\",\"After class, solve 4 equilibrium constant problems (7.3).\",\"Review 1.2 by interpreting a mass\u2011spectrometry spectrum for a pure element.\",\"Do a stoichiometry worksheet (4.5) involving a multi\u2011step reaction.\",\"Practice 5 rate\u2011law questions (5.2) and compare answers with the scoring guide.\"],\"topics\":[\"7.1\",\"7.3\",\"1.2\",\"4.5\",\"5.2\"],\"week\":4}]}\n",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1170,
+ "output_tokens": 716,
+ "latency_ms": 1258
+}

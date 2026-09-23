@@ -155,6 +155,7 @@ def test_client_requests_strict_structured_output(ctx):
     assert body["response_format"]["json_schema"]["strict"] is True
     assert body["response_format"]["json_schema"]["schema"] == PLAN_SCHEMA
     assert body["reasoning_effort"] == "low"
+    assert body["max_completion_tokens"] == 4096
     assert (result.input_tokens, result.output_tokens) == (1200, 800)
     assert result.data["weeks"]
 

@@ -1,0 +1,331 @@
+{
+ "data": {
+  "summary": "This 16\u2011week plan starts with the student\u2019s weak units (6 and 7) in the first half, then cycles through the remaining units, ensuring each unit appears at least once. The final two weeks focus on mixed review and timed practice. Each week is limited to 3 study hours, with concrete tasks that can be completed in a single sitting.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Begin with Unit 6 \u2013 rotational kinetic energy.",
+    "topics": [
+     "6.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Read the textbook section on 6.1 and write a summary of key equations.",
+     "Do 10 practice problems on rotational kinetic energy, then check solutions and note errors."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of torque and work in rotating systems.",
+    "topics": [
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Solve 8 torque\u2011work problems from the workbook, marking each with the correct units.",
+     "Create a concept map linking torque, work, and energy for rotating systems."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Angular momentum fundamentals.",
+    "topics": [
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Derive the angular momentum formula for a point mass and verify with a calculator.",
+     "Answer 5 free\u2011response questions on angular momentum conservation."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Conservation of angular momentum.",
+    "topics": [
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Work through 7 example problems on conservation of angular momentum.",
+     "Write a short explanation of when angular momentum is conserved."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Introduce oscillations \u2013 SHM definition.",
+    "topics": [
+     "7.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Read the section on 7.1 and list the defining equations.",
+     "Solve 6 problems that identify SHM in different systems."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Frequency and period of SHM.",
+    "topics": [
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Calculate frequency and period for 5 different oscillators.",
+     "Create flashcards for the formulas and key relationships."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Representing and analyzing SHM.",
+    "topics": [
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Plot displacement vs. time for a simple pendulum using spreadsheet software.",
+     "Answer 4 conceptual questions about phase and amplitude."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Energy in simple harmonic oscillators.",
+    "topics": [
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Derive total energy expression for a mass\u2011spring system.",
+     "Solve 5 problems comparing kinetic and potential energy at different points."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Kinematics fundamentals \u2013 scalars and vectors.",
+    "topics": [
+     "1.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Complete 8 vector addition problems in 1D.",
+     "Write a brief summary of scalar vs. vector quantities."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Displacement, velocity, and acceleration.",
+    "topics": [
+     "1.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Solve 6 motion\u2011graph problems, labeling axes and interpreting slopes.",
+     "Create a cheat sheet of key kinematic equations."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Representing motion and reference frames.",
+    "topics": [
+     "1.3",
+     "1.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Draw 4 motion diagrams for different scenarios.",
+     "Explain how changing reference frames affects velocity vectors."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Vectors in two dimensions.",
+    "topics": [
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Solve 7 projectile motion problems, including range and time of flight.",
+     "Summarize the method for decomposing vectors into components."
+    ]
+   },
+   {
+    "week": 13,
+    "focus": "Mixed review of all units.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Take a 60\u2011minute timed practice test covering all topics.",
+     "Review incorrect answers and update a personal error log."
+    ]
+   },
+   {
+    "week": 14,
+    "focus": "Timed practice and exam strategy.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Complete a full-length practice exam under timed conditions.",
+     "Analyze pacing and identify any remaining weak spots."
+    ]
+   },
+   {
+    "week": 15,
+    "focus": "Final review of weak areas.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Re\u2011solve the most challenging problems from weeks 1\u20118.",
+     "Create a summary sheet of key formulas for quick reference."
+    ]
+   },
+   {
+    "week": 16,
+    "focus": "Exam readiness and relaxation.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Do a 30\u2011minute mental math warm\u2011up and review flashcards.",
+     "Plan a pre\u2011exam routine: sleep, breakfast, and travel schedule."
+    ]
+   }
+  ],
+  "final_week_advice": "On exam day, arrive early, bring all allowed materials, and use the pacing plan from week 14 to manage time. After the test, take a short walk to decompress before heading home."
+ },
+ "raw": "{\"summary\":\"This 16\u2011week plan starts with the student\u2019s weak units (6 and 7) in the first half, then cycles through the remaining units, ensuring each unit appears at least once. The final two weeks focus on mixed review and timed practice. Each week is limited to 3 study hours, with concrete tasks that can be completed in a single sitting.\",\"weeks\":[{\"week\":1,\"focus\":\"Begin with Unit 6 \u2013 rotational kinetic energy.\",\"topics\":[\"6.1\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Read the textbook section on 6.1 and write a summary of key equations.\",\"Do 10 practice problems on rotational kinetic energy, then check solutions and note errors.\"]},{\"week\":2,\"focus\":\"Deepen understanding of torque and work in rotating systems.\",\"topics\":[\"6.2\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Solve 8 torque\u2011work problems from the workbook, marking each with the correct units.\",\"Create a concept map linking torque, work, and energy for rotating systems.\"]},{\"week\":3,\"focus\":\"Angular momentum fundamentals.\",\"topics\":[\"6.3\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Derive the angular momentum formula for a point mass and verify with a calculator.\",\"Answer 5 free\u2011response questions on angular momentum conservation.\"]},{\"week\":4,\"focus\":\"Conservation of angular momentum.\",\"topics\":[\"6.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Work through 7 example problems on conservation of angular momentum.\",\"Write a short explanation of when angular momentum is conserved.\"]},{\"week\":5,\"focus\":\"Introduce oscillations \u2013 SHM definition.\",\"topics\":[\"7.1\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Read the section on 7.1 and list the defining equations.\",\"Solve 6 problems that identify SHM in different systems.\"]},{\"week\":6,\"focus\":\"Frequency and period of SHM.\",\"topics\":[\"7.2\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Calculate frequency and period for 5 different oscillators.\",\"Create flashcards for the formulas and key relationships.\"]},{\"week\":7,\"focus\":\"Representing and analyzing SHM.\",\"topics\":[\"7.3\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Plot displacement vs. time for a simple pendulum using spreadsheet software.\",\"Answer 4 conceptual questions about phase and amplitude.\"]},{\"week\":8,\"focus\":\"Energy in simple harmonic oscillators.\",\"topics\":[\"7.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Derive total energy expression for a mass\u2011spring system.\",\"Solve 5 problems comparing kinetic and potential energy at different points.\"]},{\"week\":9,\"focus\":\"Kinematics fundamentals \u2013 scalars and vectors.\",\"topics\":[\"1.1\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Complete 8 vector addition problems in 1D.\",\"Write a brief summary of scalar vs. vector quantities.\"]},{\"week\":10,\"focus\":\"Displacement, velocity, and acceleration.\",\"topics\":[\"1.2\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Solve 6 motion\u2011graph problems, labeling axes and interpreting slopes.\",\"Create a cheat sheet of key kinematic equations.\"]},{\"week\":11,\"focus\":\"Representing motion and reference frames.\",\"topics\":[\"1.3\",\"1.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Draw 4 motion diagrams for different scenarios.\",\"Explain how changing reference frames affects velocity vectors.\"]},{\"week\":12,\"focus\":\"Vectors in two dimensions.\",\"topics\":[\"1.5\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Solve 7 projectile motion problems, including range and time of flight.\",\"Summarize the method for decomposing vectors into components.\"]},{\"week\":13,\"focus\":\"Mixed review of all units.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Take a 60\u2011minute timed practice test covering all topics.\",\"Review incorrect answers and update a personal error log.\"]},{\"week\":14,\"focus\":\"Timed practice and exam strategy.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Complete a full-length practice exam under timed conditions.\",\"Analyze pacing and identify any remaining weak spots.\"]},{\"week\":15,\"focus\":\"Final review of weak areas.\",\"topics\":[\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Re\u2011solve the most challenging problems from weeks 1\u20118.\",\"Create a summary sheet of key formulas for quick reference.\"]},{\"week\":16,\"focus\":\"Exam readiness and relaxation.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Do a 30\u2011minute mental math warm\u2011up and review flashcards.\",\"Plan a pre\u2011exam routine: sleep, breakfast, and travel schedule.\"]}],\"final_week_advice\":\"On exam day, arrive early, bring all allowed materials, and use the pacing plan from week 14 to manage time. After the test, take a short walk to decompress before heading home.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1028,
+ "output_tokens": 1503,
+ "latency_ms": 1922
+}

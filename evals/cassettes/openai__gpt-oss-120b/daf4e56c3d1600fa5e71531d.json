@@ -1,0 +1,100 @@
+{
+ "data": {
+  "summary": "The four\u2011week plan covers every AP Chemistry unit, allocating roughly 5 hours each week. Early weeks introduce core concepts and practice, while the final week focuses on mixed review and timed practice, incorporating the live class on equilibrium (7.1). Concrete tasks reinforce learning and build exam stamina.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 5,
+    "focus": "Foundations of atomic structure, bonding, and intermolecular forces",
+    "topics": [
+     "1.1",
+     "1.5",
+     "2.1",
+     "2.5",
+     "3.1",
+     "3.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read the textbook sections for 1.1, 1.5, 2.1, 2.5, 3.1, and 3.4.",
+     "Create a one\u2011page summary chart comparing ionic, covalent, and metallic bonds.",
+     "Do 12 free\u2011response questions on mole calculations, electron configuration, and VSEPR; check answers with the scoring guide.",
+     "Complete 8 practice problems on the Ideal Gas Law, showing all steps.",
+     "Review class notes and make flashcards for key definitions (e.g., mole, electronegativity, intermolecular forces)."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 5,
+    "focus": "Stoichiometry, thermochemistry, and reaction representations",
+    "topics": [
+     "4.1",
+     "4.5",
+     "5.1",
+     "5.2",
+     "6.1",
+     "6.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Watch the video lesson on stoichiometric calculations and complete the accompanying worksheet.",
+     "Solve 10 stoichiometry problems that require converting between mass, moles, and particles.",
+     "Do 8 free\u2011response questions on reaction rates and write the corresponding rate laws.",
+     "Complete a heat\u2011calorimetry lab report using provided data; calculate \u0394H for the reaction.",
+     "Make a one\u2011page cheat sheet listing common enthalpy values and the steps for a calorimetry problem."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 5,
+    "focus": "Equilibrium, acids/bases, and electrochemistry fundamentals",
+    "topics": [
+     "7.2",
+     "7.3",
+     "8.1",
+     "8.2",
+     "9.1",
+     "9.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read textbook sections for equilibrium direction, Q vs K, and calculate K for 5 given reactions.",
+     "Complete 6 free\u2011response questions on acid\u2011base calculations (pH, pOH) for strong acids/bases.",
+     "Work through 4 practice problems on entropy and Gibbs free energy, explaining the sign of \u0394G.",
+     "Create a concept map linking equilibrium, Le\u202fChatelier\u2019s principle, and acid\u2011base buffers.",
+     "Take a 20\u2011minute timed quiz covering units 7\u20119; review each incorrect answer."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 5,
+    "focus": "Mixed review and timed practice; live class on equilibrium",
+    "topics": [
+     "7.1",
+     "1.2",
+     "2.3",
+     "3.5",
+     "5.4",
+     "8.4",
+     "9.4"
+    ],
+    "classes": [
+     9900
+    ],
+    "tasks": [
+     "Attend live class 9900 (week 4) and take detailed notes on equilibrium introduction (7.1).",
+     "Do a full\u2011length AP practice section (60 minutes) covering a mix of units; mark using the official scoring guide.",
+     "Review flashcards for all topic codes listed this week, focusing on any still shaky concepts.",
+     "Redo 5 previously missed free\u2011response questions from weeks 1\u20113, writing improved answers.",
+     "Complete a quick\u2011fire worksheet: 2 questions each on mass spectroscopy (1.2), ionic solid structure (2.3), kinetic molecular theory (3.5), elementary reactions (5.4), acid\u2011base reactions (8.4), and electrochemical cells (9.4)."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the timed practice to gauge pacing, then focus the remaining days on reviewing any remaining weak spots identified in the quiz. Keep a calm, steady rhythm during the exam and rely on your organized cheat sheets and concept maps for quick recall."
+ },
+ "raw": "{\n  \"summary\": \"The four\u2011week plan covers every AP Chemistry unit, allocating roughly 5 hours each week. Early weeks introduce core concepts and practice, while the final week focuses on mixed review and timed practice, incorporating the live class on equilibrium (7.1). Concrete tasks reinforce learning and build exam stamina.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 5,\n      \"focus\": \"Foundations of atomic structure, bonding, and intermolecular forces\",\n      \"topics\": [\"1.1\", \"1.5\", \"2.1\", \"2.5\", \"3.1\", \"3.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the textbook sections for 1.1, 1.5, 2.1, 2.5, 3.1, and 3.4.\",\n        \"Create a one\u2011page summary chart comparing ionic, covalent, and metallic bonds.\",\n        \"Do 12 free\u2011response questions on mole calculations, electron configuration, and VSEPR; check answers with the scoring guide.\",\n        \"Complete 8 practice problems on the Ideal Gas Law, showing all steps.\",\n        \"Review class notes and make flashcards for key definitions (e.g., mole, electronegativity, intermolecular forces).\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 5,\n      \"focus\": \"Stoichiometry, thermochemistry, and reaction representations\",\n      \"topics\": [\"4.1\", \"4.5\", \"5.1\", \"5.2\", \"6.1\", \"6.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch the video lesson on stoichiometric calculations and complete the accompanying worksheet.\",\n        \"Solve 10 stoichiometry problems that require converting between mass, moles, and particles.\",\n        \"Do 8 free\u2011response questions on reaction rates and write the corresponding rate laws.\",\n        \"Complete a heat\u2011calorimetry lab report using provided data; calculate \u0394H for the reaction.\",\n        \"Make a one\u2011page cheat sheet listing common enthalpy values and the steps for a calorimetry problem.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 5,\n      \"focus\": \"Equilibrium, acids/bases, and electrochemistry fundamentals\",\n      \"topics\": [\"7.2\", \"7.3\", \"8.1\", \"8.2\", \"9.1\", \"9.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read textbook sections for equilibrium direction, Q vs K, and calculate K for 5 given reactions.\",\n        \"Complete 6 free\u2011response questions on acid\u2011base calculations (pH, pOH) for strong acids/bases.\",\n        \"Work through 4 practice problems on entropy and Gibbs free energy, explaining the sign of \u0394G.\",\n        \"Create a concept map linking equilibrium, Le\u202fChatelier\u2019s principle, and acid\u2011base buffers.\",\n        \"Take a 20\u2011minute timed quiz covering units 7\u20119; review each incorrect answer.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 5,\n      \"focus\": \"Mixed review and timed practice; live class on equilibrium\",\n      \"topics\": [\"7.1\", \"1.2\", \"2.3\", \"3.5\", \"5.4\", \"8.4\", \"9.4\"],\n      \"classes\": [9900],\n      \"tasks\": [\n        \"Attend live class 9900 (week 4) and take detailed notes on equilibrium introduction (7.1).\",\n        \"Do a full\u2011length AP practice section (60 minutes) covering a mix of units; mark using the official scoring guide.\",\n        \"Review flashcards for all topic codes listed this week, focusing on any still shaky concepts.\",\n        \"Redo 5 previously missed free\u2011response questions from weeks 1\u20113, writing improved answers.\",\n        \"Complete a quick\u2011fire worksheet: 2 questions each on mass spectroscopy (1.2), ionic solid structure (2.3), kinetic molecular theory (3.5), elementary reactions (5.4), acid\u2011base reactions (8.4), and electrochemical cells (9.4).\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use the timed practice to gauge pacing, then focus the remaining days on reviewing any remaining weak spots identified in the quiz. Keep a calm, steady rhythm during the exam and rely on your organized cheat sheets and concept maps for quick recall.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1170,
+ "output_tokens": 1065,
+ "latency_ms": 2923
+}

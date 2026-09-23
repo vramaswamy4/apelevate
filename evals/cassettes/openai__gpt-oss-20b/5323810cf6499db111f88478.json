@@ -1,0 +1,59 @@
+{
+ "data": {
+  "summary": "This two\u2011week plan tackles the student\u2019s weak unit (Unit\u202f6) first, then reviews key concepts from Units\u202f1\u20135 and 7\u20138 before the exam. Each week is limited to 10 study hours and includes concrete tasks that can be completed in a single sitting.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Master Unit\u202f6 and reinforce core differentiation concepts",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "2.5",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 10,
+    "tasks": [
+     "Do 15 Riemann sum practice problems and check solutions",
+     "Solve 10 definite integral problems using the Fundamental Theorem of Calculus",
+     "Complete a 20\u2011question quiz on the Power Rule and its applications",
+     "Review 5 sample AP questions on accumulation functions and mark them against the scoring guide"
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Review all units and timed practice",
+    "topics": [
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "3.1",
+     "4.1",
+     "5.1",
+     "7.1",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 10,
+    "tasks": [
+     "Take a 60\u2011minute timed practice test covering all units",
+     "Identify and correct 5 mistakes from the practice test",
+     "Create a one\u2011page cheat sheet summarizing key formulas and theorems",
+     "Do a 30\u2011minute review session on related rates and slope fields"
+    ]
+   }
+  ],
+  "final_week_advice": "Use the final week for a full-length timed practice test and a thorough review of any remaining weak spots. Focus on pacing and accuracy, and ensure all formulas are memorized before the exam."
+ },
+ "raw": "{\"summary\":\"This two\u2011week plan tackles the student\u2019s weak unit (Unit\u202f6) first, then reviews key concepts from Units\u202f1\u20135 and 7\u20138 before the exam. Each week is limited to 10 study hours and includes concrete tasks that can be completed in a single sitting.\",\"weeks\":[{\"week\":1,\"focus\":\"Master Unit\u202f6 and reinforce core differentiation concepts\",\"topics\":[\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"2.5\",\"5.2\"],\"classes\":[],\"hours\":10,\"tasks\":[\"Do 15 Riemann sum practice problems and check solutions\",\"Solve 10 definite integral problems using the Fundamental Theorem of Calculus\",\"Complete a 20\u2011question quiz on the Power Rule and its applications\",\"Review 5 sample AP questions on accumulation functions and mark them against the scoring guide\"]},{\"week\":2,\"focus\":\"Review all units and timed practice\",\"topics\":[\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"3.1\",\"4.1\",\"5.1\",\"7.1\",\"8.1\"],\"classes\":[],\"hours\":10,\"tasks\":[\"Take a 60\u2011minute timed practice test covering all units\",\"Identify and correct 5 mistakes from the practice test\",\"Create a one\u2011page cheat sheet summarizing key formulas and theorems\",\"Do a 30\u2011minute review session on related rates and slope fields\"]}],\"final_week_advice\":\"Use the final week for a full-length timed practice test and a thorough review of any remaining weak spots. Focus on pacing and accuracy, and ensure all formulas are memorized before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1241,
+ "output_tokens": 391,
+ "latency_ms": 744
+}

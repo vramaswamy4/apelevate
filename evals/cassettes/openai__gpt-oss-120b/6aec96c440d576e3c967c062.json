@@ -1,0 +1,209 @@
+{
+ "data": {
+  "summary": "The plan builds foundational concepts early, prioritizes the weak units (4 and 5) in the first half, and integrates the scheduled live classes. Each week balances topic study, practice problems, and review within a 5\u2011hour limit. The final two weeks focus on mixed review and timed practice to consolidate knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Foundations in Kinematics and Vectors",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read the textbook sections for 1.1, 1.2, and 1.5.",
+     "Do 15 free\u2011response style kinematics problems covering displacement, velocity, and 2\u2011D vectors.",
+     "Create a one\u2011page summary sheet of vector addition rules and common motion equations."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Linear Momentum (weak unit) + Live class",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3"
+    ],
+    "classes": [
+     10000
+    ],
+    "hours": 5,
+    "tasks": [
+     "Watch Live Class 10000 and take notes on 4.1 and 4.2.",
+     "Complete the class worksheet (provided by instructor).",
+     "Do 10 FRQ problems on impulse and momentum change.",
+     "Review 4.3 conservation of linear momentum with 5 textbook examples."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Force and Translational Dynamics",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections 2.1\u20112.2 and 2.5.",
+     "Draw free\u2011body diagrams for 8 different scenarios.",
+     "Solve 12 FRQs applying Newton's second law and system analysis.",
+     "Summarize the steps for solving dynamics problems on a one\u2011page cheat sheet."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Work, Energy, and Power",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read textbook chapters for 3.1\u20113.2 and 3.4.",
+     "Complete 10 energy\u2011conservation problems (incl. work\u2011energy theorem).",
+     "Calculate power for 5 real\u2011world situations.",
+     "Create a concept map linking kinetic energy, work, and conservation."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Torque & Rotational Dynamics (weak unit) + Live class",
+    "topics": [
+     "5.1",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [
+     10001
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend Live Class 10001; focus on 5.1 and 5.3 notes.",
+     "Do the class\u2019s practice problems on rotational kinematics and torque.",
+     "Complete 8 FRQs on torque calculations and rotational inertia (5.4).",
+     "Build a quick reference table for torque = r\u00d7F and moment of inertia formulas."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Energy & Momentum of Rotating Systems",
+    "topics": [
+     "6.1",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections 6.1, 6.3, 6.4.",
+     "Solve 10 problems on rotational kinetic energy and angular momentum conservation.",
+     "Watch a short video on angular impulse and complete the accompanying quiz.",
+     "Add rotational energy formulas to the cheat sheet created in week 1."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Oscillations",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read textbook for 7.1\u20117.3.",
+     "Graph 6 simple harmonic motion examples (position, velocity, acceleration).",
+     "Do 12 FRQs on period, frequency, and energy of SHM.",
+     "Create flashcards for SHM equations and key terms."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Fluids",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections 8.1\u20118.2 and 8.4.",
+     "Complete 10 problems on pressure, buoyancy, and continuity equation.",
+     "Perform a quick lab\u2011style calculation: flow rate through a pipe using given diameters.",
+     "Summarize fluid\u2011law relationships on a one\u2011page sheet."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mixed Review of All Units",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "5.1",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "8.1",
+     "8.2",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 40\u2011minute mixed\u2011topic practice test (use past FRQs).",
+     "Mark answers against the scoring guide and note any recurring errors.",
+     "Review incorrect problems, re\u2011working each until correct.",
+     "Refresh cheat sheets and flashcards for all units."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Timed Practice & Final Review",
+    "topics": [
+     "4.4",
+     "5.2",
+     "6.2",
+     "7.4",
+     "8.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Complete a full 90\u2011minute timed AP exam section covering the listed topics.",
+     "Score the section, calculate percent correct, and identify weak spots.",
+     "Do targeted drills (5 problems each) on any low\u2011scoring areas.",
+     "Write a one\u2011page summary of key strategies for the exam day."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, simulate real exam conditions with timed sections, focus on accuracy, and use your cheat sheets only for quick checks. Get plenty of rest, review your error log, and enter the exam confident in your systematic problem\u2011solving process."
+ },
+ "raw": "{\n  \"summary\": \"The plan builds foundational concepts early, prioritizes the weak units (4 and 5) in the first half, and integrates the scheduled live classes. Each week balances topic study, practice problems, and review within a 5\u2011hour limit. The final two weeks focus on mixed review and timed practice to consolidate knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Foundations in Kinematics and Vectors\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.5\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read the textbook sections for 1.1, 1.2, and 1.5.\",\n        \"Do 15 free\u2011response style kinematics problems covering displacement, velocity, and 2\u2011D vectors.\",\n        \"Create a one\u2011page summary sheet of vector addition rules and common motion equations.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Linear Momentum (weak unit) + Live class\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\"],\n      \"classes\": [10000],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch Live Class 10000 and take notes on 4.1 and 4.2.\",\n        \"Complete the class worksheet (provided by instructor).\",\n        \"Do 10 FRQ problems on impulse and momentum change.\",\n        \"Review 4.3 conservation of linear momentum with 5 textbook examples.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Force and Translational Dynamics\",\n      \"topics\": [\"2.1\", \"2.2\", \"2.5\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections 2.1\u20112.2 and 2.5.\",\n        \"Draw free\u2011body diagrams for 8 different scenarios.\",\n        \"Solve 12 FRQs applying Newton's second law and system analysis.\",\n        \"Summarize the steps for solving dynamics problems on a one\u2011page cheat sheet.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Work, Energy, and Power\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read textbook chapters for 3.1\u20113.2 and 3.4.\",\n        \"Complete 10 energy\u2011conservation problems (incl. work\u2011energy theorem).\",\n        \"Calculate power for 5 real\u2011world situations.\",\n        \"Create a concept map linking kinetic energy, work, and conservation.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Torque & Rotational Dynamics (weak unit) + Live class\",\n      \"topics\": [\"5.1\", \"5.3\", \"5.4\"],\n      \"classes\": [10001],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Attend Live Class 10001; focus on 5.1 and 5.3 notes.\",\n        \"Do the class\u2019s practice problems on rotational kinematics and torque.\",\n        \"Complete 8 FRQs on torque calculations and rotational inertia (5.4).\",\n        \"Build a quick reference table for torque = r\u00d7F and moment of inertia formulas.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Energy & Momentum of Rotating Systems\",\n      \"topics\": [\"6.1\", \"6.3\", \"6.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections 6.1, 6.3, 6.4.\",\n        \"Solve 10 problems on rotational kinetic energy and angular momentum conservation.\",\n        \"Watch a short video on angular impulse and complete the accompanying quiz.\",\n        \"Add rotational energy formulas to the cheat sheet created in week 1.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Oscillations\",\n      \"topics\": [\"7.1\", \"7.2\", \"7.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read textbook for 7.1\u20117.3.\",\n        \"Graph 6 simple harmonic motion examples (position, velocity, acceleration).\",\n        \"Do 12 FRQs on period, frequency, and energy of SHM.\",\n        \"Create flashcards for SHM equations and key terms.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Fluids\",\n      \"topics\": [\"8.1\", \"8.2\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections 8.1\u20118.2 and 8.4.\",\n        \"Complete 10 problems on pressure, buoyancy, and continuity equation.\",\n        \"Perform a quick lab\u2011style calculation: flow rate through a pipe using given diameters.\",\n        \"Summarize fluid\u2011law relationships on a one\u2011page sheet.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Mixed Review of All Units\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.5\",\"2.1\",\"2.2\",\"2.5\",\"3.1\",\"3.2\",\"3.4\",\"4.1\",\"4.2\",\"4.3\",\"5.1\",\"5.3\",\"5.4\",\"6.1\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"8.1\",\"8.2\",\"8.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Take a 40\u2011minute mixed\u2011topic practice test (use past FRQs).\",\n        \"Mark answers against the scoring guide and note any recurring errors.\",\n        \"Review incorrect problems, re\u2011working each until correct.\",\n        \"Refresh cheat sheets and flashcards for all units.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Timed Practice & Final Review\",\n      \"topics\": [\"4.4\",\"5.2\",\"6.2\",\"7.4\",\"8.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Complete a full 90\u2011minute timed AP exam section covering the listed topics.\",\n        \"Score the section, calculate percent correct, and identify weak spots.\",\n        \"Do targeted drills (5 problems each) on any low\u2011scoring areas.\",\n        \"Write a one\u2011page summary of key strategies for the exam day.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, simulate real exam conditions with timed sections, focus on accuracy, and use your cheat sheets only for quick checks. Get plenty of rest, review your error log, and enter the exam confident in your systematic problem\u2011solving process.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1073,
+ "output_tokens": 1713,
+ "latency_ms": 4434
+}

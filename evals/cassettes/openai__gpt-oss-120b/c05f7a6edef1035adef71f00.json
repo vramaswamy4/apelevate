@@ -1,0 +1,133 @@
+{
+ "data": {
+  "summary": "The five\u2011week plan front\u2011loads the weak Unit\u202f3 early, then moves through the remaining units in a logical order, ending with a mixed review and timed practice. Each week balances theory, practice problems, and a live class (week\u202f2) while staying within the 15\u2011hour limit.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 15,
+    "focus": "Build a solid foundation in kinematics and forces.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "2.1",
+     "2.2",
+     "2.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Watch the textbook videos for 1.1\u20111.3 and take concise notes (2\u202fh).",
+     "Do 15 free\u2011response kinematics problems, checking answers with the scoring guide (3\u202fh).",
+     "Create a one\u2011page cheat sheet of vector addition rules and displacement\u2011velocity\u2011acceleration relationships (1\u202fh).",
+     "Complete 10 free\u2011response problems on free\u2011body diagrams and Newton's First Law (2\u202fh).",
+     "Complete a set of 12 multiple\u2011choice questions covering 2.1\u20112.2 (2\u202fh).",
+     "Review mistakes, rewrite solutions, and summarize key formulas (2\u202fh).",
+     "Spend 3\u202fh on a timed mixed\u2011practice set (5 kinematics + 5 dynamics) to build stamina."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 15,
+    "focus": "Strengthen Work, Energy, and Power \u2013 weak unit.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "classes": [
+     10500
+    ],
+    "tasks": [
+     "Read the AP review chapter on Work, Energy, and Power; annotate examples for 3.1\u20113.5 (2\u202fh).",
+     "Do 12 free\u2011response questions on Work (3.2) and Conservation of Energy (3.4), grading with the scoring guide (3\u202fh).",
+     "Join Live Class 10500, participate in the Q&A, and note any misconceptions (1\u202fh).",
+     "Complete 8 practice problems on Translational Kinetic Energy (3.1) and Power (3.5) (2\u202fh).",
+     "Create flashcards for the key equations (KE = \u00bdmv\u00b2, W = F\u00b7d, etc.) and review them in short bursts (1\u202fh).",
+     "Take a 20\u2011minute timed mini\u2011quiz covering all five sub\u2011topics, then review errors (2\u202fh).",
+     "Spend the remaining 4\u202fh revisiting any weak spots from the live class and re\u2011doing the most missed problems."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 15,
+    "focus": "Linear momentum and introduction to rotational dynamics.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Watch tutorial videos on linear momentum and impulse; summarize the conservation principle (2\u202fh).",
+     "Solve 10 free\u2011response problems on momentum conservation in collisions (3\u202fh).",
+     "Do 8 problems linking linear and rotational motion (5.2) \u2013 e.g., rolling without slipping (2\u202fh).",
+     "Create a comparison table of linear vs. angular quantities (1\u202fh).",
+     "Complete a mixed set of 12 multiple\u2011choice questions covering 4.1\u20114.3 and 5.1\u20115.2 (2\u202fh).",
+     "Review all solutions, write brief explanations for each step (2\u202fh).",
+     "Finish the week with a 30\u2011minute timed practice on momentum and rotational kinematics (3\u202fh)."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 15,
+    "focus": "Rotational energy, torque work, and simple harmonic motion.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read the AP section on rotational kinetic energy and torque work; annotate key formulas (2\u202fh).",
+     "Do 10 free\u2011response questions on rotational kinetic energy (6.1) and torque\u2011work (6.2) (3\u202fh).",
+     "Complete 6 problems on angular impulse and angular momentum conservation (6.3) (2\u202fh).",
+     "Watch a video on simple harmonic motion fundamentals; list the defining equations (1\u202fh).",
+     "Solve 12 free\u2011response SHM problems covering 7.1\u20117.3 (3\u202fh).",
+     "Create a one\u2011page summary linking energy concepts across linear and rotational systems (1\u202fh).",
+     "Take a 25\u2011minute timed mixed set (rotational + SHM) and review errors (3\u202fh)."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 15,
+    "focus": "Mixed review and timed full\u2011section practice.",
+    "topics": [
+     "1.4",
+     "2.3",
+     "3.5",
+     "4.4",
+     "5.3",
+     "6.4",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Review flashcards for all vector, force, and energy equations (2\u202fh).",
+     "Do a 40\u2011minute timed practice set covering at least one problem from each unit (5\u202fh).",
+     "Mark the practice set against the AP scoring guidelines; note any recurring errors (2\u202fh).",
+     "Re\u2011work the five most missed problems with step\u2011by\u2011step solutions (3\u202fh).",
+     "Complete a quick\u2011fire 20\u2011question multiple\u2011choice review of fluid concepts (8.1\u20118.4) (1\u202fh).",
+     "Write a one\u2011page exam\u2011day strategy sheet (what to do first, time allocation, stress\u2011relief tricks) (1\u202fh).",
+     "Spend the final hour doing a brief mindfulness/relaxation routine to prepare for the exam."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on solidifying connections between topics, practice under timed conditions, and refine your test\u2011taking strategy. Trust the work you\u2019ve done, address the few lingering weak spots, and keep a calm, confident mindset for the exam."
+ },
+ "raw": "{\n  \"summary\": \"The five\u2011week plan front\u2011loads the weak Unit\u202f3 early, then moves through the remaining units in a logical order, ending with a mixed review and timed practice. Each week balances theory, practice problems, and a live class (week\u202f2) while staying within the 15\u2011hour limit.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 15,\n      \"focus\": \"Build a solid foundation in kinematics and forces.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"2.1\", \"2.2\", \"2.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch the textbook videos for 1.1\u20111.3 and take concise notes (2\u202fh).\",\n        \"Do 15 free\u2011response kinematics problems, checking answers with the scoring guide (3\u202fh).\",\n        \"Create a one\u2011page cheat sheet of vector addition rules and displacement\u2011velocity\u2011acceleration relationships (1\u202fh).\",\n        \"Complete 10 free\u2011response problems on free\u2011body diagrams and Newton's First Law (2\u202fh).\",\n        \"Complete a set of 12 multiple\u2011choice questions covering 2.1\u20112.2 (2\u202fh).\",\n        \"Review mistakes, rewrite solutions, and summarize key formulas (2\u202fh).\",\n        \"Spend 3\u202fh on a timed mixed\u2011practice set (5 kinematics + 5 dynamics) to build stamina.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 15,\n      \"focus\": \"Strengthen Work, Energy, and Power \u2013 weak unit.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\"],\n      \"classes\": [10500],\n      \"tasks\": [\n        \"Read the AP review chapter on Work, Energy, and Power; annotate examples for 3.1\u20113.5 (2\u202fh).\",\n        \"Do 12 free\u2011response questions on Work (3.2) and Conservation of Energy (3.4), grading with the scoring guide (3\u202fh).\",\n        \"Join Live Class 10500, participate in the Q&A, and note any misconceptions (1\u202fh).\",\n        \"Complete 8 practice problems on Translational Kinetic Energy (3.1) and Power (3.5) (2\u202fh).\",\n        \"Create flashcards for the key equations (KE = \u00bdmv\u00b2, W = F\u00b7d, etc.) and review them in short bursts (1\u202fh).\",\n        \"Take a 20\u2011minute timed mini\u2011quiz covering all five sub\u2011topics, then review errors (2\u202fh).\",\n        \"Spend the remaining 4\u202fh revisiting any weak spots from the live class and re\u2011doing the most missed problems.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 15,\n      \"focus\": \"Linear momentum and introduction to rotational dynamics.\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch tutorial videos on linear momentum and impulse; summarize the conservation principle (2\u202fh).\",\n        \"Solve 10 free\u2011response problems on momentum conservation in collisions (3\u202fh).\",\n        \"Do 8 problems linking linear and rotational motion (5.2) \u2013 e.g., rolling without slipping (2\u202fh).\",\n        \"Create a comparison table of linear vs. angular quantities (1\u202fh).\",\n        \"Complete a mixed set of 12 multiple\u2011choice questions covering 4.1\u20114.3 and 5.1\u20115.2 (2\u202fh).\",\n        \"Review all solutions, write brief explanations for each step (2\u202fh).\",\n        \"Finish the week with a 30\u2011minute timed practice on momentum and rotational kinematics (3\u202fh).\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 15,\n      \"focus\": \"Rotational energy, torque work, and simple harmonic motion.\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"7.1\", \"7.2\", \"7.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the AP section on rotational kinetic energy and torque work; annotate key formulas (2\u202fh).\",\n        \"Do 10 free\u2011response questions on rotational kinetic energy (6.1) and torque\u2011work (6.2) (3\u202fh).\",\n        \"Complete 6 problems on angular impulse and angular momentum conservation (6.3) (2\u202fh).\",\n        \"Watch a video on simple harmonic motion fundamentals; list the defining equations (1\u202fh).\",\n        \"Solve 12 free\u2011response SHM problems covering 7.1\u20117.3 (3\u202fh).\",\n        \"Create a one\u2011page summary linking energy concepts across linear and rotational systems (1\u202fh).\",\n        \"Take a 25\u2011minute timed mixed set (rotational + SHM) and review errors (3\u202fh).\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 15,\n      \"focus\": \"Mixed review and timed full\u2011section practice.\",\n      \"topics\": [\"1.4\", \"2.3\", \"3.5\", \"4.4\", \"5.3\", \"6.4\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Review flashcards for all vector, force, and energy equations (2\u202fh).\",\n        \"Do a 40\u2011minute timed practice set covering at least one problem from each unit (5\u202fh).\",\n        \"Mark the practice set against the AP scoring guidelines; note any recurring errors (2\u202fh).\",\n        \"Re\u2011work the five most missed problems with step\u2011by\u2011step solutions (3\u202fh).\",\n        \"Complete a quick\u2011fire 20\u2011question multiple\u2011choice review of fluid concepts (8.1\u20118.4) (1\u202fh).\",\n        \"Write a one\u2011page exam\u2011day strategy sheet (what to do first, time allocation, stress\u2011relief tricks) (1\u202fh).\",\n        \"Spend the final hour doing a brief mindfulness/relaxation routine to prepare for the exam.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, focus on solidifying connections between topics, practice under timed conditions, and refine your test\u2011taking strategy. Trust the work you\u2019ve done, address the few lingering weak spots, and keep a calm, confident mindset for the exam.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1043,
+ "output_tokens": 1574,
+ "latency_ms": 3970
+}

@@ -1,0 +1,204 @@
+{
+ "data": {
+  "summary": "The 10\u2011week plan balances new content with frequent practice, beginning with the weak Unit\u202f9 topics and revisiting them later. Each week includes 5 focused study hours, concrete tasks, and a clear focus. The final two weeks are dedicated to mixed review and timed practice to build stamina for the AP Chemistry exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce thermodynamics fundamentals and review key concepts from Unit\u202f9.",
+    "topics": [
+     "9.1",
+     "9.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read the textbook sections on entropy and absolute entropy (pages 312\u2011328).",
+     "Create a one\u2011page summary table comparing entropy changes for common processes.",
+     "Do 8 free\u2011response questions on entropy calculations; check answers with the scoring guide.",
+     "Watch a 20\u2011minute Khan Academy video on Gibbs free energy and write a brief explanation in your own words.",
+     "Complete a 10\u2011minute flashcard review of definitions (entropy, \u0394S, \u0394G)."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of Gibbs free energy and begin electrochemistry basics.",
+    "topics": [
+     "9.3",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read the textbook chapter on Gibbs free energy (pages 329\u2011342).",
+     "Solve 6 FRQ style problems on \u0394G and spontaneity; self\u2011grade.",
+     "Draw and label a galvanic cell diagram for a Zn/Cu cell.",
+     "Complete 5 practice calculations of cell potential using the Nernst equation.",
+     "Review flashcards for key equations (\u0394G = \u0394H \u2013 T\u0394S, E\u00b0cell)."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Cover foundational Unit\u202f1 concepts to solidify atomic structure knowledge.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "1.7",
+     "1.8"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections 1.1, 1.5, 1.7, 1.8 in the textbook.",
+     "Create a concept map linking moles, electron configuration, periodic trends, and ionic compounds.",
+     "Do 12 FRQ practice items on mole calculations and periodic trends; compare with answer key.",
+     "Watch a 15\u2011minute video on photoelectron spectroscopy and write 3 takeaway notes.",
+     "Quiz yourself with 20 flashcards on atomic symbols, valence electrons, and common ions."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Explore chemical bonding and molecular geometry (Unit\u202f2).",
+    "topics": [
+     "2.1",
+     "2.5",
+     "2.7"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read textbook chapters on bond types, Lewis structures, and VSEPR.",
+     "Draw Lewis diagrams for 10 different molecules, then predict shapes using VSEPR.",
+     "Complete 8 FRQ style questions on bond polarity and molecular geometry.",
+     "Watch a 12\u2011minute tutorial on resonance structures; create 3 resonance examples.",
+     "Review flashcards for bond types, formal charge rules, and hybridization."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Introduce thermochemistry (Unit\u202f6) and connect to earlier entropy work.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections 6.1\u20116.3 on endothermic/exothermic processes, energy diagrams, and heat transfer.",
+     "Sketch energy diagrams for 5 reactions and label \u0394H and activation energy.",
+     "Solve 10 calorimetry problems involving heat capacity and specific heat.",
+     "Do 4 FRQ practice items that require interpreting enthalpy diagrams.",
+     "Create a one\u2011page summary linking entropy, \u0394G, and enthalpy concepts."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Study kinetics (Unit\u202f5) and practice rate\u2011law problems.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read textbook sections on reaction rates and rate laws.",
+     "Complete a table of reaction orders for 6 sample reactions.",
+     "Do 9 FRQ style questions on determining rate laws from data.",
+     "Watch a 10\u2011minute video on integrated rate laws; solve one example for each order.",
+     "Review flashcards for rate\u2011law symbols and common integrated equations."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Cover equilibrium concepts (Unit\u202f7) and begin acid\u2011base fundamentals (Unit\u202f8).",
+    "topics": [
+     "7.1",
+     "7.3",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections on equilibrium introduction and equilibrium constants, plus acid\u2011base intro.",
+     "Calculate Kc for 5 equilibrium reactions and determine direction using Q.",
+     "Do 6 FRQ practice problems on equilibrium constant calculations.",
+     "Solve 5 pH/pOH problems for strong acids and bases.",
+     "Create a quick\u2011reference sheet for K, Q, pH, and pOH equations."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Finish acid\u2011base equilibria, buffers, and revisit weak Unit\u202f9 topics.",
+    "topics": [
+     "8.3",
+     "8.4",
+     "9.1",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections on weak acid/base equilibria and buffer systems.",
+     "Perform 8 buffer\u2011preparation calculations and determine pH.",
+     "Do 5 FRQ items on acid\u2011base reactions involving titrations.",
+     "Re\u2011solve 4 entropy problems from Week\u202f1 to reinforce concepts.",
+     "Sketch a galvanic cell for a new redox pair and calculate E\u00b0cell."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mixed review of all units with emphasis on weaker areas (Unit\u202f9, kinetics, equilibrium).",
+    "topics": [
+     "1.1",
+     "2.1",
+     "5.1",
+     "7.2",
+     "9.2",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 30\u2011minute timed mixed\u2011topic quiz covering the listed codes.",
+     "Review each incorrect answer using the scoring guide and rewrite the solution.",
+     "Do a set of 12 FRQ practice questions selected from past AP exams across these units.",
+     "Create a one\u2011page mind map linking entropy, Gibbs free energy, reaction rates, and equilibrium.",
+     "Flashcard rapid fire: 30 seconds per card for key formulas."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Full\u2011length timed practice exam and final review.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.2",
+     "6.4",
+     "7.4",
+     "8.4",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Complete a 90\u2011minute full\u2011length AP Chemistry practice exam under timed conditions.",
+     "Score the exam using the official answer key; note topics with lowest scores.",
+     "Spend 30 minutes reviewing each missed question, focusing on underlying concepts.",
+     "Do a final 10\u2011question rapid review set covering all units.",
+     "Write a brief exam\u2011day strategy checklist (materials, timing, stress\u2011relief techniques)."
+    ]
+   }
+  ],
+  "final_week_advice": "On exam day, trust your systematic problem\u2011solving process, manage your time by allocating roughly 1 minute per multiple\u2011choice question and 12\u201115 minutes per free\u2011response. Stay calm, read each prompt carefully, and use your flashcard sheets for quick equation recall."
+ },
+ "raw": "{\n  \"summary\": \"The 10\u2011week plan balances new content with frequent practice, beginning with the weak Unit\u202f9 topics and revisiting them later. Each week includes 5 focused study hours, concrete tasks, and a clear focus. The final two weeks are dedicated to mixed review and timed practice to build stamina for the AP Chemistry exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce thermodynamics fundamentals and review key concepts from Unit\u202f9.\",\n      \"topics\": [\"9.1\", \"9.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read the textbook sections on entropy and absolute entropy (pages 312\u2011328).\",\n        \"Create a one\u2011page summary table comparing entropy changes for common processes.\",\n        \"Do 8 free\u2011response questions on entropy calculations; check answers with the scoring guide.\",\n        \"Watch a 20\u2011minute Khan Academy video on Gibbs free energy and write a brief explanation in your own words.\",\n        \"Complete a 10\u2011minute flashcard review of definitions (entropy, \u0394S, \u0394G).\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Deepen understanding of Gibbs free energy and begin electrochemistry basics.\",\n      \"topics\": [\"9.3\", \"9.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read the textbook chapter on Gibbs free energy (pages 329\u2011342).\",\n        \"Solve 6 FRQ style problems on \u0394G and spontaneity; self\u2011grade.\",\n        \"Draw and label a galvanic cell diagram for a Zn/Cu cell.\",\n        \"Complete 5 practice calculations of cell potential using the Nernst equation.\",\n        \"Review flashcards for key equations (\u0394G = \u0394H \u2013 T\u0394S, E\u00b0cell).\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Cover foundational Unit\u202f1 concepts to solidify atomic structure knowledge.\",\n      \"topics\": [\"1.1\", \"1.5\", \"1.7\", \"1.8\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections 1.1, 1.5, 1.7, 1.8 in the textbook.\",\n        \"Create a concept map linking moles, electron configuration, periodic trends, and ionic compounds.\",\n        \"Do 12 FRQ practice items on mole calculations and periodic trends; compare with answer key.\",\n        \"Watch a 15\u2011minute video on photoelectron spectroscopy and write 3 takeaway notes.\",\n        \"Quiz yourself with 20 flashcards on atomic symbols, valence electrons, and common ions.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Explore chemical bonding and molecular geometry (Unit\u202f2).\",\n      \"topics\": [\"2.1\", \"2.5\", \"2.7\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read textbook chapters on bond types, Lewis structures, and VSEPR.\",\n        \"Draw Lewis diagrams for 10 different molecules, then predict shapes using VSEPR.\",\n        \"Complete 8 FRQ style questions on bond polarity and molecular geometry.\",\n        \"Watch a 12\u2011minute tutorial on resonance structures; create 3 resonance examples.\",\n        \"Review flashcards for bond types, formal charge rules, and hybridization.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Introduce thermochemistry (Unit\u202f6) and connect to earlier entropy work.\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections 6.1\u20116.3 on endothermic/exothermic processes, energy diagrams, and heat transfer.\",\n        \"Sketch energy diagrams for 5 reactions and label \u0394H and activation energy.\",\n        \"Solve 10 calorimetry problems involving heat capacity and specific heat.\",\n        \"Do 4 FRQ practice items that require interpreting enthalpy diagrams.\",\n        \"Create a one\u2011page summary linking entropy, \u0394G, and enthalpy concepts.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Study kinetics (Unit\u202f5) and practice rate\u2011law problems.\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read textbook sections on reaction rates and rate laws.\",\n        \"Complete a table of reaction orders for 6 sample reactions.\",\n        \"Do 9 FRQ style questions on determining rate laws from data.\",\n        \"Watch a 10\u2011minute video on integrated rate laws; solve one example for each order.\",\n        \"Review flashcards for rate\u2011law symbols and common integrated equations.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Cover equilibrium concepts (Unit\u202f7) and begin acid\u2011base fundamentals (Unit\u202f8).\",\n      \"topics\": [\"7.1\", \"7.3\", \"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections on equilibrium introduction and equilibrium constants, plus acid\u2011base intro.\",\n        \"Calculate Kc for 5 equilibrium reactions and determine direction using Q.\",\n        \"Do 6 FRQ practice problems on equilibrium constant calculations.\",\n        \"Solve 5 pH/pOH problems for strong acids and bases.\",\n        \"Create a quick\u2011reference sheet for K, Q, pH, and pOH equations.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Finish acid\u2011base equilibria, buffers, and revisit weak Unit\u202f9 topics.\",\n      \"topics\": [\"8.3\", \"8.4\", \"9.1\", \"9.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections on weak acid/base equilibria and buffer systems.\",\n        \"Perform 8 buffer\u2011preparation calculations and determine pH.\",\n        \"Do 5 FRQ items on acid\u2011base reactions involving titrations.\",\n        \"Re\u2011solve 4 entropy problems from Week\u202f1 to reinforce concepts.\",\n        \"Sketch a galvanic cell for a new redox pair and calculate E\u00b0cell.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Mixed review of all units with emphasis on weaker areas (Unit\u202f9, kinetics, equilibrium).\",\n      \"topics\": [\"1.1\", \"2.1\", \"5.1\", \"7.2\", \"9.2\", \"9.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Take a 30\u2011minute timed mixed\u2011topic quiz covering the listed codes.\",\n        \"Review each incorrect answer using the scoring guide and rewrite the solution.\",\n        \"Do a set of 12 FRQ practice questions selected from past AP exams across these units.\",\n        \"Create a one\u2011page mind map linking entropy, Gibbs free energy, reaction rates, and equilibrium.\",\n        \"Flashcard rapid fire: 30 seconds per card for key formulas.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Full\u2011length timed practice exam and final review.\",\n      \"topics\": [\"1.1\", \"1.5\", \"2.5\", \"3.4\", \"4.5\", \"5.2\", \"6.4\", \"7.4\", \"8.4\", \"9.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Complete a 90\u2011minute full\u2011length AP Chemistry practice exam under timed conditions.\",\n        \"Score the exam using the official answer key; note topics with lowest scores.\",\n        \"Spend 30 minutes reviewing each missed question, focusing on underlying concepts.\",\n        \"Do a final 10\u2011question rapid review set covering all units.\",\n        \"Write a brief exam\u2011day strategy checklist (materials, timing, stress\u2011relief techniques).\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"On exam day, trust your systematic problem\u2011solving process, manage your time by allocating roughly 1 minute per multiple\u2011choice question and 12\u201115 minutes per free\u2011response. Stay calm, read each prompt carefully, and use your flashcard sheets for quick equation recall.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1164,
+ "output_tokens": 1895,
+ "latency_ms": 4210
+}

@@ -1,0 +1,325 @@
+{
+ "data": {
+  "summary": "The 16\u2011week plan spreads the 3\u2011hour weekly study load across all AP Physics\u00a01 units, beginning with the student\u2019s weak areas (Unit\u00a06 and Unit\u00a07) and revisiting them before the exam. Each week focuses on a small set of topic codes, includes concrete practice tasks, and builds toward two final review weeks (weeks\u00a015\u201116) that mix all topics and incorporate timed free\u2011response practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce rotating energy concepts and basic SHM definitions.",
+    "topics": [
+     "6.1",
+     "7.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Read textbook sections 6.1 and 7.1; write a one\u2011page summary of key formulas.",
+     "Do 5 free\u2011response questions on rotational kinetic energy; check answers with the scoring guide.",
+     "Complete 5 conceptual questions on simple harmonic motion definitions."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of torque work and SHM frequency.",
+    "topics": [
+     "6.2",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Watch a video on torque\u2011work relationships; solve 3 numerical problems.",
+     "Calculate frequency and period for 6 different pendulum setups.",
+     "Do 8 free\u2011response questions mixing torque\u2011work and SHM frequency; self\u2011grade."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Angular momentum and SHM energy analysis.",
+    "topics": [
+     "6.3",
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Derive angular impulse equation; solve 4 practice problems.",
+     "Analyze 4 SHM graphs to determine amplitude, period, and phase.",
+     "Complete 6 FRQ parts that combine angular momentum with SHM energy."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Conservation of angular momentum and SHM energy.",
+    "topics": [
+     "6.4",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Solve 5 problems on conservation of angular momentum in collisions.",
+     "Calculate total energy at different points of a mass\u2011spring system for 5 cases.",
+     "Do a mixed set of 6 FRQs covering both topics; review scoring rubrics."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Rotational dynamics fundamentals.",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Work through 8 problems on rotational kinematics (\u03b8, \u03c9, \u03b1).",
+     "Convert 6 linear motion problems to rotational equivalents using 5.2.",
+     "Create a cheat sheet of key equations for Units\u00a05 and 6."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Torque and rotational inertia.",
+    "topics": [
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Calculate torque for 5 different lever systems.",
+     "Determine rotational inertia for 4 common objects; compare with textbook values.",
+     "Do 6 FRQs that require both torque and inertia calculations."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Linear momentum basics and impulse.",
+    "topics": [
+     "4.1",
+     "4.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Solve 7 problems on linear momentum and impulse.",
+     "Create flashcards for momentum\u2011related formulas.",
+     "Complete 5 free\u2011response items focusing on impulse concepts."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Conservation of linear momentum and collisions.",
+    "topics": [
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Work through 6 elastic and 6 inelastic collision problems.",
+     "Write a one\u2011page explanation of when momentum is conserved.",
+     "Do 4 FRQs that integrate momentum conservation with energy ideas."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Work, energy, and power fundamentals.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Calculate translational kinetic energy for 8 scenarios.",
+     "Solve 6 work\u2011by\u2011force problems; include sign conventions.",
+     "Determine potential energy for 5 gravitational and spring cases."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Conservation of energy and power.",
+    "topics": [
+     "3.4",
+     "3.5"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Complete 5 problems applying conservation of energy to roller\u2011coaster style questions.",
+     "Calculate power output for 4 real\u2011world machines.",
+     "Do a mixed set of 6 FRQs covering energy and power."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Force fundamentals and free\u2011body diagrams.",
+    "topics": [
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Draw free\u2011body diagrams for 6 different systems.",
+     "Solve 5 problems using Newton\u2019s second law with multiple forces.",
+     "Create a summary sheet of common force vectors."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Newton\u2019s laws and system analysis.",
+    "topics": [
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Work through 4 problems on action\u2011reaction pairs (2.3).",
+     "Solve 5 inertia\u2011related problems applying Newton\u2019s first law.",
+     "Do 6 FRQs that require combining all three Newton\u2019s laws."
+    ]
+   },
+   {
+    "week": 13,
+    "focus": "Kinematics in one and two dimensions.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Complete 8 velocity\u2011time and position\u2011time graph problems.",
+     "Solve 6 projectile motion questions using vector components.",
+     "Do 5 FRQs that integrate scalar\u2011vector distinctions with motion analysis."
+    ]
+   },
+   {
+    "week": 14,
+    "focus": "Reference frames and review of earlier units.",
+    "topics": [
+     "1.4",
+     "5.1",
+     "6.1",
+     "7.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Explain relative motion in two reference frames; write a short paragraph.",
+     "Re\u2011solve one problem from each of Units\u00a05,\u00a06,\u00a07 to reinforce connections.",
+     "Take a 20\u2011minute timed mini\u2011quiz covering weeks\u00a01\u20114 material."
+    ]
+   },
+   {
+    "week": 15,
+    "focus": "Mixed review and timed practice.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Complete a full\u2011length 90\u2011minute practice FRQ set (all units).",
+     "Mark answers using the official scoring guide; note any recurring errors.",
+     "Review error log and rewrite one incorrect solution correctly."
+    ]
+   },
+   {
+    "week": 16,
+    "focus": "Final exam strategy and comprehensive review.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Take a timed 60\u2011minute multiple\u2011choice practice test.",
+     "Review every missed question; write a brief explanation of why the correct answer is right.",
+     "Create a one\u2011page cheat sheet of all key equations and concepts for quick last\u2011minute review."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last two weeks, focus on timed practice, error analysis, and a concise formula sheet. Keep study sessions short (45\u202fmin) to maintain focus, and simulate exam conditions to build stamina. Rest well the night before the exam and trust the systematic preparation you\u2019ve completed."
+ },
+ "raw": "{\n  \"summary\": \"The 16\u2011week plan spreads the 3\u2011hour weekly study load across all AP Physics\u00a01 units, beginning with the student\u2019s weak areas (Unit\u00a06 and Unit\u00a07) and revisiting them before the exam. Each week focuses on a small set of topic codes, includes concrete practice tasks, and builds toward two final review weeks (weeks\u00a015\u201116) that mix all topics and incorporate timed free\u2011response practice.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce rotating energy concepts and basic SHM definitions.\",\n      \"topics\": [\"6.1\", \"7.1\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Read textbook sections 6.1 and 7.1; write a one\u2011page summary of key formulas.\",\n        \"Do 5 free\u2011response questions on rotational kinetic energy; check answers with the scoring guide.\",\n        \"Complete 5 conceptual questions on simple harmonic motion definitions.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Deepen understanding of torque work and SHM frequency.\",\n      \"topics\": [\"6.2\", \"7.2\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Watch a video on torque\u2011work relationships; solve 3 numerical problems.\",\n        \"Calculate frequency and period for 6 different pendulum setups.\",\n        \"Do 8 free\u2011response questions mixing torque\u2011work and SHM frequency; self\u2011grade.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Angular momentum and SHM energy analysis.\",\n      \"topics\": [\"6.3\", \"7.3\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Derive angular impulse equation; solve 4 practice problems.\",\n        \"Analyze 4 SHM graphs to determine amplitude, period, and phase.\",\n        \"Complete 6 FRQ parts that combine angular momentum with SHM energy.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Conservation of angular momentum and SHM energy.\",\n      \"topics\": [\"6.4\", \"7.4\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Solve 5 problems on conservation of angular momentum in collisions.\",\n        \"Calculate total energy at different points of a mass\u2011spring system for 5 cases.\",\n        \"Do a mixed set of 6 FRQs covering both topics; review scoring rubrics.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Rotational dynamics fundamentals.\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Work through 8 problems on rotational kinematics (\u03b8, \u03c9, \u03b1).\",\n        \"Convert 6 linear motion problems to rotational equivalents using 5.2.\",\n        \"Create a cheat sheet of key equations for Units\u00a05 and 6.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Torque and rotational inertia.\",\n      \"topics\": [\"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Calculate torque for 5 different lever systems.\",\n        \"Determine rotational inertia for 4 common objects; compare with textbook values.\",\n        \"Do 6 FRQs that require both torque and inertia calculations.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Linear momentum basics and impulse.\",\n      \"topics\": [\"4.1\", \"4.2\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Solve 7 problems on linear momentum and impulse.\",\n        \"Create flashcards for momentum\u2011related formulas.\",\n        \"Complete 5 free\u2011response items focusing on impulse concepts.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Conservation of linear momentum and collisions.\",\n      \"topics\": [\"4.3\", \"4.4\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Work through 6 elastic and 6 inelastic collision problems.\",\n        \"Write a one\u2011page explanation of when momentum is conserved.\",\n        \"Do 4 FRQs that integrate momentum conservation with energy ideas.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Work, energy, and power fundamentals.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Calculate translational kinetic energy for 8 scenarios.\",\n        \"Solve 6 work\u2011by\u2011force problems; include sign conventions.\",\n        \"Determine potential energy for 5 gravitational and spring cases.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Conservation of energy and power.\",\n      \"topics\": [\"3.4\", \"3.5\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Complete 5 problems applying conservation of energy to roller\u2011coaster style questions.\",\n        \"Calculate power output for 4 real\u2011world machines.\",\n        \"Do a mixed set of 6 FRQs covering energy and power.\"\n      ]\n    },\n    {\n      \"week\": 11,\n      \"focus\": \"Force fundamentals and free\u2011body diagrams.\",\n      \"topics\": [\"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Draw free\u2011body diagrams for 6 different systems.\",\n        \"Solve 5 problems using Newton\u2019s second law with multiple forces.\",\n        \"Create a summary sheet of common force vectors.\"\n      ]\n    },\n    {\n      \"week\": 12,\n      \"focus\": \"Newton\u2019s laws and system analysis.\",\n      \"topics\": [\"2.3\", \"2.4\", \"2.5\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Work through 4 problems on action\u2011reaction pairs (2.3).\",\n        \"Solve 5 inertia\u2011related problems applying Newton\u2019s first law.\",\n        \"Do 6 FRQs that require combining all three Newton\u2019s laws.\"\n      ]\n    },\n    {\n      \"week\": 13,\n      \"focus\": \"Kinematics in one and two dimensions.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.5\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Complete 8 velocity\u2011time and position\u2011time graph problems.\",\n        \"Solve 6 projectile motion questions using vector components.\",\n        \"Do 5 FRQs that integrate scalar\u2011vector distinctions with motion analysis.\"\n      ]\n    },\n    {\n      \"week\": 14,\n      \"focus\": \"Reference frames and review of earlier units.\",\n      \"topics\": [\"1.4\", \"5.1\", \"6.1\", \"7.1\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Explain relative motion in two reference frames; write a short paragraph.\",\n        \"Re\u2011solve one problem from each of Units\u00a05,\u00a06,\u00a07 to reinforce connections.\",\n        \"Take a 20\u2011minute timed mini\u2011quiz covering weeks\u00a01\u20114 material.\"\n      ]\n    },\n    {\n      \"week\": 15,\n      \"focus\": \"Mixed review and timed practice.\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Complete a full\u2011length 90\u2011minute practice FRQ set (all units).\",\n        \"Mark answers using the official scoring guide; note any recurring errors.\",\n        \"Review error log and rewrite one incorrect solution correctly.\"\n      ]\n    },\n    {\n      \"week\": 16,\n      \"focus\": \"Final exam strategy and comprehensive review.\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\n      \"classes\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Take a timed 60\u2011minute multiple\u2011choice practice test.\",\n        \"Review every missed question; write a brief explanation of why the correct answer is right.\",\n        \"Create a one\u2011page cheat sheet of all key equations and concepts for quick last\u2011minute review.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last two weeks, focus on timed practice, error analysis, and a concise formula sheet. Keep study sessions short (45\u202fmin) to maintain focus, and simulate exam conditions to build stamina. Rest well the night before the exam and trust the systematic preparation you\u2019ve completed.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1028,
+ "output_tokens": 2243,
+ "latency_ms": 5767
+}

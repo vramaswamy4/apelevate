@@ -1,0 +1,182 @@
+{
+ "data": {
+  "summary": "The six\u2011week plan systematically covers every AP Chemistry unit, front\u2011loading foundational concepts and integrating live classes when they align with the week\u2019s topics. Each week balances content study, practice problems, and review, reserving the final week for mixed review and timed practice to solidify knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 20,
+    "focus": "Foundations of atomic structure and introductory intermolecular forces.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "3.1",
+     "3.2"
+    ],
+    "classes": [
+     9500
+    ],
+    "tasks": [
+     "Read textbook sections on moles, molar mass, and mass spectroscopy; complete end\u2011of\u2011section practice set.",
+     "Watch video on elemental composition of pure substances; do 5 free\u2011response questions on composition of mixtures.",
+     "Do 10 concept\u2011check questions on intermolecular forces; compare answers to answer key.",
+     "Review class notes from live session; write a one\u2011page summary linking atomic structure to intermolecular forces."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 20,
+    "focus": "Complete atomic structure and begin chemical bonding.",
+    "topics": [
+     "1.5",
+     "1.6",
+     "1.7",
+     "1.8",
+     "2.1",
+     "2.2",
+     "2.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete practice problems on electron configuration and photoelectron spectroscopy (5 each).",
+     "Create flashcards for periodic trends and valence electron rules; quiz yourself twice.",
+     "Draw Lewis structures for 10 compounds, checking formal charges.",
+     "Solve 8 VSEPR/hybridization problems; verify with solution guide."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 20,
+    "focus": "Metal/ionic structures and introductory reaction concepts.",
+    "topics": [
+     "2.4",
+     "2.5",
+     "2.6",
+     "2.7",
+     "4.1",
+     "4.2"
+    ],
+    "classes": [
+     9501
+    ],
+    "tasks": [
+     "Read about ionic solids and metallic bonding; complete worksheet on lattice energy calculations.",
+     "Practice drawing resonance structures for 6 molecules; check against textbook examples.",
+     "Do 12 VSEPR/hybridization practice questions.",
+     "Work through 8 introductory reaction problems (identifying reactants/products).",
+     "Write net ionic equations for 5 acid\u2011base reactions; compare with class examples."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 20,
+    "focus": "Reaction representations, stoichiometry, and start kinetics.",
+    "topics": [
+     "4.3",
+     "4.4",
+     "4.5",
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Convert 10 chemical equations into molecular, total, and net ionic forms.",
+     "Complete stoichiometry worksheet: limiting reactant, percent yield, and mass\u2011to\u2011mass calculations (12 problems).",
+     "Watch tutorial on reaction rates; calculate rates from 6 data sets.",
+     "Introduce rate laws: write the rate law for 5 given reactions using provided data."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 20,
+    "focus": "Advanced kinetics, thermochemistry, and basic equilibrium.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Graph concentration vs. time for 4 reactions; determine order from slopes.",
+     "Identify elementary steps in 5 reaction mechanisms.",
+     "Solve calorimetry problems: calculate q, \u0394H for 8 processes.",
+     "Draw energy diagrams for endothermic and exothermic reactions; label \u0394H.",
+     "Calculate reaction quotients for 6 systems and predict direction of shift.",
+     "Complete equilibrium constant calculations for 4 reactions."
+    ]
+   },
+   {
+    "week": 6,
+    "hours": 20,
+    "focus": "Mixed review and timed practice.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "1.6",
+     "1.7",
+     "1.8",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "2.6",
+     "2.7",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "9.1",
+     "9.2",
+     "9.3",
+     "9.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Take a full\u2011length timed practice exam (90 minutes); score using AP rubric.",
+     "Review every incorrect answer; rewrite the solution step\u2011by\u2011step.",
+     "Do a mixed\u2011topic drill: 2 FRQ from each unit (total 18 questions).",
+     "Create a one\u2011page cheat sheet of key equations and constants for quick reference.",
+     "Spend the final 2 hours revisiting any remaining weak spots identified from the practice exam."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the timed practice to simulate exam conditions, then focus the last two study hours on targeted review of any persisting gaps. Keep a calm mindset, get plenty of rest the night before, and trust the systematic preparation you\u2019ve completed."
+ },
+ "raw": "{\n  \"summary\": \"The six\u2011week plan systematically covers every AP Chemistry unit, front\u2011loading foundational concepts and integrating live classes when they align with the week\u2019s topics. Each week balances content study, practice problems, and review, reserving the final week for mixed review and timed practice to solidify knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 20,\n      \"focus\": \"Foundations of atomic structure and introductory intermolecular forces.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"3.1\", \"3.2\"],\n      \"classes\": [9500],\n      \"tasks\": [\n        \"Read textbook sections on moles, molar mass, and mass spectroscopy; complete end\u2011of\u2011section practice set.\",\n        \"Watch video on elemental composition of pure substances; do 5 free\u2011response questions on composition of mixtures.\",\n        \"Do 10 concept\u2011check questions on intermolecular forces; compare answers to answer key.\",\n        \"Review class notes from live session; write a one\u2011page summary linking atomic structure to intermolecular forces.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 20,\n      \"focus\": \"Complete atomic structure and begin chemical bonding.\",\n      \"topics\": [\"1.5\", \"1.6\", \"1.7\", \"1.8\", \"2.1\", \"2.2\", \"2.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete practice problems on electron configuration and photoelectron spectroscopy (5 each).\",\n        \"Create flashcards for periodic trends and valence electron rules; quiz yourself twice.\",\n        \"Draw Lewis structures for 10 compounds, checking formal charges.\",\n        \"Solve 8 VSEPR/hybridization problems; verify with solution guide.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 20,\n      \"focus\": \"Metal/ionic structures and introductory reaction concepts.\",\n      \"topics\": [\"2.4\", \"2.5\", \"2.6\", \"2.7\", \"4.1\", \"4.2\"],\n      \"classes\": [9501],\n      \"tasks\": [\n        \"Read about ionic solids and metallic bonding; complete worksheet on lattice energy calculations.\",\n        \"Practice drawing resonance structures for 6 molecules; check against textbook examples.\",\n        \"Do 12 VSEPR/hybridization practice questions.\",\n        \"Work through 8 introductory reaction problems (identifying reactants/products).\",\n        \"Write net ionic equations for 5 acid\u2011base reactions; compare with class examples.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 20,\n      \"focus\": \"Reaction representations, stoichiometry, and start kinetics.\",\n      \"topics\": [\"4.3\", \"4.4\", \"4.5\", \"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Convert 10 chemical equations into molecular, total, and net ionic forms.\",\n        \"Complete stoichiometry worksheet: limiting reactant, percent yield, and mass\u2011to\u2011mass calculations (12 problems).\",\n        \"Watch tutorial on reaction rates; calculate rates from 6 data sets.\",\n        \"Introduce rate laws: write the rate law for 5 given reactions using provided data.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 20,\n      \"focus\": \"Advanced kinetics, thermochemistry, and basic equilibrium.\",\n      \"topics\": [\"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Graph concentration vs. time for 4 reactions; determine order from slopes.\",\n        \"Identify elementary steps in 5 reaction mechanisms.\",\n        \"Solve calorimetry problems: calculate q, \u0394H for 8 processes.\",\n        \"Draw energy diagrams for endothermic and exothermic reactions; label \u0394H.\",\n        \"Calculate reaction quotients for 6 systems and predict direction of shift.\",\n        \"Complete equilibrium constant calculations for 4 reactions.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"hours\": 20,\n      \"focus\": \"Mixed review and timed practice.\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"1.6\",\"1.7\",\"1.8\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"2.6\",\"2.7\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"4.5\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\",\"9.1\",\"9.2\",\"9.3\",\"9.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Take a full\u2011length timed practice exam (90 minutes); score using AP rubric.\",\n        \"Review every incorrect answer; rewrite the solution step\u2011by\u2011step.\",\n        \"Do a mixed\u2011topic drill: 2 FRQ from each unit (total 18 questions).\",\n        \"Create a one\u2011page cheat sheet of key equations and constants for quick reference.\",\n        \"Spend the final 2 hours revisiting any remaining weak spots identified from the practice exam.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use the timed practice to simulate exam conditions, then focus the last two study hours on targeted review of any persisting gaps. Keep a calm mindset, get plenty of rest the night before, and trust the systematic preparation you\u2019ve completed.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1199,
+ "output_tokens": 1561,
+ "latency_ms": 3626
+}

@@ -1,0 +1,193 @@
+{
+ "data": {
+  "final_week_advice": "Focus on timed practice and mixed review to solidify retention of all units before the exam.",
+  "summary": "This six-week plan systematically covers all nine units of AP Chemistry, starting with foundational atomic structure and progressing through reactions, kinetics, and thermodynamics. Live classes are integrated into weeks 1 and 3 to reinforce key concepts in intermolecular forces and chemical reactions. The final two weeks are dedicated to mixed review and timed practice to ensure exam readiness.",
+  "weeks": [
+   {
+    "classes": [
+     9500
+    ],
+    "focus": "Master atomic structure and introductory intermolecular forces.",
+    "hours": 20,
+    "tasks": [
+     "Complete 20 multiple-choice questions on moles and molar mass, checking each answer against the official key.",
+     "Draw Lewis diagrams for 10 different molecules, including those with resonance structures.",
+     "Do 10 free-response questions on photoelectron spectroscopy, then mark them against the scoring guide.",
+     "Attend live class #9500 on intermolecular forces and take detailed notes on hydrogen bonding.",
+     "Solve 5 problems calculating the composition of mixtures using mass percent and empirical formulas."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "1.6",
+     "1.7",
+     "1.8",
+     "3.1",
+     "3.2"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Deepen understanding of compound structure and gas laws.",
+    "hours": 20,
+    "tasks": [
+     "Create a comparison chart for ionic, covalent, and metallic bonds, including examples and properties.",
+     "Do 15 multiple-choice questions on VSEPR theory and hybridization, focusing on molecular geometry.",
+     "Solve 8 ideal gas law problems involving pressure, volume, and temperature changes.",
+     "Write net ionic equations for 10 different precipitation reactions, balancing each one carefully.",
+     "Analyze 3 kinetic molecular theory diagrams to explain particle behavior in different states of matter."
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "2.6",
+     "2.7",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [
+     9501
+    ],
+    "focus": "Master chemical reactions and stoichiometry.",
+    "hours": 20,
+    "tasks": [
+     "Attend live class #9501 on chemical reactions and take notes on net ionic equations.",
+     "Do 10 free-response questions on stoichiometry, including limiting reactant calculations.",
+     "Write balanced molecular and net ionic equations for 12 different chemical reactions.",
+     "Solve 5 problems involving physical and chemical changes, identifying the type of change in each case.",
+     "Complete a practice set of 15 multiple-choice questions on reaction representations and stoichiometry."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Understand kinetics and thermochemistry.",
+    "hours": 20,
+    "tasks": [
+     "Do 10 free-response questions on reaction rates and rate laws, marking them against the scoring guide.",
+     "Solve 8 problems calculating heat transfer and thermal equilibrium using calorimetry data.",
+     "Analyze 5 energy diagrams to identify endothermic and exothermic processes.",
+     "Write rate laws for 6 different elementary reactions, determining the order of each reactant.",
+     "Complete 12 multiple-choice questions on concentration changes over time and reaction mechanisms."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Master equilibrium and acid-base chemistry.",
+    "hours": 20,
+    "tasks": [
+     "Do 10 free-response questions on equilibrium constants and reaction quotients, marking them against the scoring guide.",
+     "Solve 8 problems calculating pH and pOH of strong and weak acids and bases.",
+     "Write equilibrium expressions for 10 different reversible reactions, identifying the direction of shift.",
+     "Analyze 5 buffer systems to explain how they resist changes in pH.",
+     "Complete 15 multiple-choice questions on acid-base reactions and buffer capacity."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review and timed practice for exam readiness.",
+    "hours": 20,
+    "tasks": [
+     "Complete a full timed practice exam (3 hours) covering all units, then review incorrect answers.",
+     "Do 20 mixed free-response questions from all units, marking them against the scoring guide.",
+     "Review notes and flashcards for thermodynamics and electrochemistry, focusing on entropy and Gibbs free energy.",
+     "Solve 10 mixed multiple-choice questions on electrochemical cells, including galvanic and electrolytic cells.",
+     "Conduct a final review of weak areas identified in the practice exam, spending 2 hours on targeted practice."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "1.6",
+     "1.7",
+     "1.8",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "2.6",
+     "2.7",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "9.1",
+     "9.2",
+     "9.3",
+     "9.4"
+    ],
+    "week": 6
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on timed practice and mixed review to solidify retention of all units before the exam.\", \"summary\": \"This six-week plan systematically covers all nine units of AP Chemistry, starting with foundational atomic structure and progressing through reactions, kinetics, and thermodynamics. Live classes are integrated into weeks 1 and 3 to reinforce key concepts in intermolecular forces and chemical reactions. The final two weeks are dedicated to mixed review and timed practice to ensure exam readiness.\", \"weeks\": [{\"classes\": [9500], \"focus\": \"Master atomic structure and introductory intermolecular forces.\", \"hours\": 20, \"tasks\": [\"Complete 20 multiple-choice questions on moles and molar mass, checking each answer against the official key.\", \"Draw Lewis diagrams for 10 different molecules, including those with resonance structures.\", \"Do 10 free-response questions on photoelectron spectroscopy, then mark them against the scoring guide.\", \"Attend live class #9500 on intermolecular forces and take detailed notes on hydrogen bonding.\", \"Solve 5 problems calculating the composition of mixtures using mass percent and empirical formulas.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"1.6\", \"1.7\", \"1.8\", \"3.1\", \"3.2\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Deepen understanding of compound structure and gas laws.\", \"hours\": 20, \"tasks\": [\"Create a comparison chart for ionic, covalent, and metallic bonds, including examples and properties.\", \"Do 15 multiple-choice questions on VSEPR theory and hybridization, focusing on molecular geometry.\", \"Solve 8 ideal gas law problems involving pressure, volume, and temperature changes.\", \"Write net ionic equations for 10 different precipitation reactions, balancing each one carefully.\", \"Analyze 3 kinetic molecular theory diagrams to explain particle behavior in different states of matter.\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"2.6\", \"2.7\", \"3.3\", \"3.4\", \"3.5\"], \"week\": 2}, {\"classes\": [9501], \"focus\": \"Master chemical reactions and stoichiometry.\", \"hours\": 20, \"tasks\": [\"Attend live class #9501 on chemical reactions and take notes on net ionic equations.\", \"Do 10 free-response questions on stoichiometry, including limiting reactant calculations.\", \"Write balanced molecular and net ionic equations for 12 different chemical reactions.\", \"Solve 5 problems involving physical and chemical changes, identifying the type of change in each case.\", \"Complete a practice set of 15 multiple-choice questions on reaction representations and stoichiometry.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"4.5\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Understand kinetics and thermochemistry.\", \"hours\": 20, \"tasks\": [\"Do 10 free-response questions on reaction rates and rate laws, marking them against the scoring guide.\", \"Solve 8 problems calculating heat transfer and thermal equilibrium using calorimetry data.\", \"Analyze 5 energy diagrams to identify endothermic and exothermic processes.\", \"Write rate laws for 6 different elementary reactions, determining the order of each reactant.\", \"Complete 12 multiple-choice questions on concentration changes over time and reaction mechanisms.\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Master equilibrium and acid-base chemistry.\", \"hours\": 20, \"tasks\": [\"Do 10 free-response questions on equilibrium constants and reaction quotients, marking them against the scoring guide.\", \"Solve 8 problems calculating pH and pOH of strong and weak acids and bases.\", \"Write equilibrium expressions for 10 different reversible reactions, identifying the direction of shift.\", \"Analyze 5 buffer systems to explain how they resist changes in pH.\", \"Complete 15 multiple-choice questions on acid-base reactions and buffer capacity.\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Mixed review and timed practice for exam readiness.\", \"hours\": 20, \"tasks\": [\"Complete a full timed practice exam (3 hours) covering all units, then review incorrect answers.\", \"Do 20 mixed free-response questions from all units, marking them against the scoring guide.\", \"Review notes and flashcards for thermodynamics and electrochemistry, focusing on entropy and Gibbs free energy.\", \"Solve 10 mixed multiple-choice questions on electrochemical cells, including galvanic and electrolytic cells.\", \"Conduct a final review of weak areas identified in the practice exam, spending 2 hours on targeted practice.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"1.6\", \"1.7\", \"1.8\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"2.6\", \"2.7\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"4.5\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\", \"9.1\", \"9.2\", \"9.3\", \"9.4\"], \"week\": 6}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1023,
+ "output_tokens": 1360,
+ "latency_ms": 3259
+}

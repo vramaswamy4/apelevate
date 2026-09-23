@@ -1,0 +1,181 @@
+{
+ "data": {
+  "summary": "This 12\u2011week plan starts with the student\u2019s weak units\u2014Differential Equations and Applications of Integration\u2014then cycles through all units, ending with a mixed review week. Each week is limited to 2 study hours and contains concrete tasks that can be completed in a single sitting.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Start with Differential Equations fundamentals.",
+    "topics": [
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Read 7.1 and 7.2, then solve 5 practice problems from each section and check solutions against the answer key."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Continue Differential Equations and introduce slope fields.",
+    "topics": [
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Sketch slope fields for two differential equations, label key points, and verify solutions from 7.2."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Begin Applications of Integration.",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Compute average values for two functions using 8.1, then find velocity and acceleration from position functions using 8.2."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Finish Applications of Integration basics.",
+    "topics": [
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Solve two definite integral problems for area between curves (8.4) and two accumulation function problems (8.3)."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Limits and Continuity fundamentals.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Determine limits for 5 functions using algebraic methods and graph estimation; record results in a worksheet."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Complete Limits and Continuity.",
+    "topics": [
+     "1.4",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Use tables to estimate limits for 3 functions, then prove limits using algebraic properties."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Differentiation definition and properties.",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Find derivatives of 5 functions by definition, then estimate derivatives from graphs."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Differentiation rules and power rule.",
+    "topics": [
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Apply the power rule to 5 functions and verify continuity at critical points."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Advanced differentiation techniques.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Solve 4 chain rule problems, 3 implicit differentiation problems, and 2 inverse function derivative problems."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Related rates and applications.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Complete 3 related rates problems covering motion, volume, and rate of change in a real\u2011world context."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Mean Value Theorem and extrema.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Apply MVT to 3 functions, find critical points, and use the first derivative test to classify extrema."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Mixed review and timed practice.",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.1",
+     "4.1",
+     "5.1",
+     "7.1",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Take a 30\u2011minute timed practice quiz covering all reviewed topics; then review mistakes and summarize key formulas."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, focus on consolidating concepts, practicing timed questions, and addressing any lingering misconceptions. Keep the review sessions short but intensive to maintain momentum before the exam."
+ },
+ "raw": "{\"summary\":\"This 12\u2011week plan starts with the student\u2019s weak units\u2014Differential Equations and Applications of Integration\u2014then cycles through all units, ending with a mixed review week. Each week is limited to 2 study hours and contains concrete tasks that can be completed in a single sitting.\",\"weeks\":[{\"week\":1,\"focus\":\"Start with Differential Equations fundamentals.\",\"topics\":[\"7.1\",\"7.2\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Read 7.1 and 7.2, then solve 5 practice problems from each section and check solutions against the answer key.\"]},{\"week\":2,\"focus\":\"Continue Differential Equations and introduce slope fields.\",\"topics\":[\"7.3\",\"7.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Sketch slope fields for two differential equations, label key points, and verify solutions from 7.2.\"]},{\"week\":3,\"focus\":\"Begin Applications of Integration.\",\"topics\":[\"8.1\",\"8.2\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Compute average values for two functions using 8.1, then find velocity and acceleration from position functions using 8.2.\"]},{\"week\":4,\"focus\":\"Finish Applications of Integration basics.\",\"topics\":[\"8.3\",\"8.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Solve two definite integral problems for area between curves (8.4) and two accumulation function problems (8.3).\"]},{\"week\":5,\"focus\":\"Limits and Continuity fundamentals.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Determine limits for 5 functions using algebraic methods and graph estimation; record results in a worksheet.\"]},{\"week\":6,\"focus\":\"Complete Limits and Continuity.\",\"topics\":[\"1.4\",\"1.5\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Use tables to estimate limits for 3 functions, then prove limits using algebraic properties.\"]},{\"week\":7,\"focus\":\"Differentiation definition and properties.\",\"topics\":[\"2.1\",\"2.2\",\"2.3\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Find derivatives of 5 functions by definition, then estimate derivatives from graphs.\"]},{\"week\":8,\"focus\":\"Differentiation rules and power rule.\",\"topics\":[\"2.4\",\"2.5\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Apply the power rule to 5 functions and verify continuity at critical points.\"]},{\"week\":9,\"focus\":\"Advanced differentiation techniques.\",\"topics\":[\"3.1\",\"3.2\",\"3.3\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Solve 4 chain rule problems, 3 implicit differentiation problems, and 2 inverse function derivative problems.\"]},{\"week\":10,\"focus\":\"Related rates and applications.\",\"topics\":[\"4.1\",\"4.2\",\"4.3\",\"4.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Complete 3 related rates problems covering motion, volume, and rate of change in a real\u2011world context.\"]},{\"week\":11,\"focus\":\"Mean Value Theorem and extrema.\",\"topics\":[\"5.1\",\"5.2\",\"5.3\",\"5.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Apply MVT to 3 functions, find critical points, and use the first derivative test to classify extrema.\"]},{\"week\":12,\"focus\":\"Mixed review and timed practice.\",\"topics\":[\"1.1\",\"2.1\",\"3.1\",\"4.1\",\"5.1\",\"7.1\",\"8.1\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Take a 30\u2011minute timed practice quiz covering all reviewed topics; then review mistakes and summarize key formulas.\"]}],\"final_week_advice\":\"In the final week, focus on consolidating concepts, practicing timed questions, and addressing any lingering misconceptions. Keep the review sessions short but intensive to maintain momentum before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1258,
+ "output_tokens": 896,
+ "latency_ms": 1229
+}

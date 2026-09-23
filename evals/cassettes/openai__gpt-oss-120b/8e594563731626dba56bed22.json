@@ -1,0 +1,64 @@
+{
+ "data": {
+  "summary": "In the single week before the exam, the student will concentrate on the weak Unit\u202f4 while also reviewing key concepts from every other unit. The plan packs focused practice on contextual applications of differentiation and quick refreshers for limits, differentiation rules, integration, and differential equations, all within the 12\u2011hour limit.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 12,
+    "focus": "Unit\u202f4 Contextual Applications of Differentiation (weak unit) plus rapid review of all other units",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Do 5 free\u2011response questions on interpreting derivatives in context (4.1) and solve them with the scoring guide.",
+     "Complete 4 related\u2011rates problems (4.4) from past exams, checking each step against the solution key.",
+     "Review limit concepts: quickly solve 3 limit estimation problems (1.3, 1.4) and verify with calculator.",
+     "Practice derivative basics: compute derivatives using the power rule and chain rule for 5 assorted functions (2.5, 3.1).",
+     "Sketch slope fields for 2 differential\u2011equation prompts (7.3) and identify solution curves.",
+     "Do 3 short integration problems covering Riemann sums and the Fundamental Theorem (6.2, 6.4).",
+     "Write brief outlines for the Mean Value Theorem and Extreme Value Theorem (5.1, 5.2) and solve one example each."
+    ]
+   }
+  ],
+  "final_week_advice": "Use any remaining time to take a full\u2011length timed practice exam, then review every missed question, especially those on related rates and interpretation of derivatives, to solidify understanding before the test."
+ },
+ "raw": "{\n  \"summary\": \"In the single week before the exam, the student will concentrate on the weak Unit\u202f4 while also reviewing key concepts from every other unit. The plan packs focused practice on contextual applications of differentiation and quick refreshers for limits, differentiation rules, integration, and differential equations, all within the 12\u2011hour limit.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 12,\n      \"focus\": \"Unit\u202f4 Contextual Applications of Differentiation (weak unit) plus rapid review of all other units\",\n      \"topics\": [\n        \"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\n        \"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\n        \"3.1\",\"3.2\",\"3.3\",\"3.4\",\n        \"4.1\",\"4.2\",\"4.3\",\"4.4\",\n        \"5.1\",\"5.2\",\"5.3\",\"5.4\",\n        \"6.1\",\"6.2\",\"6.3\",\"6.4\",\n        \"7.1\",\"7.2\",\"7.3\",\"7.4\",\n        \"8.1\",\"8.2\",\"8.3\",\"8.4\"\n      ],\n      \"classes\": [],\n      \"tasks\": [\n        \"Do 5 free\u2011response questions on interpreting derivatives in context (4.1) and solve them with the scoring guide.\",\n        \"Complete 4 related\u2011rates problems (4.4) from past exams, checking each step against the solution key.\",\n        \"Review limit concepts: quickly solve 3 limit estimation problems (1.3, 1.4) and verify with calculator.\",\n        \"Practice derivative basics: compute derivatives using the power rule and chain rule for 5 assorted functions (2.5, 3.1).\",\n        \"Sketch slope fields for 2 differential\u2011equation prompts (7.3) and identify solution curves.\",\n        \"Do 3 short integration problems covering Riemann sums and the Fundamental Theorem (6.2, 6.4).\",\n        \"Write brief outlines for the Mean Value Theorem and Extreme Value Theorem (5.1, 5.2) and solve one example each.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use any remaining time to take a full\u2011length timed practice exam, then review every missed question, especially those on related rates and interpretation of derivatives, to solidify understanding before the test.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1192,
+ "output_tokens": 651,
+ "latency_ms": 1643
+}

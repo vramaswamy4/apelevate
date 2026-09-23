@@ -1,0 +1,397 @@
+{
+ "summary": {
+  "model": "openai/gpt-oss-20b",
+  "cases": 24,
+  "valid_plan_rate": 0.7083333333333334,
+  "first_attempt_rate": 0.5,
+  "clean_plan_rate": 0.4583333333333333,
+  "warnings_per_plan": 0.6470588235294118,
+  "warning_counts": {
+   "class_off_topic": 2,
+   "unit_uncovered": 4,
+   "weak_unit_late": 5
+  },
+  "class_use": 1.0,
+  "median_latency_ms": 1369,
+  "mean_tokens": 2023.764705882353,
+  "failures": [
+   "chem-low-hours",
+   "chem-high-hours",
+   "chem-many-classes",
+   "phys-no-weak",
+   "calc-all-classes-early",
+   "calc-one-week",
+   "calc-mid"
+  ],
+  "prompt": "v2"
+ },
+ "cases": [
+  {
+   "case": "chem-typical",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": 1.0,
+   "input_tokens": 1244,
+   "output_tokens": 887,
+   "latency_ms": 1486,
+   "failure": ""
+  },
+  {
+   "case": "chem-short",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": 1.0,
+   "input_tokens": 1185,
+   "output_tokens": 543,
+   "latency_ms": 797,
+   "failure": ""
+  },
+  {
+   "case": "chem-one-week",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 1151,
+   "output_tokens": 421,
+   "latency_ms": 854,
+   "failure": ""
+  },
+  {
+   "case": "chem-long-capped",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": 1.0,
+   "input_tokens": 1223,
+   "output_tokens": 1206,
+   "latency_ms": 1763,
+   "failure": ""
+  },
+  {
+   "case": "chem-low-hours",
+   "model": "openai/gpt-oss-20b",
+   "ok": false,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [
+    "schema_invalid"
+   ],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "latency_ms": 0,
+   "failure": ""
+  },
+  {
+   "case": "chem-high-hours",
+   "model": "openai/gpt-oss-20b",
+   "ok": false,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [
+    "schema_invalid"
+   ],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "latency_ms": 0,
+   "failure": ""
+  },
+  {
+   "case": "chem-all-weak",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [],
+   "warnings": [
+    "weak_unit_late",
+    "weak_unit_late",
+    "weak_unit_late",
+    "weak_unit_late"
+   ],
+   "class_use": null,
+   "input_tokens": 1295,
+   "output_tokens": 946,
+   "latency_ms": 1502,
+   "failure": ""
+  },
+  {
+   "case": "chem-many-classes",
+   "model": "openai/gpt-oss-20b",
+   "ok": false,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [
+    "schema_invalid"
+   ],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "latency_ms": 0,
+   "failure": ""
+  },
+  {
+   "case": "chem-no-classes",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 1225,
+   "output_tokens": 953,
+   "latency_ms": 1552,
+   "failure": ""
+  },
+  {
+   "case": "chem-class-last-day",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [
+    "unit_uncovered",
+    "unit_uncovered",
+    "unit_uncovered"
+   ],
+   "class_use": 1.0,
+   "input_tokens": 1170,
+   "output_tokens": 716,
+   "latency_ms": 1258,
+   "failure": ""
+  },
+  {
+   "case": "phys-typical",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [],
+   "warnings": [],
+   "class_use": 1.0,
+   "input_tokens": 1122,
+   "output_tokens": 862,
+   "latency_ms": 1288,
+   "failure": ""
+  },
+  {
+   "case": "phys-short",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": 1.0,
+   "input_tokens": 1042,
+   "output_tokens": 589,
+   "latency_ms": 1240,
+   "failure": ""
+  },
+  {
+   "case": "phys-long-capped",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 1028,
+   "output_tokens": 1503,
+   "latency_ms": 1922,
+   "failure": ""
+  },
+  {
+   "case": "phys-no-weak",
+   "model": "openai/gpt-oss-20b",
+   "ok": false,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [
+    "schema_invalid"
+   ],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "latency_ms": 0,
+   "failure": ""
+  },
+  {
+   "case": "phys-fluids-weak",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": 1.0,
+   "input_tokens": 1044,
+   "output_tokens": 563,
+   "latency_ms": 775,
+   "failure": ""
+  },
+  {
+   "case": "phys-high-hours",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [],
+   "class_use": 1.0,
+   "input_tokens": 1043,
+   "output_tokens": 682,
+   "latency_ms": 1544,
+   "failure": ""
+  },
+  {
+   "case": "calc-typical",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [
+    "class_off_topic"
+   ],
+   "class_use": 1.0,
+   "input_tokens": 1287,
+   "output_tokens": 906,
+   "latency_ms": 1378,
+   "failure": ""
+  },
+  {
+   "case": "calc-short",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 1241,
+   "output_tokens": 391,
+   "latency_ms": 744,
+   "failure": ""
+  },
+  {
+   "case": "calc-long-capped",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [
+    "class_off_topic"
+   ],
+   "class_use": 1.0,
+   "input_tokens": 1218,
+   "output_tokens": 1501,
+   "latency_ms": 1934,
+   "failure": ""
+  },
+  {
+   "case": "calc-low-hours",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [],
+   "warnings": [
+    "unit_uncovered"
+   ],
+   "class_use": null,
+   "input_tokens": 1258,
+   "output_tokens": 896,
+   "latency_ms": 1229,
+   "failure": ""
+  },
+  {
+   "case": "calc-all-classes-early",
+   "model": "openai/gpt-oss-20b",
+   "ok": false,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [
+    "schema_invalid"
+   ],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "latency_ms": 0,
+   "failure": ""
+  },
+  {
+   "case": "calc-weak-late-units",
+   "model": "openai/gpt-oss-20b",
+   "ok": true,
+   "first_attempt_ok": true,
+   "attempts": 1,
+   "errors": [],
+   "warnings": [
+    "weak_unit_late"
+   ],
+   "class_use": 1.0,
+   "input_tokens": 1221,
+   "output_tokens": 842,
+   "latency_ms": 1369,
+   "failure": ""
+  },
+  {
+   "case": "calc-one-week",
+   "model": "openai/gpt-oss-20b",
+   "ok": false,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [
+    "week_numbering"
+   ],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 3310,
+   "output_tokens": 1826,
+   "latency_ms": 2812,
+   "failure": ""
+  },
+  {
+   "case": "calc-mid",
+   "model": "openai/gpt-oss-20b",
+   "ok": false,
+   "first_attempt_ok": false,
+   "attempts": 2,
+   "errors": [
+    "schema_invalid"
+   ],
+   "warnings": [],
+   "class_use": null,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "latency_ms": 0,
+   "failure": ""
+  }
+ ]
+}

@@ -9,10 +9,11 @@
   "warning_counts": {
    "weak_unit_late": 4
   },
-  "class_use": 0.24416666666666667,
+  "class_use": 0.22083333333333333,
   "median_latency_ms": 0.0,
-  "mean_tokens": 1307.0416666666667,
-  "failures": []
+  "mean_tokens": 1331.5416666666667,
+  "failures": [],
+  "prompt": "v2"
  },
  "cases": [
   {
@@ -24,7 +25,7 @@
    "errors": [],
    "warnings": [],
    "class_use": 0.0,
-   "input_tokens": 904,
+   "input_tokens": 914,
    "output_tokens": 507,
    "latency_ms": 0,
    "failure": ""
@@ -37,8 +38,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.5,
-   "input_tokens": 850,
+   "class_use": 1.0,
+   "input_tokens": 888,
    "output_tokens": 220,
    "latency_ms": 0,
    "failure": ""
@@ -52,7 +53,7 @@
    "errors": [],
    "warnings": [],
    "class_use": null,
-   "input_tokens": 821,
+   "input_tokens": 873,
    "output_tokens": 178,
    "latency_ms": 0,
    "failure": ""
@@ -66,7 +67,7 @@
    "errors": [],
    "warnings": [],
    "class_use": 0.5,
-   "input_tokens": 863,
+   "input_tokens": 915,
    "output_tokens": 757,
    "latency_ms": 0,
    "failure": ""
@@ -79,8 +80,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.0,
-   "input_tokens": 868,
+   "class_use": null,
+   "input_tokens": 882,
    "output_tokens": 435,
    "latency_ms": 0,
    "failure": ""
@@ -93,8 +94,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.2,
-   "input_tokens": 880,
+   "class_use": 0.0,
+   "input_tokens": 890,
    "output_tokens": 364,
    "latency_ms": 0,
    "failure": ""
@@ -112,8 +113,8 @@
     "weak_unit_late",
     "weak_unit_late"
    ],
-   "class_use": 0.0,
-   "input_tokens": 937,
+   "class_use": null,
+   "input_tokens": 951,
    "output_tokens": 590,
    "latency_ms": 0,
    "failure": ""
@@ -127,7 +128,7 @@
    "errors": [],
    "warnings": [],
    "class_use": 0.0,
-   "input_tokens": 963,
+   "input_tokens": 973,
    "output_tokens": 471,
    "latency_ms": 0,
    "failure": ""
@@ -140,8 +141,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.0,
-   "input_tokens": 873,
+   "class_use": null,
+   "input_tokens": 887,
    "output_tokens": 507,
    "latency_ms": 0,
    "failure": ""
@@ -154,8 +155,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.3333333333333333,
-   "input_tokens": 853,
+   "class_use": 0.0,
+   "input_tokens": 878,
    "output_tokens": 291,
    "latency_ms": 0,
    "failure": ""
@@ -168,8 +169,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.2,
-   "input_tokens": 769,
+   "class_use": 0.0,
+   "input_tokens": 782,
    "output_tokens": 493,
    "latency_ms": 0,
    "failure": ""
@@ -183,8 +184,8 @@
    "errors": [],
    "warnings": [],
    "class_use": 1.0,
-   "input_tokens": 724,
-   "output_tokens": 237,
+   "input_tokens": 765,
+   "output_tokens": 236,
    "latency_ms": 0,
    "failure": ""
   },
@@ -197,7 +198,7 @@
    "errors": [],
    "warnings": [],
    "class_use": null,
-   "input_tokens": 714,
+   "input_tokens": 766,
    "output_tokens": 742,
    "latency_ms": 0,
    "failure": ""
@@ -210,9 +211,9 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.4,
-   "input_tokens": 750,
-   "output_tokens": 417,
+   "class_use": 0.5,
+   "input_tokens": 763,
+   "output_tokens": 416,
    "latency_ms": 0,
    "failure": ""
   },
@@ -224,8 +225,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.25,
-   "input_tokens": 747,
+   "class_use": 0.0,
+   "input_tokens": 760,
    "output_tokens": 343,
    "latency_ms": 0,
    "failure": ""
@@ -238,9 +239,9 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.25,
-   "input_tokens": 750,
-   "output_tokens": 309,
+   "class_use": 0.0,
+   "input_tokens": 763,
+   "output_tokens": 308,
    "latency_ms": 0,
    "failure": ""
   },
@@ -252,8 +253,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.16666666666666666,
-   "input_tokens": 1017,
+   "class_use": 0.0,
+   "input_tokens": 1029,
    "output_tokens": 491,
    "latency_ms": 0,
    "failure": ""
@@ -267,7 +268,7 @@
    "errors": [],
    "warnings": [],
    "class_use": null,
-   "input_tokens": 929,
+   "input_tokens": 981,
    "output_tokens": 198,
    "latency_ms": 0,
    "failure": ""
@@ -281,7 +282,7 @@
    "errors": [],
    "warnings": [],
    "class_use": 0.0,
-   "input_tokens": 946,
+   "input_tokens": 985,
    "output_tokens": 740,
    "latency_ms": 0,
    "failure": ""
@@ -294,8 +295,8 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.0,
-   "input_tokens": 970,
+   "class_use": null,
+   "input_tokens": 987,
    "output_tokens": 574,
    "latency_ms": 0,
    "failure": ""
@@ -308,9 +309,9 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.25,
-   "input_tokens": 998,
-   "output_tokens": 493,
+   "class_use": 0.2,
+   "input_tokens": 1010,
+   "output_tokens": 492,
    "latency_ms": 0,
    "failure": ""
   },
@@ -322,9 +323,9 @@
    "attempts": 1,
    "errors": [],
    "warnings": [],
-   "class_use": 0.5,
-   "input_tokens": 981,
-   "output_tokens": 414,
+   "class_use": 0.0,
+   "input_tokens": 993,
+   "output_tokens": 413,
    "latency_ms": 0,
    "failure": ""
   },
@@ -337,7 +338,7 @@
    "errors": [],
    "warnings": [],
    "class_use": null,
-   "input_tokens": 930,
+   "input_tokens": 982,
    "output_tokens": 156,
    "latency_ms": 0,
    "failure": ""
@@ -351,7 +352,7 @@
    "errors": [],
    "warnings": [],
    "class_use": 0.3333333333333333,
-   "input_tokens": 1026,
+   "input_tokens": 1039,
    "output_tokens": 379,
    "latency_ms": 0,
    "failure": ""

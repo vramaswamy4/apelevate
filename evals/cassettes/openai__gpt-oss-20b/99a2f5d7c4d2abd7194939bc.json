@@ -1,0 +1,169 @@
+{
+ "data": {
+  "summary": "This 10\u2011week plan starts with the student\u2019s weakest unit\u2014Thermodynamics and Electrochemistry\u2014then cycles through all remaining units, ensuring each appears at least once. Each week is capped at 5 study hours and includes concrete, single\u2011sitting tasks. The last week is a mixed review and timed practice session to consolidate knowledge before the exam.",
+  "final_week_advice": "Use the final week for full\u2011length timed practice exams and targeted review of any remaining weak spots identified during the practice sessions.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Begin with Thermodynamics and Electrochemistry",
+    "topics": [
+     "9.1",
+     "9.2",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read textbook sections on entropy and Gibbs free energy; write a 200\u2011word summary of each concept.",
+     "Do 10 practice problems on calculating \u0394G and \u0394S; check answers with the scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen Thermodynamics and Electrochemistry",
+    "topics": [
+     "9.4",
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Sketch a galvanic cell diagram for a Zn/Cu cell; label all components.",
+     "Solve 8 calorimetry problems involving endothermic and exothermic processes; record heat changes."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Move to Chemical Reactions and Stoichiometry",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.5"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Write net ionic equations for 5 common reactions; verify with full equations.",
+     "Perform a stoichiometry calculation for a reaction with limiting reagent; document steps."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Cover Compound Structure and Properties",
+    "topics": [
+     "2.1",
+     "2.5",
+     "2.7"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Draw Lewis structures for 6 molecules; calculate formal charges.",
+     "Use VSEPR to predict shapes of 4 molecules; sketch 3D models."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Introduce Kinetics Basics",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Plot concentration vs. time data for a first\u2011order reaction; determine rate constant.",
+     "Write the rate law for a second\u2011order reaction; explain each term."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Explore Thermochemistry and Heat Transfer",
+    "topics": [
+     "6.3",
+     "6.4",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Calculate heat capacity for a given substance using calorimetry data.",
+     "Solve 5 ideal gas law problems involving temperature and pressure changes."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Study Equilibrium Concepts",
+    "topics": [
+     "7.1",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Determine the equilibrium constant for a given reaction; explain direction of shift.",
+     "Set up and solve a reaction quotient problem; compare with K."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Review Acids and Bases",
+    "topics": [
+     "8.1",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Calculate pH for a weak acid solution; show all steps.",
+     "Analyze a buffer system; compute pH after adding a strong base."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Revisit Weak Units and Integration",
+    "topics": [
+     "9.1",
+     "9.4",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Re\u2011solve the 10 \u0394G problems from week 1; aim for 100% accuracy.",
+     "Write elementary reaction steps for a complex reaction; identify rate\u2011determining step."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Mixed Review and Timed Practice",
+    "topics": [
+     "1.1",
+     "2.2",
+     "3.5",
+     "4.4",
+     "5.2",
+     "6.1",
+     "7.2",
+     "8.2",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 60\u2011minute full\u2011length practice test; time each section.",
+     "Review all incorrect answers; rewrite explanations for each mistake."
+    ]
+   }
+  ]
+ },
+ "raw": "{\"summary\":\"This 10\u2011week plan starts with the student\u2019s weakest unit\u2014Thermodynamics and Electrochemistry\u2014then cycles through all remaining units, ensuring each appears at least once. Each week is capped at 5 study hours and includes concrete, single\u2011sitting tasks. The last week is a mixed review and timed practice session to consolidate knowledge before the exam.\",\"final_week_advice\":\"Use the final week for full\u2011length timed practice exams and targeted review of any remaining weak spots identified during the practice sessions.\",\"weeks\":[{\"week\":1,\"focus\":\"Begin with Thermodynamics and Electrochemistry\",\"topics\":[\"9.1\",\"9.2\",\"9.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Read textbook sections on entropy and Gibbs free energy; write a 200\u2011word summary of each concept.\",\"Do 10 practice problems on calculating \u0394G and \u0394S; check answers with the scoring guide.\"],\"classes\":[]},{\"week\":2,\"focus\":\"Deepen Thermodynamics and Electrochemistry\",\"topics\":[\"9.4\",\"6.1\",\"6.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Sketch a galvanic cell diagram for a Zn/Cu cell; label all components.\",\"Solve 8 calorimetry problems involving endothermic and exothermic processes; record heat changes.\"],\"classes\":[]},{\"week\":3,\"focus\":\"Move to Chemical Reactions and Stoichiometry\",\"topics\":[\"4.1\",\"4.2\",\"4.5\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Write net ionic equations for 5 common reactions; verify with full equations.\",\"Perform a stoichiometry calculation for a reaction with limiting reagent; document steps.\"],\"classes\":[]},{\"week\":4,\"focus\":\"Cover Compound Structure and Properties\",\"topics\":[\"2.1\",\"2.5\",\"2.7\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Draw Lewis structures for 6 molecules; calculate formal charges.\",\"Use VSEPR to predict shapes of 4 molecules; sketch 3D models.\"],\"classes\":[]},{\"week\":5,\"focus\":\"Introduce Kinetics Basics\",\"topics\":[\"5.1\",\"5.2\",\"5.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Plot concentration vs. time data for a first\u2011order reaction; determine rate constant.\",\"Write the rate law for a second\u2011order reaction; explain each term.\"],\"classes\":[]},{\"week\":6,\"focus\":\"Explore Thermochemistry and Heat Transfer\",\"topics\":[\"6.3\",\"6.4\",\"3.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Calculate heat capacity for a given substance using calorimetry data.\",\"Solve 5 ideal gas law problems involving temperature and pressure changes.\"],\"classes\":[]},{\"week\":7,\"focus\":\"Study Equilibrium Concepts\",\"topics\":[\"7.1\",\"7.3\",\"7.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Determine the equilibrium constant for a given reaction; explain direction of shift.\",\"Set up and solve a reaction quotient problem; compare with K.\"],\"classes\":[]},{\"week\":8,\"focus\":\"Review Acids and Bases\",\"topics\":[\"8.1\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Calculate pH for a weak acid solution; show all steps.\",\"Analyze a buffer system; compute pH after adding a strong base.\"],\"classes\":[]},{\"week\":9,\"focus\":\"Revisit Weak Units and Integration\",\"topics\":[\"9.1\",\"9.4\",\"5.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Re\u2011solve the 10 \u0394G problems from week 1; aim for 100% accuracy.\",\"Write elementary reaction steps for a complex reaction; identify rate\u2011determining step.\"],\"classes\":[]},{\"week\":10,\"focus\":\"Mixed Review and Timed Practice\",\"topics\":[\"1.1\",\"2.2\",\"3.5\",\"4.4\",\"5.2\",\"6.1\",\"7.2\",\"8.2\",\"9.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Take a 60\u2011minute full\u2011length practice test; time each section.\",\"Review all incorrect answers; rewrite explanations for each mistake.\"]}]}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1225,
+ "output_tokens": 953,
+ "latency_ms": 1552
+}

@@ -1,0 +1,59 @@
+{
+ "data": {
+  "final_week_advice": "Week 1: Attend the live class on Acids and Bases, then complete 5 practice problems on pH calculations and 3 on weak acid equilibria. Week 2: Take a full timed practice exam, review all missed questions, and redo 10 free-response questions from Units 1, 4, and 7.",
+  "summary": "This two-week plan prioritizes the student's weak unit, Acids and Bases, in the first week using the available live class. The second week is dedicated entirely to mixed review and timed practice to consolidate knowledge across all units before the exam.",
+  "weeks": [
+   {
+    "classes": [
+     9100
+    ],
+    "focus": "Master Acids and Bases fundamentals and review core stoichiometry.",
+    "hours": 8,
+    "tasks": [
+     "Attend live class #9100 on Unit 8 topics 8.1 and 8.2.",
+     "Do 10 practice problems calculating pH and pOH for strong acids and bases.",
+     "Review Unit 4 Stoichiometry by solving 5 limiting reactant problems.",
+     "Complete 3 free-response questions on acid-base titrations and mark them against the scoring guide."
+    ],
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "4.5",
+     "1.1"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Timed practice and comprehensive review of all units.",
+    "hours": 8,
+    "tasks": [
+     "Take a full-length timed practice exam covering all units.",
+     "Review all incorrect answers and identify specific concept gaps.",
+     "Redo 10 free-response questions from Units 1, 4, 7, and 8.",
+     "Create a one-page cheat sheet summarizing key formulas for Units 3, 5, 6, and 9."
+    ],
+    "topics": [
+     "1.1",
+     "1.7",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.1",
+     "6.4",
+     "7.3",
+     "8.3",
+     "9.3"
+    ],
+    "week": 2
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Week 1: Attend the live class on Acids and Bases, then complete 5 practice problems on pH calculations and 3 on weak acid equilibria. Week 2: Take a full timed practice exam, review all missed questions, and redo 10 free-response questions from Units 1, 4, and 7.\", \"summary\": \"This two-week plan prioritizes the student's weak unit, Acids and Bases, in the first week using the available live class. The second week is dedicated entirely to mixed review and timed practice to consolidate knowledge across all units before the exam.\", \"weeks\": [{\"classes\": [9100], \"focus\": \"Master Acids and Bases fundamentals and review core stoichiometry.\", \"hours\": 8, \"tasks\": [\"Attend live class #9100 on Unit 8 topics 8.1 and 8.2.\", \"Do 10 practice problems calculating pH and pOH for strong acids and bases.\", \"Review Unit 4 Stoichiometry by solving 5 limiting reactant problems.\", \"Complete 3 free-response questions on acid-base titrations and mark them against the scoring guide.\"], \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"8.4\", \"4.5\", \"1.1\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Timed practice and comprehensive review of all units.\", \"hours\": 8, \"tasks\": [\"Take a full-length timed practice exam covering all units.\", \"Review all incorrect answers and identify specific concept gaps.\", \"Redo 10 free-response questions from Units 1, 4, 7, and 8.\", \"Create a one-page cheat sheet summarizing key formulas for Units 3, 5, 6, and 9.\"], \"topics\": [\"1.1\", \"1.7\", \"2.5\", \"3.4\", \"4.5\", \"5.1\", \"6.4\", \"7.3\", \"8.3\", \"9.3\"], \"week\": 2}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1006,
+ "output_tokens": 452,
+ "latency_ms": 1181
+}

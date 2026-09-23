@@ -1,0 +1,193 @@
+{
+ "data": {
+  "summary": "The plan front\u2011loads the weak Unit\u202f4 while ensuring every unit is touched at least once. Live classes are taken in their scheduled weeks, and their topics are woven into the weekly focus. The final two weeks are dedicated to mixed review and timed practice, revisiting all codes and using the remaining classes as reinforcement.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 6,
+    "focus": "Kick\u2011off Unit\u202f4 fundamentals and begin core concepts.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "1.5"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read textbook sections on 4.1 and 4.2; create summary charts of reaction types.",
+     "Do 10 practice problems on identifying net ionic equations.",
+     "Complete 5 free\u2011response questions on atomic structure (1.5) and self\u2011grade."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 6,
+    "focus": "Live class on early Unit\u202f1; continue Unit\u202f4.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "4.3"
+    ],
+    "classes": [
+     9700
+    ],
+    "tasks": [
+     "Watch Class\u202f9700 and take notes on 1.1, 1.2.",
+     "Solve 8 mole\u2011mass conversion problems (1.1).",
+     "Practice writing balanced equations for 4.3 representation of reactions."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 6,
+    "focus": "Live class on Unit\u202f2; finish Unit\u202f4 stoichiometry.",
+    "topics": [
+     "2.1",
+     "2.2",
+     "4.4",
+     "4.5"
+    ],
+    "classes": [
+     9701
+    ],
+    "tasks": [
+     "Attend Class\u202f9701; focus on 2.1, 2.2.",
+     "Complete a worksheet converting between mass, moles, and particles (4.5).",
+     "Do 6 FRQs mixing bond types (2.1) with stoichiometric calculations (4.5)."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 6,
+    "focus": "Intermolecular forces and review Unit\u202f4 basics via two live classes.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "4.1",
+     "4.2"
+    ],
+    "classes": [
+     9702,
+     9703
+    ],
+    "tasks": [
+     "Participate in Class\u202f9702 (3.1, 3.2) and Class\u202f9703 (4.1, 4.2).",
+     "Create a comparison table of intermolecular forces vs. reaction types.",
+     "Answer 5 FRQs that require identifying physical vs. chemical changes (4.4)."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 6,
+    "focus": "Kinetics introduction and begin Acid\u2011Base fundamentals.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [
+     9704
+    ],
+    "tasks": [
+     "Watch Class\u202f9704; note rate\u2011law terminology (5.1,5.2).",
+     "Calculate reaction rates for 3 sample problems.",
+     "Read and summarize 8.1, 8.2; write pH calculations for strong acids/bases."
+    ]
+   },
+   {
+    "week": 6,
+    "hours": 6,
+    "focus": "Thermochemistry concepts and reinforce Acid\u2011Base basics.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [
+     9705
+    ],
+    "tasks": [
+     "Attend Class\u202f9705 covering 6.1, 6.2.",
+     "Complete calorimetry lab worksheet (6.1).",
+     "Do 8 practice problems on pH/pOH for strong acids/bases (8.2)."
+    ]
+   },
+   {
+    "week": 7,
+    "hours": 6,
+    "focus": "Equilibrium foundations and preview Thermodynamics.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "9.1",
+     "9.2"
+    ],
+    "classes": [
+     9706
+    ],
+    "tasks": [
+     "Join Class\u202f9706; focus on 7.1, 7.2.",
+     "Write equilibrium tables for 3 reactions and determine direction.",
+     "Read 9.1, 9.2 and outline entropy concepts in a one\u2011page cheat sheet."
+    ]
+   },
+   {
+    "week": 8,
+    "hours": 6,
+    "focus": "Mixed review of all units; reinforce Unit\u202f8 via live class.",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.1",
+     "4.5",
+     "5.2",
+     "6.2",
+     "7.2",
+     "8.1",
+     "8.2",
+     "9.2"
+    ],
+    "classes": [
+     9707
+    ],
+    "tasks": [
+     "Attend Class\u202f9707 (8.1, 8.2) as a review.",
+     "Do a timed set of 12 mixed\u2011topic FRQs covering the listed codes.",
+     "Create a master concept map linking each unit\u2019s key ideas."
+    ]
+   },
+   {
+    "week": 9,
+    "hours": 6,
+    "focus": "Final timed practice and comprehensive review.",
+    "topics": [
+     "1.5",
+     "2.5",
+     "3.4",
+     "4.3",
+     "5.3",
+     "6.4",
+     "7.4",
+     "8.3",
+     "9.3",
+     "9.4"
+    ],
+    "classes": [
+     9708
+    ],
+    "tasks": [
+     "Watch Class\u202f9708 (9.1, 9.2) quickly to confirm understanding.",
+     "Complete a full\u2011length AP practice section (timed, 90\u202fmin) covering all listed topics.",
+     "Review incorrect answers and write a one\u2011page summary of remaining weak spots."
+    ]
+   }
+  ],
+  "final_week_advice": "On the last week, simulate exam conditions with a timed practice set, then spend the remaining time polishing answer organization and reviewing any persistent errors. Ensure you get a good night\u2019s sleep before the exam."
+ },
+ "raw": "{\n  \"summary\": \"The plan front\u2011loads the weak Unit\u202f4 while ensuring every unit is touched at least once. Live classes are taken in their scheduled weeks, and their topics are woven into the weekly focus. The final two weeks are dedicated to mixed review and timed practice, revisiting all codes and using the remaining classes as reinforcement.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 6,\n      \"focus\": \"Kick\u2011off Unit\u202f4 fundamentals and begin core concepts.\",\n      \"topics\": [\"4.1\", \"4.2\", \"1.5\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read textbook sections on 4.1 and 4.2; create summary charts of reaction types.\",\n        \"Do 10 practice problems on identifying net ionic equations.\",\n        \"Complete 5 free\u2011response questions on atomic structure (1.5) and self\u2011grade.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 6,\n      \"focus\": \"Live class on early Unit\u202f1; continue Unit\u202f4.\",\n      \"topics\": [\"1.1\", \"1.2\", \"4.3\"],\n      \"classes\": [9700],\n      \"tasks\": [\n        \"Watch Class\u202f9700 and take notes on 1.1, 1.2.\",\n        \"Solve 8 mole\u2011mass conversion problems (1.1).\",\n        \"Practice writing balanced equations for 4.3 representation of reactions.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 6,\n      \"focus\": \"Live class on Unit\u202f2; finish Unit\u202f4 stoichiometry.\",\n      \"topics\": [\"2.1\", \"2.2\", \"4.4\", \"4.5\"],\n      \"classes\": [9701],\n      \"tasks\": [\n        \"Attend Class\u202f9701; focus on 2.1, 2.2.\",\n        \"Complete a worksheet converting between mass, moles, and particles (4.5).\",\n        \"Do 6 FRQs mixing bond types (2.1) with stoichiometric calculations (4.5).\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 6,\n      \"focus\": \"Intermolecular forces and review Unit\u202f4 basics via two live classes.\",\n      \"topics\": [\"3.1\", \"3.2\", \"4.1\", \"4.2\"],\n      \"classes\": [9702, 9703],\n      \"tasks\": [\n        \"Participate in Class\u202f9702 (3.1, 3.2) and Class\u202f9703 (4.1, 4.2).\",\n        \"Create a comparison table of intermolecular forces vs. reaction types.\",\n        \"Answer 5 FRQs that require identifying physical vs. chemical changes (4.4).\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 6,\n      \"focus\": \"Kinetics introduction and begin Acid\u2011Base fundamentals.\",\n      \"topics\": [\"5.1\", \"5.2\", \"8.1\", \"8.2\"],\n      \"classes\": [9704],\n      \"tasks\": [\n        \"Watch Class\u202f9704; note rate\u2011law terminology (5.1,5.2).\",\n        \"Calculate reaction rates for 3 sample problems.\",\n        \"Read and summarize 8.1, 8.2; write pH calculations for strong acids/bases.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"hours\": 6,\n      \"focus\": \"Thermochemistry concepts and reinforce Acid\u2011Base basics.\",\n      \"topics\": [\"6.1\", \"6.2\", \"8.1\", \"8.2\"],\n      \"classes\": [9705],\n      \"tasks\": [\n        \"Attend Class\u202f9705 covering 6.1, 6.2.\",\n        \"Complete calorimetry lab worksheet (6.1).\",\n        \"Do 8 practice problems on pH/pOH for strong acids/bases (8.2).\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"hours\": 6,\n      \"focus\": \"Equilibrium foundations and preview Thermodynamics.\",\n      \"topics\": [\"7.1\", \"7.2\", \"9.1\", \"9.2\"],\n      \"classes\": [9706],\n      \"tasks\": [\n        \"Join Class\u202f9706; focus on 7.1, 7.2.\",\n        \"Write equilibrium tables for 3 reactions and determine direction.\",\n        \"Read 9.1, 9.2 and outline entropy concepts in a one\u2011page cheat sheet.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"hours\": 6,\n      \"focus\": \"Mixed review of all units; reinforce Unit\u202f8 via live class.\",\n      \"topics\": [\"1.1\", \"2.1\", \"3.1\", \"4.5\", \"5.2\", \"6.2\", \"7.2\", \"8.1\", \"8.2\", \"9.2\"],\n      \"classes\": [9707],\n      \"tasks\": [\n        \"Attend Class\u202f9707 (8.1, 8.2) as a review.\",\n        \"Do a timed set of 12 mixed\u2011topic FRQs covering the listed codes.\",\n        \"Create a master concept map linking each unit\u2019s key ideas.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"hours\": 6,\n      \"focus\": \"Final timed practice and comprehensive review.\",\n      \"topics\": [\"1.5\", \"2.5\", \"3.4\", \"4.3\", \"5.3\", \"6.4\", \"7.4\", \"8.3\", \"9.3\", \"9.4\"],\n      \"classes\": [9708],\n      \"tasks\": [\n        \"Watch Class\u202f9708 (9.1, 9.2) quickly to confirm understanding.\",\n        \"Complete a full\u2011length AP practice section (timed, 90\u202fmin) covering all listed topics.\",\n        \"Review incorrect answers and write a one\u2011page summary of remaining weak spots.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"On the last week, simulate exam conditions with a timed practice set, then spend the remaining time polishing answer organization and reviewing any persistent errors. Ensure you get a good night\u2019s sleep before the exam.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1376,
+ "output_tokens": 1928,
+ "latency_ms": 4432
+}
