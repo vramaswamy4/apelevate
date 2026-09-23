@@ -11,6 +11,7 @@ locals {
   apis = [
     "artifactregistry.googleapis.com",
     "billingbudgets.googleapis.com",
+    "cloudbilling.googleapis.com",
     "cloudresourcemanager.googleapis.com",
     "cloudscheduler.googleapis.com",
     "iam.googleapis.com",
@@ -376,4 +377,70 @@ resource "google_billing_budget" "demo" {
     threshold_percent = 1.0
   }
   depends_on = [google_project_service.apis]
+}
+
+# ---------- Terraform itself: remote state and read-only CI planning ------------------------
+
+# Remote state. Versioned so any state change can be rolled back; the bucket's own lifecycle
+# prunes old versions. Bootstrapped by this config, then `terraform init -migrate-state`.
+resource "google_storage_bucket" "tf_state" {
+  name                        = "${var.project_id}-tfstate"
+  location                    = upper(var.region)
+  uniform_bucket_level_access = true
+  public_access_prevention    = "enforced"
+  force_destroy               = false
+
+  versioning {
+    enabled = true
+  }
+  lifecycle_rule {
+    condition {
+      num_newer_versions = 20
+      with_state         = "ARCHIVED"
+    }
+    action {
+      type = "Delete"
+    }
+  }
+  depends_on = [google_project_service.apis]
+}
+
+# CI runs `terraform plan` as this account: it can read everything and change nothing. Plans
+# run with -lock=false, so it only needs to read the state, never write it.
+resource "google_service_account" "tf_plan" {
+  account_id   = "apelevate-tf-plan"
+  display_name = "Terraform plan in CI (read-only)"
+}
+
+resource "google_project_iam_member" "tf_plan" {
+  for_each = toset(["roles/viewer", "roles/iam.securityReviewer"])
+  project  = var.project_id
+  role     = each.value
+  member   = "serviceAccount:${google_service_account.tf_plan.email}"
+}
+
+resource "google_storage_bucket_iam_member" "tf_plan_reads_state" {
+  bucket = google_storage_bucket.tf_state.name
+  role   = "roles/storage.objectViewer"
+  member = "serviceAccount:${google_service_account.tf_plan.email}"
+}
+
+# Refreshing the generated Django secret-key version reads its value.
+resource "google_secret_manager_secret_iam_member" "tf_plan_reads_django_key" {
+  secret_id = google_secret_manager_secret.django_secret_key.id
+  role      = "roles/secretmanager.secretAccessor"
+  member    = "serviceAccount:${google_service_account.tf_plan.email}"
+}
+
+# Reading the budget needs a role on the billing account, not the project.
+resource "google_billing_account_iam_member" "tf_plan_reads_budget" {
+  billing_account_id = var.billing_account
+  role               = "roles/billing.viewer"
+  member             = "serviceAccount:${google_service_account.tf_plan.email}"
+}
+
+resource "google_service_account_iam_member" "github_impersonates_tf_plan" {
+  service_account_id = google_service_account.tf_plan.name
+  role               = "roles/iam.workloadIdentityUser"
+  member             = "principalSet://iam.googleapis.com/${google_iam_workload_identity_pool.github.name}/attribute.repository/${var.github_repository}"
 }

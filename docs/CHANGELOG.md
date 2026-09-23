@@ -3,6 +3,15 @@
 The refresh of the recovered 2022 app, newest first. `docs/ORIGINAL.md` numbers the problems
 (S1, X1, C1, …), and the entries here refer to those numbers.
 
+## Terraform state and CI planning (2026-09-24)
+
+- State moved from a local file to a versioned GCS bucket (`terraform init -migrate-state`);
+  a plan against it shows no differences.
+- `infra.yml`: `terraform fmt`, `validate` and `plan` on every infra change and weekly, as a
+  read-only service account via Workload Identity Federation (viewer, security reviewer,
+  billing viewer, state bucket read), with `-lock=false` so CI can never write state. The
+  weekly run fails on drift. The plan is posted to the job summary.
+
 ## LLM study planner (2026-09-23)
 
 - New `planner` app: week-by-week plans from an open-weights model (Groq, OpenAI-compatible

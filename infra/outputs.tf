@@ -14,3 +14,11 @@ output "workload_identity_provider" {
 output "deployer_service_account" {
   value = google_service_account.deployer.email
 }
+
+output "tf_state_bucket" {
+  value = google_storage_bucket.tf_state.name
+}
+
+output "tf_plan_service_account" {
+  value = google_service_account.tf_plan.email
+}

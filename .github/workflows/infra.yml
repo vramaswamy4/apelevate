@@ -1,0 +1,68 @@
+name: Infra
+
+# terraform plan against the real state whenever infra/ changes, and weekly to catch drift
+# (changes made in the console that the code doesn't know about). Read-only: the plan runs as
+# a service account that can view everything and change nothing, without taking the state lock.
+on:
+  push:
+    branches: [main]
+    paths: ["infra/**", ".github/workflows/infra.yml"]
+  pull_request:
+    paths: ["infra/**", ".github/workflows/infra.yml"]
+  schedule:
+    - cron: "0 14 * * 1" # Mondays
+  workflow_dispatch:
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    defaults:
+      run:
+        working-directory: infra
+    env:
+      TF_IN_AUTOMATION: "1"
+      TF_VAR_project_id: ${{ vars.GCP_PROJECT_ID }}
+      TF_VAR_billing_account: ${{ secrets.GCP_BILLING_ACCOUNT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.16.3
+          terraform_wrapper: false
+      - name: Format
+        run: terraform fmt -check -recursive
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_TF_PLAN_SA }}
+      - name: Init
+        run: terraform init -input=false
+      - name: Validate
+        run: terraform validate
+      - name: Plan
+        id: plan
+        # -detailed-exitcode: 0 = no changes, 2 = changes (drift, or an unapplied edit).
+        run: |
+          set +e
+          terraform plan -input=false -lock=false -no-color -detailed-exitcode -out=tfplan > plan.txt
+          code=$?
+          set -e
+          echo "exitcode=$code" >> "$GITHUB_OUTPUT"
+          {
+            echo "## terraform plan"
+            if [ "$code" = 0 ]; then echo "No changes: the infrastructure matches the code."; fi
+            if [ "$code" = 2 ]; then echo "**Changes pending** (apply them, or find the drift):"; fi
+            echo '```'
+            tail -n 80 plan.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          cat plan.txt
+          [ "$code" != 1 ]
+      - name: Fail the weekly check on drift
+        if: github.event_name == 'schedule' && steps.plan.outputs.exitcode == '2'
+        run: |
+          echo "::error::Infrastructure has drifted from infra/*.tf. See the plan summary."
+          exit 1

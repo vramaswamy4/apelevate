@@ -44,9 +44,16 @@ Cloud Scheduler trigger for the nightly reset, a private Cloud Storage bucket fo
 documents, Secret Manager, a budget alert, and Workload Identity Federation so GitHub Actions
 deploys without a stored key. After CI passes on `main`,
 [`deploy.yml`](.github/workflows/deploy.yml) builds the image, runs migrations as a job, rolls
-out the new revision and smoke-tests it. The database URL is the one secret added by hand
-([`infra/set-database-url.sh`](infra/set-database-url.sh)), so it never appears in Terraform
-state.
+out the new revision and smoke-tests it. The database URL and the model API key are the two
+secrets added by hand ([`infra/set-database-url.sh`](infra/set-database-url.sh),
+[`infra/set-llm-key.sh`](infra/set-llm-key.sh)), so they never appear in Terraform state.
+
+Terraform state lives in a versioned Cloud Storage bucket that the same config creates.
+[`infra.yml`](.github/workflows/infra.yml) runs `terraform plan` whenever `infra/` changes and
+every Monday, as a read-only service account that can view everything and change nothing; the
+weekly run fails if the live infrastructure has drifted from the code. Applying is still done
+by hand, deliberately: for one person's demo, an automatic apply would add risk without saving
+any work.
 
 ---
 
