@@ -25,6 +25,15 @@ class LLMRateLimited(LLMError):
     pass
 
 
+class LLMSchemaError(LLMError):
+    """The provider rejected the output for not matching the schema (Groq returns a 400
+    ``json_validate_failed`` rather than constraining the output). Retryable with feedback."""
+
+    def __init__(self, detail):
+        super().__init__(f"Output didn't match the schema: {detail}")
+        self.detail = detail
+
+
 @dataclass(frozen=True)
 class Completion:
     data: dict
@@ -69,6 +78,13 @@ class OpenAICompatibleLLM:
         latency_ms = int((time.monotonic() - started) * 1000)
         if response.status_code == 429:
             raise LLMRateLimited("The model provider's rate limit was hit.")
+        if response.status_code == 400 and "json_validate_failed" in response.text:
+            try:
+                message = response.json()["error"]["message"]
+            except (ValueError, KeyError, TypeError):
+                message = "schema validation failed"
+            detail = message.split("Error:", 1)[-1].strip()[:300]
+            raise LLMSchemaError(detail)
         if response.status_code != 200:
             log.warning("llm %s: %s", response.status_code, response.text[:500])
             raise LLMError(f"Model API returned {response.status_code}.")

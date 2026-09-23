@@ -10,6 +10,7 @@ import hashlib
 import io
 import json
 import statistics
+import time
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
@@ -25,7 +26,7 @@ from classes.models import TutoringClass
 
 from .checks import ERROR, WARNING, errors
 from .context import build_context
-from .llm import Completion
+from .llm import Completion, LLMRateLimited, LLMSchemaError
 from .services import run_model
 
 ROOT = Path(settings.BASE_DIR) / "evals"
@@ -62,13 +63,28 @@ class RecordingLLM:
     def complete_json(self, messages, schema, *, name, hint=None, temperature=0.3):
         path = self._path(messages, schema)
         if path.exists() and not self.fresh:
-            return Completion(**json.loads(path.read_text()))
+            recorded = json.loads(path.read_text())
+            if "schema_error" in recorded:
+                raise LLMSchemaError(recorded["schema_error"])
+            return Completion(**recorded)
         if self.offline:
             raise LookupError(f"No recording for this request ({path.name}); run with a key.")
-        self.calls += 1
-        completion = self.llm.complete_json(
-            messages, schema, name=name, hint=hint, temperature=temperature
-        )
+        for wait in (20, 40, 60, 60, 0):
+            self.calls += 1
+            try:
+                completion = self.llm.complete_json(
+                    messages, schema, name=name, hint=hint, temperature=temperature
+                )
+                break
+            except LLMSchemaError as exc:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps({"schema_error": exc.detail}, indent=1))
+                raise
+            except LLMRateLimited:
+                # A provider quota, not a model failure: wait it out rather than score it.
+                if not wait:
+                    raise
+                time.sleep(wait)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(asdict(completion), indent=1))
         return completion

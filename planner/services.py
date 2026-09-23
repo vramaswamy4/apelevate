@@ -9,9 +9,9 @@ from django.db.models import Sum
 from django.db.models.functions import Coalesce
 from django.utils import timezone
 
-from .checks import check_plan, errors
+from .checks import ERROR, Finding, check_plan, errors
 from .context import build_context
-from .llm import LLMError, get_llm
+from .llm import LLMError, LLMSchemaError, get_llm
 from .models import StudyPlan
 from .prompts import PLAN_SCHEMA, SYSTEM, correction_message, user_message
 
@@ -50,8 +50,16 @@ def run_model(ctx, llm) -> ModelRun:
     ]
     run = ModelRun(plan=None, findings=[], first_attempt_findings=[], model=llm.model)
     for attempt in range(1, MAX_ATTEMPTS + 1):
-        completion = llm.complete_json(messages, PLAN_SCHEMA, name="study_plan", hint=ctx)
         run.attempts = attempt
+        try:
+            completion = llm.complete_json(messages, PLAN_SCHEMA, name="study_plan", hint=ctx)
+        except LLMSchemaError as exc:
+            # The output wasn't even the right shape. Count it, tell the model, try once more.
+            run.findings = [Finding("schema_invalid", ERROR, str(exc))]
+            if attempt == 1:
+                run.first_attempt_findings = run.findings
+            messages = [*messages, {"role": "user", "content": correction_message(run.findings)}]
+            continue
         run.model = completion.model
         run.input_tokens += completion.input_tokens
         run.output_tokens += completion.output_tokens

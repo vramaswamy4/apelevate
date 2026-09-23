@@ -147,10 +147,13 @@ locals {
     PAYMENTS_BACKEND            = "fake"
     PRIVATE_STORAGE_BUCKET      = google_storage_bucket.private_uploads.name
     WEB_CONCURRENCY             = "2"
+    LLM_BACKEND                 = "openai"
+    LLM_MODEL                   = var.llm_model
   }
   secret_env = {
     DJANGO_SECRET_KEY = google_secret_manager_secret.django_secret_key.secret_id
     DATABASE_URL      = google_secret_manager_secret.database_url.secret_id
+    LLM_API_KEY       = google_secret_manager_secret.llm_api_key.secret_id
   }
 }
 

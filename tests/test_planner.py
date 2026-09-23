@@ -10,7 +10,14 @@ from django.utils import timezone
 
 from planner.checks import check_plan, errors, warnings
 from planner.context import MAX_WEEKS, build_context, plan_window
-from planner.llm import Completion, FakeLLM, LLMError, LLMRateLimited, OpenAICompatibleLLM
+from planner.llm import (
+    Completion,
+    FakeLLM,
+    LLMError,
+    LLMRateLimited,
+    LLMSchemaError,
+    OpenAICompatibleLLM,
+)
 from planner.models import StudyPlan
 from planner.prompts import PLAN_SCHEMA, user_message
 from planner.services import PlannerError, generate_plan
@@ -150,6 +157,38 @@ def test_client_requests_strict_structured_output(ctx):
     assert body["reasoning_effort"] == "low"
     assert (result.input_tokens, result.output_tokens) == (1200, 800)
     assert result.data["weeks"]
+
+
+def test_provider_schema_rejection_is_a_schema_error():
+    def handler(request):
+        return httpx.Response(
+            400,
+            json={
+                "error": {
+                    "code": "json_validate_failed",
+                    "message": "Generated JSON does not match the expected schema. "
+                    "Error: jsonschema: '/weeks/5' additionalProperties "
+                    "'final_week_advice' not allowed",
+                }
+            },
+        )
+
+    with pytest.raises(LLMSchemaError, match="final_week_advice"):
+        client(handler).complete_json([], {}, name="x")
+
+
+def test_a_schema_rejection_gets_the_corrective_retry(student, chemistry, exam):
+    class SchemaThenGood(Scripted):
+        def complete_json(self, messages, schema, *, name, hint=None, temperature=0.3):
+            if not self.calls:
+                self.calls.append(list(messages))
+                raise LLMSchemaError("'final_week_advice' not allowed")
+            return super().complete_json(messages, schema, name=name, hint=hint)
+
+    llm = SchemaThenGood(good_plan)
+    plan = generate(student, chemistry, exam, llm)
+    assert plan.attempts == 2
+    assert "final_week_advice" in llm.calls[1][-1]["content"]
 
 
 def test_client_errors_are_typed():

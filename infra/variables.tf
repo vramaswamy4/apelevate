@@ -31,3 +31,9 @@ variable "monthly_budget_usd" {
   type        = number
   default     = 5
 }
+
+variable "llm_model" {
+  description = "Study-plan model on Groq's OpenAI-compatible API. Chosen by the evals (docs/EVALS.md)."
+  type        = string
+  default     = "openai/gpt-oss-120b"
+}
