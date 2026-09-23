@@ -169,6 +169,8 @@ the exam: which topics each week, concrete tasks, and the live classes on APElev
 It's written by an open-weights model (`openai/gpt-oss-120b` on Groq's free tier) and checked
 by code before anyone sees it.
 
+![A 10-week AP Chemistry plan from gpt-oss-120b: weak units first, concrete tasks, a linked live class, and the checks and token counts beside it](docs/screenshots/study-plan.png)
+
 ```mermaid
 flowchart LR
   F[Form: subject, exam date,<br/>hours, weak units] --> C[context.py<br/>weeks, dates, real topic codes,<br/>classes by week]
