@@ -73,7 +73,7 @@ Other targets:
 
 ```bash
 make test          # 210 tests, about 2 seconds
-make cov           # the same with a coverage report (95% of lines)
+make cov           # the same with a coverage report (90% of lines)
 make lint          # ruff check + ruff format --check
 make check         # Django's production checklist (check --deploy) with production settings
 make up            # the app on PostgreSQL 17 with docker compose, demo data loaded
