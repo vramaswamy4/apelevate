@@ -46,7 +46,7 @@ jobs:
         run: gcloud run deploy apelevate --region "$REGION" --image "$IMAGE" --quiet
       - name: Smoke test
         run: |
-          URL=$(gcloud run services describe apelevate --region "$REGION" --format 'value(status.url)')
+          URL="${{ vars.APP_URL }}" # the fixed URL; ALLOWED_HOSTS rejects the hash-style one
           curl -fsS "$URL/" -o /dev/null
           curl -fsS "$URL/classes/" | grep -q "Upcoming classes"
           echo "Live at $URL"
