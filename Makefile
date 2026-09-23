@@ -5,7 +5,7 @@ BIN    := $(VENV)/bin
 PY     := $(BIN)/python
 
 .DEFAULT_GOAL := help
-.PHONY: help install dev run migrate seed test cov lint fmt check up down screenshots clean
+.PHONY: help install dev run migrate seed test cov lint fmt check eval eval-replay up down screenshots clean
 
 help: ## List the targets
 	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  make %-12s %s\n", $$1, $$2}'
@@ -51,6 +51,13 @@ check: install ## Django's production checklist, with production-like settings
 	DJANGO_DEBUG=0 DJANGO_SECURE=1 DJANGO_SECRET_KEY=$$($(PY) -c 'import secrets;print(secrets.token_urlsafe(50))') \
 	  DJANGO_ALLOWED_HOSTS=apelevate.example PAYMENTS_BACKEND=paypal PAYPAL_CLIENT_ID=x PAYPAL_CLIENT_SECRET=x \
 	  $(PY) manage.py check --deploy --fail-level WARNING
+
+MODELS ?= openai/gpt-oss-20b openai/gpt-oss-120b qwen/qwen3.8-27b
+eval: install .env ## Run the study-planner evals on MODELS (needs LLM_API_KEY) and rebuild docs/EVALS.md
+	LLM_BACKEND=openai $(PY) manage.py run_evals --model fake $(foreach m,$(MODELS),--model $(m)) --delay 8 --report
+
+eval-replay: install ## Re-score the recorded eval responses offline, no key needed
+	LLM_BACKEND=openai LLM_API_KEY=replay $(PY) manage.py run_evals --model fake $(foreach m,$(MODELS),--model $(m)) --offline --report
 
 up: ## Run the app on PostgreSQL with docker compose (http://localhost:8000)
 	docker compose up --build

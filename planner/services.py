@@ -1,6 +1,7 @@
 """Generating a study plan: limits, cache, model call, validation, one corrective retry."""
 
 import logging
+from dataclasses import dataclass
 from datetime import date, timedelta
 
 from django.conf import settings
@@ -21,6 +22,52 @@ MAX_ATTEMPTS = 2
 
 class PlannerError(Exception):
     """Safe to show to the user."""
+
+
+@dataclass
+class ModelRun:
+    """The outcome of asking the model for a plan, with one corrective retry."""
+
+    plan: dict | None
+    findings: list
+    first_attempt_findings: list
+    attempts: int = 0
+    model: str = ""
+    input_tokens: int = 0
+    output_tokens: int = 0
+    latency_ms: int = 0
+
+
+def run_model(ctx, llm) -> ModelRun:
+    """Ask for a plan, check it, and give the model one chance to fix rule breaks.
+
+    Used by the page and by the eval suite, so the evals measure exactly what users get.
+    Raises LLMError if the provider fails.
+    """
+    messages = [
+        {"role": "system", "content": SYSTEM},
+        {"role": "user", "content": user_message(ctx)},
+    ]
+    run = ModelRun(plan=None, findings=[], first_attempt_findings=[], model=llm.model)
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        completion = llm.complete_json(messages, PLAN_SCHEMA, name="study_plan", hint=ctx)
+        run.attempts = attempt
+        run.model = completion.model
+        run.input_tokens += completion.input_tokens
+        run.output_tokens += completion.output_tokens
+        run.latency_ms += completion.latency_ms
+        run.findings = check_plan(completion.data, ctx)
+        if attempt == 1:
+            run.first_attempt_findings = run.findings
+        if not errors(run.findings):
+            run.plan = completion.data
+            break
+        log.info("plan attempt %s broke %s rules", attempt, len(errors(run.findings)))
+        messages += [
+            {"role": "assistant", "content": completion.raw},
+            {"role": "user", "content": correction_message(errors(run.findings))},
+        ]
+    return run
 
 
 def _today_start(now):
@@ -63,10 +110,6 @@ def generate_plan(user, subject, exam_date, hours_per_week, weak_units, *, llm=N
         return cached
 
     check_limits(user, now)
-    messages = [
-        {"role": "system", "content": SYSTEM},
-        {"role": "user", "content": user_message(ctx)},
-    ]
     record = StudyPlan(
         user=user,
         subject=subject,
@@ -77,30 +120,21 @@ def generate_plan(user, subject, exam_date, hours_per_week, weak_units, *, llm=N
         model=llm.model,
         attempts=0,
     )
-    findings = []
     try:
-        for attempt in range(1, MAX_ATTEMPTS + 1):
-            completion = llm.complete_json(messages, PLAN_SCHEMA, name="study_plan", hint=ctx)
-            record.attempts = attempt
-            record.model = completion.model
-            record.input_tokens += completion.input_tokens
-            record.output_tokens += completion.output_tokens
-            record.latency_ms += completion.latency_ms
-            findings = check_plan(completion.data, ctx)
-            if not errors(findings):
-                record.plan = completion.data
-                break
-            log.info("plan attempt %s broke %s rules", attempt, len(errors(findings)))
-            messages += [
-                {"role": "assistant", "content": completion.raw},
-                {"role": "user", "content": correction_message(errors(findings))},
-            ]
+        run = run_model(ctx, llm)
     except LLMError as exc:
         record.status = StudyPlan.Status.FAILED
         record.problems = [{"code": "llm_error", "severity": "error", "message": str(exc)}]
         record.save()
         raise PlannerError("The planner is unavailable right now. Try again in a minute.") from exc
 
+    record.plan = run.plan
+    record.model = run.model
+    record.attempts = run.attempts
+    record.input_tokens = run.input_tokens
+    record.output_tokens = run.output_tokens
+    record.latency_ms = run.latency_ms
+    findings = run.findings
     record.problems = [f.as_dict() for f in findings]
     record.status = StudyPlan.Status.OK if record.plan else StudyPlan.Status.FAILED
     record.save()

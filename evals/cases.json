@@ -1,0 +1,592 @@
+[
+ {
+  "id": "chem-typical",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 10,
+  "hours_per_week": 6,
+  "weak_units": [
+   5,
+   7
+  ],
+  "classes": [
+   {
+    "unit": 5,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 10
+   },
+   {
+    "unit": 7,
+    "topics": [
+     1,
+     2,
+     3
+    ],
+    "day": 24
+   },
+   {
+    "unit": 8,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 45
+   }
+  ],
+  "note": "The common case: ten weeks, two weak units, three classes."
+ },
+ {
+  "id": "chem-short",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 2,
+  "hours_per_week": 8,
+  "weak_units": [
+   8
+  ],
+  "classes": [
+   {
+    "unit": 8,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 5
+   }
+  ],
+  "note": "Two weeks left: everything compressed."
+ },
+ {
+  "id": "chem-one-week",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 1,
+  "hours_per_week": 10,
+  "weak_units": [],
+  "classes": [],
+  "note": "Exam next week: one week, review only."
+ },
+ {
+  "id": "chem-long-capped",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 30,
+  "hours_per_week": 4,
+  "weak_units": [
+   1,
+   2
+  ],
+  "classes": [
+   {
+    "unit": 1,
+    "topics": [
+     1,
+     2,
+     3
+    ],
+    "day": 130
+   },
+   {
+    "unit": 2,
+    "topics": [
+     5,
+     6
+    ],
+    "day": 150
+   }
+  ],
+  "note": "Exam 30 weeks away: plan covers the last 16."
+ },
+ {
+  "id": "chem-low-hours",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 8,
+  "hours_per_week": 1,
+  "weak_units": [
+   6
+  ],
+  "classes": [],
+  "note": "One hour a week: every week must stay at or under 1."
+ },
+ {
+  "id": "chem-high-hours",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 6,
+  "hours_per_week": 20,
+  "weak_units": [],
+  "classes": [
+   {
+    "unit": 3,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 3
+   },
+   {
+    "unit": 4,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 17
+   }
+  ],
+  "note": "Twenty hours a week."
+ },
+ {
+  "id": "chem-all-weak",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 12,
+  "hours_per_week": 6,
+  "weak_units": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "classes": [],
+  "note": "Every unit marked weak."
+ },
+ {
+  "id": "chem-many-classes",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 9,
+  "hours_per_week": 6,
+  "weak_units": [
+   4
+  ],
+  "classes": [
+   {
+    "unit": 1,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 9
+   },
+   {
+    "unit": 2,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 15
+   },
+   {
+    "unit": 3,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 21
+   },
+   {
+    "unit": 4,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 27
+   },
+   {
+    "unit": 5,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 33
+   },
+   {
+    "unit": 6,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 39
+   },
+   {
+    "unit": 7,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 45
+   },
+   {
+    "unit": 8,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 51
+   },
+   {
+    "unit": 9,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 57
+   }
+  ],
+  "note": "A class almost every week, for different units."
+ },
+ {
+  "id": "chem-no-classes",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 10,
+  "hours_per_week": 5,
+  "weak_units": [
+   9
+  ],
+  "classes": [],
+  "note": "No classes: every classes list must be empty."
+ },
+ {
+  "id": "chem-class-last-day",
+  "subject": "ap-chemistry",
+  "weeks_to_exam": 4,
+  "hours_per_week": 5,
+  "weak_units": [],
+  "classes": [
+   {
+    "unit": 7,
+    "topics": [
+     1
+    ],
+    "day": 26
+   }
+  ],
+  "note": "A class in the final week."
+ },
+ {
+  "id": "phys-typical",
+  "subject": "ap-physics-1",
+  "weeks_to_exam": 10,
+  "hours_per_week": 5,
+  "weak_units": [
+   4,
+   5
+  ],
+  "classes": [
+   {
+    "unit": 4,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 12
+   },
+   {
+    "unit": 5,
+    "topics": [
+     1,
+     3
+    ],
+    "day": 30
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "phys-short",
+  "subject": "ap-physics-1",
+  "weeks_to_exam": 3,
+  "hours_per_week": 7,
+  "weak_units": [
+   2
+  ],
+  "classes": [
+   {
+    "unit": 2,
+    "topics": [
+     2,
+     5
+    ],
+    "day": 4
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "phys-long-capped",
+  "subject": "ap-physics-1",
+  "weeks_to_exam": 25,
+  "hours_per_week": 3,
+  "weak_units": [
+   6,
+   7
+  ],
+  "classes": [],
+  "note": ""
+ },
+ {
+  "id": "phys-no-weak",
+  "subject": "ap-physics-1",
+  "weeks_to_exam": 8,
+  "hours_per_week": 6,
+  "weak_units": [],
+  "classes": [
+   {
+    "unit": 1,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 2
+   },
+   {
+    "unit": 3,
+    "topics": [
+     1,
+     4
+    ],
+    "day": 20
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "phys-fluids-weak",
+  "subject": "ap-physics-1",
+  "weeks_to_exam": 6,
+  "hours_per_week": 4,
+  "weak_units": [
+   8
+  ],
+  "classes": [
+   {
+    "unit": 8,
+    "topics": [
+     1,
+     2,
+     3
+    ],
+    "day": 15
+   }
+  ],
+  "note": "Weak unit is the last unit of the course."
+ },
+ {
+  "id": "phys-high-hours",
+  "subject": "ap-physics-1",
+  "weeks_to_exam": 5,
+  "hours_per_week": 15,
+  "weak_units": [
+   3
+  ],
+  "classes": [
+   {
+    "unit": 3,
+    "topics": [
+     2,
+     4
+    ],
+    "day": 8
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "calc-typical",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 10,
+  "hours_per_week": 6,
+  "weak_units": [
+   3,
+   5
+  ],
+  "classes": [
+   {
+    "unit": 3,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 9
+   },
+   {
+    "unit": 5,
+    "topics": [
+     1,
+     2,
+     3
+    ],
+    "day": 33
+   },
+   {
+    "unit": 6,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 50
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "calc-short",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 2,
+  "hours_per_week": 10,
+  "weak_units": [
+   6
+  ],
+  "classes": [],
+  "note": ""
+ },
+ {
+  "id": "calc-long-capped",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 20,
+  "hours_per_week": 5,
+  "weak_units": [
+   1
+  ],
+  "classes": [
+   {
+    "unit": 1,
+    "topics": [
+     1,
+     2,
+     3
+    ],
+    "day": 40
+   }
+  ],
+  "note": ""
+ },
+ {
+  "id": "calc-low-hours",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 12,
+  "hours_per_week": 2,
+  "weak_units": [
+   7,
+   8
+  ],
+  "classes": [],
+  "note": ""
+ },
+ {
+  "id": "calc-all-classes-early",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 10,
+  "hours_per_week": 5,
+  "weak_units": [],
+  "classes": [
+   {
+    "unit": 1,
+    "topics": [
+     1
+    ],
+    "day": 3
+   },
+   {
+    "unit": 2,
+    "topics": [
+     1
+    ],
+    "day": 4
+   },
+   {
+    "unit": 3,
+    "topics": [
+     1
+    ],
+    "day": 5
+   },
+   {
+    "unit": 4,
+    "topics": [
+     1
+    ],
+    "day": 6
+   },
+   {
+    "unit": 5,
+    "topics": [
+     1
+    ],
+    "day": 7
+   }
+  ],
+  "note": "Five classes all in the first two weeks."
+ },
+ {
+  "id": "calc-weak-late-units",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 8,
+  "hours_per_week": 6,
+  "weak_units": [
+   7,
+   8
+  ],
+  "classes": [
+   {
+    "unit": 7,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 20
+   }
+  ],
+  "note": "Weak units are the last two in the course."
+ },
+ {
+  "id": "calc-one-week",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 1,
+  "hours_per_week": 12,
+  "weak_units": [
+   4
+  ],
+  "classes": [],
+  "note": ""
+ },
+ {
+  "id": "calc-mid",
+  "subject": "ap-calculus-ab",
+  "weeks_to_exam": 7,
+  "hours_per_week": 8,
+  "weak_units": [
+   2,
+   4,
+   6
+  ],
+  "classes": [
+   {
+    "unit": 2,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 6
+   },
+   {
+    "unit": 4,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 22
+   },
+   {
+    "unit": 6,
+    "topics": [
+     1,
+     2
+    ],
+    "day": 36
+   }
+  ],
+  "note": ""
+ }
+]
