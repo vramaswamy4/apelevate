@@ -1,0 +1,108 @@
+{
+ "data": {
+  "final_week_advice": "Focus on timed practice and reviewing weak areas from Unit 2 and Unit 5.",
+  "summary": "This 3-week plan prioritizes Unit 2 (weak unit) in Week 1 with a live class, covers Units 1, 3, and 4 in Week 2, and dedicates Week 3 to mixed review and timed practice. The plan ensures all units are touched upon while respecting the 7-hour weekly limit.",
+  "weeks": [
+   {
+    "classes": [
+     10100
+    ],
+    "focus": "Master Newton's Laws and Free-Body Diagrams",
+    "hours": 7,
+    "tasks": [
+     "Attend live class on Unit 2 (2.2, 2.5)",
+     "Do 10 free-response questions on Newton's Second Law, then mark them against the scoring guide",
+     "Create free-body diagrams for 5 complex systems involving friction and tension"
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Cover Kinematics, Energy, and Momentum",
+    "hours": 7,
+    "tasks": [
+     "Solve 5 kinematics problems involving vectors in 2D (1.5)",
+     "Calculate work and energy for 3 scenarios involving potential energy (3.2, 3.3)",
+     "Analyze 2 collision problems using conservation of momentum (4.3)"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Mixed Review and Timed Practice",
+    "hours": 7,
+    "tasks": [
+     "Complete a 90-minute timed practice exam covering Units 1-4",
+     "Review rotational dynamics concepts (5.1-5.4) and solve 3 torque problems",
+     "Practice SHM and Fluids problems (7.1, 8.2) to ensure broad coverage"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 3
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on timed practice and reviewing weak areas from Unit 2 and Unit 5.\", \"summary\": \"This 3-week plan prioritizes Unit 2 (weak unit) in Week 1 with a live class, covers Units 1, 3, and 4 in Week 2, and dedicates Week 3 to mixed review and timed practice. The plan ensures all units are touched upon while respecting the 7-hour weekly limit.\", \"weeks\": [{\"classes\": [10100], \"focus\": \"Master Newton's Laws and Free-Body Diagrams\", \"hours\": 7, \"tasks\": [\"Attend live class on Unit 2 (2.2, 2.5)\", \"Do 10 free-response questions on Newton's Second Law, then mark them against the scoring guide\", \"Create free-body diagrams for 5 complex systems involving friction and tension\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Cover Kinematics, Energy, and Momentum\", \"hours\": 7, \"tasks\": [\"Solve 5 kinematics problems involving vectors in 2D (1.5)\", \"Calculate work and energy for 3 scenarios involving potential energy (3.2, 3.3)\", \"Analyze 2 collision problems using conservation of momentum (4.3)\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Mixed Review and Timed Practice\", \"hours\": 7, \"tasks\": [\"Complete a 90-minute timed practice exam covering Units 1-4\", \"Review rotational dynamics concepts (5.1-5.4) and solve 3 torque problems\", \"Practice SHM and Fluids problems (7.1, 8.2) to ensure broad coverage\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 3}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 864,
+ "output_tokens": 658,
+ "latency_ms": 1533
+}

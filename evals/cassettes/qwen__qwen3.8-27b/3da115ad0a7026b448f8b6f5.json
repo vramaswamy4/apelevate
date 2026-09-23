@@ -1,0 +1,356 @@
+{
+ "data": {
+  "final_week_advice": "Focus on timed practice and reviewing weak units (6 & 7) to solidify concepts before the exam.",
+  "summary": "This 16-week plan prioritizes Units 6 and 7 in the first half to address weaknesses, while systematically covering foundational units 1-5 and 8. The final two weeks are dedicated to mixed review and timed practice to ensure exam readiness.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Master rotational energy and momentum concepts.",
+    "hours": 3,
+    "tasks": [
+     "Do 10 free-response questions on rotational kinetic energy and torque work, then mark them against the scoring guide.",
+     "Solve 5 problems on conservation of angular momentum, focusing on inelastic rotational collisions."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Understand the fundamentals of simple harmonic motion.",
+    "hours": 3,
+    "tasks": [
+     "Derive the period formula for a mass-spring system and a pendulum, then solve 8 practice problems.",
+     "Analyze 5 SHM graphs to identify amplitude, period, and phase."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Connect kinematics to vector analysis.",
+    "hours": 3,
+    "tasks": [
+     "Complete 10 vector addition problems in 2D, including projectile motion components.",
+     "Solve 5 relative motion problems using reference frames."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Apply Newton's laws to complex systems.",
+    "hours": 3,
+    "tasks": [
+     "Draw free-body diagrams for 10 systems with friction and tension, then calculate acceleration.",
+     "Solve 5 problems involving Newton's Third Law action-reaction pairs."
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Master energy conservation principles.",
+    "hours": 3,
+    "tasks": [
+     "Solve 10 problems using conservation of mechanical energy, including springs and gravity.",
+     "Calculate power in 5 scenarios involving constant force and velocity."
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Analyze linear momentum and collisions.",
+    "hours": 3,
+    "tasks": [
+     "Do 8 impulse-momentum theorem problems, then 5 collision problems (elastic and inelastic).",
+     "Solve 3 multi-step problems combining momentum and energy conservation."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Connect linear and rotational dynamics.",
+    "hours": 3,
+    "tasks": [
+     "Solve 10 torque problems, including static equilibrium and rotational acceleration.",
+     "Calculate rotational inertia for 5 different shapes and apply it to Newton's Second Law for rotation."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [],
+    "focus": "Review rotational energy and momentum.",
+    "hours": 3,
+    "tasks": [
+     "Redo 5 difficult problems from Week 1 on angular momentum conservation.",
+     "Solve 3 mixed problems involving both linear and rotational kinetic energy."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 8
+   },
+   {
+    "classes": [],
+    "focus": "Deepen understanding of SHM energy.",
+    "hours": 3,
+    "tasks": [
+     "Solve 8 problems on energy exchange in SHM systems, including phase shifts.",
+     "Analyze 5 experimental setups to determine spring constants and periods."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 9
+   },
+   {
+    "classes": [],
+    "focus": "Master fluid mechanics basics.",
+    "hours": 3,
+    "tasks": [
+     "Solve 10 problems on pressure, density, and buoyancy.",
+     "Apply Bernoulli's equation to 5 fluid flow scenarios."
+    ],
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 10
+   },
+   {
+    "classes": [],
+    "focus": "Integrate kinematics and dynamics.",
+    "hours": 3,
+    "tasks": [
+     "Do 10 mixed problems combining projectile motion with force analysis.",
+     "Solve 5 problems involving circular motion and centripetal force."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "week": 11
+   },
+   {
+    "classes": [],
+    "focus": "Integrate energy and momentum.",
+    "hours": 3,
+    "tasks": [
+     "Solve 8 problems combining work-energy theorem with impulse-momentum.",
+     "Do 5 collision problems where energy is not conserved but momentum is."
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "week": 12
+   },
+   {
+    "classes": [],
+    "focus": "Review rotational dynamics and fluids.",
+    "hours": 3,
+    "tasks": [
+     "Solve 5 problems combining torque with fluid pressure.",
+     "Redo 3 difficult SHM problems from Week 9."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 13
+   },
+   {
+    "classes": [],
+    "focus": "Timed practice on weak units.",
+    "hours": 3,
+    "tasks": [
+     "Complete a 45-minute timed set of 10 questions on Units 6 and 7.",
+     "Review errors and redo 5 incorrect problems with detailed explanations."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 14
+   },
+   {
+    "classes": [],
+    "focus": "Full exam simulation.",
+    "hours": 3,
+    "tasks": [
+     "Take a full 3-hour AP Physics 1 practice exam (multiple choice and free response).",
+     "Score the exam and identify weak areas for final review."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 15
+   },
+   {
+    "classes": [],
+    "focus": "Final review and confidence building.",
+    "hours": 3,
+    "tasks": [
+     "Review all incorrect answers from the practice exam in Week 15.",
+     "Do 5 quick review problems on each unit to maintain familiarity."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 16
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on timed practice and reviewing weak units (6 & 7) to solidify concepts before the exam.\", \"summary\": \"This 16-week plan prioritizes Units 6 and 7 in the first half to address weaknesses, while systematically covering foundational units 1-5 and 8. The final two weeks are dedicated to mixed review and timed practice to ensure exam readiness.\", \"weeks\": [{\"classes\": [], \"focus\": \"Master rotational energy and momentum concepts.\", \"hours\": 3, \"tasks\": [\"Do 10 free-response questions on rotational kinetic energy and torque work, then mark them against the scoring guide.\", \"Solve 5 problems on conservation of angular momentum, focusing on inelastic rotational collisions.\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Understand the fundamentals of simple harmonic motion.\", \"hours\": 3, \"tasks\": [\"Derive the period formula for a mass-spring system and a pendulum, then solve 8 practice problems.\", \"Analyze 5 SHM graphs to identify amplitude, period, and phase.\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Connect kinematics to vector analysis.\", \"hours\": 3, \"tasks\": [\"Complete 10 vector addition problems in 2D, including projectile motion components.\", \"Solve 5 relative motion problems using reference frames.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Apply Newton's laws to complex systems.\", \"hours\": 3, \"tasks\": [\"Draw free-body diagrams for 10 systems with friction and tension, then calculate acceleration.\", \"Solve 5 problems involving Newton's Third Law action-reaction pairs.\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Master energy conservation principles.\", \"hours\": 3, \"tasks\": [\"Solve 10 problems using conservation of mechanical energy, including springs and gravity.\", \"Calculate power in 5 scenarios involving constant force and velocity.\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Analyze linear momentum and collisions.\", \"hours\": 3, \"tasks\": [\"Do 8 impulse-momentum theorem problems, then 5 collision problems (elastic and inelastic).\", \"Solve 3 multi-step problems combining momentum and energy conservation.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Connect linear and rotational dynamics.\", \"hours\": 3, \"tasks\": [\"Solve 10 torque problems, including static equilibrium and rotational acceleration.\", \"Calculate rotational inertia for 5 different shapes and apply it to Newton's Second Law for rotation.\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 7}, {\"classes\": [], \"focus\": \"Review rotational energy and momentum.\", \"hours\": 3, \"tasks\": [\"Redo 5 difficult problems from Week 1 on angular momentum conservation.\", \"Solve 3 mixed problems involving both linear and rotational kinetic energy.\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 8}, {\"classes\": [], \"focus\": \"Deepen understanding of SHM energy.\", \"hours\": 3, \"tasks\": [\"Solve 8 problems on energy exchange in SHM systems, including phase shifts.\", \"Analyze 5 experimental setups to determine spring constants and periods.\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 9}, {\"classes\": [], \"focus\": \"Master fluid mechanics basics.\", \"hours\": 3, \"tasks\": [\"Solve 10 problems on pressure, density, and buoyancy.\", \"Apply Bernoulli's equation to 5 fluid flow scenarios.\"], \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 10}, {\"classes\": [], \"focus\": \"Integrate kinematics and dynamics.\", \"hours\": 3, \"tasks\": [\"Do 10 mixed problems combining projectile motion with force analysis.\", \"Solve 5 problems involving circular motion and centripetal force.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"], \"week\": 11}, {\"classes\": [], \"focus\": \"Integrate energy and momentum.\", \"hours\": 3, \"tasks\": [\"Solve 8 problems combining work-energy theorem with impulse-momentum.\", \"Do 5 collision problems where energy is not conserved but momentum is.\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\"], \"week\": 12}, {\"classes\": [], \"focus\": \"Review rotational dynamics and fluids.\", \"hours\": 3, \"tasks\": [\"Solve 5 problems combining torque with fluid pressure.\", \"Redo 3 difficult SHM problems from Week 9.\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 13}, {\"classes\": [], \"focus\": \"Timed practice on weak units.\", \"hours\": 3, \"tasks\": [\"Complete a 45-minute timed set of 10 questions on Units 6 and 7.\", \"Review errors and redo 5 incorrect problems with detailed explanations.\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 14}, {\"classes\": [], \"focus\": \"Full exam simulation.\", \"hours\": 3, \"tasks\": [\"Take a full 3-hour AP Physics 1 practice exam (multiple choice and free response).\", \"Score the exam and identify weak areas for final review.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 15}, {\"classes\": [], \"focus\": \"Final review and confidence building.\", \"hours\": 3, \"tasks\": [\"Review all incorrect answers from the practice exam in Week 15.\", \"Do 5 quick review problems on each unit to maintain familiarity.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 16}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 847,
+ "output_tokens": 1917,
+ "latency_ms": 4174
+}

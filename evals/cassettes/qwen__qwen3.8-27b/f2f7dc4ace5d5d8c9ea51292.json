@@ -1,0 +1,191 @@
+{
+ "data": {
+  "final_week_advice": "Complete the final timed practice exam under strict conditions, review all missed questions with the scoring guide, and focus on high-yield conceptual connections between units.",
+  "summary": "This 8-week plan systematically covers all AP Physics 1 units, integrating live classes for Units 1 and 3. The first half focuses on foundational mechanics and energy, while the second half addresses rotation, oscillations, and fluids. The final two weeks are dedicated to mixed review and timed practice to simulate exam conditions.",
+  "weeks": [
+   {
+    "classes": [
+     10300
+    ],
+    "focus": "Master 1D and 2D kinematics and vector analysis.",
+    "hours": 6,
+    "tasks": [
+     "Attend live class #10300 on Unit 1.",
+     "Complete 15 multiple-choice questions on displacement and velocity vectors.",
+     "Solve 3 free-response problems involving projectile motion and relative motion."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Understand Newton's laws and force interactions.",
+    "hours": 6,
+    "tasks": [
+     "Draw free-body diagrams for 5 different physical scenarios.",
+     "Solve 10 problems applying Newton's Second Law.",
+     "Review Newton's Third Law action-reaction pairs with 5 conceptual questions."
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [
+     10301
+    ],
+    "focus": "Apply work-energy theorem and conservation of energy.",
+    "hours": 6,
+    "tasks": [
+     "Attend live class #10301 on Unit 3.",
+     "Calculate work done by variable forces in 5 problems.",
+     "Solve 3 energy conservation problems involving potential and kinetic energy."
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Analyze linear momentum and collisions.",
+    "hours": 6,
+    "tasks": [
+     "Solve 8 impulse-momentum theorem problems.",
+     "Analyze 4 elastic and inelastic collision scenarios.",
+     "Complete 2 free-response questions on momentum conservation."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Master rotational kinematics and torque.",
+    "hours": 6,
+    "tasks": [
+     "Solve 6 rotational kinematics problems.",
+     "Calculate torque for 5 different lever systems.",
+     "Connect linear and rotational motion variables in 3 problems."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Apply energy and momentum concepts to rotating systems.",
+    "hours": 6,
+    "tasks": [
+     "Solve 5 rotational kinetic energy problems.",
+     "Analyze 3 angular momentum conservation scenarios.",
+     "Complete 2 free-response questions on torque and work."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Analyze simple harmonic motion and fluid dynamics.",
+    "hours": 6,
+    "tasks": [
+     "Solve 6 SHM problems involving frequency and period.",
+     "Analyze 4 fluid pressure and density problems.",
+     "Complete 2 free-response questions on SHM energy and fluid conservation."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review and timed practice for exam readiness.",
+    "hours": 6,
+    "tasks": [
+     "Complete a 90-minute timed practice exam covering all units.",
+     "Review all missed questions with the official scoring guide.",
+     "Identify and re-study 3 weak topic areas from the practice exam."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 8
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Complete the final timed practice exam under strict conditions, review all missed questions with the scoring guide, and focus on high-yield conceptual connections between units.\", \"summary\": \"This 8-week plan systematically covers all AP Physics 1 units, integrating live classes for Units 1 and 3. The first half focuses on foundational mechanics and energy, while the second half addresses rotation, oscillations, and fluids. The final two weeks are dedicated to mixed review and timed practice to simulate exam conditions.\", \"weeks\": [{\"classes\": [10300], \"focus\": \"Master 1D and 2D kinematics and vector analysis.\", \"hours\": 6, \"tasks\": [\"Attend live class #10300 on Unit 1.\", \"Complete 15 multiple-choice questions on displacement and velocity vectors.\", \"Solve 3 free-response problems involving projectile motion and relative motion.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Understand Newton's laws and force interactions.\", \"hours\": 6, \"tasks\": [\"Draw free-body diagrams for 5 different physical scenarios.\", \"Solve 10 problems applying Newton's Second Law.\", \"Review Newton's Third Law action-reaction pairs with 5 conceptual questions.\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"], \"week\": 2}, {\"classes\": [10301], \"focus\": \"Apply work-energy theorem and conservation of energy.\", \"hours\": 6, \"tasks\": [\"Attend live class #10301 on Unit 3.\", \"Calculate work done by variable forces in 5 problems.\", \"Solve 3 energy conservation problems involving potential and kinetic energy.\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Analyze linear momentum and collisions.\", \"hours\": 6, \"tasks\": [\"Solve 8 impulse-momentum theorem problems.\", \"Analyze 4 elastic and inelastic collision scenarios.\", \"Complete 2 free-response questions on momentum conservation.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Master rotational kinematics and torque.\", \"hours\": 6, \"tasks\": [\"Solve 6 rotational kinematics problems.\", \"Calculate torque for 5 different lever systems.\", \"Connect linear and rotational motion variables in 3 problems.\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Apply energy and momentum concepts to rotating systems.\", \"hours\": 6, \"tasks\": [\"Solve 5 rotational kinetic energy problems.\", \"Analyze 3 angular momentum conservation scenarios.\", \"Complete 2 free-response questions on torque and work.\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Analyze simple harmonic motion and fluid dynamics.\", \"hours\": 6, \"tasks\": [\"Solve 6 SHM problems involving frequency and period.\", \"Analyze 4 fluid pressure and density problems.\", \"Complete 2 free-response questions on SHM energy and fluid conservation.\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 7}, {\"classes\": [], \"focus\": \"Mixed review and timed practice for exam readiness.\", \"hours\": 6, \"tasks\": [\"Complete a 90-minute timed practice exam covering all units.\", \"Review all missed questions with the official scoring guide.\", \"Identify and re-study 3 weak topic areas from the practice exam.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 8}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 880,
+ "output_tokens": 1068,
+ "latency_ms": 2452
+}

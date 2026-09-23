@@ -1,0 +1,147 @@
+{
+ "data": {
+  "final_week_advice": "Prioritize mastering the weak unit (Fluids) early to build confidence, then systematically cover the remaining units while integrating the live class for Fluids in Week 3. Use the final two weeks exclusively for timed practice and mixed review to simulate exam conditions and reinforce retention.",
+  "summary": "This six-week plan begins by addressing the student's weak area, Unit 8 (Fluids), in the first half of the schedule, specifically leveraging the live class in Week 3. The middle weeks cover the core mechanics units (Kinematics, Dynamics, Energy, Momentum, Rotation, and Oscillations) to ensure comprehensive coverage. The final two weeks are dedicated to mixed review and timed practice to solidify understanding and improve exam readiness.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Introduction to Fluids and Density",
+    "hours": 4,
+    "tasks": [
+     "Read textbook sections on internal structure and density of fluids.",
+     "Complete 15 multiple-choice questions on density and pressure concepts.",
+     "Solve 3 free-response problems involving hydrostatic pressure."
+    ],
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Fluids and Newton's Laws",
+    "hours": 4,
+    "tasks": [
+     "Review notes on fluids and Newton's laws.",
+     "Do 10 free-response questions on buoyancy and fluid dynamics.",
+     "Mark answers against the scoring guide and identify gaps."
+    ],
+    "topics": [
+     "8.3",
+     "8.4"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [
+     10400
+    ],
+    "focus": "Live Class: Fluids Review and Kinematics Intro",
+    "hours": 4,
+    "tasks": [
+     "Attend live class on Fluids (8.1, 8.2, 8.3).",
+     "Complete 10 practice problems on scalars and vectors in one dimension.",
+     "Sketch velocity-time graphs for 5 different motion scenarios."
+    ],
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "1.1",
+     "1.2"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Force and Translational Dynamics",
+    "hours": 4,
+    "tasks": [
+     "Draw free-body diagrams for 8 different physical systems.",
+     "Solve 10 problems using Newton's Second Law.",
+     "Review Newton's Third Law action-reaction pairs with 5 examples."
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Work, Energy, and Power",
+    "hours": 4,
+    "tasks": [
+     "Calculate work done by constant and variable forces in 6 problems.",
+     "Apply conservation of energy to solve 5 roller coaster scenarios.",
+     "Determine power output in 3 real-world applications."
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Mixed Review and Timed Practice",
+    "hours": 4,
+    "tasks": [
+     "Complete a 45-minute timed set of 20 mixed multiple-choice questions.",
+     "Solve 3 free-response questions covering Momentum, Rotation, and Oscillations.",
+     "Review error log and re-do missed problems."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 6
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Prioritize mastering the weak unit (Fluids) early to build confidence, then systematically cover the remaining units while integrating the live class for Fluids in Week 3. Use the final two weeks exclusively for timed practice and mixed review to simulate exam conditions and reinforce retention.\", \"summary\": \"This six-week plan begins by addressing the student's weak area, Unit 8 (Fluids), in the first half of the schedule, specifically leveraging the live class in Week 3. The middle weeks cover the core mechanics units (Kinematics, Dynamics, Energy, Momentum, Rotation, and Oscillations) to ensure comprehensive coverage. The final two weeks are dedicated to mixed review and timed practice to solidify understanding and improve exam readiness.\", \"weeks\": [{\"classes\": [], \"focus\": \"Introduction to Fluids and Density\", \"hours\": 4, \"tasks\": [\"Read textbook sections on internal structure and density of fluids.\", \"Complete 15 multiple-choice questions on density and pressure concepts.\", \"Solve 3 free-response problems involving hydrostatic pressure.\"], \"topics\": [\"8.1\", \"8.2\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Fluids and Newton's Laws\", \"hours\": 4, \"tasks\": [\"Review notes on fluids and Newton's laws.\", \"Do 10 free-response questions on buoyancy and fluid dynamics.\", \"Mark answers against the scoring guide and identify gaps.\"], \"topics\": [\"8.3\", \"8.4\"], \"week\": 2}, {\"classes\": [10400], \"focus\": \"Live Class: Fluids Review and Kinematics Intro\", \"hours\": 4, \"tasks\": [\"Attend live class on Fluids (8.1, 8.2, 8.3).\", \"Complete 10 practice problems on scalars and vectors in one dimension.\", \"Sketch velocity-time graphs for 5 different motion scenarios.\"], \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"1.1\", \"1.2\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Force and Translational Dynamics\", \"hours\": 4, \"tasks\": [\"Draw free-body diagrams for 8 different physical systems.\", \"Solve 10 problems using Newton's Second Law.\", \"Review Newton's Third Law action-reaction pairs with 5 examples.\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Work, Energy, and Power\", \"hours\": 4, \"tasks\": [\"Calculate work done by constant and variable forces in 6 problems.\", \"Apply conservation of energy to solve 5 roller coaster scenarios.\", \"Determine power output in 3 real-world applications.\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Mixed Review and Timed Practice\", \"hours\": 4, \"tasks\": [\"Complete a 45-minute timed set of 20 mixed multiple-choice questions.\", \"Solve 3 free-response questions covering Momentum, Rotation, and Oscillations.\", \"Review error log and re-do missed problems.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\", \"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\"], \"week\": 6}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 865,
+ "output_tokens": 896,
+ "latency_ms": 2249
+}
