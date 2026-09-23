@@ -72,7 +72,7 @@ http://localhost:8000. Sign in with any of these (password `apelevate-demo`):
 Other targets:
 
 ```bash
-make test          # 176 tests, about 2 seconds
+make test          # 210 tests, about 2 seconds
 make cov           # the same with a coverage report (95% of lines)
 make lint          # ruff check + ruff format --check
 make check         # Django's production checklist (check --deploy) with production settings
@@ -241,7 +241,7 @@ the same transaction as the ledger row. `manage.py audit_wallets` checks the two
 | Payments | PayPal buttons with `client-id=test`, trusted by the browser | PayPal Orders v2 over REST, created and captured by the server (httpx) |
 | Static files | None in production | whitenoise with hashed, compressed files |
 | Config | Secrets in `settings.py` | Environment variables (django-environ), `.env.example` |
-| Tests | None | pytest-django: 176 tests, 95% line coverage |
+| Tests | None | pytest-django: 210 tests, 90% line coverage |
 | Tooling | None | ruff, pre-commit, Makefile, Dockerfile, docker compose, GitHub Actions |
 | Hosting | PythonAnywhere | Google Cloud Run + Neon Postgres, Terraform, keyless CD from GitHub Actions |
 
@@ -268,7 +268,7 @@ the same transaction as the ledger row. `manage.py audit_wallets` checks the two
 | Hours, students and revenue stored as counters that nothing updated | Computed from classes and enrolments (grouped SQL, by month and subject) |
 | Placeholder pages: subjects, profile, analytics, class requests | Built |
 | Zoom link limited to 30 characters | `URLField(max_length=500)`, https only |
-| No tests, CI, lint or formatting | 176 tests on SQLite and PostgreSQL in GitHub Actions, ruff, pre-commit |
+| No tests, CI, lint or formatting | 210 tests on SQLite and PostgreSQL in GitHub Actions, ruff, pre-commit |
 | Seven copies of a 70-line `<style>` block, two base layouts, three CSS frameworks | One design system with light and dark themes, accessible forms, responsive tables |
 | Nested project folder, misnamed UTF-16 requirements, empty Procfile | Flat layout (`config/` + one package per domain), pinned requirements, working Procfile with a release-phase migration, Dockerfile |
 
