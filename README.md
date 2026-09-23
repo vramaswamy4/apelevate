@@ -213,8 +213,9 @@ success, clean plans, quality warnings, class use, latency and tokens. Responses
 so `make eval-replay` re-scores everything offline without a key. The results and the model
 decision are in [`docs/EVALS.md`](docs/EVALS.md). Two things they changed: prompt v2 fixed a
 contradiction between two rules that v1's results exposed (clean plans 62% → 88%), and
-`gpt-oss-120b` was chosen over the faster `gpt-oss-20b` because it returned a valid plan in
-24 of 24 cases against 17.
+`gpt-oss-120b` was chosen over the faster `gpt-oss-20b` (a valid plan in 24 of 24 cases
+against 17) and over `qwen3.8-27b` (also 24 of 24, but 79% clean plans against 88%), which
+is kept as the documented fallback.
 
 ---
 

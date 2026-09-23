@@ -1,0 +1,223 @@
+{
+ "data": {
+  "final_week_advice": "Focus on pacing and accuracy in the final week. Prioritize high-yield units like Equilibrium and Electrochemistry. Simulate exam conditions to build stamina.",
+  "summary": "This 12-week plan prioritizes the student's weak units (1-9) by front-loading foundational concepts like Atomic Structure and Chemical Reactions. The middle weeks focus on building complex skills in Kinetics, Thermochemistry, and Equilibrium. The final two weeks are dedicated to mixed review and timed practice to ensure exam readiness.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Master atomic structure and electron configuration fundamentals.",
+    "hours": 6,
+    "tasks": [
+     "Complete 15 multiple-choice questions on moles and molar mass, checking each answer against the periodic table.",
+     "Draw electron configurations for 10 elements, including exceptions like Chromium and Copper.",
+     "Analyze 5 mass spectrometry graphs to identify isotopic abundance and average atomic mass."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Understand periodic trends and valence electron behavior.",
+    "hours": 6,
+    "tasks": [
+     "Create a trend chart for ionization energy, atomic radius, and electronegativity across periods and groups.",
+     "Solve 10 problems predicting ionic compound formation based on valence electrons.",
+     "Review 5 photoelectron spectra to identify elements based on binding energy peaks."
+    ],
+    "topics": [
+     "1.4",
+     "1.6",
+     "1.7",
+     "1.8"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Differentiate bond types and predict molecular geometry.",
+    "hours": 6,
+    "tasks": [
+     "Draw Lewis structures for 12 molecules, including those with resonance and formal charges.",
+     "Use VSEPR theory to predict shapes and hybridization for 10 molecules.",
+     "Compare potential energy diagrams for ionic, covalent, and metallic bonds."
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.5",
+     "2.6",
+     "2.7"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Analyze intermolecular forces and their effect on physical properties.",
+    "hours": 6,
+    "tasks": [
+     "Rank 5 sets of compounds by boiling point and explain the dominant intermolecular force.",
+     "Solve 8 problems relating intermolecular forces to viscosity and surface tension.",
+     "Review the structure of solids, liquids, and gases, focusing on particle arrangement."
+    ],
+    "topics": [
+     "2.3",
+     "2.4",
+     "3.1",
+     "3.2"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Apply gas laws and kinetic molecular theory to solve problems.",
+    "hours": 6,
+    "tasks": [
+     "Solve 10 ideal gas law problems involving pressure, volume, temperature, and moles.",
+     "Explain gas behavior using kinetic molecular theory in 3 short paragraphs.",
+     "Calculate partial pressures in 5 mixture problems using Dalton's Law."
+    ],
+    "topics": [
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Balance equations and perform stoichiometric calculations.",
+    "hours": 6,
+    "tasks": [
+     "Balance 10 chemical equations, including redox reactions.",
+     "Solve 8 stoichiometry problems involving limiting reactants and percent yield.",
+     "Write net ionic equations for 5 precipitation and acid-base reactions."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Determine reaction rates and write rate laws.",
+    "hours": 6,
+    "tasks": [
+     "Calculate average and instantaneous rates from 5 concentration-time graphs.",
+     "Determine rate laws and rate constants from 8 experimental data sets.",
+     "Analyze elementary reaction steps to identify rate-determining steps in 3 mechanisms."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [],
+    "focus": "Calculate energy changes and interpret energy diagrams.",
+    "hours": 6,
+    "tasks": [
+     "Calculate heat transfer in 6 calorimetry problems using specific heat capacity.",
+     "Label energy diagrams for endothermic and exothermic reactions, identifying activation energy.",
+     "Determine enthalpy changes using Hess's Law in 5 multi-step reactions."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 8
+   },
+   {
+    "classes": [],
+    "focus": "Calculate equilibrium constants and predict reaction direction.",
+    "hours": 6,
+    "tasks": [
+     "Write equilibrium constant expressions for 8 reactions.",
+     "Calculate Q and K for 6 scenarios to predict the direction of reaction.",
+     "Solve ICE table problems for 5 equilibrium mixtures."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 9
+   },
+   {
+    "classes": [],
+    "focus": "Analyze acid-base equilibria and buffer systems.",
+    "hours": 6,
+    "tasks": [
+     "Calculate pH and pOH for 10 strong and weak acid/base solutions.",
+     "Determine the pH of 5 buffer solutions using the Henderson-Hasselbalch equation.",
+     "Sketch titration curves for 3 acid-base pairs, identifying equivalence points."
+    ],
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 10
+   },
+   {
+    "classes": [],
+    "focus": "Evaluate thermodynamic favorability and electrochemical cells.",
+    "hours": 6,
+    "tasks": [
+     "Calculate entropy changes for 5 reactions and predict spontaneity.",
+     "Determine Gibbs free energy for 6 processes to assess thermodynamic favorability.",
+     "Calculate cell potentials for 4 galvanic and electrolytic cells."
+    ],
+    "topics": [
+     "9.1",
+     "9.2",
+     "9.3",
+     "9.4"
+    ],
+    "week": 11
+   },
+   {
+    "classes": [],
+    "focus": "Simulate exam conditions with mixed practice and timed drills.",
+    "hours": 6,
+    "tasks": [
+     "Complete a 60-minute timed set of 20 mixed multiple-choice questions covering all units.",
+     "Write 3 free-response questions from past exams, marking them against the official scoring guide.",
+     "Review error log from the week to identify and correct persistent misconceptions."
+    ],
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.2",
+     "6.4",
+     "7.3",
+     "8.3",
+     "9.3"
+    ],
+    "week": 12
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on pacing and accuracy in the final week. Prioritize high-yield units like Equilibrium and Electrochemistry. Simulate exam conditions to build stamina.\", \"summary\": \"This 12-week plan prioritizes the student's weak units (1-9) by front-loading foundational concepts like Atomic Structure and Chemical Reactions. The middle weeks focus on building complex skills in Kinetics, Thermochemistry, and Equilibrium. The final two weeks are dedicated to mixed review and timed practice to ensure exam readiness.\", \"weeks\": [{\"classes\": [], \"focus\": \"Master atomic structure and electron configuration fundamentals.\", \"hours\": 6, \"tasks\": [\"Complete 15 multiple-choice questions on moles and molar mass, checking each answer against the periodic table.\", \"Draw electron configurations for 10 elements, including exceptions like Chromium and Copper.\", \"Analyze 5 mass spectrometry graphs to identify isotopic abundance and average atomic mass.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.5\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Understand periodic trends and valence electron behavior.\", \"hours\": 6, \"tasks\": [\"Create a trend chart for ionization energy, atomic radius, and electronegativity across periods and groups.\", \"Solve 10 problems predicting ionic compound formation based on valence electrons.\", \"Review 5 photoelectron spectra to identify elements based on binding energy peaks.\"], \"topics\": [\"1.4\", \"1.6\", \"1.7\", \"1.8\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Differentiate bond types and predict molecular geometry.\", \"hours\": 6, \"tasks\": [\"Draw Lewis structures for 12 molecules, including those with resonance and formal charges.\", \"Use VSEPR theory to predict shapes and hybridization for 10 molecules.\", \"Compare potential energy diagrams for ionic, covalent, and metallic bonds.\"], \"topics\": [\"2.1\", \"2.2\", \"2.5\", \"2.6\", \"2.7\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Analyze intermolecular forces and their effect on physical properties.\", \"hours\": 6, \"tasks\": [\"Rank 5 sets of compounds by boiling point and explain the dominant intermolecular force.\", \"Solve 8 problems relating intermolecular forces to viscosity and surface tension.\", \"Review the structure of solids, liquids, and gases, focusing on particle arrangement.\"], \"topics\": [\"2.3\", \"2.4\", \"3.1\", \"3.2\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Apply gas laws and kinetic molecular theory to solve problems.\", \"hours\": 6, \"tasks\": [\"Solve 10 ideal gas law problems involving pressure, volume, temperature, and moles.\", \"Explain gas behavior using kinetic molecular theory in 3 short paragraphs.\", \"Calculate partial pressures in 5 mixture problems using Dalton's Law.\"], \"topics\": [\"3.3\", \"3.4\", \"3.5\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Balance equations and perform stoichiometric calculations.\", \"hours\": 6, \"tasks\": [\"Balance 10 chemical equations, including redox reactions.\", \"Solve 8 stoichiometry problems involving limiting reactants and percent yield.\", \"Write net ionic equations for 5 precipitation and acid-base reactions.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"4.5\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Determine reaction rates and write rate laws.\", \"hours\": 6, \"tasks\": [\"Calculate average and instantaneous rates from 5 concentration-time graphs.\", \"Determine rate laws and rate constants from 8 experimental data sets.\", \"Analyze elementary reaction steps to identify rate-determining steps in 3 mechanisms.\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 7}, {\"classes\": [], \"focus\": \"Calculate energy changes and interpret energy diagrams.\", \"hours\": 6, \"tasks\": [\"Calculate heat transfer in 6 calorimetry problems using specific heat capacity.\", \"Label energy diagrams for endothermic and exothermic reactions, identifying activation energy.\", \"Determine enthalpy changes using Hess's Law in 5 multi-step reactions.\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 8}, {\"classes\": [], \"focus\": \"Calculate equilibrium constants and predict reaction direction.\", \"hours\": 6, \"tasks\": [\"Write equilibrium constant expressions for 8 reactions.\", \"Calculate Q and K for 6 scenarios to predict the direction of reaction.\", \"Solve ICE table problems for 5 equilibrium mixtures.\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 9}, {\"classes\": [], \"focus\": \"Analyze acid-base equilibria and buffer systems.\", \"hours\": 6, \"tasks\": [\"Calculate pH and pOH for 10 strong and weak acid/base solutions.\", \"Determine the pH of 5 buffer solutions using the Henderson-Hasselbalch equation.\", \"Sketch titration curves for 3 acid-base pairs, identifying equivalence points.\"], \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 10}, {\"classes\": [], \"focus\": \"Evaluate thermodynamic favorability and electrochemical cells.\", \"hours\": 6, \"tasks\": [\"Calculate entropy changes for 5 reactions and predict spontaneity.\", \"Determine Gibbs free energy for 6 processes to assess thermodynamic favorability.\", \"Calculate cell potentials for 4 galvanic and electrolytic cells.\"], \"topics\": [\"9.1\", \"9.2\", \"9.3\", \"9.4\"], \"week\": 11}, {\"classes\": [], \"focus\": \"Simulate exam conditions with mixed practice and timed drills.\", \"hours\": 6, \"tasks\": [\"Complete a 60-minute timed set of 20 mixed multiple-choice questions covering all units.\", \"Write 3 free-response questions from past exams, marking them against the official scoring guide.\", \"Review error log from the week to identify and correct persistent misconceptions.\"], \"topics\": [\"1.1\", \"2.5\", \"3.4\", \"4.5\", \"5.2\", \"6.4\", \"7.3\", \"8.3\", \"9.3\"], \"week\": 12}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1052,
+ "output_tokens": 1438,
+ "latency_ms": 3819
+}

@@ -1,0 +1,41 @@
+{
+ "data": {
+  "final_week_advice": "Focus on high-yield Unit 4 contextual problems and rapid-fire FRQ practice to solidify weak areas before the exam.",
+  "summary": "This single-week plan prioritizes the student's weak Unit 4 by dedicating the first half to deep contextual differentiation practice. The second half shifts to mixed review and timed practice across all units to ensure broad readiness for the exam.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Master Unit 4 contextual applications and execute timed mixed review.",
+    "hours": 12,
+    "tasks": [
+     "Spend 3 hours on Unit 4: Do 10 free-response questions on related rates and motion contexts, then mark them against the scoring guide to identify specific errors in setup vs. calculation.",
+     "Spend 2 hours reviewing Units 1 and 2: Complete a 20-question multiple-choice set focusing on limits and derivative definitions, reviewing any missed questions by re-deriving the limits or derivatives from first principles.",
+     "Spend 2 hours on Unit 5: Graph 5 functions and identify all critical points, intervals of increase/decrease, and local extrema, verifying each with the First Derivative Test.",
+     "Spend 2 hours on Units 6 and 8: Calculate Riemann sums for 3 different functions and find the area between two curves, ensuring correct setup of the definite integral limits.",
+     "Spend 1 hour on Unit 7: Sketch slope fields for 3 differential equations and verify one solution by plugging it back into the original equation.",
+     "Spend 1 hour on timed practice: Complete a 45-minute mixed FRQ set covering one problem from each major unit, then grade strictly using the official rubric."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "1.2",
+     "2.2",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.2",
+     "8.4",
+     "7.3"
+    ],
+    "week": 1
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on high-yield Unit 4 contextual problems and rapid-fire FRQ practice to solidify weak areas before the exam.\", \"summary\": \"This single-week plan prioritizes the student's weak Unit 4 by dedicating the first half to deep contextual differentiation practice. The second half shifts to mixed review and timed practice across all units to ensure broad readiness for the exam.\", \"weeks\": [{\"classes\": [], \"focus\": \"Master Unit 4 contextual applications and execute timed mixed review.\", \"hours\": 12, \"tasks\": [\"Spend 3 hours on Unit 4: Do 10 free-response questions on related rates and motion contexts, then mark them against the scoring guide to identify specific errors in setup vs. calculation.\", \"Spend 2 hours reviewing Units 1 and 2: Complete a 20-question multiple-choice set focusing on limits and derivative definitions, reviewing any missed questions by re-deriving the limits or derivatives from first principles.\", \"Spend 2 hours on Unit 5: Graph 5 functions and identify all critical points, intervals of increase/decrease, and local extrema, verifying each with the First Derivative Test.\", \"Spend 2 hours on Units 6 and 8: Calculate Riemann sums for 3 different functions and find the area between two curves, ensuring correct setup of the definite integral limits.\", \"Spend 1 hour on Unit 7: Sketch slope fields for 3 differential equations and verify one solution by plugging it back into the original equation.\", \"Spend 1 hour on timed practice: Complete a 45-minute mixed FRQ set covering one problem from each major unit, then grade strictly using the official rubric.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"1.2\", \"2.2\", \"5.2\", \"5.3\", \"5.4\", \"6.2\", \"8.4\", \"7.3\"], \"week\": 1}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 991,
+ "output_tokens": 428,
+ "latency_ms": 1293
+}

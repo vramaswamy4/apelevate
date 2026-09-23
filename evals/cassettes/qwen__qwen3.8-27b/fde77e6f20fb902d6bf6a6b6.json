@@ -1,0 +1,213 @@
+{
+ "data": {
+  "final_week_advice": "Focus on timed practice and reviewing weak units 7 and 8.",
+  "summary": "This 12-week plan prioritizes the student's weak units, Differential Equations and Applications of Integration, in the first half of the semester to allow for repeated review. The schedule balances foundational concepts in limits and differentiation with advanced applications, ensuring all units are covered before the final two weeks are dedicated to mixed review and timed practice.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Master limits and continuity foundations.",
+    "hours": 2,
+    "tasks": [
+     "Do 10 multiple-choice questions on estimating limits from graphs and tables, then mark them against the answer key.",
+     "Complete 5 free-response style problems on determining limits using algebraic properties."
+    ],
+    "topics": [
+     "1.1 Introducing Calculus: Can Change Occur at an Instant?",
+     "1.2 Defining Limits and Using Limit Notation",
+     "1.3 Estimating Limit Values from Graphs",
+     "1.4 Estimating Limit Values from Tables",
+     "1.5 Determining Limits Using Algebraic Properties of Limits"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Understand the definition and basic rules of differentiation.",
+    "hours": 2,
+    "tasks": [
+     "Calculate derivatives for 8 functions using the power rule and verify continuity at critical points.",
+     "Solve 4 problems connecting differentiability and continuity using limit definitions."
+    ],
+    "topics": [
+     "2.1 Defining Average and Instantaneous Rates of Change at a Point",
+     "2.2 Defining the Derivative of a Function and Using Derivative Notation",
+     "2.3 Estimating Derivatives of a Function at a Point",
+     "2.4 Connecting Differentiability and Continuity",
+     "2.5 Applying the Power Rule"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Apply chain rule and implicit differentiation.",
+    "hours": 2,
+    "tasks": [
+     "Differentiate 10 composite functions using the chain rule.",
+     "Solve 5 implicit differentiation problems and find derivatives of inverse trigonometric functions."
+    ],
+    "topics": [
+     "3.1 The Chain Rule",
+     "3.2 Implicit Differentiation",
+     "3.3 Differentiating Inverse Functions",
+     "3.4 Differentiating Inverse Trigonometric Functions"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Interpret derivatives in real-world contexts.",
+    "hours": 2,
+    "tasks": [
+     "Analyze 3 straight-line motion scenarios to connect position, velocity, and acceleration.",
+     "Solve 4 related rates problems in applied contexts other than motion."
+    ],
+    "topics": [
+     "4.1 Interpreting the Meaning of the Derivative in Context",
+     "4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+     "4.3 Rates of Change in Applied Contexts Other Than Motion",
+     "4.4 Introduction to Related Rates"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Use MVT and derivative tests for extrema.",
+    "hours": 2,
+    "tasks": [
+     "Apply the Mean Value Theorem to 3 functions to verify conditions and find average rates of change.",
+     "Determine intervals of increase/decrease and relative extrema for 5 functions using the first derivative test."
+    ],
+    "topics": [
+     "5.1 Using the Mean Value Theorem",
+     "5.2 Extreme Value Theorem, Global Versus Local Extrema, and Critical Points",
+     "5.3 Determining Intervals on Which a Function Is Increasing or Decreasing",
+     "5.4 Using the First Derivative Test to Determine Relative (Local) Extrema"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Introduce accumulation and Riemann sums.",
+    "hours": 2,
+    "tasks": [
+     "Approximate areas under curves using left, right, and midpoint Riemann sums for 4 functions.",
+     "Evaluate definite integrals using the Fundamental Theorem of Calculus for 5 accumulation functions."
+    ],
+    "topics": [
+     "6.1 Exploring Accumulations of Change",
+     "6.2 Approximating Areas with Riemann Sums",
+     "6.3 Riemann Sums, Summation Notation, and Definite Integral Notation",
+     "6.4 The Fundamental Theorem of Calculus and Accumulation Functions"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Model and solve differential equations.",
+    "hours": 2,
+    "tasks": [
+     "Sketch slope fields for 3 differential equations and identify solution behaviors.",
+     "Verify 4 solutions to differential equations and model 2 real-world situations with DEs."
+    ],
+    "topics": [
+     "7.1 Modeling Situations with Differential Equations",
+     "7.2 Verifying Solutions for Differential Equations",
+     "7.3 Sketching Slope Fields",
+     "7.4 Reasoning Using Slope Fields"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [],
+    "focus": "Apply integration to find areas and average values.",
+    "hours": 2,
+    "tasks": [
+     "Find the average value of 4 functions on given intervals.",
+     "Calculate the area between 3 pairs of curves expressed as functions of x."
+    ],
+    "topics": [
+     "8.1 Finding the Average Value of a Function on an Interval",
+     "8.2 Connecting Position, Velocity, and Acceleration of Functions Using Integrals",
+     "8.3 Using Accumulation Functions and Definite Integrals in Applied Contexts",
+     "8.4 Finding the Area Between Curves Expressed as Functions of x"
+    ],
+    "week": 8
+   },
+   {
+    "classes": [],
+    "focus": "Review weak units: Differential Equations.",
+    "hours": 2,
+    "tasks": [
+     "Redo 5 challenging slope field problems from Week 7 with a focus on reasoning about solution curves.",
+     "Solve 3 new differential equation modeling problems and verify solutions."
+    ],
+    "topics": [
+     "7.1 Modeling Situations with Differential Equations",
+     "7.2 Verifying Solutions for Differential Equations",
+     "7.3 Sketching Slope Fields",
+     "7.4 Reasoning Using Slope Fields"
+    ],
+    "week": 9
+   },
+   {
+    "classes": [],
+    "focus": "Review weak units: Applications of Integration.",
+    "hours": 2,
+    "tasks": [
+     "Calculate areas between 4 new pairs of curves and average values for 3 functions.",
+     "Solve 2 applied context problems involving accumulation functions and definite integrals."
+    ],
+    "topics": [
+     "8.1 Finding the Average Value of a Function on an Interval",
+     "8.2 Connecting Position, Velocity, and Acceleration of Functions Using Integrals",
+     "8.3 Using Accumulation Functions and Definite Integrals in Applied Contexts",
+     "8.4 Finding the Area Between Curves Expressed as Functions of x"
+    ],
+    "week": 10
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review of Units 1-6.",
+    "hours": 2,
+    "tasks": [
+     "Complete a mixed set of 10 multiple-choice questions covering limits, differentiation, and integration.",
+     "Solve 3 free-response questions that combine derivative and integral concepts."
+    ],
+    "topics": [
+     "1.1 Introducing Calculus: Can Change Occur at an Instant?",
+     "2.1 Defining Average and Instantaneous Rates of Change at a Point",
+     "3.1 The Chain Rule",
+     "4.1 Interpreting the Meaning of the Derivative in Context",
+     "5.1 Using the Mean Value Theorem",
+     "6.1 Exploring Accumulations of Change"
+    ],
+    "week": 11
+   },
+   {
+    "classes": [],
+    "focus": "Timed practice and final review.",
+    "hours": 2,
+    "tasks": [
+     "Complete a 30-minute timed section of multiple-choice questions covering all units.",
+     "Review scoring guides for 2 free-response questions and self-grade."
+    ],
+    "topics": [
+     "1.2 Defining Limits and Using Limit Notation",
+     "2.2 Defining the Derivative of a Function and Using Derivative Notation",
+     "3.2 Implicit Differentiation",
+     "4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+     "5.2 Extreme Value Theorem, Global Versus Local Extrema, and Critical Points",
+     "6.2 Approximating Areas with Riemann Sums",
+     "7.1 Modeling Situations with Differential Equations",
+     "8.1 Finding the Average Value of a Function on an Interval"
+    ],
+    "week": 12
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on timed practice and reviewing weak units 7 and 8.\", \"summary\": \"This 12-week plan prioritizes the student's weak units, Differential Equations and Applications of Integration, in the first half of the semester to allow for repeated review. The schedule balances foundational concepts in limits and differentiation with advanced applications, ensuring all units are covered before the final two weeks are dedicated to mixed review and timed practice.\", \"weeks\": [{\"classes\": [], \"focus\": \"Master limits and continuity foundations.\", \"hours\": 2, \"tasks\": [\"Do 10 multiple-choice questions on estimating limits from graphs and tables, then mark them against the answer key.\", \"Complete 5 free-response style problems on determining limits using algebraic properties.\"], \"topics\": [\"1.1 Introducing Calculus: Can Change Occur at an Instant?\", \"1.2 Defining Limits and Using Limit Notation\", \"1.3 Estimating Limit Values from Graphs\", \"1.4 Estimating Limit Values from Tables\", \"1.5 Determining Limits Using Algebraic Properties of Limits\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Understand the definition and basic rules of differentiation.\", \"hours\": 2, \"tasks\": [\"Calculate derivatives for 8 functions using the power rule and verify continuity at critical points.\", \"Solve 4 problems connecting differentiability and continuity using limit definitions.\"], \"topics\": [\"2.1 Defining Average and Instantaneous Rates of Change at a Point\", \"2.2 Defining the Derivative of a Function and Using Derivative Notation\", \"2.3 Estimating Derivatives of a Function at a Point\", \"2.4 Connecting Differentiability and Continuity\", \"2.5 Applying the Power Rule\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Apply chain rule and implicit differentiation.\", \"hours\": 2, \"tasks\": [\"Differentiate 10 composite functions using the chain rule.\", \"Solve 5 implicit differentiation problems and find derivatives of inverse trigonometric functions.\"], \"topics\": [\"3.1 The Chain Rule\", \"3.2 Implicit Differentiation\", \"3.3 Differentiating Inverse Functions\", \"3.4 Differentiating Inverse Trigonometric Functions\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Interpret derivatives in real-world contexts.\", \"hours\": 2, \"tasks\": [\"Analyze 3 straight-line motion scenarios to connect position, velocity, and acceleration.\", \"Solve 4 related rates problems in applied contexts other than motion.\"], \"topics\": [\"4.1 Interpreting the Meaning of the Derivative in Context\", \"4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration\", \"4.3 Rates of Change in Applied Contexts Other Than Motion\", \"4.4 Introduction to Related Rates\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Use MVT and derivative tests for extrema.\", \"hours\": 2, \"tasks\": [\"Apply the Mean Value Theorem to 3 functions to verify conditions and find average rates of change.\", \"Determine intervals of increase/decrease and relative extrema for 5 functions using the first derivative test.\"], \"topics\": [\"5.1 Using the Mean Value Theorem\", \"5.2 Extreme Value Theorem, Global Versus Local Extrema, and Critical Points\", \"5.3 Determining Intervals on Which a Function Is Increasing or Decreasing\", \"5.4 Using the First Derivative Test to Determine Relative (Local) Extrema\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Introduce accumulation and Riemann sums.\", \"hours\": 2, \"tasks\": [\"Approximate areas under curves using left, right, and midpoint Riemann sums for 4 functions.\", \"Evaluate definite integrals using the Fundamental Theorem of Calculus for 5 accumulation functions.\"], \"topics\": [\"6.1 Exploring Accumulations of Change\", \"6.2 Approximating Areas with Riemann Sums\", \"6.3 Riemann Sums, Summation Notation, and Definite Integral Notation\", \"6.4 The Fundamental Theorem of Calculus and Accumulation Functions\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Model and solve differential equations.\", \"hours\": 2, \"tasks\": [\"Sketch slope fields for 3 differential equations and identify solution behaviors.\", \"Verify 4 solutions to differential equations and model 2 real-world situations with DEs.\"], \"topics\": [\"7.1 Modeling Situations with Differential Equations\", \"7.2 Verifying Solutions for Differential Equations\", \"7.3 Sketching Slope Fields\", \"7.4 Reasoning Using Slope Fields\"], \"week\": 7}, {\"classes\": [], \"focus\": \"Apply integration to find areas and average values.\", \"hours\": 2, \"tasks\": [\"Find the average value of 4 functions on given intervals.\", \"Calculate the area between 3 pairs of curves expressed as functions of x.\"], \"topics\": [\"8.1 Finding the Average Value of a Function on an Interval\", \"8.2 Connecting Position, Velocity, and Acceleration of Functions Using Integrals\", \"8.3 Using Accumulation Functions and Definite Integrals in Applied Contexts\", \"8.4 Finding the Area Between Curves Expressed as Functions of x\"], \"week\": 8}, {\"classes\": [], \"focus\": \"Review weak units: Differential Equations.\", \"hours\": 2, \"tasks\": [\"Redo 5 challenging slope field problems from Week 7 with a focus on reasoning about solution curves.\", \"Solve 3 new differential equation modeling problems and verify solutions.\"], \"topics\": [\"7.1 Modeling Situations with Differential Equations\", \"7.2 Verifying Solutions for Differential Equations\", \"7.3 Sketching Slope Fields\", \"7.4 Reasoning Using Slope Fields\"], \"week\": 9}, {\"classes\": [], \"focus\": \"Review weak units: Applications of Integration.\", \"hours\": 2, \"tasks\": [\"Calculate areas between 4 new pairs of curves and average values for 3 functions.\", \"Solve 2 applied context problems involving accumulation functions and definite integrals.\"], \"topics\": [\"8.1 Finding the Average Value of a Function on an Interval\", \"8.2 Connecting Position, Velocity, and Acceleration of Functions Using Integrals\", \"8.3 Using Accumulation Functions and Definite Integrals in Applied Contexts\", \"8.4 Finding the Area Between Curves Expressed as Functions of x\"], \"week\": 10}, {\"classes\": [], \"focus\": \"Mixed review of Units 1-6.\", \"hours\": 2, \"tasks\": [\"Complete a mixed set of 10 multiple-choice questions covering limits, differentiation, and integration.\", \"Solve 3 free-response questions that combine derivative and integral concepts.\"], \"topics\": [\"1.1 Introducing Calculus: Can Change Occur at an Instant?\", \"2.1 Defining Average and Instantaneous Rates of Change at a Point\", \"3.1 The Chain Rule\", \"4.1 Interpreting the Meaning of the Derivative in Context\", \"5.1 Using the Mean Value Theorem\", \"6.1 Exploring Accumulations of Change\"], \"week\": 11}, {\"classes\": [], \"focus\": \"Timed practice and final review.\", \"hours\": 2, \"tasks\": [\"Complete a 30-minute timed section of multiple-choice questions covering all units.\", \"Review scoring guides for 2 free-response questions and self-grade.\"], \"topics\": [\"1.2 Defining Limits and Using Limit Notation\", \"2.2 Defining the Derivative of a Function and Using Derivative Notation\", \"3.2 Implicit Differentiation\", \"4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration\", \"5.2 Extreme Value Theorem, Global Versus Local Extrema, and Critical Points\", \"6.2 Approximating Areas with Riemann Sums\", \"7.1 Modeling Situations with Differential Equations\", \"8.1 Finding the Average Value of a Function on an Interval\"], \"week\": 12}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 997,
+ "output_tokens": 1728,
+ "latency_ms": 4035
+}

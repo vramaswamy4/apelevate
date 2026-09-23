@@ -1,0 +1,199 @@
+{
+ "data": {
+  "final_week_advice": "Focus on timed practice and reviewing weak areas, especially Unit 4 and Unit 7, to build exam stamina.",
+  "summary": "This plan prioritizes the weak Unit 4 early in the schedule while progressing through the remaining units in a logical sequence. It integrates live classes to reinforce core concepts and reserves the final two weeks for comprehensive review and timed practice to ensure exam readiness.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Master stoichiometry and reaction representations to build a strong foundation.",
+    "hours": 6,
+    "tasks": [
+     "Do 10 free-response questions on stoichiometry, then mark them against the scoring guide.",
+     "Write net ionic equations for 15 precipitation and redox reactions, checking each for charge and mass balance.",
+     "Review the difference between physical and chemical changes using 5 real-world examples."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [
+     9700
+    ],
+    "focus": "Understand atomic structure and periodic trends through live instruction and practice.",
+    "hours": 6,
+    "tasks": [
+     "Complete 15 multiple-choice questions on moles and molar mass, reviewing any missed concepts.",
+     "Analyze 3 mass spectra to determine the relative abundance of isotopes.",
+     "Draw electron configurations for 10 elements, identifying valence electrons for each."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "1.6",
+     "1.7",
+     "1.8"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [
+     9701
+    ],
+    "focus": "Explore chemical bonding and molecular geometry with live class support.",
+    "hours": 6,
+    "tasks": [
+     "Draw Lewis structures for 8 molecules, including resonance forms where applicable.",
+     "Determine VSEPR shapes for 10 molecules and predict bond angles.",
+     "Calculate formal charges for 5 polyatomic ions to identify the most stable structure."
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "2.6",
+     "2.7"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [
+     9702,
+     9703
+    ],
+    "focus": "Connect intermolecular forces to physical properties and revisit reaction types.",
+    "hours": 6,
+    "tasks": [
+     "Rank 5 substances by boiling point based on intermolecular forces, explaining your reasoning.",
+     "Solve 5 ideal gas law problems, converting units as needed.",
+     "Revisit net ionic equations by writing 5 new ones for acid-base and redox reactions."
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [
+     9704
+    ],
+    "focus": "Understand reaction rates and rate laws through live instruction and problem-solving.",
+    "hours": 6,
+    "tasks": [
+     "Calculate initial rates for 5 reactions using given concentration data.",
+     "Determine rate laws for 3 reactions by analyzing how rate changes with concentration.",
+     "Graph concentration vs. time for 2 reactions and identify the order of each."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [
+     9705
+    ],
+    "focus": "Master thermochemistry concepts and calorimetry calculations.",
+    "hours": 6,
+    "tasks": [
+     "Solve 5 calorimetry problems, calculating heat transfer and temperature changes.",
+     "Draw energy diagrams for 3 endothermic and 3 exothermic reactions, labeling activation energy.",
+     "Calculate heat capacity for 2 substances using given data."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [
+     9706
+    ],
+    "focus": "Understand chemical equilibrium and calculate equilibrium constants.",
+    "hours": 6,
+    "tasks": [
+     "Calculate equilibrium constants for 5 reactions using given equilibrium concentrations.",
+     "Determine the direction of 3 reversible reactions using the reaction quotient.",
+     "Solve 2 ICE table problems to find equilibrium concentrations."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [
+     9707
+    ],
+    "focus": "Master acid-base equilibria and buffer calculations.",
+    "hours": 6,
+    "tasks": [
+     "Calculate pH and pOH for 5 strong acid and base solutions.",
+     "Determine the pH of 3 weak acid and base solutions using Ka and Kb values.",
+     "Calculate the pH of 2 buffer solutions using the Henderson-Hasselbalch equation."
+    ],
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 8
+   },
+   {
+    "classes": [
+     9708
+    ],
+    "focus": "Review thermodynamics and electrochemistry, focusing on weak areas.",
+    "hours": 6,
+    "tasks": [
+     "Calculate Gibbs free energy for 3 reactions and determine thermodynamic favorability.",
+     "Analyze 2 galvanic cells, identifying anode and cathode and calculating cell potential.",
+     "Review Unit 4 stoichiometry by solving 5 new free-response questions."
+    ],
+    "topics": [
+     "9.1",
+     "9.2",
+     "9.3",
+     "9.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5"
+    ],
+    "week": 9
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on timed practice and reviewing weak areas, especially Unit 4 and Unit 7, to build exam stamina.\", \"summary\": \"This plan prioritizes the weak Unit 4 early in the schedule while progressing through the remaining units in a logical sequence. It integrates live classes to reinforce core concepts and reserves the final two weeks for comprehensive review and timed practice to ensure exam readiness.\", \"weeks\": [{\"classes\": [], \"focus\": \"Master stoichiometry and reaction representations to build a strong foundation.\", \"hours\": 6, \"tasks\": [\"Do 10 free-response questions on stoichiometry, then mark them against the scoring guide.\", \"Write net ionic equations for 15 precipitation and redox reactions, checking each for charge and mass balance.\", \"Review the difference between physical and chemical changes using 5 real-world examples.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"4.5\"], \"week\": 1}, {\"classes\": [9700], \"focus\": \"Understand atomic structure and periodic trends through live instruction and practice.\", \"hours\": 6, \"tasks\": [\"Complete 15 multiple-choice questions on moles and molar mass, reviewing any missed concepts.\", \"Analyze 3 mass spectra to determine the relative abundance of isotopes.\", \"Draw electron configurations for 10 elements, identifying valence electrons for each.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"1.6\", \"1.7\", \"1.8\"], \"week\": 2}, {\"classes\": [9701], \"focus\": \"Explore chemical bonding and molecular geometry with live class support.\", \"hours\": 6, \"tasks\": [\"Draw Lewis structures for 8 molecules, including resonance forms where applicable.\", \"Determine VSEPR shapes for 10 molecules and predict bond angles.\", \"Calculate formal charges for 5 polyatomic ions to identify the most stable structure.\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"2.6\", \"2.7\"], \"week\": 3}, {\"classes\": [9702, 9703], \"focus\": \"Connect intermolecular forces to physical properties and revisit reaction types.\", \"hours\": 6, \"tasks\": [\"Rank 5 substances by boiling point based on intermolecular forces, explaining your reasoning.\", \"Solve 5 ideal gas law problems, converting units as needed.\", \"Revisit net ionic equations by writing 5 new ones for acid-base and redox reactions.\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\"], \"week\": 4}, {\"classes\": [9704], \"focus\": \"Understand reaction rates and rate laws through live instruction and problem-solving.\", \"hours\": 6, \"tasks\": [\"Calculate initial rates for 5 reactions using given concentration data.\", \"Determine rate laws for 3 reactions by analyzing how rate changes with concentration.\", \"Graph concentration vs. time for 2 reactions and identify the order of each.\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 5}, {\"classes\": [9705], \"focus\": \"Master thermochemistry concepts and calorimetry calculations.\", \"hours\": 6, \"tasks\": [\"Solve 5 calorimetry problems, calculating heat transfer and temperature changes.\", \"Draw energy diagrams for 3 endothermic and 3 exothermic reactions, labeling activation energy.\", \"Calculate heat capacity for 2 substances using given data.\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 6}, {\"classes\": [9706], \"focus\": \"Understand chemical equilibrium and calculate equilibrium constants.\", \"hours\": 6, \"tasks\": [\"Calculate equilibrium constants for 5 reactions using given equilibrium concentrations.\", \"Determine the direction of 3 reversible reactions using the reaction quotient.\", \"Solve 2 ICE table problems to find equilibrium concentrations.\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 7}, {\"classes\": [9707], \"focus\": \"Master acid-base equilibria and buffer calculations.\", \"hours\": 6, \"tasks\": [\"Calculate pH and pOH for 5 strong acid and base solutions.\", \"Determine the pH of 3 weak acid and base solutions using Ka and Kb values.\", \"Calculate the pH of 2 buffer solutions using the Henderson-Hasselbalch equation.\"], \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 8}, {\"classes\": [9708], \"focus\": \"Review thermodynamics and electrochemistry, focusing on weak areas.\", \"hours\": 6, \"tasks\": [\"Calculate Gibbs free energy for 3 reactions and determine thermodynamic favorability.\", \"Analyze 2 galvanic cells, identifying anode and cathode and calculating cell potential.\", \"Review Unit 4 stoichiometry by solving 5 new free-response questions.\"], \"topics\": [\"9.1\", \"9.2\", \"9.3\", \"9.4\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"4.5\"], \"week\": 9}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1221,
+ "output_tokens": 1205,
+ "latency_ms": 2755
+}

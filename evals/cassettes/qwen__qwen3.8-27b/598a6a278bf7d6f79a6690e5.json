@@ -1,0 +1,347 @@
+{
+ "data": {
+  "final_week_advice": "Prioritize timed practice and mixed review in the final weeks to simulate exam conditions and reinforce weak areas like limits and continuity.",
+  "summary": "This 16-week plan begins by addressing the student's weakness in Unit 1 (Limits and Continuity) during the first half, leveraging the live class in Week 2. The middle weeks progress through differentiation and integration units, ensuring all topics are covered. The final two weeks are dedicated to mixed review and timed practice to solidify understanding before the exam.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Mastering limits and continuity fundamentals",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on estimating limits from graphs and tables, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on algebraic properties of limits"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [
+     10800
+    ],
+    "focus": "Reinforcing limits through live instruction and practice",
+    "hours": 5,
+    "tasks": [
+     "Attend live class on Unit 1 topics",
+     "Do 10 free-response questions on defining limits and using limit notation, then mark them against the scoring guide",
+     "Complete a 15-question multiple-choice set on estimating limit values"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Introducing differentiation and derivative notation",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on average and instantaneous rates of change, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on defining the derivative and using derivative notation"
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Applying the chain rule and implicit differentiation",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on the chain rule, then mark them against the scoring guide",
+     "Complete a 15-question multiple-choice set on implicit differentiation"
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Interpreting derivatives in context and related rates",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on straight-line motion and related rates, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on interpreting the meaning of the derivative"
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Analytical applications of differentiation and MVT",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on the Mean Value Theorem and extreme value theorem, then mark them against the scoring guide",
+     "Complete a 15-question multiple-choice set on determining intervals of increase/decrease"
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Exploring accumulation and Riemann sums",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on approximating areas with Riemann sums, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on summation notation and definite integral notation"
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [],
+    "focus": "Modeling with differential equations and slope fields",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on modeling situations with differential equations, then mark them against the scoring guide",
+     "Complete a 15-question multiple-choice set on sketching and reasoning with slope fields"
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 8
+   },
+   {
+    "classes": [],
+    "focus": "Applications of integration and area between curves",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on finding the average value of a function, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on finding the area between curves"
+    ],
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 9
+   },
+   {
+    "classes": [],
+    "focus": "Reviewing limits and continuity (weak unit)",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on limits and continuity, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on estimating limit values"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5"
+    ],
+    "week": 10
+   },
+   {
+    "classes": [],
+    "focus": "Reviewing differentiation and composite functions",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on the chain rule and implicit differentiation, then mark them against the scoring guide",
+     "Complete a 15-question multiple-choice set on derivative notation"
+    ],
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4"
+    ],
+    "week": 11
+   },
+   {
+    "classes": [],
+    "focus": "Reviewing contextual and analytical applications of differentiation",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on related rates and the Mean Value Theorem, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on extreme value theorem"
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 12
+   },
+   {
+    "classes": [],
+    "focus": "Reviewing integration and accumulation of change",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on Riemann sums and the Fundamental Theorem of Calculus, then mark them against the scoring guide",
+     "Complete a 15-question multiple-choice set on definite integral notation"
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 13
+   },
+   {
+    "classes": [],
+    "focus": "Reviewing differential equations and applications of integration",
+    "hours": 5,
+    "tasks": [
+     "Do 10 free-response questions on slope fields and area between curves, then mark them against the scoring guide",
+     "Complete a 20-question multiple-choice set on modeling with differential equations"
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 14
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review and timed practice",
+    "hours": 5,
+    "tasks": [
+     "Complete a full timed practice exam (multiple choice and free response)",
+     "Review incorrect answers and identify weak areas"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 15
+   },
+   {
+    "classes": [],
+    "focus": "Final timed practice and exam preparation",
+    "hours": 5,
+    "tasks": [
+     "Complete a second full timed practice exam",
+     "Review scoring guides and refine problem-solving strategies"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 16
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Prioritize timed practice and mixed review in the final weeks to simulate exam conditions and reinforce weak areas like limits and continuity.\", \"summary\": \"This 16-week plan begins by addressing the student's weakness in Unit 1 (Limits and Continuity) during the first half, leveraging the live class in Week 2. The middle weeks progress through differentiation and integration units, ensuring all topics are covered. The final two weeks are dedicated to mixed review and timed practice to solidify understanding before the exam.\", \"weeks\": [{\"classes\": [], \"focus\": \"Mastering limits and continuity fundamentals\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on estimating limits from graphs and tables, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on algebraic properties of limits\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\"], \"week\": 1}, {\"classes\": [10800], \"focus\": \"Reinforcing limits through live instruction and practice\", \"hours\": 5, \"tasks\": [\"Attend live class on Unit 1 topics\", \"Do 10 free-response questions on defining limits and using limit notation, then mark them against the scoring guide\", \"Complete a 15-question multiple-choice set on estimating limit values\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Introducing differentiation and derivative notation\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on average and instantaneous rates of change, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on defining the derivative and using derivative notation\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Applying the chain rule and implicit differentiation\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on the chain rule, then mark them against the scoring guide\", \"Complete a 15-question multiple-choice set on implicit differentiation\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Interpreting derivatives in context and related rates\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on straight-line motion and related rates, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on interpreting the meaning of the derivative\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Analytical applications of differentiation and MVT\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on the Mean Value Theorem and extreme value theorem, then mark them against the scoring guide\", \"Complete a 15-question multiple-choice set on determining intervals of increase/decrease\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Exploring accumulation and Riemann sums\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on approximating areas with Riemann sums, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on summation notation and definite integral notation\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 7}, {\"classes\": [], \"focus\": \"Modeling with differential equations and slope fields\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on modeling situations with differential equations, then mark them against the scoring guide\", \"Complete a 15-question multiple-choice set on sketching and reasoning with slope fields\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 8}, {\"classes\": [], \"focus\": \"Applications of integration and area between curves\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on finding the average value of a function, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on finding the area between curves\"], \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 9}, {\"classes\": [], \"focus\": \"Reviewing limits and continuity (weak unit)\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on limits and continuity, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on estimating limit values\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\"], \"week\": 10}, {\"classes\": [], \"focus\": \"Reviewing differentiation and composite functions\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on the chain rule and implicit differentiation, then mark them against the scoring guide\", \"Complete a 15-question multiple-choice set on derivative notation\"], \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\"], \"week\": 11}, {\"classes\": [], \"focus\": \"Reviewing contextual and analytical applications of differentiation\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on related rates and the Mean Value Theorem, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on extreme value theorem\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 12}, {\"classes\": [], \"focus\": \"Reviewing integration and accumulation of change\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on Riemann sums and the Fundamental Theorem of Calculus, then mark them against the scoring guide\", \"Complete a 15-question multiple-choice set on definite integral notation\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 13}, {\"classes\": [], \"focus\": \"Reviewing differential equations and applications of integration\", \"hours\": 5, \"tasks\": [\"Do 10 free-response questions on slope fields and area between curves, then mark them against the scoring guide\", \"Complete a 20-question multiple-choice set on modeling with differential equations\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 14}, {\"classes\": [], \"focus\": \"Mixed review and timed practice\", \"hours\": 5, \"tasks\": [\"Complete a full timed practice exam (multiple choice and free response)\", \"Review incorrect answers and identify weak areas\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 15}, {\"classes\": [], \"focus\": \"Final timed practice and exam preparation\", \"hours\": 5, \"tasks\": [\"Complete a second full timed practice exam\", \"Review scoring guides and refine problem-solving strategies\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 16}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1022,
+ "output_tokens": 1997,
+ "latency_ms": 5388
+}

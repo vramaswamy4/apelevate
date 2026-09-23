@@ -30,6 +30,7 @@ Rule breaks are an invented topic or class, a class in the wrong week, more hour
 |---|---|---|---|---|---|---|---|---|
 | `fake` | v2 | 100% | 100% | 96% | 0.17 | 22% | 0 ms | 1,332 |
 | `openai/gpt-oss-120b` | v2 | 100% | 100% | 88% | 0.21 | 98% | 3,812 ms | 2,674 |
+| `qwen/qwen3.8-27b` | v2 | 100% | 96% | 79% | 0.42 | 100% | 2,696 ms | 2,384 |
 | `openai/gpt-oss-120b` | v1 | 100% | 88% | 62% | 0.79 | 99% | 3,412 ms | 2,997 |
 | `openai/gpt-oss-20b` | v1 | 75% | 42% | 50% | 0.72 | 97% | 1,419 ms | 2,290 |
 | `openai/gpt-oss-20b` | v2 | 71% | 50% | 46% | 0.65 | 100% | 1,369 ms | 2,024 |
@@ -40,6 +41,7 @@ Rule breaks are an invented topic or class, a class in the wrong week, more hour
 |---|---|---|---|
 | `fake` v2 | 0 | 0 | 4 |
 | `openai/gpt-oss-120b` v2 | 1 | 0 | 4 |
+| `qwen/qwen3.8-27b` v2 | 0 | 1 | 9 |
 | `openai/gpt-oss-120b` v1 | 2 | 14 | 3 |
 | `openai/gpt-oss-20b` v1 | 3 | 3 | 7 |
 | `openai/gpt-oss-20b` v2 | 2 | 4 | 5 |
@@ -48,32 +50,32 @@ Rule breaks are an invented topic or class, a class in the wrong week, more hour
 
 PASS = clean, ok = valid with warnings, FAIL = no valid plan.
 
-| Case | `fake` v2 | `openai/gpt-oss-120b` v2 | `openai/gpt-oss-120b` v1 | `openai/gpt-oss-20b` v1 | `openai/gpt-oss-20b` v2 |
-|---|---|---|---|---|---|
-| chem-typical | PASS | PASS | PASS | ok: class_off_topic | PASS |
-| chem-short | PASS | PASS | PASS | PASS | PASS |
-| chem-one-week | PASS | PASS | PASS | PASS | PASS |
-| chem-long-capped | PASS | PASS | ok: unit_uncovered, unit_uncovered, unit_uncovered | ok: class_off_topic, unit_uncovered | PASS |
-| chem-low-hours | PASS | PASS | PASS | FAIL | FAIL |
-| chem-high-hours | PASS | PASS | PASS | ok: class_off_topic | FAIL |
-| chem-all-weak | ok: weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late |
-| chem-many-classes | PASS | ok: class_off_topic | ok: class_off_topic | FAIL | FAIL |
-| chem-no-classes | PASS | PASS | PASS | FAIL | PASS |
-| chem-class-last-day | PASS | PASS | PASS | PASS | ok: unit_uncovered, unit_uncovered, unit_uncovered |
-| phys-typical | PASS | PASS | PASS | PASS | PASS |
-| phys-short | PASS | PASS | ok: unit_uncovered | PASS | PASS |
-| phys-long-capped | PASS | PASS | PASS | PASS | PASS |
-| phys-no-weak | PASS | PASS | PASS | PASS | FAIL |
-| phys-fluids-weak | PASS | PASS | ok: unit_uncovered, unit_uncovered, unit_uncovered | FAIL | PASS |
-| phys-high-hours | PASS | PASS | PASS | ok: unit_uncovered | PASS |
-| calc-typical | PASS | PASS | ok: unit_uncovered | FAIL | ok: class_off_topic |
-| calc-short | PASS | PASS | PASS | PASS | PASS |
-| calc-long-capped | PASS | PASS | ok: class_off_topic | PASS | ok: class_off_topic |
-| calc-low-hours | PASS | PASS | PASS | PASS | ok: unit_uncovered |
-| calc-all-classes-early | PASS | PASS | PASS | PASS | FAIL |
-| calc-weak-late-units | PASS | PASS | PASS | FAIL | ok: weak_unit_late |
-| calc-one-week | PASS | PASS | ok: unit_uncovered, unit_uncovered, unit_uncovered, unit_uncovered, unit_uncovered, unit_uncovered | PASS | FAIL |
-| calc-mid | PASS | ok: weak_unit_late | ok: weak_unit_late | ok: unit_uncovered, weak_unit_late | FAIL |
+| Case | `fake` v2 | `openai/gpt-oss-120b` v2 | `qwen/qwen3.8-27b` v2 | `openai/gpt-oss-120b` v1 | `openai/gpt-oss-20b` v1 | `openai/gpt-oss-20b` v2 |
+|---|---|---|---|---|---|---|
+| chem-typical | PASS | PASS | PASS | PASS | ok: class_off_topic | PASS |
+| chem-short | PASS | PASS | PASS | PASS | PASS | PASS |
+| chem-one-week | PASS | PASS | PASS | PASS | PASS | PASS |
+| chem-long-capped | PASS | PASS | PASS | ok: unit_uncovered, unit_uncovered, unit_uncovered | ok: class_off_topic, unit_uncovered | PASS |
+| chem-low-hours | PASS | PASS | PASS | PASS | FAIL | FAIL |
+| chem-high-hours | PASS | PASS | PASS | PASS | ok: class_off_topic | FAIL |
+| chem-all-weak | ok: weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late | ok: weak_unit_late, weak_unit_late, weak_unit_late, weak_unit_late |
+| chem-many-classes | PASS | ok: class_off_topic | PASS | ok: class_off_topic | FAIL | FAIL |
+| chem-no-classes | PASS | PASS | PASS | PASS | FAIL | PASS |
+| chem-class-last-day | PASS | PASS | PASS | PASS | PASS | ok: unit_uncovered, unit_uncovered, unit_uncovered |
+| phys-typical | PASS | PASS | PASS | PASS | PASS | PASS |
+| phys-short | PASS | PASS | PASS | ok: unit_uncovered | PASS | PASS |
+| phys-long-capped | PASS | PASS | PASS | PASS | PASS | PASS |
+| phys-no-weak | PASS | PASS | PASS | PASS | PASS | FAIL |
+| phys-fluids-weak | PASS | PASS | PASS | ok: unit_uncovered, unit_uncovered, unit_uncovered | FAIL | PASS |
+| phys-high-hours | PASS | PASS | PASS | PASS | ok: unit_uncovered | PASS |
+| calc-typical | PASS | PASS | PASS | ok: unit_uncovered | FAIL | ok: class_off_topic |
+| calc-short | PASS | PASS | PASS | PASS | PASS | PASS |
+| calc-long-capped | PASS | PASS | PASS | ok: class_off_topic | PASS | ok: class_off_topic |
+| calc-low-hours | PASS | PASS | ok: weak_unit_late, weak_unit_late | PASS | PASS | ok: unit_uncovered |
+| calc-all-classes-early | PASS | PASS | PASS | PASS | PASS | FAIL |
+| calc-weak-late-units | PASS | PASS | ok: weak_unit_late | PASS | FAIL | ok: weak_unit_late |
+| calc-one-week | PASS | PASS | ok: unit_uncovered | ok: unit_uncovered, unit_uncovered, unit_uncovered, unit_uncovered, unit_uncovered, unit_uncovered | PASS | FAIL |
+| calc-mid | PASS | ok: weak_unit_late | ok: weak_unit_late | ok: weak_unit_late | ok: unit_uncovered, weak_unit_late | FAIL |
 
 ## Decision
 
@@ -83,6 +85,10 @@ PASS = clean, ok = valid with warnings, FAIL = no valid plan.
   attempt, and 21 of 24 with no quality warnings at all. Three of the remaining warnings are
   "weak unit started late" in `chem-all-weak`, where all nine units are marked weak and can't
   all start in the first half.
+- `qwen/qwen3.8-27b` (reasoning off) came closest: also 24 of 24 valid, faster (median 2.7 s
+  against 3.8 s) and a little cheaper in tokens, but fewer clean plans (79% against 88%) and
+  one plan that needed the retry. It's the fallback: if Groq retires `gpt-oss-120b` or its
+  quota runs short, switching is one setting (`LLM_MODEL`), and this suite says what to expect.
 - `gpt-oss-20b` is about three times faster (median 1.4 s against 4.0 s) but returned a valid
   plan only 71% of the time with prompt v2. Most of its failures were schema rejections that
   persisted through the retry. A study plan is generated once and read for weeks, so a few
@@ -114,6 +120,7 @@ checks but plans mechanically and uses only about a fifth of the available class
   exactly 2,048 tokens: the provider's default output limit, eaten by the model's reasoning.
   Requests now set `max_completion_tokens` explicitly, and Qwen is evaluated with reasoning
   off.
-- **Infrastructure isn't a model failure.** One v2 case failed on a dropped connection; the
-  rerun replayed the other 23 from their recordings and passed. Rate-limit responses (429) are
+- **Infrastructure isn't a model failure.** One `gpt-oss-120b` case failed on a dropped
+  connection and one Qwen case on a rate limit that outlasted the backoff; each rerun replayed
+  the other 23 cases from their recordings and the case passed. Rate-limit responses (429) are
   waited out, not scored.

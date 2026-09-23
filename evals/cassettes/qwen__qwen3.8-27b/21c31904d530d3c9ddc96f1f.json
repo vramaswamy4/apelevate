@@ -1,0 +1,150 @@
+{
+ "data": {
+  "final_week_advice": "Prioritize mastering energy conservation and free-body diagrams, as these are foundational for the exam. Use the live class in Week 2 to solidify your understanding of work and energy, then apply these concepts to complex problems in subsequent weeks. Keep a consistent study schedule and review weak areas regularly to build confidence before the exam.",
+  "summary": "This 5-week plan focuses on strengthening Unit 3 (Work, Energy, and Power) early, leveraging the live class in Week 2. It balances new material with regular review and timed practice, ensuring all units are covered while prioritizing weak areas. The final week is dedicated to mixed review and exam preparation.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Master kinematics and dynamics fundamentals",
+    "hours": 15,
+    "tasks": [
+     "Complete 20 multiple-choice questions on 1D and 2D kinematics, marking errors for review",
+     "Draw and analyze 5 free-body diagrams for objects in equilibrium and motion",
+     "Solve 10 problems applying Newton's Second Law to systems with friction"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [
+     10500
+    ],
+    "focus": "Deepen understanding of work, energy, and power",
+    "hours": 15,
+    "tasks": [
+     "Attend live class on work and energy conservation",
+     "Solve 15 problems on kinetic and potential energy transformations",
+     "Calculate power in 5 real-world scenarios, explaining each step"
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Integrate momentum and rotational dynamics",
+    "hours": 15,
+    "tasks": [
+     "Complete 10 impulse-momentum problems, including collisions",
+     "Analyze 5 rotational systems, calculating torque and angular acceleration",
+     "Solve 8 problems connecting linear and rotational motion"
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Master oscillations and fluid dynamics",
+    "hours": 15,
+    "tasks": [
+     "Graph and analyze 5 SHM scenarios, identifying period and amplitude",
+     "Solve 10 fluid pressure and flow rate problems",
+     "Review energy conservation in oscillating systems with 5 practice questions"
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Timed practice and comprehensive review",
+    "hours": 15,
+    "tasks": [
+     "Complete a full 3-hour timed practice exam, reviewing all units",
+     "Redo 10 missed questions from the practice exam, focusing on weak areas",
+     "Summarize key formulas and concepts for each unit in a one-page cheat sheet"
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 5
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Prioritize mastering energy conservation and free-body diagrams, as these are foundational for the exam. Use the live class in Week 2 to solidify your understanding of work and energy, then apply these concepts to complex problems in subsequent weeks. Keep a consistent study schedule and review weak areas regularly to build confidence before the exam.\", \"summary\": \"This 5-week plan focuses on strengthening Unit 3 (Work, Energy, and Power) early, leveraging the live class in Week 2. It balances new material with regular review and timed practice, ensuring all units are covered while prioritizing weak areas. The final week is dedicated to mixed review and exam preparation.\", \"weeks\": [{\"classes\": [], \"focus\": \"Master kinematics and dynamics fundamentals\", \"hours\": 15, \"tasks\": [\"Complete 20 multiple-choice questions on 1D and 2D kinematics, marking errors for review\", \"Draw and analyze 5 free-body diagrams for objects in equilibrium and motion\", \"Solve 10 problems applying Newton's Second Law to systems with friction\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"], \"week\": 1}, {\"classes\": [10500], \"focus\": \"Deepen understanding of work, energy, and power\", \"hours\": 15, \"tasks\": [\"Attend live class on work and energy conservation\", \"Solve 15 problems on kinetic and potential energy transformations\", \"Calculate power in 5 real-world scenarios, explaining each step\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Integrate momentum and rotational dynamics\", \"hours\": 15, \"tasks\": [\"Complete 10 impulse-momentum problems, including collisions\", \"Analyze 5 rotational systems, calculating torque and angular acceleration\", \"Solve 8 problems connecting linear and rotational motion\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Master oscillations and fluid dynamics\", \"hours\": 15, \"tasks\": [\"Graph and analyze 5 SHM scenarios, identifying period and amplitude\", \"Solve 10 fluid pressure and flow rate problems\", \"Review energy conservation in oscillating systems with 5 practice questions\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Timed practice and comprehensive review\", \"hours\": 15, \"tasks\": [\"Complete a full 3-hour timed practice exam, reviewing all units\", \"Redo 10 missed questions from the practice exam, focusing on weak areas\", \"Summarize key formulas and concepts for each unit in a one-page cheat sheet\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 5}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 865,
+ "output_tokens": 903,
+ "latency_ms": 2158
+}

@@ -1,0 +1,153 @@
+{
+ "data": {
+  "final_week_advice": "Use the final week exclusively for full-length practice exams and targeted review of weak units (2, 4, 6) to simulate exam conditions and reinforce high-yield concepts.",
+  "summary": "This 7-week plan prioritizes the student's weak units (2, 4, and 6) by introducing them early and revisiting them before the exam. It balances foundational topics with advanced applications, ensuring all units are covered while adhering to the 8-hour weekly limit. Live classes are integrated into their scheduled weeks to reinforce key concepts.",
+  "weeks": [
+   {
+    "classes": [
+     11300
+    ],
+    "focus": "Mastering limits and introducing differentiation concepts.",
+    "hours": 8,
+    "tasks": [
+     "Complete 15 practice problems on estimating limits from graphs and tables (Topics 1.3, 1.4).",
+     "Attend live class #11300 on Unit 2 (Topics 2.1, 2.2) and take detailed notes.",
+     "Solve 10 problems defining average and instantaneous rates of change (Topic 2.1).",
+     "Practice 5 problems using derivative notation and basic power rule (Topics 2.2, 2.5)."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Deepening differentiation skills and connecting differentiability to continuity.",
+    "hours": 8,
+    "tasks": [
+     "Complete 10 problems estimating derivatives at a point using limit definitions (Topic 2.3).",
+     "Solve 8 problems connecting differentiability and continuity (Topic 2.4).",
+     "Practice 12 problems applying the power rule to various functions (Topic 2.5).",
+     "Do 5 free-response style questions on interpreting the derivative (Topic 4.1) as a preview."
+    ],
+    "topics": [
+     "2.3",
+     "2.4",
+     "2.5",
+     "4.1"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Mastering composite, implicit, and inverse differentiation.",
+    "hours": 8,
+    "tasks": [
+     "Solve 10 chain rule problems with composite functions (Topic 3.1).",
+     "Complete 8 implicit differentiation problems (Topic 3.2).",
+     "Practice 6 problems differentiating inverse functions (Topic 3.3).",
+     "Do 5 problems differentiating inverse trigonometric functions (Topic 3.4)."
+    ],
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [
+     11301
+    ],
+    "focus": "Applying differentiation in contextual and motion problems.",
+    "hours": 8,
+    "tasks": [
+     "Attend live class #11301 on Unit 4 (Topics 4.1, 4.2) and complete in-class exercises.",
+     "Solve 8 straight-line motion problems connecting position, velocity, and acceleration (Topic 4.2).",
+     "Complete 6 related rates problems in applied contexts (Topics 4.3, 4.4).",
+     "Review 5 problems on interpreting the meaning of the derivative in context (Topic 4.1)."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Analytical applications of differentiation and MVT.",
+    "hours": 8,
+    "tasks": [
+     "Solve 10 problems using the Mean Value Theorem (Topic 5.1).",
+     "Complete 8 problems identifying critical points and determining global/local extrema (Topic 5.2).",
+     "Practice 6 problems determining intervals of increase/decrease (Topic 5.3).",
+     "Do 5 problems using the First Derivative Test for relative extrema (Topic 5.4)."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [
+     11302
+    ],
+    "focus": "Introduction to integration and accumulation of change.",
+    "hours": 8,
+    "tasks": [
+     "Attend live class #11302 on Unit 6 (Topics 6.1, 6.2) and take notes on Riemann sums.",
+     "Complete 8 problems approximating areas with Riemann sums (Topic 6.2).",
+     "Solve 6 problems using summation and definite integral notation (Topic 6.3).",
+     "Practice 5 problems applying the Fundamental Theorem of Calculus (Topic 6.4)."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Differential equations and applications of integration.",
+    "hours": 8,
+    "tasks": [
+     "Solve 6 problems modeling situations with differential equations (Topic 7.1).",
+     "Complete 5 problems verifying solutions for differential equations (Topic 7.2).",
+     "Practice 4 problems sketching and reasoning with slope fields (Topics 7.3, 7.4).",
+     "Do 8 problems on average value, area between curves, and accumulation functions (Topics 8.1, 8.3, 8.4)."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "week": 7
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Use the final week exclusively for full-length practice exams and targeted review of weak units (2, 4, 6) to simulate exam conditions and reinforce high-yield concepts.\", \"summary\": \"This 7-week plan prioritizes the student's weak units (2, 4, and 6) by introducing them early and revisiting them before the exam. It balances foundational topics with advanced applications, ensuring all units are covered while adhering to the 8-hour weekly limit. Live classes are integrated into their scheduled weeks to reinforce key concepts.\", \"weeks\": [{\"classes\": [11300], \"focus\": \"Mastering limits and introducing differentiation concepts.\", \"hours\": 8, \"tasks\": [\"Complete 15 practice problems on estimating limits from graphs and tables (Topics 1.3, 1.4).\", \"Attend live class #11300 on Unit 2 (Topics 2.1, 2.2) and take detailed notes.\", \"Solve 10 problems defining average and instantaneous rates of change (Topic 2.1).\", \"Practice 5 problems using derivative notation and basic power rule (Topics 2.2, 2.5).\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.5\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Deepening differentiation skills and connecting differentiability to continuity.\", \"hours\": 8, \"tasks\": [\"Complete 10 problems estimating derivatives at a point using limit definitions (Topic 2.3).\", \"Solve 8 problems connecting differentiability and continuity (Topic 2.4).\", \"Practice 12 problems applying the power rule to various functions (Topic 2.5).\", \"Do 5 free-response style questions on interpreting the derivative (Topic 4.1) as a preview.\"], \"topics\": [\"2.3\", \"2.4\", \"2.5\", \"4.1\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Mastering composite, implicit, and inverse differentiation.\", \"hours\": 8, \"tasks\": [\"Solve 10 chain rule problems with composite functions (Topic 3.1).\", \"Complete 8 implicit differentiation problems (Topic 3.2).\", \"Practice 6 problems differentiating inverse functions (Topic 3.3).\", \"Do 5 problems differentiating inverse trigonometric functions (Topic 3.4).\"], \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\"], \"week\": 3}, {\"classes\": [11301], \"focus\": \"Applying differentiation in contextual and motion problems.\", \"hours\": 8, \"tasks\": [\"Attend live class #11301 on Unit 4 (Topics 4.1, 4.2) and complete in-class exercises.\", \"Solve 8 straight-line motion problems connecting position, velocity, and acceleration (Topic 4.2).\", \"Complete 6 related rates problems in applied contexts (Topics 4.3, 4.4).\", \"Review 5 problems on interpreting the meaning of the derivative in context (Topic 4.1).\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Analytical applications of differentiation and MVT.\", \"hours\": 8, \"tasks\": [\"Solve 10 problems using the Mean Value Theorem (Topic 5.1).\", \"Complete 8 problems identifying critical points and determining global/local extrema (Topic 5.2).\", \"Practice 6 problems determining intervals of increase/decrease (Topic 5.3).\", \"Do 5 problems using the First Derivative Test for relative extrema (Topic 5.4).\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 5}, {\"classes\": [11302], \"focus\": \"Introduction to integration and accumulation of change.\", \"hours\": 8, \"tasks\": [\"Attend live class #11302 on Unit 6 (Topics 6.1, 6.2) and take notes on Riemann sums.\", \"Complete 8 problems approximating areas with Riemann sums (Topic 6.2).\", \"Solve 6 problems using summation and definite integral notation (Topic 6.3).\", \"Practice 5 problems applying the Fundamental Theorem of Calculus (Topic 6.4).\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Differential equations and applications of integration.\", \"hours\": 8, \"tasks\": [\"Solve 6 problems modeling situations with differential equations (Topic 7.1).\", \"Complete 5 problems verifying solutions for differential equations (Topic 7.2).\", \"Practice 4 problems sketching and reasoning with slope fields (Topics 7.3, 7.4).\", \"Do 8 problems on average value, area between curves, and accumulation functions (Topics 8.1, 8.3, 8.4).\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"], \"week\": 7}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1097,
+ "output_tokens": 1208,
+ "latency_ms": 2737
+}

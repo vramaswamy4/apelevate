@@ -1,0 +1,294 @@
+{
+ "data": {
+  "final_week_advice": "Focus on timed practice and reviewing weak units (1 & 2) to ensure readiness for the exam.",
+  "summary": "This 16-week plan prioritizes the student's weak units (1 and 2) in the first half, integrating live classes for Units 1 and 2. The middle weeks cover Units 3-7, while the final weeks focus on Units 8-9 and mixed review. Each week includes concrete tasks and stays within the 4-hour limit.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Mastering moles and mass spectroscopy",
+    "hours": 4,
+    "tasks": [
+     "Do 10 practice problems on molar mass calculations and stoichiometry basics.",
+     "Analyze 5 mass spectra to determine isotopic composition and average atomic mass."
+    ],
+    "topics": [
+     "1.1",
+     "1.2"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Elemental composition and mixtures",
+    "hours": 4,
+    "tasks": [
+     "Calculate percent composition for 5 pure substances.",
+     "Solve 3 mixture composition problems using density and mass percent."
+    ],
+    "topics": [
+     "1.3",
+     "1.4"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Atomic structure and electron configuration",
+    "hours": 4,
+    "tasks": [
+     "Write electron configurations for 10 elements, including transition metals.",
+     "Interpret 5 photoelectron spectra to identify elements based on binding energy."
+    ],
+    "topics": [
+     "1.5",
+     "1.6"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Periodic trends and valence electrons",
+    "hours": 4,
+    "tasks": [
+     "Create a chart of periodic trends for ionization energy, atomic radius, and electronegativity.",
+     "Predict ionic charges for 10 elements based on valence electrons."
+    ],
+    "topics": [
+     "1.7",
+     "1.8"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [
+     9300
+    ],
+    "focus": "Reviewing Unit 1 with live class",
+    "hours": 4,
+    "tasks": [
+     "Attend live class on Unit 1.",
+     "Do 5 free-response questions on atomic structure and properties."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Types of chemical bonds and potential energy",
+    "hours": 4,
+    "tasks": [
+     "Classify 10 compounds as ionic, covalent, or metallic.",
+     "Draw potential energy diagrams for 3 bond formation processes."
+    ],
+    "topics": [
+     "2.1",
+     "2.2"
+    ],
+    "week": 6
+   },
+   {
+    "classes": [],
+    "focus": "Structure of ionic solids and metals",
+    "hours": 4,
+    "tasks": [
+     "Analyze crystal lattice structures for 3 ionic compounds.",
+     "Explain properties of 3 metals based on their structure."
+    ],
+    "topics": [
+     "2.3",
+     "2.4"
+    ],
+    "week": 7
+   },
+   {
+    "classes": [
+     9301
+    ],
+    "focus": "Lewis diagrams and resonance",
+    "hours": 4,
+    "tasks": [
+     "Draw Lewis structures for 8 molecules, including resonance forms.",
+     "Calculate formal charges for 5 molecules with multiple resonance structures."
+    ],
+    "topics": [
+     "2.5",
+     "2.6"
+    ],
+    "week": 8
+   },
+   {
+    "classes": [],
+    "focus": "VSEPR and hybridization",
+    "hours": 4,
+    "tasks": [
+     "Predict molecular geometry for 10 molecules using VSEPR theory.",
+     "Determine hybridization for 5 central atoms in various molecules."
+    ],
+    "topics": [
+     "2.7"
+    ],
+    "week": 9
+   },
+   {
+    "classes": [],
+    "focus": "Intermolecular forces and properties of solids",
+    "hours": 4,
+    "tasks": [
+     "Identify dominant intermolecular forces for 8 substances.",
+     "Compare boiling points of 5 liquids based on intermolecular forces."
+    ],
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "week": 10
+   },
+   {
+    "classes": [],
+    "focus": "Ideal gas law and kinetic molecular theory",
+    "hours": 4,
+    "tasks": [
+     "Solve 5 ideal gas law problems involving pressure, volume, and temperature.",
+     "Explain gas behavior using kinetic molecular theory for 3 scenarios."
+    ],
+    "topics": [
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "week": 11
+   },
+   {
+    "classes": [],
+    "focus": "Chemical reactions and stoichiometry",
+    "hours": 4,
+    "tasks": [
+     "Balance 10 chemical equations and write net ionic equations for 5 reactions.",
+     "Perform stoichiometric calculations for 3 limiting reactant problems."
+    ],
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5"
+    ],
+    "week": 12
+   },
+   {
+    "classes": [],
+    "focus": "Reaction rates and rate laws",
+    "hours": 4,
+    "tasks": [
+     "Calculate reaction rates from concentration-time data for 3 reactions.",
+     "Determine rate laws and rate constants for 2 reactions using experimental data."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 13
+   },
+   {
+    "classes": [],
+    "focus": "Thermochemistry and calorimetry",
+    "hours": 4,
+    "tasks": [
+     "Calculate heat transfer for 5 endothermic and exothermic processes.",
+     "Use calorimetry data to determine enthalpy changes for 3 reactions."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "week": 14
+   },
+   {
+    "classes": [],
+    "focus": "Equilibrium and reaction quotients",
+    "hours": 4,
+    "tasks": [
+     "Write equilibrium expressions for 5 reversible reactions.",
+     "Calculate equilibrium constants and reaction quotients for 3 systems."
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 15
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review and timed practice",
+    "hours": 4,
+    "tasks": [
+     "Complete a 45-minute timed practice set covering Units 1-2.",
+     "Review 10 free-response questions from Units 3-9 and mark them against the scoring guide."
+    ],
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "1.6",
+     "1.7",
+     "1.8",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "2.6",
+     "2.7",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "9.1",
+     "9.2",
+     "9.3",
+     "9.4"
+    ],
+    "week": 16
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Focus on timed practice and reviewing weak units (1 & 2) to ensure readiness for the exam.\", \"summary\": \"This 16-week plan prioritizes the student's weak units (1 and 2) in the first half, integrating live classes for Units 1 and 2. The middle weeks cover Units 3-7, while the final weeks focus on Units 8-9 and mixed review. Each week includes concrete tasks and stays within the 4-hour limit.\", \"weeks\": [{\"classes\": [], \"focus\": \"Mastering moles and mass spectroscopy\", \"hours\": 4, \"tasks\": [\"Do 10 practice problems on molar mass calculations and stoichiometry basics.\", \"Analyze 5 mass spectra to determine isotopic composition and average atomic mass.\"], \"topics\": [\"1.1\", \"1.2\"], \"week\": 1}, {\"classes\": [], \"focus\": \"Elemental composition and mixtures\", \"hours\": 4, \"tasks\": [\"Calculate percent composition for 5 pure substances.\", \"Solve 3 mixture composition problems using density and mass percent.\"], \"topics\": [\"1.3\", \"1.4\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Atomic structure and electron configuration\", \"hours\": 4, \"tasks\": [\"Write electron configurations for 10 elements, including transition metals.\", \"Interpret 5 photoelectron spectra to identify elements based on binding energy.\"], \"topics\": [\"1.5\", \"1.6\"], \"week\": 3}, {\"classes\": [], \"focus\": \"Periodic trends and valence electrons\", \"hours\": 4, \"tasks\": [\"Create a chart of periodic trends for ionization energy, atomic radius, and electronegativity.\", \"Predict ionic charges for 10 elements based on valence electrons.\"], \"topics\": [\"1.7\", \"1.8\"], \"week\": 4}, {\"classes\": [9300], \"focus\": \"Reviewing Unit 1 with live class\", \"hours\": 4, \"tasks\": [\"Attend live class on Unit 1.\", \"Do 5 free-response questions on atomic structure and properties.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\"], \"week\": 5}, {\"classes\": [], \"focus\": \"Types of chemical bonds and potential energy\", \"hours\": 4, \"tasks\": [\"Classify 10 compounds as ionic, covalent, or metallic.\", \"Draw potential energy diagrams for 3 bond formation processes.\"], \"topics\": [\"2.1\", \"2.2\"], \"week\": 6}, {\"classes\": [], \"focus\": \"Structure of ionic solids and metals\", \"hours\": 4, \"tasks\": [\"Analyze crystal lattice structures for 3 ionic compounds.\", \"Explain properties of 3 metals based on their structure.\"], \"topics\": [\"2.3\", \"2.4\"], \"week\": 7}, {\"classes\": [9301], \"focus\": \"Lewis diagrams and resonance\", \"hours\": 4, \"tasks\": [\"Draw Lewis structures for 8 molecules, including resonance forms.\", \"Calculate formal charges for 5 molecules with multiple resonance structures.\"], \"topics\": [\"2.5\", \"2.6\"], \"week\": 8}, {\"classes\": [], \"focus\": \"VSEPR and hybridization\", \"hours\": 4, \"tasks\": [\"Predict molecular geometry for 10 molecules using VSEPR theory.\", \"Determine hybridization for 5 central atoms in various molecules.\"], \"topics\": [\"2.7\"], \"week\": 9}, {\"classes\": [], \"focus\": \"Intermolecular forces and properties of solids\", \"hours\": 4, \"tasks\": [\"Identify dominant intermolecular forces for 8 substances.\", \"Compare boiling points of 5 liquids based on intermolecular forces.\"], \"topics\": [\"3.1\", \"3.2\"], \"week\": 10}, {\"classes\": [], \"focus\": \"Ideal gas law and kinetic molecular theory\", \"hours\": 4, \"tasks\": [\"Solve 5 ideal gas law problems involving pressure, volume, and temperature.\", \"Explain gas behavior using kinetic molecular theory for 3 scenarios.\"], \"topics\": [\"3.3\", \"3.4\", \"3.5\"], \"week\": 11}, {\"classes\": [], \"focus\": \"Chemical reactions and stoichiometry\", \"hours\": 4, \"tasks\": [\"Balance 10 chemical equations and write net ionic equations for 5 reactions.\", \"Perform stoichiometric calculations for 3 limiting reactant problems.\"], \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"4.5\"], \"week\": 12}, {\"classes\": [], \"focus\": \"Reaction rates and rate laws\", \"hours\": 4, \"tasks\": [\"Calculate reaction rates from concentration-time data for 3 reactions.\", \"Determine rate laws and rate constants for 2 reactions using experimental data.\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 13}, {\"classes\": [], \"focus\": \"Thermochemistry and calorimetry\", \"hours\": 4, \"tasks\": [\"Calculate heat transfer for 5 endothermic and exothermic processes.\", \"Use calorimetry data to determine enthalpy changes for 3 reactions.\"], \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"], \"week\": 14}, {\"classes\": [], \"focus\": \"Equilibrium and reaction quotients\", \"hours\": 4, \"tasks\": [\"Write equilibrium expressions for 5 reversible reactions.\", \"Calculate equilibrium constants and reaction quotients for 3 systems.\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 15}, {\"classes\": [], \"focus\": \"Mixed review and timed practice\", \"hours\": 4, \"tasks\": [\"Complete a 45-minute timed practice set covering Units 1-2.\", \"Review 10 free-response questions from Units 3-9 and mark them against the scoring guide.\"], \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"1.6\", \"1.7\", \"1.8\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"2.6\", \"2.7\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"4.5\", \"5.1\", \"5.2\", \"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\", \"9.1\", \"9.2\", \"9.3\", \"9.4\"], \"week\": 16}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1047,
+ "output_tokens": 1580,
+ "latency_ms": 4234
+}

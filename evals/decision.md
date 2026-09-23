@@ -6,6 +6,10 @@
   attempt, and 21 of 24 with no quality warnings at all. Three of the remaining warnings are
   "weak unit started late" in `chem-all-weak`, where all nine units are marked weak and can't
   all start in the first half.
+- `qwen/qwen3.8-27b` (reasoning off) came closest: also 24 of 24 valid, faster (median 2.7 s
+  against 3.8 s) and a little cheaper in tokens, but fewer clean plans (79% against 88%) and
+  one plan that needed the retry. It's the fallback: if Groq retires `gpt-oss-120b` or its
+  quota runs short, switching is one setting (`LLM_MODEL`), and this suite says what to expect.
 - `gpt-oss-20b` is about three times faster (median 1.4 s against 4.0 s) but returned a valid
   plan only 71% of the time with prompt v2. Most of its failures were schema rejections that
   persisted through the retry. A study plan is generated once and read for weeks, so a few
@@ -37,6 +41,7 @@ checks but plans mechanically and uses only about a fifth of the available class
   exactly 2,048 tokens: the provider's default output limit, eaten by the model's reasoning.
   Requests now set `max_completion_tokens` explicitly, and Qwen is evaluated with reasoning
   off.
-- **Infrastructure isn't a model failure.** One v2 case failed on a dropped connection; the
-  rerun replayed the other 23 from their recordings and passed. Rate-limit responses (429) are
+- **Infrastructure isn't a model failure.** One `gpt-oss-120b` case failed on a dropped
+  connection and one Qwen case on a rate limit that outlasted the backoff; each rerun replayed
+  the other 23 cases from their recordings and the case passed. Rate-limit responses (429) are
   waited out, not scored.
