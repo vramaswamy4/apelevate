@@ -413,7 +413,8 @@ resource "google_service_account" "tf_plan" {
 }
 
 resource "google_project_iam_member" "tf_plan" {
-  for_each = toset(["roles/viewer", "roles/iam.securityReviewer"])
+  # serviceUsageConsumer: the provider bills calls to this project (user_project_override).
+  for_each = toset(["roles/viewer", "roles/iam.securityReviewer", "roles/serviceusage.serviceUsageConsumer"])
   project  = var.project_id
   role     = each.value
   member   = "serviceAccount:${google_service_account.tf_plan.email}"
