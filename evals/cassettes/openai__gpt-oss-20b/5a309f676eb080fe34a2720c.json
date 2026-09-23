@@ -1,0 +1,225 @@
+{
+ "data": {
+  "summary": "This 12\u2011week plan tackles the student\u2019s weak units first, cycles through all units, and ends with a mixed review and timed practice. Each week is a single, focused session of 6 hours, with concrete tasks that can be completed in one sitting.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Atomic Structure fundamentals",
+    "topics": [
+     "1.1",
+     "1.5",
+     "1.7"
+    ],
+    "tasks": [
+     "Read textbook sections on moles, atomic structure, and periodic trends.",
+     "Do 20 practice problems on mole calculations and electron configurations.",
+     "Create a flashcard set for key periodic trends."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 2,
+    "focus": "Elemental composition and spectroscopy",
+    "topics": [
+     "1.2",
+     "1.3",
+     "1.6"
+    ],
+    "tasks": [
+     "Summarize mass spectroscopy principles.",
+     "Solve 15 problems on elemental composition of pure substances.",
+     "Watch a recorded lecture on photoelectron spectroscopy and take notes."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 3,
+    "focus": "Mixtures and ionic compounds",
+    "topics": [
+     "1.4",
+     "1.8"
+    ],
+    "tasks": [
+     "Diagram composition of mixtures.",
+     "Practice stoichiometry problems involving ionic compounds.",
+     "Write a short explanation of valence electrons in ionic bonding."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 4,
+    "focus": "Chemical bonding and structure",
+    "topics": [
+     "2.1",
+     "2.5",
+     "2.7"
+    ],
+    "tasks": [
+     "Create VSEPR models for 10 molecules.",
+     "Solve 10 problems on Lewis structures and hybridization.",
+     "Review bond types with flashcards."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 5,
+    "focus": "Intermolecular forces and solids",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "tasks": [
+     "Compare forces in solids, liquids, gases.",
+     "Do 15 practice questions on solid properties.",
+     "Draw phase diagrams for selected substances."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 6,
+    "focus": "Gas laws and kinetic theory",
+    "topics": [
+     "3.4",
+     "3.5"
+    ],
+    "tasks": [
+     "Derive Ideal Gas Law from kinetic theory.",
+     "Solve 20 problems on gas law applications.",
+     "Simulate gas behavior with an online tool."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 7,
+    "focus": "Reaction basics and stoichiometry",
+    "topics": [
+     "4.1",
+     "4.3",
+     "4.5"
+    ],
+    "tasks": [
+     "Balance 15 reactions of various types.",
+     "Write net ionic equations for 10 reactions.",
+     "Calculate moles and mass in stoichiometry problems."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 8,
+    "focus": "Kinetics fundamentals",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "tasks": [
+     "Plot concentration vs. time graphs for 5 reactions.",
+     "Determine rate laws from data sets.",
+     "Explain the relationship between rate constants and temperature."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 9,
+    "focus": "Thermochemistry concepts",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.4"
+    ],
+    "tasks": [
+     "Draw energy diagrams for 5 reactions.",
+     "Calculate heat changes using calorimetry data.",
+     "Solve 10 problems on heat capacity."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 10,
+    "focus": "Equilibrium and Le Chatelier",
+    "topics": [
+     "7.1",
+     "7.3",
+     "7.4"
+    ],
+    "tasks": [
+     "Compute equilibrium constants for 5 reactions.",
+     "Apply Le Chatelier\u2019s principle to 10 scenarios.",
+     "Solve problems involving reaction quotients."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 11,
+    "focus": "Acids, bases, and buffers",
+    "topics": [
+     "8.1",
+     "8.3",
+     "8.4"
+    ],
+    "tasks": [
+     "Calculate pH for 5 weak acid/base solutions.",
+     "Solve buffer capacity problems.",
+     "Derive Henderson-Hasselbalch equation."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 12,
+    "focus": "Thermodynamics, electrochemistry, and review",
+    "topics": [
+     "9.1",
+     "9.3",
+     "9.4"
+    ],
+    "tasks": [
+     "Compute \u0394G for 5 reactions.",
+     "Solve 10 problems on entropy changes.",
+     "Practice 5 galvanic cell calculations."
+    ],
+    "hours": 6,
+    "classes": []
+   },
+   {
+    "week": 13,
+    "focus": "Mixed review and timed practice",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.4",
+     "4.5",
+     "5.2",
+     "6.1",
+     "7.1",
+     "8.1",
+     "9.3"
+    ],
+    "tasks": [
+     "Take a 90\u2011minute timed practice test covering all units.",
+     "Review incorrect answers and update flashcards.",
+     "Plan a final review schedule for the week before the exam."
+    ],
+    "hours": 6,
+    "classes": []
+   }
+  ],
+  "final_week_advice": "In the final week, focus on full-length timed practice, identify remaining weak spots, and solidify concepts with quick review sessions. Ensure you\u2019re comfortable with calculations, data interpretation, and concept explanations before the exam."
+ },
+ "raw": "{\"summary\":\"This 12\u2011week plan tackles the student\u2019s weak units first, cycles through all units, and ends with a mixed review and timed practice. Each week is a single, focused session of 6 hours, with concrete tasks that can be completed in one sitting.\",\"weeks\":[{\"week\":1,\"focus\":\"Atomic Structure fundamentals\",\"topics\":[\"1.1\",\"1.5\",\"1.7\"],\"tasks\":[\"Read textbook sections on moles, atomic structure, and periodic trends.\",\"Do 20 practice problems on mole calculations and electron configurations.\",\"Create a flashcard set for key periodic trends.\"],\"hours\":6,\"classes\":[]},{\"week\":2,\"focus\":\"Elemental composition and spectroscopy\",\"topics\":[\"1.2\",\"1.3\",\"1.6\"],\"tasks\":[\"Summarize mass spectroscopy principles.\",\"Solve 15 problems on elemental composition of pure substances.\",\"Watch a recorded lecture on photoelectron spectroscopy and take notes.\"],\"hours\":6,\"classes\":[]},{\"week\":3,\"focus\":\"Mixtures and ionic compounds\",\"topics\":[\"1.4\",\"1.8\"],\"tasks\":[\"Diagram composition of mixtures.\",\"Practice stoichiometry problems involving ionic compounds.\",\"Write a short explanation of valence electrons in ionic bonding.\"],\"hours\":6,\"classes\":[]},{\"week\":4,\"focus\":\"Chemical bonding and structure\",\"topics\":[\"2.1\",\"2.5\",\"2.7\"],\"tasks\":[\"Create VSEPR models for 10 molecules.\",\"Solve 10 problems on Lewis structures and hybridization.\",\"Review bond types with flashcards.\"],\"hours\":6,\"classes\":[]},{\"week\":5,\"focus\":\"Intermolecular forces and solids\",\"topics\":[\"3.1\",\"3.2\",\"3.3\"],\"tasks\":[\"Compare forces in solids, liquids, gases.\",\"Do 15 practice questions on solid properties.\",\"Draw phase diagrams for selected substances.\"],\"hours\":6,\"classes\":[]},{\"week\":6,\"focus\":\"Gas laws and kinetic theory\",\"topics\":[\"3.4\",\"3.5\"],\"tasks\":[\"Derive Ideal Gas Law from kinetic theory.\",\"Solve 20 problems on gas law applications.\",\"Simulate gas behavior with an online tool.\"],\"hours\":6,\"classes\":[]},{\"week\":7,\"focus\":\"Reaction basics and stoichiometry\",\"topics\":[\"4.1\",\"4.3\",\"4.5\"],\"tasks\":[\"Balance 15 reactions of various types.\",\"Write net ionic equations for 10 reactions.\",\"Calculate moles and mass in stoichiometry problems.\"],\"hours\":6,\"classes\":[]},{\"week\":8,\"focus\":\"Kinetics fundamentals\",\"topics\":[\"5.1\",\"5.2\",\"5.3\"],\"tasks\":[\"Plot concentration vs. time graphs for 5 reactions.\",\"Determine rate laws from data sets.\",\"Explain the relationship between rate constants and temperature.\"],\"hours\":6,\"classes\":[]},{\"week\":9,\"focus\":\"Thermochemistry concepts\",\"topics\":[\"6.1\",\"6.2\",\"6.4\"],\"tasks\":[\"Draw energy diagrams for 5 reactions.\",\"Calculate heat changes using calorimetry data.\",\"Solve 10 problems on heat capacity.\"],\"hours\":6,\"classes\":[]},{\"week\":10,\"focus\":\"Equilibrium and Le Chatelier\",\"topics\":[\"7.1\",\"7.3\",\"7.4\"],\"tasks\":[\"Compute equilibrium constants for 5 reactions.\",\"Apply Le Chatelier\u2019s principle to 10 scenarios.\",\"Solve problems involving reaction quotients.\"],\"hours\":6,\"classes\":[]},{\"week\":11,\"focus\":\"Acids, bases, and buffers\",\"topics\":[\"8.1\",\"8.3\",\"8.4\"],\"tasks\":[\"Calculate pH for 5 weak acid/base solutions.\",\"Solve buffer capacity problems.\",\"Derive Henderson-Hasselbalch equation.\"],\"hours\":6,\"classes\":[]},{\"week\":12,\"focus\":\"Thermodynamics, electrochemistry, and review\",\"topics\":[\"9.1\",\"9.3\",\"9.4\"],\"tasks\":[\"Compute \u0394G for 5 reactions.\",\"Solve 10 problems on entropy changes.\",\"Practice 5 galvanic cell calculations.\"],\"hours\":6,\"classes\":[]},{\"week\":13,\"focus\":\"Mixed review and timed practice\",\"topics\":[\"1.1\",\"2.1\",\"3.4\",\"4.5\",\"5.2\",\"6.1\",\"7.1\",\"8.1\",\"9.3\"],\"tasks\":[\"Take a 90\u2011minute timed practice test covering all units.\",\"Review incorrect answers and update flashcards.\",\"Plan a final review schedule for the week before the exam.\"],\"hours\":6,\"classes\":[]}],\"final_week_advice\":\"In the final week, focus on full-length timed practice, identify remaining weak spots, and solidify concepts with quick review sessions. Ensure you\u2019re comfortable with calculations, data interpretation, and concept explanations before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1189,
+ "output_tokens": 1032,
+ "latency_ms": 1403
+}

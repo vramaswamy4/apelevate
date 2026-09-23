@@ -1,0 +1,76 @@
+{
+ "data": {
+  "summary": "The three\u2011week plan front\u2011loads the weak Unit\u202f2 topics, then moves through core mechanics before a mixed review in the final week. Each week stays within the 7\u2011hour limit, combines live class participation, focused practice, and timed free\u2011response drills.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Build foundational understanding of forces and Newton's laws (Unit\u202f2).",
+    "topics": [
+     "2.2",
+     "2.5"
+    ],
+    "classes": [
+     10100
+    ],
+    "hours": 7,
+    "tasks": [
+     "Watch the live Class\u202f10100 recording and take detailed notes on free\u2011body diagrams and Newton's Second Law.",
+     "Do 12 free\u2011response questions on free\u2011body diagrams (FRQs from past AP exams), then compare answers with the scoring guide (\u22482\u202fh).",
+     "Complete 8 problems applying F=ma to inclined planes and tension systems (\u22481.5\u202fh).",
+     "Create a one\u2011page cheat sheet summarizing the steps for solving force problems (\u22480.5\u202fh).",
+     "Review class notes and cheat sheet, then take a 20\u2011minute timed quiz on 5 mixed force problems (\u22481\u202fh)."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Integrate kinematics and energy concepts to broaden mechanics foundation.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 7,
+    "tasks": [
+     "Read textbook sections on Scalars/Vectors and Displacement/Velocity/Acceleration; annotate examples (\u22481\u202fh).",
+     "Complete 10 graph\u2011interpretation problems for motion (\u22481\u202fh).",
+     "Do 8 free\u2011response questions on kinematic equations, then self\u2011grade with the AP scoring rubric (\u22481.5\u202fh).",
+     "Study Translational Kinetic Energy and Work; watch a short Khan Academy video on work\u2011energy theorem (\u22480.5\u202fh).",
+     "Solve 10 work\u2011energy problems involving ramps and pulleys, checking answers with solution manual (\u22481.5\u202fh).",
+     "Take a 15\u2011minute timed mixed set of 5 kinematics + 5 work\u2011energy FRQs (\u22481\u202fh)."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Mixed review and timed practice covering all units studied.",
+    "topics": [
+     "2.1",
+     "2.3",
+     "2.4",
+     "4.1",
+     "5.1",
+     "7.1",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 7,
+    "tasks": [
+     "Review notes and cheat sheets from Units\u202f2, 1, and 3 (\u22481\u202fh).",
+     "Do a set of 6 mixed FRQs: 2 on systems/center of mass, 2 on Newton's laws, 1 on linear momentum, 1 on rotational kinematics (\u22482\u202fh).",
+     "Mark each response against the AP scoring guide and note any recurring errors (\u22481\u202fh).",
+     "Complete 5 quick\u2011fire multiple\u2011choice drills covering fluids, oscillations, and torque (\u22480.5\u202fh).",
+     "Run a full 90\u2011minute timed practice exam (selected past FRQs) to simulate test conditions (\u22482\u202fh).",
+     "Spend the final 0.5\u202fh reviewing the practice exam results and updating the cheat sheet with any missed concepts."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on consolidating knowledge, identifying lingering weak spots, and practicing under timed conditions. Use the cheat sheet for quick reference, and simulate exam stamina with a full\u2011length practice test."
+ },
+ "raw": "{\n  \"summary\": \"The three\u2011week plan front\u2011loads the weak Unit\u202f2 topics, then moves through core mechanics before a mixed review in the final week. Each week stays within the 7\u2011hour limit, combines live class participation, focused practice, and timed free\u2011response drills.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Build foundational understanding of forces and Newton's laws (Unit\u202f2).\",\n      \"topics\": [\"2.2\", \"2.5\"],\n      \"classes\": [10100],\n      \"hours\": 7,\n      \"tasks\": [\n        \"Watch the live Class\u202f10100 recording and take detailed notes on free\u2011body diagrams and Newton's Second Law.\",\n        \"Do 12 free\u2011response questions on free\u2011body diagrams (FRQs from past AP exams), then compare answers with the scoring guide (\u22482\u202fh).\",\n        \"Complete 8 problems applying F=ma to inclined planes and tension systems (\u22481.5\u202fh).\",\n        \"Create a one\u2011page cheat sheet summarizing the steps for solving force problems (\u22480.5\u202fh).\",\n        \"Review class notes and cheat sheet, then take a 20\u2011minute timed quiz on 5 mixed force problems (\u22481\u202fh).\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Integrate kinematics and energy concepts to broaden mechanics foundation.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"3.1\", \"3.2\"],\n      \"classes\": [],\n      \"hours\": 7,\n      \"tasks\": [\n        \"Read textbook sections on Scalars/Vectors and Displacement/Velocity/Acceleration; annotate examples (\u22481\u202fh).\",\n        \"Complete 10 graph\u2011interpretation problems for motion (\u22481\u202fh).\",\n        \"Do 8 free\u2011response questions on kinematic equations, then self\u2011grade with the AP scoring rubric (\u22481.5\u202fh).\",\n        \"Study Translational Kinetic Energy and Work; watch a short Khan Academy video on work\u2011energy theorem (\u22480.5\u202fh).\",\n        \"Solve 10 work\u2011energy problems involving ramps and pulleys, checking answers with solution manual (\u22481.5\u202fh).\",\n        \"Take a 15\u2011minute timed mixed set of 5 kinematics + 5 work\u2011energy FRQs (\u22481\u202fh).\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Mixed review and timed practice covering all units studied.\",\n      \"topics\": [\"2.1\", \"2.3\", \"2.4\", \"4.1\", \"5.1\", \"7.1\", \"8.1\"],\n      \"classes\": [],\n      \"hours\": 7,\n      \"tasks\": [\n        \"Review notes and cheat sheets from Units\u202f2, 1, and 3 (\u22481\u202fh).\",\n        \"Do a set of 6 mixed FRQs: 2 on systems/center of mass, 2 on Newton's laws, 1 on linear momentum, 1 on rotational kinematics (\u22482\u202fh).\",\n        \"Mark each response against the AP scoring guide and note any recurring errors (\u22481\u202fh).\",\n        \"Complete 5 quick\u2011fire multiple\u2011choice drills covering fluids, oscillations, and torque (\u22480.5\u202fh).\",\n        \"Run a full 90\u2011minute timed practice exam (selected past FRQs) to simulate test conditions (\u22482\u202fh).\",\n        \"Spend the final 0.5\u202fh reviewing the practice exam results and updating the cheat sheet with any missed concepts.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, focus on consolidating knowledge, identifying lingering weak spots, and practicing under timed conditions. Use the cheat sheet for quick reference, and simulate exam stamina with a full\u2011length practice test.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 997,
+ "output_tokens": 903,
+ "latency_ms": 2111
+}

@@ -1,0 +1,125 @@
+{
+ "data": {
+  "summary": "This 7\u2011week plan starts with the student\u2019s weak units, interleaves new material, and ends with a mixed review and timed practice. Each week uses the 8 available hours, includes concrete tasks, and only recommends live classes that match the week\u2019s topics.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Master the fundamentals of differentiation and review limits.",
+    "topics": [
+     "1.2",
+     "1.3",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [
+     11300
+    ],
+    "hours": 8,
+    "tasks": [
+     "Read and summarize the definitions in 1.2 and 1.3, then solve 5 limit problems with graph and table methods.",
+     "Do 10 derivative practice problems covering 2.1 and 2.2, marking each against the scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Apply derivative rules and deepen limit understanding.",
+    "topics": [
+     "1.4",
+     "1.5",
+     "2.3",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 8,
+    "tasks": [
+     "Estimate limits from tables in 1.4 and solve 5 algebraic limit problems in 1.5.",
+     "Complete 10 problems on estimating derivatives (2.3) and 5 power\u2011rule problems (2.5), recording solutions and errors."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Explore advanced differentiation techniques.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [],
+    "hours": 8,
+    "tasks": [
+     "Solve 8 chain\u2011rule problems (3.1) and 6 implicit\u2011differentiation problems (3.2).",
+     "Tackle 4 inverse\u2011function differentiation problems (3.3) and review solutions."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Connect derivatives to real\u2011world motion and rates.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3"
+    ],
+    "classes": [
+     11301
+    ],
+    "hours": 8,
+    "tasks": [
+     "Attend live class on 4.1 and 4.2. After class, do 5 motion\u2011based word problems (4.2) and 5 rate\u2011change problems (4.3)."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Use the first derivative to analyze functions.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "classes": [],
+    "hours": 8,
+    "tasks": [
+     "Apply the Mean Value Theorem to 4 functions (5.1).",
+     "Identify critical points and classify them using EVT and the first derivative test (5.2, 5.3)."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Build integration skills and revisit accumulation concepts.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [
+     11302
+    ],
+    "hours": 8,
+    "tasks": [
+     "Attend live class covering 6.1 and 6.2. Post\u2011class, complete 5 Riemann sum approximations (6.2) and 3 definite integral problems (6.3)."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Mixed review and timed practice for exam readiness.",
+    "topics": [
+     "1.1",
+     "2.4",
+     "4.4",
+     "6.4",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 8,
+    "tasks": [
+     "Do a 60\u2011minute timed practice test covering all units. Then review 10 challenging problems from each of the listed topics, focusing on common pitfalls."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, prioritize full-length timed practice and targeted review of weak spots identified during the plan. Focus on pacing, error analysis, and reinforcing conceptual understanding before the exam."
+ },
+ "raw": "{\"summary\":\"This 7\u2011week plan starts with the student\u2019s weak units, interleaves new material, and ends with a mixed review and timed practice. Each week uses the 8 available hours, includes concrete tasks, and only recommends live classes that match the week\u2019s topics.\",\"weeks\":[{\"week\":1,\"focus\":\"Master the fundamentals of differentiation and review limits.\",\"topics\":[\"1.2\",\"1.3\",\"2.1\",\"2.2\"],\"classes\":[11300],\"hours\":8,\"tasks\":[\"Read and summarize the definitions in 1.2 and 1.3, then solve 5 limit problems with graph and table methods.\",\"Do 10 derivative practice problems covering 2.1 and 2.2, marking each against the scoring guide.\"]},{\"week\":2,\"focus\":\"Apply derivative rules and deepen limit understanding.\",\"topics\":[\"1.4\",\"1.5\",\"2.3\",\"2.5\"],\"classes\":[],\"hours\":8,\"tasks\":[\"Estimate limits from tables in 1.4 and solve 5 algebraic limit problems in 1.5.\",\"Complete 10 problems on estimating derivatives (2.3) and 5 power\u2011rule problems (2.5), recording solutions and errors.\"]},{\"week\":3,\"focus\":\"Explore advanced differentiation techniques.\",\"topics\":[\"3.1\",\"3.2\",\"3.3\"],\"classes\":[],\"hours\":8,\"tasks\":[\"Solve 8 chain\u2011rule problems (3.1) and 6 implicit\u2011differentiation problems (3.2).\",\"Tackle 4 inverse\u2011function differentiation problems (3.3) and review solutions.\"]},{\"week\":4,\"focus\":\"Connect derivatives to real\u2011world motion and rates.\",\"topics\":[\"4.1\",\"4.2\",\"4.3\"],\"classes\":[11301],\"hours\":8,\"tasks\":[\"Attend live class on 4.1 and 4.2. After class, do 5 motion\u2011based word problems (4.2) and 5 rate\u2011change problems (4.3).\"]},{\"week\":5,\"focus\":\"Use the first derivative to analyze functions.\",\"topics\":[\"5.1\",\"5.2\",\"5.3\"],\"classes\":[],\"hours\":8,\"tasks\":[\"Apply the Mean Value Theorem to 4 functions (5.1).\",\"Identify critical points and classify them using EVT and the first derivative test (5.2, 5.3).\"]},{\"week\":6,\"focus\":\"Build integration skills and revisit accumulation concepts.\",\"topics\":[\"6.1\",\"6.2\",\"6.3\"],\"classes\":[11302],\"hours\":8,\"tasks\":[\"Attend live class covering 6.1 and 6.2. Post\u2011class, complete 5 Riemann sum approximations (6.2) and 3 definite integral problems (6.3).\"]},{\"week\":7,\"focus\":\"Mixed review and timed practice for exam readiness.\",\"topics\":[\"1.1\",\"2.4\",\"4.4\",\"6.4\",\"8.4\"],\"classes\":[],\"hours\":8,\"tasks\":[\"Do a 60\u2011minute timed practice test covering all units. Then review 10 challenging problems from each of the listed topics, focusing on common pitfalls.\"]}],\"final_week_advice\":\"In the final week, prioritize full-length timed practice and targeted review of weak spots identified during the plan. Focus on pacing, error analysis, and reinforcing conceptual understanding before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1293,
+ "output_tokens": 784,
+ "latency_ms": 1336
+}

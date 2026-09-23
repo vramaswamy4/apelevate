@@ -1,0 +1,65 @@
+{
+ "data": {
+  "summary": "In two weeks the student will front\u2011load the weak Unit\u202f6 material, then use the second week for a rapid mixed review of all units and timed practice. Each week stays within the 10\u2011hour limit and includes concrete practice tasks.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Build mastery of Integration and Accumulation (Unit\u202f6) while refreshing core differentiation concepts.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "2.1",
+     "2.2",
+     "2.5",
+     "3.1"
+    ],
+    "classes": [],
+    "hours": 10,
+    "tasks": [
+     "Watch a tutorial on Riemann sums and complete 5 practice problems on approximating areas, checking work with the answer key.",
+     "Do 8 free\u2011response questions on the Fundamental Theorem of Calculus, then grade them using the AP scoring guidelines.",
+     "Complete a worksheet on basic derivative rules (power rule, chain rule) with 10 problems, marking any errors.",
+     "Solve 4 applied rate\u2011of\u2011change problems (position, velocity, acceleration) and compare solutions to provided solutions."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Mixed review of all units and timed AP\u2011style practice.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.5",
+     "2.3",
+     "2.4",
+     "3.2",
+     "3.3",
+     "4.1",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.4",
+     "7.1",
+     "7.3",
+     "8.1",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 10,
+    "tasks": [
+     "Take a 45\u2011minute timed practice test covering limits, derivatives, and integration; review each answer using the scoring guide.",
+     "Do 6 free\u2011response questions on related rates and differential equations, then self\u2011grade.",
+     "Complete a mixed\u2011topic worksheet: 2 limit estimation problems, 2 Mean Value Theorem questions, 2 area\u2011between\u2011curves integrals.",
+     "Review errors from the timed test, writing a one\u2011sentence explanation for each mistake."
+    ]
+   }
+  ],
+  "final_week_advice": "After the two\u2011week sprint, keep a daily 30\u2011minute habit of timed free\u2011response drills and review any lingering weak spots, especially integration techniques."
+ },
+ "raw": "{\n  \"summary\": \"In two weeks the student will front\u2011load the weak Unit\u202f6 material, then use the second week for a rapid mixed review of all units and timed practice. Each week stays within the 10\u2011hour limit and includes concrete practice tasks.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Build mastery of Integration and Accumulation (Unit\u202f6) while refreshing core differentiation concepts.\",\n      \"topics\": [\n        \"6.1\",\n        \"6.2\",\n        \"6.3\",\n        \"6.4\",\n        \"2.1\",\n        \"2.2\",\n        \"2.5\",\n        \"3.1\"\n      ],\n      \"classes\": [],\n      \"hours\": 10,\n      \"tasks\": [\n        \"Watch a tutorial on Riemann sums and complete 5 practice problems on approximating areas, checking work with the answer key.\",\n        \"Do 8 free\u2011response questions on the Fundamental Theorem of Calculus, then grade them using the AP scoring guidelines.\",\n        \"Complete a worksheet on basic derivative rules (power rule, chain rule) with 10 problems, marking any errors.\",\n        \"Solve 4 applied rate\u2011of\u2011change problems (position, velocity, acceleration) and compare solutions to provided solutions.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Mixed review of all units and timed AP\u2011style practice.\",\n      \"topics\": [\n        \"1.1\",\n        \"1.2\",\n        \"1.5\",\n        \"2.3\",\n        \"2.4\",\n        \"3.2\",\n        \"3.3\",\n        \"4.1\",\n        \"4.4\",\n        \"5.1\",\n        \"5.2\",\n        \"5.4\",\n        \"7.1\",\n        \"7.3\",\n        \"8.1\",\n        \"8.4\"\n      ],\n      \"classes\": [],\n      \"hours\": 10,\n      \"tasks\": [\n        \"Take a 45\u2011minute timed practice test covering limits, derivatives, and integration; review each answer using the scoring guide.\",\n        \"Do 6 free\u2011response questions on related rates and differential equations, then self\u2011grade.\",\n        \"Complete a mixed\u2011topic worksheet: 2 limit estimation problems, 2 Mean Value Theorem questions, 2 area\u2011between\u2011curves integrals.\",\n        \"Review errors from the timed test, writing a one\u2011sentence explanation for each mistake.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the two\u2011week sprint, keep a daily 30\u2011minute habit of timed free\u2011response drills and review any lingering weak spots, especially integration techniques.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1147,
+ "output_tokens": 706,
+ "latency_ms": 1923
+}

@@ -2,7 +2,7 @@
 
 from .context import PlanContext
 
-PROMPT_VERSION = "2026-09-23.1"
+PROMPT_VERSION = "v2"
 
 PLAN_SCHEMA = {
     "type": "object",
@@ -35,12 +35,15 @@ Return only JSON matching the schema. Follow every rule:
 1. Produce exactly one entry per week, numbered 1 to N in order, where N is given.
 2. Use only topic codes from the list you are given, written exactly (for example "5.2").
 3. Recommend only live classes from the list you are given, by id, and only in the week the
-   list says each class happens. Recommend a class when its topics fit that week's work.
+   list says each class happens. When you recommend a class, that week's topics must include
+   at least one of the class's topics.
 4. Never plan more hours in a week than the student has.
-5. Cover every unit at least once. Start the student's weak units in the first half of the plan
-   and come back to them before the exam.
+5. Every unit must appear in at least one week's topics list. If there are fewer weeks than
+   units, cover several units in a week. Start the student's weak units in the first half of
+   the plan and come back to them before the exam.
 6. Keep the last week (or the last two, for plans longer than eight weeks) for mixed review and
-   timed practice, not new material.
+   timed practice rather than new material. Review weeks still list the topic codes they
+   review.
 7. Tasks are concrete actions a student can do in one sitting ("Do 10 free-response questions
    on rate laws, then mark them against the scoring guide"), not vague advice.
 8. "focus" is one short line. "summary" is two or three sentences on the overall approach."""

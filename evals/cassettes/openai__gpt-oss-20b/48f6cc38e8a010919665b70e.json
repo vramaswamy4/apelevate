@@ -1,0 +1,240 @@
+{
+ "data": {
+  "summary": "This 12\u2011week plan starts with the student\u2019s weak units\u2014Differential Equations and Applications of Integration\u2014then cycles through all remaining units, revisiting each before the exam. Each week is limited to the 2\u2011hour study window and includes concrete tasks that can be completed in one sitting. The last two weeks focus on mixed review and timed practice to solidify mastery.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Start with Differential Equations fundamentals",
+    "topics": [
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Read the textbook section on 7.1 and write a summary of how to set up a basic differential equation.",
+     "Solve 3 example problems from the end of the section and check solutions."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Continue Differential Equations and introduce slope fields",
+    "topics": [
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Draw slope fields for two simple differential equations. Label key features.",
+     "Explain in writing how slope fields help predict solution behavior."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Applications of Integration \u2013 average value",
+    "topics": [
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Compute the average value of f(x)=x^2 on [0,2] using the integral definition. Verify with a Riemann sum approximation."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Applications of Integration \u2013 position, velocity, acceleration",
+    "topics": [
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Given v(t)=3t^2, find s(t) and a(t). Plot all three functions on the same graph."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Applications of Integration \u2013 accumulation functions",
+    "topics": [
+     "8.3"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Use the Fundamental Theorem to evaluate \u222b_0^4 (2x+1)dx. Interpret the result as accumulated change."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Applications of Integration \u2013 area between curves",
+    "topics": [
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Find the area between y=x^2 and y=2x on [0,2] by setting up and evaluating the integral."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Limits and Continuity basics",
+    "topics": [
+     "1.1",
+     "1.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Rewrite several limit problems using algebraic manipulation. Show each step clearly."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Limits from graphs and tables",
+    "topics": [
+     "1.3",
+     "1.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Estimate limits from a given graph and a table of values. Compare with exact calculations."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Algebraic limit properties and differentiation definition",
+    "topics": [
+     "1.5",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Prove the limit of a sum equals the sum of limits using epsilon-delta style reasoning. Then compute the derivative of f(x)=x^3 at x=2 using the definition."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Chain rule and implicit differentiation",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Differentiate y=sin(x^2) using the chain rule. Then find dy/dx for x^2y+xy^2=1 at x=1."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Review and timed practice",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Take a full-length timed practice exam covering all topics. Review errors and create a one-page summary of common mistakes."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Final mixed review and exam strategy",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Do a second timed practice exam focusing on speed. After completion, outline a one\u2011minute review plan for each major topic to use on exam day."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, prioritize quick recall drills and mental math practice. Focus on pacing, reading questions carefully, and managing time across multiple-choice and free-response sections. Stay calm, review key formulas, and get a good night\u2019s sleep before the exam."
+ },
+ "raw": "{\"summary\":\"This 12\u2011week plan starts with the student\u2019s weak units\u2014Differential Equations and Applications of Integration\u2014then cycles through all remaining units, revisiting each before the exam. Each week is limited to the 2\u2011hour study window and includes concrete tasks that can be completed in one sitting. The last two weeks focus on mixed review and timed practice to solidify mastery.\",\"weeks\":[{\"week\":1,\"focus\":\"Start with Differential Equations fundamentals\",\"topics\":[\"7.1\",\"7.2\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Read the textbook section on 7.1 and write a summary of how to set up a basic differential equation.\",\"Solve 3 example problems from the end of the section and check solutions.\"]},{\"week\":2,\"focus\":\"Continue Differential Equations and introduce slope fields\",\"topics\":[\"7.3\",\"7.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Draw slope fields for two simple differential equations. Label key features.\",\"Explain in writing how slope fields help predict solution behavior.\"]},{\"week\":3,\"focus\":\"Applications of Integration \u2013 average value\",\"topics\":[\"8.1\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Compute the average value of f(x)=x^2 on [0,2] using the integral definition. Verify with a Riemann sum approximation.\"]},{\"week\":4,\"focus\":\"Applications of Integration \u2013 position, velocity, acceleration\",\"topics\":[\"8.2\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Given v(t)=3t^2, find s(t) and a(t). Plot all three functions on the same graph.\"]},{\"week\":5,\"focus\":\"Applications of Integration \u2013 accumulation functions\",\"topics\":[\"8.3\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Use the Fundamental Theorem to evaluate \u222b_0^4 (2x+1)dx. Interpret the result as accumulated change.\"]},{\"week\":6,\"focus\":\"Applications of Integration \u2013 area between curves\",\"topics\":[\"8.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Find the area between y=x^2 and y=2x on [0,2] by setting up and evaluating the integral.\"]},{\"week\":7,\"focus\":\"Limits and Continuity basics\",\"topics\":[\"1.1\",\"1.2\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Rewrite several limit problems using algebraic manipulation. Show each step clearly.\"]},{\"week\":8,\"focus\":\"Limits from graphs and tables\",\"topics\":[\"1.3\",\"1.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Estimate limits from a given graph and a table of values. Compare with exact calculations.\"]},{\"week\":9,\"focus\":\"Algebraic limit properties and differentiation definition\",\"topics\":[\"1.5\",\"2.1\",\"2.2\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Prove the limit of a sum equals the sum of limits using epsilon-delta style reasoning. Then compute the derivative of f(x)=x^3 at x=2 using the definition.\"]},{\"week\":10,\"focus\":\"Chain rule and implicit differentiation\",\"topics\":[\"3.1\",\"3.2\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Differentiate y=sin(x^2) using the chain rule. Then find dy/dx for x^2y+xy^2=1 at x=1.\"]},{\"week\":11,\"focus\":\"Review and timed practice\",\"topics\":[\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\",\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Take a full-length timed practice exam covering all topics. Review errors and create a one-page summary of common mistakes.\"]},{\"week\":12,\"focus\":\"Final mixed review and exam strategy\",\"topics\":[\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\",\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"4.1\",\"4.2\",\"4.3\",\"4.4\"],\"classes\":[],\"hours\":2,\"tasks\":[\"Do a second timed practice exam focusing on speed. After completion, outline a one\u2011minute review plan for each major topic to use on exam day.\"]}],\"final_week_advice\":\"In the final week, prioritize quick recall drills and mental math practice. Focus on pacing, reading questions carefully, and managing time across multiple-choice and free-response sections. Stay calm, review key formulas, and get a good night\u2019s sleep before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1211,
+ "output_tokens": 1259,
+ "latency_ms": 1940
+}

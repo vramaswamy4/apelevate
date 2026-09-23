@@ -1,0 +1,289 @@
+{
+ "data": {
+  "summary": "The 16\u2011week plan spreads the 3\u2011hour weekly study load across all AP Physics\u202f1 units, beginning with the student\u2019s weak areas (rotational energy/momentum and oscillations). Each week includes focused topic review, targeted practice problems, and a short quiz. The final two weeks are reserved for mixed review and timed full\u2011length practice to build stamina before the February exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce rotational kinetic energy and basic SHM concepts.",
+    "topics": [
+     "6.1",
+     "7.1"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Read textbook sections on rotational kinetic energy (6.1) and simple harmonic motion definition (7.1).",
+     "Do 5 worked examples for each topic, checking answers against solution guide.",
+     "Create a one\u2011page summary sheet comparing translational and rotational kinetic energy."
+    ],
+    "classes": []
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of torque\u2011work relationship and SHM frequency.",
+    "topics": [
+     "6.2",
+     "7.2"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Watch Khan Academy videos on torque and work (6.2) and SHM period/frequency (7.2).",
+     "Solve 8 free\u2011response style problems on torque\u2011work calculations.",
+     "Calculate period and frequency for 5 different pendulum/mass\u2011spring setups."
+    ],
+    "classes": []
+   },
+   {
+    "week": 3,
+    "focus": "Angular momentum concepts and SHM energy analysis.",
+    "topics": [
+     "6.3",
+     "7.4"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Read and annotate notes on angular momentum and impulse (6.3).",
+     "Complete 6 problems converting linear to angular momentum.",
+     "Work through 5 energy\u2011of\u2011SHM problems, marking each against the scoring rubric."
+    ],
+    "classes": []
+   },
+   {
+    "week": 4,
+    "focus": "Conservation of angular momentum and review of SHM basics.",
+    "topics": [
+     "6.4",
+     "7.3"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Summarize conservation of angular momentum with three real\u2011world examples.",
+     "Do a mixed set of 8 FRQs covering 6.4 and 7.3 (representing/analyzing SHM).",
+     "Self\u2011grade using AP scoring guidelines; note any recurring errors."
+    ],
+    "classes": []
+   },
+   {
+    "week": 5,
+    "focus": "Kinematics in one dimension and vectors.",
+    "topics": [
+     "1.1",
+     "1.2"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Review definitions of scalars/vectors and displacement/velocity/acceleration.",
+     "Complete 10 velocity\u2011time graph problems, then check solutions.",
+     "Create flashcards for vector addition rules."
+    ],
+    "classes": []
+   },
+   {
+    "week": 6,
+    "focus": "Two\u2011dimensional motion and reference frames.",
+    "topics": [
+     "1.3",
+     "1.4",
+     "1.5"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Watch tutorial on projectile motion and relative motion.",
+     "Solve 6 projectile problems and 4 relative\u2011motion scenarios.",
+     "Sketch and label vectors for each problem on a separate sheet."
+    ],
+    "classes": []
+   },
+   {
+    "week": 7,
+    "focus": "Force diagrams and Newton\u2019s laws (1st & 2nd).",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.4",
+     "2.5"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Draw free\u2011body diagrams for 8 different systems.",
+     "Apply Newton\u2019s 2nd law to compute acceleration in each case.",
+     "Do a short 5\u2011minute quiz on identifying forces; review mistakes."
+    ],
+    "classes": []
+   },
+   {
+    "week": 8,
+    "focus": "Newton\u2019s 3rd law and systems of particles.",
+    "topics": [
+     "2.3",
+     "2.1"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Read section on action\u2011reaction pairs; list 5 real examples.",
+     "Solve 6 problems involving center\u2011of\u2011mass motion of multiple objects.",
+     "Check answers with answer key; annotate any conceptual gaps."
+    ],
+    "classes": []
+   },
+   {
+    "week": 9,
+    "focus": "Work, energy, and power fundamentals.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Derive the work\u2011energy theorem on a blank sheet.",
+     "Complete 8 problems mixing work, kinetic energy, and potential energy.",
+     "Calculate power for 5 scenarios; record units and reasoning."
+    ],
+    "classes": []
+   },
+   {
+    "week": 10,
+    "focus": "Conservation of energy and power applications.",
+    "topics": [
+     "3.4",
+     "3.5"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Watch a video on energy conservation in roller coasters.",
+     "Do 6 FRQs that require stating and applying conservation of energy.",
+     "Practice power calculations for machines; verify with solution set."
+    ],
+    "classes": []
+   },
+   {
+    "week": 11,
+    "focus": "Linear momentum and impulse.",
+    "topics": [
+     "4.1",
+     "4.2"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Summarize momentum definition and impulse\u2011momentum theorem.",
+     "Solve 7 problems on impulse and change in momentum.",
+     "Create a quick\u2011reference table of momentum\u2011related equations."
+    ],
+    "classes": []
+   },
+   {
+    "week": 12,
+    "focus": "Conservation of linear momentum and collisions.",
+    "topics": [
+     "4.3",
+     "4.4"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Work through 5 elastic and 5 inelastic collision problems.",
+     "Check each solution against the AP scoring guide; note where algebra slipped.",
+     "Write a one\u2011paragraph explanation of why momentum is conserved in each case."
+    ],
+    "classes": []
+   },
+   {
+    "week": 13,
+    "focus": "Rotational kinematics and connecting linear\u2011rotational motion.",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Derive the relationship between linear speed and angular speed.",
+     "Complete 6 problems converting between linear and rotational quantities.",
+     "Practice rotational kinematics equations with 4 timed questions."
+    ],
+    "classes": []
+   },
+   {
+    "week": 14,
+    "focus": "Torque, rotational inertia, and review of Units 5\u20116.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Calculate torque for 5 different lever setups.",
+     "Determine rotational inertia for simple shapes (disc, rod, sphere).",
+     "Re\u2011solve one problem from each of 6.1 and 6.2 to reinforce earlier work."
+    ],
+    "classes": []
+   },
+   {
+    "week": 15,
+    "focus": "Mixed review and timed practice (all units).",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "hours": 3,
+    "tasks": [
+     "Take a 55\u2011minute full\u2011length AP Physics\u202f1 practice test (selected sections).",
+     "Score the test using the official key; record percent correct per unit.",
+     "Review every incorrect answer, writing a brief note on the misconception."
+    ],
+    "classes": []
+   },
+   {
+    "week": 16,
+    "focus": "Final comprehensive review and exam\u2011day strategy.",
+    "topics": [],
+    "hours": 3,
+    "tasks": [
+     "Do a second timed 55\u2011minute practice test focusing on weak areas identified in week\u202f15.",
+     "Create a one\u2011page cheat\u2011sheet of key formulas and sign conventions.",
+     "Plan exam day logistics (materials, timing, break strategy) and visualize success."
+    ],
+    "classes": []
+   }
+  ],
+  "final_week_advice": "Stay calm, trust your preparation, and use the formula sheet you created as a quick reference. Manage time wisely on the exam: answer all free\u2011response questions first, then review calculations. Get a good night\u2019s sleep before the test day."
+ },
+ "raw": "{\n  \"summary\": \"The 16\u2011week plan spreads the 3\u2011hour weekly study load across all AP Physics\u202f1 units, beginning with the student\u2019s weak areas (rotational energy/momentum and oscillations). Each week includes focused topic review, targeted practice problems, and a short quiz. The final two weeks are reserved for mixed review and timed full\u2011length practice to build stamina before the February exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce rotational kinetic energy and basic SHM concepts.\",\n      \"topics\": [\"6.1\", \"7.1\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Read textbook sections on rotational kinetic energy (6.1) and simple harmonic motion definition (7.1).\",\n        \"Do 5 worked examples for each topic, checking answers against solution guide.\",\n        \"Create a one\u2011page summary sheet comparing translational and rotational kinetic energy.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Deepen understanding of torque\u2011work relationship and SHM frequency.\",\n      \"topics\": [\"6.2\", \"7.2\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Watch Khan Academy videos on torque and work (6.2) and SHM period/frequency (7.2).\",\n        \"Solve 8 free\u2011response style problems on torque\u2011work calculations.\",\n        \"Calculate period and frequency for 5 different pendulum/mass\u2011spring setups.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Angular momentum concepts and SHM energy analysis.\",\n      \"topics\": [\"6.3\", \"7.4\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Read and annotate notes on angular momentum and impulse (6.3).\",\n        \"Complete 6 problems converting linear to angular momentum.\",\n        \"Work through 5 energy\u2011of\u2011SHM problems, marking each against the scoring rubric.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Conservation of angular momentum and review of SHM basics.\",\n      \"topics\": [\"6.4\", \"7.3\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Summarize conservation of angular momentum with three real\u2011world examples.\",\n        \"Do a mixed set of 8 FRQs covering 6.4 and 7.3 (representing/analyzing SHM).\",\n        \"Self\u2011grade using AP scoring guidelines; note any recurring errors.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Kinematics in one dimension and vectors.\",\n      \"topics\": [\"1.1\", \"1.2\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Review definitions of scalars/vectors and displacement/velocity/acceleration.\",\n        \"Complete 10 velocity\u2011time graph problems, then check solutions.\",\n        \"Create flashcards for vector addition rules.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Two\u2011dimensional motion and reference frames.\",\n      \"topics\": [\"1.3\", \"1.4\", \"1.5\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Watch tutorial on projectile motion and relative motion.\",\n        \"Solve 6 projectile problems and 4 relative\u2011motion scenarios.\",\n        \"Sketch and label vectors for each problem on a separate sheet.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Force diagrams and Newton\u2019s laws (1st & 2nd).\",\n      \"topics\": [\"2.1\", \"2.2\", \"2.4\", \"2.5\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Draw free\u2011body diagrams for 8 different systems.\",\n        \"Apply Newton\u2019s 2nd law to compute acceleration in each case.\",\n        \"Do a short 5\u2011minute quiz on identifying forces; review mistakes.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Newton\u2019s 3rd law and systems of particles.\",\n      \"topics\": [\"2.3\", \"2.1\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Read section on action\u2011reaction pairs; list 5 real examples.\",\n        \"Solve 6 problems involving center\u2011of\u2011mass motion of multiple objects.\",\n        \"Check answers with answer key; annotate any conceptual gaps.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Work, energy, and power fundamentals.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Derive the work\u2011energy theorem on a blank sheet.\",\n        \"Complete 8 problems mixing work, kinetic energy, and potential energy.\",\n        \"Calculate power for 5 scenarios; record units and reasoning.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Conservation of energy and power applications.\",\n      \"topics\": [\"3.4\", \"3.5\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Watch a video on energy conservation in roller coasters.\",\n        \"Do 6 FRQs that require stating and applying conservation of energy.\",\n        \"Practice power calculations for machines; verify with solution set.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 11,\n      \"focus\": \"Linear momentum and impulse.\",\n      \"topics\": [\"4.1\", \"4.2\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Summarize momentum definition and impulse\u2011momentum theorem.\",\n        \"Solve 7 problems on impulse and change in momentum.\",\n        \"Create a quick\u2011reference table of momentum\u2011related equations.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 12,\n      \"focus\": \"Conservation of linear momentum and collisions.\",\n      \"topics\": [\"4.3\", \"4.4\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Work through 5 elastic and 5 inelastic collision problems.\",\n        \"Check each solution against the AP scoring guide; note where algebra slipped.\",\n        \"Write a one\u2011paragraph explanation of why momentum is conserved in each case.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 13,\n      \"focus\": \"Rotational kinematics and connecting linear\u2011rotational motion.\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Derive the relationship between linear speed and angular speed.\",\n        \"Complete 6 problems converting between linear and rotational quantities.\",\n        \"Practice rotational kinematics equations with 4 timed questions.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 14,\n      \"focus\": \"Torque, rotational inertia, and review of Units 5\u20116.\",\n      \"topics\": [\"5.3\", \"5.4\", \"6.1\", \"6.2\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Calculate torque for 5 different lever setups.\",\n        \"Determine rotational inertia for simple shapes (disc, rod, sphere).\",\n        \"Re\u2011solve one problem from each of 6.1 and 6.2 to reinforce earlier work.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 15,\n      \"focus\": \"Mixed review and timed practice (all units).\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Take a 55\u2011minute full\u2011length AP Physics\u202f1 practice test (selected sections).\",\n        \"Score the test using the official key; record percent correct per unit.\",\n        \"Review every incorrect answer, writing a brief note on the misconception.\"\n      ],\n      \"classes\": []\n    },\n    {\n      \"week\": 16,\n      \"focus\": \"Final comprehensive review and exam\u2011day strategy.\",\n      \"topics\": [],\n      \"hours\": 3,\n      \"tasks\": [\n        \"Do a second timed 55\u2011minute practice test focusing on weak areas identified in week\u202f15.\",\n        \"Create a one\u2011page cheat\u2011sheet of key formulas and sign conventions.\",\n        \"Plan exam day logistics (materials, timing, break strategy) and visualize success.\"\n      ],\n      \"classes\": []\n    }\n  ],\n  \"final_week_advice\": \"Stay calm, trust your preparation, and use the formula sheet you created as a quick reference. Manage time wisely on the exam: answer all free\u2011response questions first, then review calculations. Get a good night\u2019s sleep before the test day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 983,
+ "output_tokens": 2101,
+ "latency_ms": 4792
+}

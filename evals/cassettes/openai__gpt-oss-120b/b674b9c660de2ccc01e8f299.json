@@ -1,0 +1,118 @@
+{
+ "data": {
+  "summary": "The six\u2011week plan front\u2011loads the student's weak Fluids unit, uses the live class in week\u202f3, then moves through the remaining core units while keeping each week to four study hours. The final week is dedicated to mixed review and timed free\u2011response practice to build exam stamina.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce Fluids concepts and basic calculations.",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Read the textbook sections for 8.1 and 8.2 and take concise notes.",
+     "Do 5 practice problems on density and pressure calculations; check answers with the answer key.",
+     "Create a one\u2011page cheat sheet summarizing formulas for density, pressure, and hydrostatic pressure."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Complete Fluids fundamentals and connect to Newton's Laws.",
+    "topics": [
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Watch a short video on fluids and Newton's Laws (8.3).",
+     "Solve 6 free\u2011response style questions that involve applying Newton's second law to fluid situations.",
+     "Complete the 8.4 practice set on continuity and Bernoulli\u2019s equation; verify with solutions."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Live class reinforcement of Fluids and start Kinematics.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "1.1",
+     "1.2"
+    ],
+    "classes": [
+     10400
+    ],
+    "hours": 4,
+    "tasks": [
+     "Attend live class 10400 and actively take notes on 8.1\u20118.3.",
+     "After class, do 3 additional problems on displacement, velocity, and acceleration (1.1\u20111.2).",
+     "Review class notes and compare your solutions to the scoring guide provided."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Kinematics deep dive and start Forces.",
+    "topics": [
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Complete the textbook exercises for 1.3\u20111.5 (graphs, reference frames, vectors).",
+     "Do 4 free\u2011response questions on free\u2011body diagrams and systems (2.1\u20112.2).",
+     "Summarize the relationship between kinematic equations and force diagrams on a study sheet."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Work, Energy, Power, and Linear Momentum.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Work through 3.1\u20113.4 examples, focusing on energy\u2011conservation problems.",
+     "Solve 5 mixed problems that require converting work to kinetic energy.",
+     "Complete 4 momentum\u2011impulse questions (4.1\u20114.2) and check calculations with the scoring rubric."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Mixed review and timed free\u2011response practice.",
+    "topics": [
+     "1.1",
+     "2.2",
+     "3.4",
+     "4.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Set a 45\u2011minute timer and complete a 4\u2011question mini\u2011exam covering all units studied.",
+     "Mark each response against the AP scoring guide; note any recurring errors.",
+     "Review the cheat sheets from weeks 1\u20115 and rewrite any formulas you missed."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the timed mini\u2011exam results to focus the last study sessions on your weakest problem types, and keep reviewing your formula sheets daily until the exam day."
+ },
+ "raw": "{\n  \"summary\": \"The six\u2011week plan front\u2011loads the student's weak Fluids unit, uses the live class in week\u202f3, then moves through the remaining core units while keeping each week to four study hours. The final week is dedicated to mixed review and timed free\u2011response practice to build exam stamina.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce Fluids concepts and basic calculations.\",\n      \"topics\": [\"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 4,\n      \"tasks\": [\n        \"Read the textbook sections for 8.1 and 8.2 and take concise notes.\",\n        \"Do 5 practice problems on density and pressure calculations; check answers with the answer key.\",\n        \"Create a one\u2011page cheat sheet summarizing formulas for density, pressure, and hydrostatic pressure.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Complete Fluids fundamentals and connect to Newton's Laws.\",\n      \"topics\": [\"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 4,\n      \"tasks\": [\n        \"Watch a short video on fluids and Newton's Laws (8.3).\",\n        \"Solve 6 free\u2011response style questions that involve applying Newton's second law to fluid situations.\",\n        \"Complete the 8.4 practice set on continuity and Bernoulli\u2019s equation; verify with solutions.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Live class reinforcement of Fluids and start Kinematics.\",\n      \"topics\": [\"8.1\", \"8.2\", \"8.3\", \"1.1\", \"1.2\"],\n      \"classes\": [10400],\n      \"hours\": 4,\n      \"tasks\": [\n        \"Attend live class 10400 and actively take notes on 8.1\u20118.3.\",\n        \"After class, do 3 additional problems on displacement, velocity, and acceleration (1.1\u20111.2).\",\n        \"Review class notes and compare your solutions to the scoring guide provided.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Kinematics deep dive and start Forces.\",\n      \"topics\": [\"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"hours\": 4,\n      \"tasks\": [\n        \"Complete the textbook exercises for 1.3\u20111.5 (graphs, reference frames, vectors).\",\n        \"Do 4 free\u2011response questions on free\u2011body diagrams and systems (2.1\u20112.2).\",\n        \"Summarize the relationship between kinematic equations and force diagrams on a study sheet.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Work, Energy, Power, and Linear Momentum.\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"4.1\", \"4.2\"],\n      \"classes\": [],\n      \"hours\": 4,\n      \"tasks\": [\n        \"Work through 3.1\u20113.4 examples, focusing on energy\u2011conservation problems.\",\n        \"Solve 5 mixed problems that require converting work to kinetic energy.\",\n        \"Complete 4 momentum\u2011impulse questions (4.1\u20114.2) and check calculations with the scoring rubric.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Mixed review and timed free\u2011response practice.\",\n      \"topics\": [\"1.1\", \"2.2\", \"3.4\", \"4.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 4,\n      \"tasks\": [\n        \"Set a 45\u2011minute timer and complete a 4\u2011question mini\u2011exam covering all units studied.\",\n        \"Mark each response against the AP scoring guide; note any recurring errors.\",\n        \"Review the cheat sheets from weeks 1\u20115 and rewrite any formulas you missed.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use the timed mini\u2011exam results to focus the last study sessions on your weakest problem types, and keep reviewing your formula sheets daily until the exam day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 999,
+ "output_tokens": 1078,
+ "latency_ms": 2573
+}

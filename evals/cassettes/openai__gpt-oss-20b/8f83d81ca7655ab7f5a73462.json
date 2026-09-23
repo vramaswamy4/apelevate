@@ -1,0 +1,223 @@
+{
+ "data": {
+  "summary": "This 16\u2011week plan uses the student\u2019s 3\u2011hour weekly block to cover all AP Physics\u202f1 units, beginning with the weak units (6 and 7) and revisiting them before the exam. Each week focuses on a specific set of topics, provides concrete tasks that can be completed in one sitting, and reserves the last two weeks for mixed review and timed practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Start with Energy and Momentum of Rotating Systems \u2013 build a strong foundation in rotational kinetic energy.",
+    "topics": [
+     "6.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Read the textbook section on rotational kinetic energy and write a summary of the formula."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Continue unit\u202f6, covering torque and work.",
+    "topics": [
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Solve 5 torque\u2011work problems from the AP practice set and check solutions."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Complete unit\u202f6 with angular momentum concepts.",
+    "topics": [
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Create flashcards for angular momentum conservation and quiz yourself."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Begin unit\u202f7, defining simple harmonic motion.",
+    "topics": [
+     "7.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Draw the displacement\u2011time graph for a mass\u2011spring system and label key points."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Frequency and period of SHM.",
+    "topics": [
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Calculate the period of a pendulum with given length and compare to the formula."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Representing and analyzing SHM.",
+    "topics": [
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Plot velocity vs. time for SHM and identify amplitude and phase shift."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Energy of simple harmonic oscillators.",
+    "topics": [
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Derive the total energy expression for a mass\u2011spring system and verify with numerical example."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Unit\u202f1 Kinematics \u2013 Scalars and Vectors in One Dimension.",
+    "topics": [
+     "1.1"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Convert 10\u202fm/s to km/h and vice versa; solve 3 related word problems."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Displacement, velocity, and acceleration.",
+    "topics": [
+     "1.2"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Compute average velocity and acceleration for a given motion graph."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Representing motion and reference frames.",
+    "topics": [
+     "1.3",
+     "1.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Sketch position\u2011time and velocity\u2011time graphs for a car accelerating then decelerating."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Vectors and motion in two dimensions.",
+    "topics": [
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Resolve a 45\u00b0 launch into horizontal and vertical components and calculate range."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Force and translational dynamics \u2013 Newton\u2019s laws.",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Draw free\u2011body diagrams for 3 scenarios and solve for unknown forces."
+    ]
+   },
+   {
+    "week": 13,
+    "focus": "Work, energy, and power \u2013 translational kinetic energy.",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Compute work done by a force over a distance and verify energy conservation in a roller\u2011coaster segment."
+    ]
+   },
+   {
+    "week": 14,
+    "focus": "Linear momentum and collisions.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Simulate an elastic collision with given masses and velocities; calculate final speeds."
+    ]
+   },
+   {
+    "week": 15,
+    "focus": "Mixed review \u2013 rotational dynamics and fluids.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Solve 2 problems each from torque, rotational inertia, and fluid pressure; compare answers."
+    ]
+   },
+   {
+    "week": 16,
+    "focus": "Timed practice and exam strategy.",
+    "topics": [],
+    "classes": [],
+    "hours": 3,
+    "tasks": [
+     "Take a full 60\u2011minute timed AP practice quiz; review mistakes and create a summary of key formulas."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, focus on pacing, reviewing mistakes, and reinforcing confidence with timed practice. Ensure you\u2019re comfortable with all formulae and problem\u2011solving steps before the exam."
+ },
+ "raw": "{\"summary\":\"This 16\u2011week plan uses the student\u2019s 3\u2011hour weekly block to cover all AP Physics\u202f1 units, beginning with the weak units (6 and 7) and revisiting them before the exam. Each week focuses on a specific set of topics, provides concrete tasks that can be completed in one sitting, and reserves the last two weeks for mixed review and timed practice.\",\"weeks\":[{\"week\":1,\"focus\":\"Start with Energy and Momentum of Rotating Systems \u2013 build a strong foundation in rotational kinetic energy.\",\"topics\":[\"6.1\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Read the textbook section on rotational kinetic energy and write a summary of the formula.\"]},{\"week\":2,\"focus\":\"Continue unit\u202f6, covering torque and work.\",\"topics\":[\"6.2\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Solve 5 torque\u2011work problems from the AP practice set and check solutions.\"]},{\"week\":3,\"focus\":\"Complete unit\u202f6 with angular momentum concepts.\",\"topics\":[\"6.3\",\"6.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Create flashcards for angular momentum conservation and quiz yourself.\"]},{\"week\":4,\"focus\":\"Begin unit\u202f7, defining simple harmonic motion.\",\"topics\":[\"7.1\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Draw the displacement\u2011time graph for a mass\u2011spring system and label key points.\"]},{\"week\":5,\"focus\":\"Frequency and period of SHM.\",\"topics\":[\"7.2\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Calculate the period of a pendulum with given length and compare to the formula.\"]},{\"week\":6,\"focus\":\"Representing and analyzing SHM.\",\"topics\":[\"7.3\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Plot velocity vs. time for SHM and identify amplitude and phase shift.\"]},{\"week\":7,\"focus\":\"Energy of simple harmonic oscillators.\",\"topics\":[\"7.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Derive the total energy expression for a mass\u2011spring system and verify with numerical example.\"]},{\"week\":8,\"focus\":\"Unit\u202f1 Kinematics \u2013 Scalars and Vectors in One Dimension.\",\"topics\":[\"1.1\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Convert 10\u202fm/s to km/h and vice versa; solve 3 related word problems.\"]},{\"week\":9,\"focus\":\"Displacement, velocity, and acceleration.\",\"topics\":[\"1.2\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Compute average velocity and acceleration for a given motion graph.\"]},{\"week\":10,\"focus\":\"Representing motion and reference frames.\",\"topics\":[\"1.3\",\"1.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Sketch position\u2011time and velocity\u2011time graphs for a car accelerating then decelerating.\"]},{\"week\":11,\"focus\":\"Vectors and motion in two dimensions.\",\"topics\":[\"1.5\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Resolve a 45\u00b0 launch into horizontal and vertical components and calculate range.\"]},{\"week\":12,\"focus\":\"Force and translational dynamics \u2013 Newton\u2019s laws.\",\"topics\":[\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Draw free\u2011body diagrams for 3 scenarios and solve for unknown forces.\"]},{\"week\":13,\"focus\":\"Work, energy, and power \u2013 translational kinetic energy.\",\"topics\":[\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Compute work done by a force over a distance and verify energy conservation in a roller\u2011coaster segment.\"]},{\"week\":14,\"focus\":\"Linear momentum and collisions.\",\"topics\":[\"4.1\",\"4.2\",\"4.3\",\"4.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Simulate an elastic collision with given masses and velocities; calculate final speeds.\"]},{\"week\":15,\"focus\":\"Mixed review \u2013 rotational dynamics and fluids.\",\"topics\":[\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":3,\"tasks\":[\"Solve 2 problems each from torque, rotational inertia, and fluid pressure; compare answers.\"]},{\"week\":16,\"focus\":\"Timed practice and exam strategy.\",\"topics\":[],\"classes\":[],\"hours\":3,\"tasks\":[\"Take a full 60\u2011minute timed AP practice quiz; review mistakes and create a summary of key formulas.\"]}],\"final_week_advice\":\"In the final week, focus on pacing, reviewing mistakes, and reinforcing confidence with timed practice. Ensure you\u2019re comfortable with all formulae and problem\u2011solving steps before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 983,
+ "output_tokens": 1054,
+ "latency_ms": 1502
+}

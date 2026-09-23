@@ -1,0 +1,199 @@
+{
+ "data": {
+  "summary": "The eight\u2011week plan balances new learning with intensive practice, beginning with the student\u2019s weak units (Differential Equations and Applications of Integration) and revisiting them later. Each week uses the full 6\u202fhours for focused topic study, concrete free\u2011response tasks, and timed practice, culminating in a mixed\u2011review week before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce Differential Equations basics and begin Integration applications",
+    "topics": [
+     "7.1",
+     "7.2",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read the textbook sections for 7.1 and 7.2; write a one\u2011page summary of how to set up a differential equation from a word problem.",
+     "Do 5 free\u2011response questions on modeling with differential equations; check answers with the scoring guide.",
+     "Watch a video on average value of a function (8.1); solve 4 practice problems.",
+     "Complete 6 problems on using integrals to find position from velocity (8.2); verify each solution by differentiating."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of slope fields and continue integration applications",
+    "topics": [
+     "7.3",
+     "7.4",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Sketch slope fields for 3 given differential equations (7.3); label equilibrium solutions.",
+     "Complete 4 FRQ style questions requiring reasoning with slope fields (7.4).",
+     "Read 8.3 section; solve 5 applied\u2011context accumulation problems.",
+     "Practice finding area between curves (8.4) with 6 varied pairs of functions."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Live class reinforcement of Differential Equations and start Limits",
+    "topics": [
+     "7.1",
+     "7.2",
+     "1.1",
+     "1.2"
+    ],
+    "classes": [
+     11100
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 11100; take detailed notes on 7.1 and 7.2 examples.",
+     "After class, redo the class\u2019s practice problems without notes.",
+     "Read sections 1.1 and 1.2; create a cheat\u2011sheet of limit definitions and notation.",
+     "Do 8 limit\u2011evaluation problems (including tables and graphs) and check with answer key."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Complete Limits unit and begin Differentiation fundamentals",
+    "topics": [
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Estimate limits from graphs (1.3) with 6 different graphs; write a brief justification for each.",
+     "Estimate limits from tables (1.4); complete 5 table\u2011based problems.",
+     "Determine limits using algebraic properties (1.5); solve 7 mixed\u2011type problems.",
+     "Read 2.1 and 2.2; practice computing average and instantaneous rates for 4 functions.",
+     "Complete 6 derivative\u2011notation problems from 2.2."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Finish Differentiation basics and start Composite/Implicit differentiation",
+    "topics": [
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Estimate derivatives at a point (2.3) with 5 calculator\u2011free problems.",
+     "Connect differentiability and continuity (2.4); prove the relationship for 3 given functions.",
+     "Apply the Power Rule (2.5) to 8 polynomial and rational functions.",
+     "Learn the Chain Rule (3.1); solve 6 layered\u2011function derivative problems.",
+     "Practice Implicit Differentiation (3.2) with 5 equations; verify results by solving for dy/dx."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Contextual applications of differentiation and review weak units",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Interpret derivative meaning in context (4.1); write explanations for 3 real\u2011world scenarios.",
+     "Solve straight\u2011line motion problems (4.2) involving position, velocity, acceleration; 5 complete FRQs.",
+     "Work rates and related rates (4.3, 4.4); complete 4 related\u2011rates problems.",
+     "Re\u2011solve 3 differential\u2011equation modeling problems from week 1 to reinforce 7.1\u20117.2.",
+     "Timed 20\u2011minute mini\u2011quiz covering weeks 1\u20114 material."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Analytical applications of differentiation and integration review",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Use the Mean Value Theorem (5.1) on 4 functions; write the theorem\u2019s statement each time.",
+     "Identify critical points and apply the First Derivative Test (5.2\u20115.4) on 6 functions.",
+     "Determine intervals of increase/decrease (5.3) for 5 additional functions.",
+     "Re\u2011do 3 average\u2011value (8.1) and position\u2011from\u2011velocity (8.2) problems from week 1 for fluency.",
+     "Full\u2011length timed practice: 2 FRQs from Unit 5 and 2 from Unit 8 (30\u202fmin)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Mixed review and timed full\u2011exam practice",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 90\u2011minute full\u2011length practice exam under timed conditions.",
+     "Mark the exam using the official scoring guide; note any recurring errors.",
+     "Do a rapid\u2011review worksheet covering one key concept from each unit (15\u202fmin per unit).",
+     "Finish with 5 mixed FRQs chosen from the weakest units (7 and 8) for final confidence boost."
+    ]
+   }
+  ],
+  "final_week_advice": "After the mixed\u2011review week, spend any remaining days doing timed sections, focusing on speed and accuracy. Review your error log, clarify any lingering misconceptions, and get plenty of rest before the exam day."
+ },
+ "raw": "{\n  \"summary\": \"The eight\u2011week plan balances new learning with intensive practice, beginning with the student\u2019s weak units (Differential Equations and Applications of Integration) and revisiting them later. Each week uses the full 6\u202fhours for focused topic study, concrete free\u2011response tasks, and timed practice, culminating in a mixed\u2011review week before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce Differential Equations basics and begin Integration applications\",\n      \"topics\": [\"7.1\", \"7.2\", \"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read the textbook sections for 7.1 and 7.2; write a one\u2011page summary of how to set up a differential equation from a word problem.\",\n        \"Do 5 free\u2011response questions on modeling with differential equations; check answers with the scoring guide.\",\n        \"Watch a video on average value of a function (8.1); solve 4 practice problems.\",\n        \"Complete 6 problems on using integrals to find position from velocity (8.2); verify each solution by differentiating.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Deepen understanding of slope fields and continue integration applications\",\n      \"topics\": [\"7.3\", \"7.4\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Sketch slope fields for 3 given differential equations (7.3); label equilibrium solutions.\",\n        \"Complete 4 FRQ style questions requiring reasoning with slope fields (7.4).\",\n        \"Read 8.3 section; solve 5 applied\u2011context accumulation problems.\",\n        \"Practice finding area between curves (8.4) with 6 varied pairs of functions.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Live class reinforcement of Differential Equations and start Limits\",\n      \"topics\": [\"7.1\", \"7.2\", \"1.1\", \"1.2\"],\n      \"classes\": [11100],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class 11100; take detailed notes on 7.1 and 7.2 examples.\",\n        \"After class, redo the class\u2019s practice problems without notes.\",\n        \"Read sections 1.1 and 1.2; create a cheat\u2011sheet of limit definitions and notation.\",\n        \"Do 8 limit\u2011evaluation problems (including tables and graphs) and check with answer key.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Complete Limits unit and begin Differentiation fundamentals\",\n      \"topics\": [\"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Estimate limits from graphs (1.3) with 6 different graphs; write a brief justification for each.\",\n        \"Estimate limits from tables (1.4); complete 5 table\u2011based problems.\",\n        \"Determine limits using algebraic properties (1.5); solve 7 mixed\u2011type problems.\",\n        \"Read 2.1 and 2.2; practice computing average and instantaneous rates for 4 functions.\",\n        \"Complete 6 derivative\u2011notation problems from 2.2.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Finish Differentiation basics and start Composite/Implicit differentiation\",\n      \"topics\": [\"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Estimate derivatives at a point (2.3) with 5 calculator\u2011free problems.\",\n        \"Connect differentiability and continuity (2.4); prove the relationship for 3 given functions.\",\n        \"Apply the Power Rule (2.5) to 8 polynomial and rational functions.\",\n        \"Learn the Chain Rule (3.1); solve 6 layered\u2011function derivative problems.\",\n        \"Practice Implicit Differentiation (3.2) with 5 equations; verify results by solving for dy/dx.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Contextual applications of differentiation and review weak units\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\", \"7.1\", \"7.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Interpret derivative meaning in context (4.1); write explanations for 3 real\u2011world scenarios.\",\n        \"Solve straight\u2011line motion problems (4.2) involving position, velocity, acceleration; 5 complete FRQs.\",\n        \"Work rates and related rates (4.3, 4.4); complete 4 related\u2011rates problems.\",\n        \"Re\u2011solve 3 differential\u2011equation modeling problems from week 1 to reinforce 7.1\u20117.2.\",\n        \"Timed 20\u2011minute mini\u2011quiz covering weeks 1\u20114 material.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Analytical applications of differentiation and integration review\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\", \"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Use the Mean Value Theorem (5.1) on 4 functions; write the theorem\u2019s statement each time.\",\n        \"Identify critical points and apply the First Derivative Test (5.2\u20115.4) on 6 functions.\",\n        \"Determine intervals of increase/decrease (5.3) for 5 additional functions.\",\n        \"Re\u2011do 3 average\u2011value (8.1) and position\u2011from\u2011velocity (8.2) problems from week 1 for fluency.\",\n        \"Full\u2011length timed practice: 2 FRQs from Unit 5 and 2 from Unit 8 (30\u202fmin).\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Mixed review and timed full\u2011exam practice\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Take a 90\u2011minute full\u2011length practice exam under timed conditions.\",\n        \"Mark the exam using the official scoring guide; note any recurring errors.\",\n        \"Do a rapid\u2011review worksheet covering one key concept from each unit (15\u202fmin per unit).\",\n        \"Finish with 5 mixed FRQs chosen from the weakest units (7 and 8) for final confidence boost.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the mixed\u2011review week, spend any remaining days doing timed sections, focusing on speed and accuracy. Review your error log, clarify any lingering misconceptions, and get plenty of rest before the exam day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1176,
+ "output_tokens": 1736,
+ "latency_ms": 4092
+}

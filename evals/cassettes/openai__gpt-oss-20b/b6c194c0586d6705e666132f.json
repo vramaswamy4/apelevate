@@ -1,0 +1,168 @@
+{
+ "data": {
+  "summary": "This 10\u2011week plan balances live class participation with focused self\u2011study, ensuring all AP Calculus AB units are covered. Each week includes a concrete task, a short focus line, and a realistic hour allocation that never exceeds the 5\u2011hour weekly limit. The final week is dedicated to mixed review and timed practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Master foundational limits and derivatives with live guidance.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "2.1"
+    ],
+    "classes": [
+     11000,
+     11001
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend Class 1 (1.1) and take detailed notes.\nAttend Class 2 (2.1) and solve the 5 practice problems posted.\nDo 10 free\u2011response limit questions (1.2, 1.3) and grade using the rubric.\nReview 5 algebraic limit problems (1.5) from the textbook."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of the Mean Value Theorem and basic integration concepts.",
+    "topics": [
+     "5.1",
+     "6.1",
+     "6.2"
+    ],
+    "classes": [
+     11004
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend Class 5 (5.1) and complete the in\u2011class activity.\nRead chapter on Riemann sums (6.1) and write a 200\u2011word summary.\nDo 8 Riemann sum practice problems (6.2) and record errors.\nSolve 3 MVT application problems and explain reasoning."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Apply derivative rules to complex functions.",
+    "topics": [
+     "2.5",
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Work through 10 power\u2011rule problems (2.5) and self\u2011grade.\nSolve 5 chain\u2011rule exercises (3.1) and check solutions.\nComplete 4 implicit\u2011differentiation problems (3.2) and peer\u2011review with a study partner."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Explore related rates and motion contexts.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read related rates chapter and outline 3 example problems.\nSolve 6 related\u2011rates questions (4.4) and annotate each step.\nModel a straight\u2011line motion scenario (4.2) and compute velocity/acceleration.\nCreate a concept map linking derivative meaning to physical contexts."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Investigate extrema and the First Derivative Test.",
+    "topics": [
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Identify critical points for 5 functions (5.2).\nDetermine increasing/decreasing intervals (5.3) for each.\nApply the First Derivative Test (5.4) to classify extrema.\nSummarize findings in a 300\u2011word report."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Master the Fundamental Theorem of Calculus and definite integrals.",
+    "topics": [
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Translate 7 Riemann sum expressions into integral notation (6.3).\nCompute 5 definite integrals using the FTC (6.4).\nCreate a cheat sheet of FTC steps.\nSolve 3 word\u2011problem integrals and explain each step."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Apply differential equations to real\u2011world modeling.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Model a population growth scenario (7.1) and write the DE.\nVerify a given solution (7.2) by substitution.\nSketch a slope field for the DE (7.3) using graph paper.\nWrite a short reflection on how slope fields inform solution behavior."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Integrate applications: averages, areas, and motion via integrals.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Compute the average value of 4 functions (8.1).\nRelate position, velocity, and acceleration using integrals (8.2) for a given motion graph.\nFind the area between two curves (8.4) for 3 pairs of functions.\nCompile a worksheet of all solved problems for review."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Consolidate knowledge with mixed practice and timed drills.",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.1",
+     "4.1",
+     "5.1",
+     "6.1",
+     "7.1",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 60\u2011minute timed practice test covering all units.\nReview incorrect answers and rewrite solutions.\nCreate a summary sheet of key formulas and theorems.\nDiscuss challenging problems with a tutor or peer group."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Final review and exam readiness.",
+    "topics": [
+     "1.2",
+     "2.5",
+     "3.3",
+     "4.3",
+     "5.4",
+     "6.4",
+     "7.4",
+     "8.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Do a full-length AP Calculus AB practice exam.\nMark the exam using the official scoring guide.\nIdentify top 5 weak areas and review targeted problems.\nRestate the exam strategy and set a pre\u2011exam checklist."
+    ]
+   }
+  ],
+  "final_week_advice": "Prioritize sleep and light review the night before the exam; avoid cramming new material."
+ },
+ "raw": "{\"summary\":\"This 10\u2011week plan balances live class participation with focused self\u2011study, ensuring all AP Calculus AB units are covered. Each week includes a concrete task, a short focus line, and a realistic hour allocation that never exceeds the 5\u2011hour weekly limit. The final week is dedicated to mixed review and timed practice.\",\"weeks\":[{\"week\":1,\"focus\":\"Master foundational limits and derivatives with live guidance.\",\"topics\":[\"1.1\",\"1.2\",\"1.3\",\"2.1\"],\"classes\":[11000,11001],\"hours\":5,\"tasks\":[\"Attend Class 1 (1.1) and take detailed notes.\\nAttend Class 2 (2.1) and solve the 5 practice problems posted.\\nDo 10 free\u2011response limit questions (1.2, 1.3) and grade using the rubric.\\nReview 5 algebraic limit problems (1.5) from the textbook.\"]},{\"week\":2,\"focus\":\"Deepen understanding of the Mean Value Theorem and basic integration concepts.\",\"topics\":[\"5.1\",\"6.1\",\"6.2\"],\"classes\":[11004],\"hours\":5,\"tasks\":[\"Attend Class 5 (5.1) and complete the in\u2011class activity.\\nRead chapter on Riemann sums (6.1) and write a 200\u2011word summary.\\nDo 8 Riemann sum practice problems (6.2) and record errors.\\nSolve 3 MVT application problems and explain reasoning.\"]},{\"week\":3,\"focus\":\"Apply derivative rules to complex functions.\",\"topics\":[\"2.5\",\"3.1\",\"3.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Work through 10 power\u2011rule problems (2.5) and self\u2011grade.\\nSolve 5 chain\u2011rule exercises (3.1) and check solutions.\\nComplete 4 implicit\u2011differentiation problems (3.2) and peer\u2011review with a study partner.\"]},{\"week\":4,\"focus\":\"Explore related rates and motion contexts.\",\"topics\":[\"4.1\",\"4.2\",\"4.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Read related rates chapter and outline 3 example problems.\\nSolve 6 related\u2011rates questions (4.4) and annotate each step.\\nModel a straight\u2011line motion scenario (4.2) and compute velocity/acceleration.\\nCreate a concept map linking derivative meaning to physical contexts.\"]},{\"week\":5,\"focus\":\"Investigate extrema and the First Derivative Test.\",\"topics\":[\"5.2\",\"5.3\",\"5.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Identify critical points for 5 functions (5.2).\\nDetermine increasing/decreasing intervals (5.3) for each.\\nApply the First Derivative Test (5.4) to classify extrema.\\nSummarize findings in a 300\u2011word report.\"]},{\"week\":6,\"focus\":\"Master the Fundamental Theorem of Calculus and definite integrals.\",\"topics\":[\"6.3\",\"6.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Translate 7 Riemann sum expressions into integral notation (6.3).\\nCompute 5 definite integrals using the FTC (6.4).\\nCreate a cheat sheet of FTC steps.\\nSolve 3 word\u2011problem integrals and explain each step.\"]},{\"week\":7,\"focus\":\"Apply differential equations to real\u2011world modeling.\",\"topics\":[\"7.1\",\"7.2\",\"7.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Model a population growth scenario (7.1) and write the DE.\\nVerify a given solution (7.2) by substitution.\\nSketch a slope field for the DE (7.3) using graph paper.\\nWrite a short reflection on how slope fields inform solution behavior.\"]},{\"week\":8,\"focus\":\"Integrate applications: averages, areas, and motion via integrals.\",\"topics\":[\"8.1\",\"8.2\",\"8.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Compute the average value of 4 functions (8.1).\\nRelate position, velocity, and acceleration using integrals (8.2) for a given motion graph.\\nFind the area between two curves (8.4) for 3 pairs of functions.\\nCompile a worksheet of all solved problems for review.\"]},{\"week\":9,\"focus\":\"Consolidate knowledge with mixed practice and timed drills.\",\"topics\":[\"1.1\",\"2.1\",\"3.1\",\"4.1\",\"5.1\",\"6.1\",\"7.1\",\"8.1\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Take a 60\u2011minute timed practice test covering all units.\\nReview incorrect answers and rewrite solutions.\\nCreate a summary sheet of key formulas and theorems.\\nDiscuss challenging problems with a tutor or peer group.\"]},{\"week\":10,\"focus\":\"Final review and exam readiness.\",\"topics\":[\"1.2\",\"2.5\",\"3.3\",\"4.3\",\"5.4\",\"6.4\",\"7.4\",\"8.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Do a full-length AP Calculus AB practice exam.\\nMark the exam using the official scoring guide.\\nIdentify top 5 weak areas and review targeted problems.\\nRestate the exam strategy and set a pre\u2011exam checklist.\"]}],\"final_week_advice\":\"Prioritize sleep and light review the night before the exam; avoid cramming new material.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1229,
+ "output_tokens": 1212,
+ "latency_ms": 2257
+}

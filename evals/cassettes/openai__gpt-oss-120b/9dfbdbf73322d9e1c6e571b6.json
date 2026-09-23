@@ -1,0 +1,127 @@
+{
+ "data": {
+  "summary": "The eight\u2011week plan focuses on intensive, one\u2011hour sessions that start with the student\u2019s weak Thermochemistry unit, then rotate through core AP Chemistry topics while keeping each week\u2019s workload to a single concrete task set. The final week is reserved for mixed review and timed free\u2011response practice to consolidate knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Thermochemistry foundations",
+    "topics": [
+     "6.1",
+     "6.2"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Read the textbook sections on endothermic/exothermic processes and energy diagrams.",
+     "Complete 5 endothermic/exothermic problem sets, then check answers with the solution guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Thermochemistry applications",
+    "topics": [
+     "6.3",
+     "6.4"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Watch a short video on heat transfer and calorimetry (e.g., Khan Academy).",
+     "Do 4 calorimetry calculations (heat capacity, q = mc\u0394T) and verify with answer key."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Reaction kinetics basics",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Read the kinetics chapter sections on reaction rates and introduction to rate laws.",
+     "Solve 6 rate\u2011law problems (determine rate expression from data) and compare with scoring rubric."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Stoichiometry and reaction types",
+    "topics": [
+     "4.5",
+     "4.1"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Review stoichiometry concepts and practice converting between moles, mass, and particles.",
+     "Complete 5 stoichiometry word problems, then self\u2011grade using the provided answer sheet."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Gases and kinetic theory",
+    "topics": [
+     "3.4",
+     "3.5"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Read sections on the Ideal Gas Law and Kinetic Molecular Theory.",
+     "Work through 5 mixed gas\u2011law problems (PV=nRT, combined gas law) and check solutions."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Chemical equilibrium fundamentals",
+    "topics": [
+     "7.1",
+     "7.3"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Study equilibrium introduction and equilibrium constant calculations.",
+     "Do 4 equilibrium constant problems (calculate Kc from concentrations) and verify answers."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Acids, bases, and pH",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Read the sections on acids/bases and strong\u2011acid/strong\u2011base pH calculations.",
+     "Solve 5 pH/pOH problems for strong acids and bases, then compare with answer key."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Mixed review and timed practice",
+    "topics": [
+     "1.1",
+     "2.1",
+     "9.3"
+    ],
+    "hours": 1,
+    "classes": [],
+    "tasks": [
+     "Select one free\u2011response question from each of Units 1\u20119 (use released AP questions).",
+     "Set a 45\u2011minute timer and answer all 9 questions consecutively.",
+     "Mark each response against the AP scoring guide and note any recurring errors."
+    ]
+   }
+  ],
+  "final_week_advice": "During the last session, focus on speed and accuracy: review the rubric, identify patterns in missed points, and do a quick refresher of any formulas that felt shaky. Keep a calm mindset and trust the systematic practice you\u2019ve built over the past weeks."
+ },
+ "raw": "{\n  \"summary\": \"The eight\u2011week plan focuses on intensive, one\u2011hour sessions that start with the student\u2019s weak Thermochemistry unit, then rotate through core AP Chemistry topics while keeping each week\u2019s workload to a single concrete task set. The final week is reserved for mixed review and timed free\u2011response practice to consolidate knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Thermochemistry foundations\",\n      \"topics\": [\"6.1\", \"6.2\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the textbook sections on endothermic/exothermic processes and energy diagrams.\",\n        \"Complete 5 endothermic/exothermic problem sets, then check answers with the solution guide.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Thermochemistry applications\",\n      \"topics\": [\"6.3\", \"6.4\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Watch a short video on heat transfer and calorimetry (e.g., Khan Academy).\",\n        \"Do 4 calorimetry calculations (heat capacity, q = mc\u0394T) and verify with answer key.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Reaction kinetics basics\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the kinetics chapter sections on reaction rates and introduction to rate laws.\",\n        \"Solve 6 rate\u2011law problems (determine rate expression from data) and compare with scoring rubric.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Stoichiometry and reaction types\",\n      \"topics\": [\"4.5\", \"4.1\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Review stoichiometry concepts and practice converting between moles, mass, and particles.\",\n        \"Complete 5 stoichiometry word problems, then self\u2011grade using the provided answer sheet.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Gases and kinetic theory\",\n      \"topics\": [\"3.4\", \"3.5\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Read sections on the Ideal Gas Law and Kinetic Molecular Theory.\",\n        \"Work through 5 mixed gas\u2011law problems (PV=nRT, combined gas law) and check solutions.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Chemical equilibrium fundamentals\",\n      \"topics\": [\"7.1\", \"7.3\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Study equilibrium introduction and equilibrium constant calculations.\",\n        \"Do 4 equilibrium constant problems (calculate Kc from concentrations) and verify answers.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Acids, bases, and pH\",\n      \"topics\": [\"8.1\", \"8.2\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Read the sections on acids/bases and strong\u2011acid/strong\u2011base pH calculations.\",\n        \"Solve 5 pH/pOH problems for strong acids and bases, then compare with answer key.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Mixed review and timed practice\",\n      \"topics\": [\"1.1\", \"2.1\", \"9.3\"],\n      \"hours\": 1,\n      \"classes\": [],\n      \"tasks\": [\n        \"Select one free\u2011response question from each of Units 1\u20119 (use released AP questions).\",\n        \"Set a 45\u2011minute timer and answer all 9 questions consecutively.\",\n        \"Mark each response against the AP scoring guide and note any recurring errors.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"During the last session, focus on speed and accuracy: review the rubric, identify patterns in missed points, and do a quick refresher of any formulas that felt shaky. Keep a calm mindset and trust the systematic practice you\u2019ve built over the past weeks.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1115,
+ "output_tokens": 1210,
+ "latency_ms": 2774
+}

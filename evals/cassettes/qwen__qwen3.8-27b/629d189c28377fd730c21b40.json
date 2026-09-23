@@ -1,0 +1,107 @@
+{
+ "data": {
+  "final_week_advice": "Use the last two weeks to simulate exam conditions: take a full timed practice exam in week 9, then in week 10 focus on your weakest topic areas identified from that exam. Do not introduce any new material\u2014only review and timed drills.",
+  "summary": "This plan front-loads your two weak units (Kinetics and Equilibrium) in weeks 1\u20134 so you have maximum time to build comfort before moving through the remaining content. Weeks 5\u20138 cover the remaining units at a steady pace, with a live class on acids and bases in week 7. The final two weeks are dedicated to mixed review and timed practice to consolidate everything before the exam.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Build a solid foundation in reaction rates and rate laws",
+    "hours": 6,
+    "tasks": [
+     "Work through 15 multiple-choice questions on reaction rates (5.1), marking each answer and noting why wrong choices are wrong",
+     "Derive rate laws from experimental data for 5 problems (5.2), writing out the full method for each",
+     "Solve 4 integrated rate law problems covering zero, first, and second order reactions (5.3), including graph interpretation",
+     "Analyze 3 elementary reaction mechanisms (5.4), identifying rate-determining steps and writing the overall rate law"
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [
+     9000
+    ],
+    "focus": "Reinforce kinetics with live instruction and begin equilibrium concepts",
+    "hours": 6,
+    "tasks": [
+     "Attend live class #9000 on reaction rates and rate law (5.1, 5.2), taking notes on any mechanisms the instructor emphasizes",
+     "Complete 8 free-response style problems on rate laws (5.2), then self-score using the AP scoring guide",
+     "Read through 7.1 and 7.2, then solve 5 problems on reaction direction and Le Ch\u00e2telier's principle",
+     "Create a one-page summary sheet comparing forward and reverse reaction rates at equilibrium"
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "7.1",
+     "7.2"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Master equilibrium constants and reaction quotients",
+    "hours": 6,
+    "tasks": [
+     "Solve 6 ICE-table problems calculating Kc and Kp (7.3), showing all setup steps",
+     "Work 4 problems on the reaction quotient Q and predicting direction (7.2), including cases where Q > K and Q < K",
+     "Complete 3 multi-step equilibrium problems that combine stoichiometry with K calculations (7.4)",
+     "Review your week 1 kinetics notes and redo 2 problems you got wrong, writing a one-sentence explanation of the error"
+    ],
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [
+     9001
+    ],
+    "focus": "Solidify equilibrium calculations and introduce atomic structure",
+    "hours": 6,
+    "tasks": [
+     "Attend live class #9001 on equilibrium (7.1, 7.2, 7.3), focusing on how the instructor approaches K calculations",
+     "Solve 5 equilibrium constant problems (7.4) of increasing difficulty, including one with a common ion",
+     "Complete 8 multiple-choice questions on moles and molar mass (1.1), including conversions between particles and moles",
+     "Interpret 3 mass spectra (1.2), identifying isotopes and calculating average atomic mass"
+    ],
+    "topics": [
+     "7.3",
+     "7.4",
+     "1.1",
+     "1.2"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Cover elemental composition and periodic trends",
+    "hours": 6,
+    "tasks": [
+     "Solve 5 empirical and molecular formula problems (1.3), including one from combustion data",
+     "Complete 4 mixture composition problems (1.4) using percent composition and density",
+     "Write electron configurations for 10 elements (1.5), including transition metals, and identify valence electrons",
+     "Analyze 3 photoelectron spectra (1.6), identifying elements and explaining peak intensities"
+    ],
+    "topics": [
+     "1.3",
+     "1.4",
+     "1.5",
+     "1.6"
+    ],
+    "week": 5
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\": \"Use the last two weeks to simulate exam conditions: take a full timed practice exam in week 9, then in week 10 focus on your weakest topic areas identified from that exam. Do not introduce any new material\u2014only review and timed drills.\", \"summary\": \"This plan front-loads your two weak units (Kinetics and Equilibrium) in weeks 1\u20134 so you have maximum time to build comfort before moving through the remaining content. Weeks 5\u20138 cover the remaining units at a steady pace, with a live class on acids and bases in week 7. The final two weeks are dedicated to mixed review and timed practice to consolidate everything before the exam.\", \"weeks\": [{\"classes\": [], \"focus\": \"Build a solid foundation in reaction rates and rate laws\", \"hours\": 6, \"tasks\": [\"Work through 15 multiple-choice questions on reaction rates (5.1), marking each answer and noting why wrong choices are wrong\", \"Derive rate laws from experimental data for 5 problems (5.2), writing out the full method for each\", \"Solve 4 integrated rate law problems covering zero, first, and second order reactions (5.3), including graph interpretation\", \"Analyze 3 elementary reaction mechanisms (5.4), identifying rate-determining steps and writing the overall rate law\"], \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"], \"week\": 1}, {\"classes\": [9000], \"focus\": \"Reinforce kinetics with live instruction and begin equilibrium concepts\", \"hours\": 6, \"tasks\": [\"Attend live class #9000 on reaction rates and rate law (5.1, 5.2), taking notes on any mechanisms the instructor emphasizes\", \"Complete 8 free-response style problems on rate laws (5.2), then self-score using the AP scoring guide\", \"Read through 7.1 and 7.2, then solve 5 problems on reaction direction and Le Ch\u00e2telier's principle\", \"Create a one-page summary sheet comparing forward and reverse reaction rates at equilibrium\"], \"topics\": [\"5.1\", \"5.2\", \"7.1\", \"7.2\"], \"week\": 2}, {\"classes\": [], \"focus\": \"Master equilibrium constants and reaction quotients\", \"hours\": 6, \"tasks\": [\"Solve 6 ICE-table problems calculating Kc and Kp (7.3), showing all setup steps\", \"Work 4 problems on the reaction quotient Q and predicting direction (7.2), including cases where Q > K and Q < K\", \"Complete 3 multi-step equilibrium problems that combine stoichiometry with K calculations (7.4)\", \"Review your week 1 kinetics notes and redo 2 problems you got wrong, writing a one-sentence explanation of the error\"], \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"], \"week\": 3}, {\"classes\": [9001], \"focus\": \"Solidify equilibrium calculations and introduce atomic structure\", \"hours\": 6, \"tasks\": [\"Attend live class #9001 on equilibrium (7.1, 7.2, 7.3), focusing on how the instructor approaches K calculations\", \"Solve 5 equilibrium constant problems (7.4) of increasing difficulty, including one with a common ion\", \"Complete 8 multiple-choice questions on moles and molar mass (1.1), including conversions between particles and moles\", \"Interpret 3 mass spectra (1.2), identifying isotopes and calculating average atomic mass\"], \"topics\": [\"7.3\", \"7.4\", \"1.1\", \"1.2\"], \"week\": 4}, {\"classes\": [], \"focus\": \"Cover elemental composition and periodic trends\", \"hours\": 6, \"tasks\": [\"Solve 5 empirical and molecular formula problems (1.3), including one from combustion data\", \"Complete 4 mixture composition problems (1.4) using percent composition and density\", \"Write electron configurations for 10 elements (1.5), including transition metals, and identify valence electrons\", \"Analyze 3 photoelectron spectra (1.6), identifying elements and explaining peak intensities\"], \"topics\": [\"1.3\", \"1.4\", \"1.5\", \"1.6\"], \"week\": 5}]}",
+ "model": "qwen/qwen3.8-27b",
+ "input_tokens": 1094,
+ "output_tokens": 2048,
+ "latency_ms": 4400
+}

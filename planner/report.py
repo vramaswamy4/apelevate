@@ -53,14 +53,15 @@ def write_report(results_dir) -> Path:
         "",
         "## Results",
         "",
-        "| Model | Valid | First try | Clean | Warnings/plan | Class use | Median latency "
-        "| Mean tokens |",
-        "|---|---|---|---|---|---|---|---|",
+        "| Model | Prompt | Valid | First try | Clean | Warnings/plan | Class use "
+        "| Median latency | Mean tokens |",
+        "|---|---|---|---|---|---|---|---|---|",
     ]
     for run in runs:
         s = run["summary"]
         lines.append(
-            f"| `{s['model']}` | {_pct(s['valid_plan_rate'])} | {_pct(s['first_attempt_rate'])} "
+            f"| `{s['model']}` | {s.get('prompt', '')} | {_pct(s['valid_plan_rate'])} "
+            f"| {_pct(s['first_attempt_rate'])} "
             f"| {_pct(s['clean_plan_rate'])} | {_num(s['warnings_per_plan'], '{:.2f}')} "
             f"| {_pct(s['class_use'])} | {_num(s['median_latency_ms'], '{:,.0f} ms')} "
             f"| {_num(s['mean_tokens'], '{:,.0f}')} |"
@@ -80,14 +81,17 @@ def write_report(results_dir) -> Path:
     for run in runs:
         counts = run["summary"]["warning_counts"]
         cells = [str(counts.get(k, 0)) for k in kinds] or ["0"]
-        lines.append(f"| `{run['summary']['model']}` | " + " | ".join(cells) + " |")
+        label = f"`{run['summary']['model']}` {run['summary'].get('prompt', '')}"
+        lines.append(f"| {label} | " + " | ".join(cells) + " |")
     lines += [
         "",
         "## Per case",
         "",
         "PASS = clean, ok = valid with warnings, FAIL = no valid plan.",
         "",
-        "| Case | " + " | ".join(f"`{r['summary']['model']}`" for r in runs) + " |",
+        "| Case | "
+        + " | ".join(f"`{r['summary']['model']}` {r['summary'].get('prompt', '')}" for r in runs)
+        + " |",
         "|---|" + "---|" * len(runs),
     ]
     by_model = [{c["case"]: c for c in r["cases"]} for r in runs]

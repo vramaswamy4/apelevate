@@ -1,0 +1,178 @@
+{
+ "data": {
+  "summary": "The plan front\u2011loads the weak Unit\u202f4 and then moves through the curriculum unit by unit, using the scheduled live classes when they occur. Each week balances 6 hours of focused study, concrete practice tasks, and review of earlier material. The final two weeks are dedicated to mixed review and timed practice to consolidate knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce chemical reactions and begin weak Unit\u202f4.",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read the textbook sections 4.1\u20114.3 and take concise notes.",
+     "Do 15 practice problems on identifying reactants/products and writing net ionic equations.",
+     "Check answers with the solution guide and correct any misconceptions."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Atomic structure basics and start Unit\u202f1.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [
+     9700
+    ],
+    "hours": 6,
+    "tasks": [
+     "Watch the live Class\u202f9700 recording and answer the in\u2011class poll questions.",
+     "Complete 10 free\u2011response questions on moles and molar mass, grading with the scoring rubric.",
+     "Create a one\u2011page summary chart comparing mass spectroscopy and photoelectron spectroscopy."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Bonding fundamentals \u2013 Unit\u202f2.",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3"
+    ],
+    "classes": [
+     9701
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live Class\u202f9701 and take notes on bond types and potential energy curves.",
+     "Draw Lewis structures for 8 different molecules, checking formal charges each time.",
+     "Complete a worksheet on predicting bond polarity and intermolecular forces."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Intermolecular forces (Unit\u202f3) and reinforce reaction basics (Unit\u202f4).",
+    "topics": [
+     "3.1",
+     "3.2",
+     "4.1",
+     "4.2"
+    ],
+    "classes": [
+     9702,
+     9703
+    ],
+    "hours": 6,
+    "tasks": [
+     "Participate in both live classes (9702 & 9703) and answer the breakout\u2011room questions.",
+     "Complete 12 short\u2011answer questions comparing intermolecular forces in solids vs. liquids.",
+     "Redo 5 net\u2011ionic equation problems from Week\u202f1, this time explaining each step aloud."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Reaction rates and introductory kinetics \u2013 Unit\u202f5.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "classes": [
+     9704
+    ],
+    "hours": 6,
+    "tasks": [
+     "Watch Class\u202f9704 and fill in the provided rate\u2011law worksheet.",
+     "Calculate reaction rates for 6 different experiments using given concentration\u2011time data.",
+     "Sketch concentration\u2011vs\u2011time graphs for first\u2011order and zero\u2011order reactions."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Thermochemistry fundamentals \u2013 Unit\u202f6.",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [
+     9705
+    ],
+    "hours": 6,
+    "tasks": [
+     "Join live Class\u202f9705 and complete the in\u2011class calorimetry problem set.",
+     "Solve 8 enthalpy change problems using Hess\u2019s law and energy\u2011diagram interpretation.",
+     "Create flashcards for endothermic vs. exothermic processes and quiz yourself."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Chemical equilibrium \u2013 Unit\u202f7.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [
+     9706
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend Class\u202f9706 and work through the equilibrium constant derivation together with peers.",
+     "Complete a set of 10 equilibrium\u2011quotient calculations, checking each with the answer key.",
+     "Write a one\u2011page summary explaining Le\u202fChatelier\u2019s principle with real\u2011world examples."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Mixed review and timed practice \u2013 focus on Units\u202f1\u20115.",
+    "topics": [
+     "1.4",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 45\u2011minute timed free\u2011response practice test covering Units\u202f1\u20115.",
+     "Mark the test using the AP scoring guidelines and note any recurring errors.",
+     "Review flashcards for key equations (ideal gas law, rate law, stoichiometry) and redo the problematic questions."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Comprehensive mixed review and full\u2011length timed practice.",
+    "topics": [
+     "6.4",
+     "7.4",
+     "8.3",
+     "9.3",
+     "9.4"
+    ],
+    "classes": [
+     9708
+    ],
+    "hours": 6,
+    "tasks": [
+     "Watch the recorded Class\u202f9708 for a quick refresher on entropy and free energy.",
+     "Complete a 90\u2011minute full\u2011length AP Chemistry practice exam under timed conditions.",
+     "Score the exam, calculate your overall percentage, and write a brief action plan for the final days before the test."
+    ]
+   }
+  ],
+  "final_week_advice": "In the days leading up to 2026\u201111\u201103, focus on brief daily reviews of your flashcards, practice a few timed free\u2011response questions each day, and get plenty of rest. Trust the systematic work you\u2019ve done each week and enter the exam confident."
+ },
+ "raw": "{\n  \"summary\": \"The plan front\u2011loads the weak Unit\u202f4 and then moves through the curriculum unit by unit, using the scheduled live classes when they occur. Each week balances 6 hours of focused study, concrete practice tasks, and review of earlier material. The final two weeks are dedicated to mixed review and timed practice to consolidate knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce chemical reactions and begin weak Unit\u202f4.\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read the textbook sections 4.1\u20114.3 and take concise notes.\",\n        \"Do 15 practice problems on identifying reactants/products and writing net ionic equations.\",\n        \"Check answers with the solution guide and correct any misconceptions.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Atomic structure basics and start Unit\u202f1.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\"],\n      \"classes\": [9700],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch the live Class\u202f9700 recording and answer the in\u2011class poll questions.\",\n        \"Complete 10 free\u2011response questions on moles and molar mass, grading with the scoring rubric.\",\n        \"Create a one\u2011page summary chart comparing mass spectroscopy and photoelectron spectroscopy.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Bonding fundamentals \u2013 Unit\u202f2.\",\n      \"topics\": [\"2.1\", \"2.2\", \"2.3\"],\n      \"classes\": [9701],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live Class\u202f9701 and take notes on bond types and potential energy curves.\",\n        \"Draw Lewis structures for 8 different molecules, checking formal charges each time.\",\n        \"Complete a worksheet on predicting bond polarity and intermolecular forces.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Intermolecular forces (Unit\u202f3) and reinforce reaction basics (Unit\u202f4).\",\n      \"topics\": [\"3.1\", \"3.2\", \"4.1\", \"4.2\"],\n      \"classes\": [9702, 9703],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Participate in both live classes (9702 & 9703) and answer the breakout\u2011room questions.\",\n        \"Complete 12 short\u2011answer questions comparing intermolecular forces in solids vs. liquids.\",\n        \"Redo 5 net\u2011ionic equation problems from Week\u202f1, this time explaining each step aloud.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Reaction rates and introductory kinetics \u2013 Unit\u202f5.\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\"],\n      \"classes\": [9704],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch Class\u202f9704 and fill in the provided rate\u2011law worksheet.\",\n        \"Calculate reaction rates for 6 different experiments using given concentration\u2011time data.\",\n        \"Sketch concentration\u2011vs\u2011time graphs for first\u2011order and zero\u2011order reactions.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Thermochemistry fundamentals \u2013 Unit\u202f6.\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\"],\n      \"classes\": [9705],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Join live Class\u202f9705 and complete the in\u2011class calorimetry problem set.\",\n        \"Solve 8 enthalpy change problems using Hess\u2019s law and energy\u2011diagram interpretation.\",\n        \"Create flashcards for endothermic vs. exothermic processes and quiz yourself.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Chemical equilibrium \u2013 Unit\u202f7.\",\n      \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"],\n      \"classes\": [9706],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend Class\u202f9706 and work through the equilibrium constant derivation together with peers.\",\n        \"Complete a set of 10 equilibrium\u2011quotient calculations, checking each with the answer key.\",\n        \"Write a one\u2011page summary explaining Le\u202fChatelier\u2019s principle with real\u2011world examples.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Mixed review and timed practice \u2013 focus on Units\u202f1\u20115.\",\n      \"topics\": [\"1.4\", \"2.5\", \"3.4\", \"4.5\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Take a 45\u2011minute timed free\u2011response practice test covering Units\u202f1\u20115.\",\n        \"Mark the test using the AP scoring guidelines and note any recurring errors.\",\n        \"Review flashcards for key equations (ideal gas law, rate law, stoichiometry) and redo the problematic questions.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Comprehensive mixed review and full\u2011length timed practice.\",\n      \"topics\": [\"6.4\", \"7.4\", \"8.3\", \"9.3\", \"9.4\"],\n      \"classes\": [9708],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch the recorded Class\u202f9708 for a quick refresher on entropy and free energy.\",\n        \"Complete a 90\u2011minute full\u2011length AP Chemistry practice exam under timed conditions.\",\n        \"Score the exam, calculate your overall percentage, and write a brief action plan for the final days before the test.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the days leading up to 2026\u201111\u201103, focus on brief daily reviews of your flashcards, practice a few timed free\u2011response questions each day, and get plenty of rest. Trust the systematic work you\u2019ve done each week and enter the exam confident.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1331,
+ "output_tokens": 1875,
+ "latency_ms": 5333
+}

@@ -1,0 +1,120 @@
+{
+ "data": {
+  "summary": "This 3\u2011week plan starts with a live class on Force and Translational Dynamics to strengthen the student\u2019s weak unit. Week\u202f2 covers the remaining units (Kinematics, Work/Energy, Momentum, Torque, Oscillations, Fluids) with focused practice tasks. Week\u202f3 is a mixed review and timed practice session to consolidate all concepts before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Force and Translational Dynamics",
+    "topics": [
+     "2.2",
+     "2.5"
+    ],
+    "classes": [
+     10100
+    ],
+    "hours": 7,
+    "tasks": [
+     "Watch the live class 10100 and take detailed notes on free\u2011body diagrams and Newton\u2019s second law.",
+     "Do 15 practice problems on free\u2011body diagrams and 10 on Newton\u2019s second law, marking each solution against the scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Cover remaining units",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 7,
+    "tasks": [
+     "Do 20 kinematics problems covering vectors, displacement, and relative motion.",
+     "Solve 10 work and energy problems, including conservation of energy scenarios.",
+     "Work through 10 linear momentum problems, including impulse and collision cases.",
+     "Complete 10 torque and rotational dynamics problems, linking linear and rotational motion.",
+     "Practice 10 oscillation problems, calculating frequency and energy.",
+     "Answer 10 fluid mechanics questions on pressure and conservation laws."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Mixed review and timed practice",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.2",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 7,
+    "tasks": [
+     "Take a full-length timed practice test covering all units.",
+     "Review incorrect answers and write a brief explanation for each mistake.",
+     "Create a summary sheet of key formulas and concepts for quick reference."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the last week to simulate exam conditions, focus on time management, and reinforce any lingering weak spots identified during the practice test."
+ },
+ "raw": "{\"summary\":\"This 3\u2011week plan starts with a live class on Force and Translational Dynamics to strengthen the student\u2019s weak unit. Week\u202f2 covers the remaining units (Kinematics, Work/Energy, Momentum, Torque, Oscillations, Fluids) with focused practice tasks. Week\u202f3 is a mixed review and timed practice session to consolidate all concepts before the exam.\",\"weeks\":[{\"week\":1,\"focus\":\"Force and Translational Dynamics\",\"topics\":[\"2.2\",\"2.5\"],\"classes\":[10100],\"hours\":7,\"tasks\":[\"Watch the live class 10100 and take detailed notes on free\u2011body diagrams and Newton\u2019s second law.\",\"Do 15 practice problems on free\u2011body diagrams and 10 on Newton\u2019s second law, marking each solution against the scoring guide.\"]},{\"week\":2,\"focus\":\"Cover remaining units\",\"topics\":[\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":7,\"tasks\":[\"Do 20 kinematics problems covering vectors, displacement, and relative motion.\",\"Solve 10 work and energy problems, including conservation of energy scenarios.\",\"Work through 10 linear momentum problems, including impulse and collision cases.\",\"Complete 10 torque and rotational dynamics problems, linking linear and rotational motion.\",\"Practice 10 oscillation problems, calculating frequency and energy.\",\"Answer 10 fluid mechanics questions on pressure and conservation laws.\"]},{\"week\":3,\"focus\":\"Mixed review and timed practice\",\"topics\":[\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.2\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":7,\"tasks\":[\"Take a full-length timed practice test covering all units.\",\"Review incorrect answers and write a brief explanation for each mistake.\",\"Create a summary sheet of key formulas and concepts for quick reference.\"]}],\"final_week_advice\":\"Use the last week to simulate exam conditions, focus on time management, and reinforce any lingering weak spots identified during the practice test.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 997,
+ "output_tokens": 708,
+ "latency_ms": 1543
+}

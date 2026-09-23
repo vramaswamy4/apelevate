@@ -1,0 +1,59 @@
+{
+ "data": {
+  "summary": "This two\u2011week plan tackles the AP Chemistry exam by front\u2011loading the weak unit on Acids and Bases, integrating a live class, and then reviewing all units with timed practice. Each week is limited to 8 hours of focused study, with concrete tasks that can be completed in a single sitting.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Master the fundamentals of acids, bases, and their equilibria while reinforcing key concepts from other units.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "1.1",
+     "4.5"
+    ],
+    "classes": [
+     9100
+    ],
+    "hours": 8,
+    "tasks": [
+     "Do 15 practice problems on pH calculations for strong acids and bases, then check answers with the scoring guide.",
+     "Write a concise summary of the difference between ionic and covalent bonds using 1.1 and 4.5 concepts.",
+     "Create flashcards for key terms in 8.1-8.3 and review them for 30 minutes.",
+     "Solve 10 stoichiometry problems that involve acid-base reactions, marking each step."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Consolidate all units and simulate exam conditions with timed practice.",
+    "topics": [
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.5",
+     "3.4",
+     "5.1",
+     "6.1",
+     "7.1",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 8,
+    "tasks": [
+     "Take a 60\u2011minute timed quiz covering 1.2-1.5 and 2.1-2.5, then review mistakes.",
+     "Perform a 30\u2011minute practice on the Ideal Gas Law (3.4) and kinetic theory (5.1).",
+     "Complete a 20\u2011minute worksheet on Gibbs Free Energy (9.3) and relate it to reaction spontaneity.",
+     "Do a 15\u2011minute review of equilibrium constants (7.1) using sample problems."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the last week for a full-length practice exam under timed conditions, then spend the remaining time reviewing incorrect answers and reinforcing weak concepts."
+ },
+ "raw": "{\"summary\":\"This two\u2011week plan tackles the AP Chemistry exam by front\u2011loading the weak unit on Acids and Bases, integrating a live class, and then reviewing all units with timed practice. Each week is limited to 8 hours of focused study, with concrete tasks that can be completed in a single sitting.\",\"weeks\":[{\"week\":1,\"focus\":\"Master the fundamentals of acids, bases, and their equilibria while reinforcing key concepts from other units.\",\"topics\":[\"8.1\",\"8.2\",\"8.3\",\"1.1\",\"4.5\"],\"classes\":[9100],\"hours\":8,\"tasks\":[\"Do 15 practice problems on pH calculations for strong acids and bases, then check answers with the scoring guide.\", \"Write a concise summary of the difference between ionic and covalent bonds using 1.1 and 4.5 concepts.\", \"Create flashcards for key terms in 8.1-8.3 and review them for 30 minutes.\", \"Solve 10 stoichiometry problems that involve acid-base reactions, marking each step.\"]},{\"week\":2,\"focus\":\"Consolidate all units and simulate exam conditions with timed practice.\",\"topics\":[\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.5\",\"3.4\",\"5.1\",\"6.1\",\"7.1\",\"9.3\"],\"classes\":[],\"hours\":8,\"tasks\":[\"Take a 60\u2011minute timed quiz covering 1.2-1.5 and 2.1-2.5, then review mistakes.\", \"Perform a 30\u2011minute practice on the Ideal Gas Law (3.4) and kinetic theory (5.1).\", \"Complete a 20\u2011minute worksheet on Gibbs Free Energy (9.3) and relate it to reaction spontaneity.\", \"Do a 15\u2011minute review of equilibrium constants (7.1) using sample problems.\"]}],\"final_week_advice\":\"Use the last week for a full-length practice exam under timed conditions, then spend the remaining time reviewing incorrect answers and reinforcing weak concepts.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1185,
+ "output_tokens": 543,
+ "latency_ms": 797
+}

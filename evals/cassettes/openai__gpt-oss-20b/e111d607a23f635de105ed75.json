@@ -1,0 +1,3 @@
+{
+ "schema_error": "jsonschema: '/weeks/3/week' does not validate with /properties/weeks/items/properties/week/type: expected integer, but got string"
+}

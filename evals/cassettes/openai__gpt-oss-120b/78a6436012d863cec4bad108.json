@@ -1,0 +1,236 @@
+{
+ "data": {
+  "summary": "The 10\u2011week plan systematically works through all AP Calculus AB units, beginning with foundational limit and derivative concepts while integrating live class sessions in the first two weeks. Each week balances new topic study, practice problems, and review within a 5\u2011hour limit. The final two weeks are dedicated to mixed review and timed practice to consolidate knowledge and build exam stamina.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce limits, average rates, chain rule, and derivative meaning.",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.1",
+     "4.1"
+    ],
+    "classes": [
+     11000,
+     11001,
+     11002,
+     11003
+    ],
+    "hours": 5,
+    "tasks": [
+     "Watch live Class 11000 and take notes on limit definition (1.1).",
+     "Complete 5 limit estimation problems from the textbook (1.1).",
+     "Watch live Class 11001; solve 5 average rate problems (2.1).",
+     "Watch live Class 11002; do 5 chain\u2011rule derivative exercises (3.1).",
+     "Watch live Class 11003; write 3 short explanations of derivative meaning in context (4.1)."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Expand limit techniques, begin derivative notation, and explore first integration concept.",
+    "topics": [
+     "1.2",
+     "1.3",
+     "2.2",
+     "5.1"
+    ],
+    "classes": [
+     11004
+    ],
+    "hours": 5,
+    "tasks": [
+     "Read section on defining limits and practice 8 problems (1.2).",
+     "Graph 4 functions and estimate limits from graphs (1.3).",
+     "Watch live Class 11004; work the Mean Value Theorem worksheet (5.1).",
+     "Complete 6 derivative\u2011notation exercises (2.2).",
+     "Do 5 short\u2011answer FRQs that combine limits and the Mean Value Theorem."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Finish limit mastery and deepen derivative estimation and continuity.",
+    "topics": [
+     "1.4",
+     "1.5",
+     "2.3",
+     "2.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Estimate limits from tables for 6 data sets (1.4).",
+     "Solve 8 algebraic limit problems using properties (1.5).",
+     "Estimate derivatives at points for 5 functions using secant slopes (2.3).",
+     "Complete a worksheet linking differentiability to continuity (2.4).",
+     "Do 3 FRQs that require both limit and continuity reasoning."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Power rule and advanced differentiation techniques.",
+    "topics": [
+     "2.5",
+     "3.2",
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Apply the Power Rule to differentiate 10 polynomial expressions (2.5).",
+     "Practice implicit differentiation with 5 equations (3.2).",
+     "Differentiate 4 inverse functions (3.3).",
+     "Differentiate 4 inverse trigonometric functions (3.4).",
+     "Complete a mixed FRQ set covering power, implicit, and inverse differentiation."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Contextual applications of derivatives and extreme value theory.",
+    "topics": [
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Solve 5 motion problems connecting position, velocity, acceleration (4.2).",
+     "Work 4 rate\u2011of\u2011change problems in non\u2011motion contexts (4.3).",
+     "Complete 3 related\u2011rates problems (4.4).",
+     "Identify critical points and classify them for 6 functions (5.2).",
+     "Do a mixed FRQ set that includes related rates and extreme value analysis."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "First\u2011derivative test and introduction to integration via Riemann sums.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Determine intervals of increase/decrease for 5 functions (5.3).",
+     "Use the First Derivative Test to locate local extrema for 5 functions (5.4).",
+     "Explore accumulation of change with 3 real\u2011world scenarios (6.1).",
+     "Approximate areas using left, right, and midpoint Riemann sums for 4 regions (6.2).",
+     "Complete a short timed FRQ set covering derivative tests and Riemann sums."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Definite integrals, FTC, and basic differential equations.",
+    "topics": [
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Write definite integral notation for 6 area problems and evaluate using summation (6.3).",
+     "Apply the Fundamental Theorem of Calculus to 5 functions (6.4).",
+     "Model 3 situations with differential equations and solve them (7.1).",
+     "Verify solutions of 4 differential equations by differentiation (7.2).",
+     "Do a mixed FRQ set that includes FTC and differential\u2011equation verification."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Slope fields, advanced DE reasoning, and integration applications.",
+    "topics": [
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Sketch slope fields for 3 differential equations (7.3).",
+     "Answer 4 reasoning questions using slope\u2011field information (7.4).",
+     "Calculate average values of 5 functions on given intervals (8.1).",
+     "Solve 4 problems connecting position, velocity, and acceleration via integrals (8.2).",
+     "Complete a mixed FRQ set covering slope fields and integration applications."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mixed review of weeks 1\u20115 topics; timed practice.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 30\u2011minute timed FRQ set covering limits, derivatives, and applications (mix of units 1\u20114).",
+     "Review incorrect answers and rewrite solutions with full justification.",
+     "Do 10 quick\u2011fire derivative problems (power, chain, implicit).",
+     "Complete a short worksheet on extreme values and the Mean Value Theorem.",
+     "Summarize key formulas on a one\u2011page cheat sheet for quick reference."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Mixed review of weeks 6\u20118 topics; full\u2011length practice exam.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Complete a full 90\u2011minute AP practice exam (focus on integration and differential equations).",
+     "Score the exam using the official scoring guide and note weak areas.",
+     "Review all integration FRQs, re\u2011doing any missed problems with full work.",
+     "Do a 20\u2011minute timed slope\u2011field and DE reasoning drill.",
+     "Finalize a personalized study checklist for the days before the exam."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, simulate test conditions with a full practice exam, then spend the remaining time reviewing errors and reinforcing core formulas. Keep a calm study environment, get plenty of rest, and trust the systematic preparation you\u2019ve built over the past nine weeks."
+ },
+ "raw": "{\n  \"summary\": \"The 10\u2011week plan systematically works through all AP Calculus AB units, beginning with foundational limit and derivative concepts while integrating live class sessions in the first two weeks. Each week balances new topic study, practice problems, and review within a 5\u2011hour limit. The final two weeks are dedicated to mixed review and timed practice to consolidate knowledge and build exam stamina.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce limits, average rates, chain rule, and derivative meaning.\",\n      \"topics\": [\"1.1\", \"2.1\", \"3.1\", \"4.1\"],\n      \"classes\": [11000, 11001, 11002, 11003],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch live Class 11000 and take notes on limit definition (1.1).\",\n        \"Complete 5 limit estimation problems from the textbook (1.1).\",\n        \"Watch live Class 11001; solve 5 average rate problems (2.1).\",\n        \"Watch live Class 11002; do 5 chain\u2011rule derivative exercises (3.1).\",\n        \"Watch live Class 11003; write 3 short explanations of derivative meaning in context (4.1).\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Expand limit techniques, begin derivative notation, and explore first integration concept.\",\n      \"topics\": [\"1.2\", \"1.3\", \"2.2\", \"5.1\"],\n      \"classes\": [11004],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read section on defining limits and practice 8 problems (1.2).\",\n        \"Graph 4 functions and estimate limits from graphs (1.3).\",\n        \"Watch live Class 11004; work the Mean Value Theorem worksheet (5.1).\",\n        \"Complete 6 derivative\u2011notation exercises (2.2).\",\n        \"Do 5 short\u2011answer FRQs that combine limits and the Mean Value Theorem.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Finish limit mastery and deepen derivative estimation and continuity.\",\n      \"topics\": [\"1.4\", \"1.5\", \"2.3\", \"2.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Estimate limits from tables for 6 data sets (1.4).\",\n        \"Solve 8 algebraic limit problems using properties (1.5).\",\n        \"Estimate derivatives at points for 5 functions using secant slopes (2.3).\",\n        \"Complete a worksheet linking differentiability to continuity (2.4).\",\n        \"Do 3 FRQs that require both limit and continuity reasoning.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Power rule and advanced differentiation techniques.\",\n      \"topics\": [\"2.5\", \"3.2\", \"3.3\", \"3.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Apply the Power Rule to differentiate 10 polynomial expressions (2.5).\",\n        \"Practice implicit differentiation with 5 equations (3.2).\",\n        \"Differentiate 4 inverse functions (3.3).\",\n        \"Differentiate 4 inverse trigonometric functions (3.4).\",\n        \"Complete a mixed FRQ set covering power, implicit, and inverse differentiation.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Contextual applications of derivatives and extreme value theory.\",\n      \"topics\": [\"4.2\", \"4.3\", \"4.4\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Solve 5 motion problems connecting position, velocity, acceleration (4.2).\",\n        \"Work 4 rate\u2011of\u2011change problems in non\u2011motion contexts (4.3).\",\n        \"Complete 3 related\u2011rates problems (4.4).\",\n        \"Identify critical points and classify them for 6 functions (5.2).\",\n        \"Do a mixed FRQ set that includes related rates and extreme value analysis.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"First\u2011derivative test and introduction to integration via Riemann sums.\",\n      \"topics\": [\"5.3\", \"5.4\", \"6.1\", \"6.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Determine intervals of increase/decrease for 5 functions (5.3).\",\n        \"Use the First Derivative Test to locate local extrema for 5 functions (5.4).\",\n        \"Explore accumulation of change with 3 real\u2011world scenarios (6.1).\",\n        \"Approximate areas using left, right, and midpoint Riemann sums for 4 regions (6.2).\",\n        \"Complete a short timed FRQ set covering derivative tests and Riemann sums.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Definite integrals, FTC, and basic differential equations.\",\n      \"topics\": [\"6.3\", \"6.4\", \"7.1\", \"7.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Write definite integral notation for 6 area problems and evaluate using summation (6.3).\",\n        \"Apply the Fundamental Theorem of Calculus to 5 functions (6.4).\",\n        \"Model 3 situations with differential equations and solve them (7.1).\",\n        \"Verify solutions of 4 differential equations by differentiation (7.2).\",\n        \"Do a mixed FRQ set that includes FTC and differential\u2011equation verification.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Slope fields, advanced DE reasoning, and integration applications.\",\n      \"topics\": [\"7.3\", \"7.4\", \"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Sketch slope fields for 3 differential equations (7.3).\",\n        \"Answer 4 reasoning questions using slope\u2011field information (7.4).\",\n        \"Calculate average values of 5 functions on given intervals (8.1).\",\n        \"Solve 4 problems connecting position, velocity, and acceleration via integrals (8.2).\",\n        \"Complete a mixed FRQ set covering slope fields and integration applications.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Mixed review of weeks 1\u20115 topics; timed practice.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\", \"3.1\", \"3.2\", \"3.3\", \"3.4\", \"4.1\", \"4.2\", \"4.3\", \"4.4\", \"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Take a 30\u2011minute timed FRQ set covering limits, derivatives, and applications (mix of units 1\u20114).\",\n        \"Review incorrect answers and rewrite solutions with full justification.\",\n        \"Do 10 quick\u2011fire derivative problems (power, chain, implicit).\",\n        \"Complete a short worksheet on extreme values and the Mean Value Theorem.\",\n        \"Summarize key formulas on a one\u2011page cheat sheet for quick reference.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Mixed review of weeks 6\u20118 topics; full\u2011length practice exam.\",\n      \"topics\": [\"5.3\", \"5.4\", \"6.1\", \"6.2\", \"6.3\", \"6.4\", \"7.1\", \"7.2\", \"7.3\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Complete a full 90\u2011minute AP practice exam (focus on integration and differential equations).\",\n        \"Score the exam using the official scoring guide and note weak areas.\",\n        \"Review all integration FRQs, re\u2011doing any missed problems with full work.\",\n        \"Do a 20\u2011minute timed slope\u2011field and DE reasoning drill.\",\n        \"Finalize a personalized study checklist for the days before the exam.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the final week, simulate test conditions with a full practice exam, then spend the remaining time reviewing errors and reinforcing core formulas. Keep a calm study environment, get plenty of rest, and trust the systematic preparation you\u2019ve built over the past nine weeks.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1229,
+ "output_tokens": 2346,
+ "latency_ms": 5221
+}

@@ -1,0 +1,186 @@
+{
+ "data": {
+  "summary": "The 12\u2011week plan uses the student\u2019s 2\u202fhours per week to build a solid foundation, prioritize the weak Unit\u202f7 and Unit\u202f8 early, and then rotate through the remaining units. Each week focuses on a small set of topic codes with a concrete practice task. The final two weeks are reserved for mixed review and timed free\u2011response practice to simulate the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce differential equations basics and slope fields",
+    "topics": [
+     "7.1",
+     "7.3"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Read the textbook section on modeling with differential equations (7.1).",
+     "Do 5 practice problems creating differential equations from word prompts.",
+     "Sketch slope fields for 3 given differential equations (7.3)."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Verify solutions and interpret slope fields",
+    "topics": [
+     "7.2",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Solve 4 differential equations and check each solution by substitution (7.2).",
+     "Answer 3 conceptual questions about what slope fields reveal about solution behavior (7.4)."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Average value and integration applications",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Compute the average value of 3 functions on given intervals (8.1).",
+     "Use integrals to find position from a velocity function and velocity from an acceleration function (8.2)."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Further integration applications and area between curves",
+    "topics": [
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Set up and evaluate 3 accumulation\u2011function problems in applied contexts (8.3).",
+     "Find the area between two curves for 2 pairs of functions (8.4)."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Limits and continuity fundamentals",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Watch a short video on limit definition and write the limit notation for 5 examples (1.1, 1.2).",
+     "Apply algebraic limit properties to evaluate 6 limits (1.5)."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Differentiation basics and power rule",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Calculate average and instantaneous rates of change for 3 motion scenarios (2.1).",
+     "Differentiate 5 functions using the definition and power rule (2.2, 2.5)."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Chain rule and implicit differentiation",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Differentiate 4 composite functions using the chain rule (3.1).",
+     "Solve 3 implicit differentiation problems and check your results (3.2)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Applications of differentiation \u2013 motion and rates",
+    "topics": [
+     "4.2",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Given position functions, find velocity and acceleration and interpret the results (4.2).",
+     "Complete 3 related\u2011rates problems from physics contexts (4.4)."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mean Value and Extreme Value Theorems",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "State the Mean Value Theorem for 2 functions and verify its hypotheses (5.1).",
+     "Identify critical points and classify extrema for 4 functions using EVT (5.2)."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "First derivative test and increasing/decreasing intervals",
+    "topics": [
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Determine intervals of increase/decrease for 3 functions (5.3).",
+     "Apply the First Derivative Test to locate and classify local extrema for 3 additional functions (5.4)."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Mixed review \u2013 core concepts and weak units",
+    "topics": [
+     "6.1",
+     "7.1",
+     "8.1"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Do a 10\u2011minute timed set: 2 limit problems, 2 differential\u2011equation modeling tasks, and 2 average\u2011value integrals.",
+     "Review notes on slope fields and sketch one from memory."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Full\u2011length timed practice and final review",
+    "topics": [
+     "6.4",
+     "4.1",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 2,
+    "tasks": [
+     "Complete a 30\u2011minute free\u2011response practice set covering FTC, interpretation of derivatives, and first\u2011derivative test.",
+     "Mark answers against the scoring guide and note any remaining weak spots."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, simulate exam conditions with timed free\u2011response questions, then spend any remaining minutes reviewing the specific errors you made. Keep a cheat\u2011sheet of key formulas (FTC, chain rule, DE solution steps) for quick reference the day before the exam."
+ },
+ "raw": "{\n  \"summary\": \"The 12\u2011week plan uses the student\u2019s 2\u202fhours per week to build a solid foundation, prioritize the weak Unit\u202f7 and Unit\u202f8 early, and then rotate through the remaining units. Each week focuses on a small set of topic codes with a concrete practice task. The final two weeks are reserved for mixed review and timed free\u2011response practice to simulate the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce differential equations basics and slope fields\",\n      \"topics\": [\"7.1\", \"7.3\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Read the textbook section on modeling with differential equations (7.1).\",\n        \"Do 5 practice problems creating differential equations from word prompts.\",\n        \"Sketch slope fields for 3 given differential equations (7.3).\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Verify solutions and interpret slope fields\",\n      \"topics\": [\"7.2\", \"7.4\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Solve 4 differential equations and check each solution by substitution (7.2).\",\n        \"Answer 3 conceptual questions about what slope fields reveal about solution behavior (7.4).\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Average value and integration applications\",\n      \"topics\": [\"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Compute the average value of 3 functions on given intervals (8.1).\",\n        \"Use integrals to find position from a velocity function and velocity from an acceleration function (8.2).\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Further integration applications and area between curves\",\n      \"topics\": [\"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Set up and evaluate 3 accumulation\u2011function problems in applied contexts (8.3).\",\n        \"Find the area between two curves for 2 pairs of functions (8.4).\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Limits and continuity fundamentals\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.5\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Watch a short video on limit definition and write the limit notation for 5 examples (1.1, 1.2).\",\n        \"Apply algebraic limit properties to evaluate 6 limits (1.5).\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Differentiation basics and power rule\",\n      \"topics\": [\"2.1\", \"2.2\", \"2.5\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Calculate average and instantaneous rates of change for 3 motion scenarios (2.1).\",\n        \"Differentiate 5 functions using the definition and power rule (2.2, 2.5).\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Chain rule and implicit differentiation\",\n      \"topics\": [\"3.1\", \"3.2\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Differentiate 4 composite functions using the chain rule (3.1).\",\n        \"Solve 3 implicit differentiation problems and check your results (3.2).\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Applications of differentiation \u2013 motion and rates\",\n      \"topics\": [\"4.2\", \"4.4\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Given position functions, find velocity and acceleration and interpret the results (4.2).\",\n        \"Complete 3 related\u2011rates problems from physics contexts (4.4).\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Mean Value and Extreme Value Theorems\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"State the Mean Value Theorem for 2 functions and verify its hypotheses (5.1).\",\n        \"Identify critical points and classify extrema for 4 functions using EVT (5.2).\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"First derivative test and increasing/decreasing intervals\",\n      \"topics\": [\"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Determine intervals of increase/decrease for 3 functions (5.3).\",\n        \"Apply the First Derivative Test to locate and classify local extrema for 3 additional functions (5.4).\"\n      ]\n    },\n    {\n      \"week\": 11,\n      \"focus\": \"Mixed review \u2013 core concepts and weak units\",\n      \"topics\": [\"6.1\", \"7.1\", \"8.1\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Do a 10\u2011minute timed set: 2 limit problems, 2 differential\u2011equation modeling tasks, and 2 average\u2011value integrals.\",\n        \"Review notes on slope fields and sketch one from memory.\"\n      ]\n    },\n    {\n      \"week\": 12,\n      \"focus\": \"Full\u2011length timed practice and final review\",\n      \"topics\": [\"6.4\", \"4.1\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 2,\n      \"tasks\": [\n        \"Complete a 30\u2011minute free\u2011response practice set covering FTC, interpretation of derivatives, and first\u2011derivative test.\",\n        \"Mark answers against the scoring guide and note any remaining weak spots.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, simulate exam conditions with timed free\u2011response questions, then spend any remaining minutes reviewing the specific errors you made. Keep a cheat\u2011sheet of key formulas (FTC, chain rule, DE solution steps) for quick reference the day before the exam.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1152,
+ "output_tokens": 1444,
+ "latency_ms": 3467
+}

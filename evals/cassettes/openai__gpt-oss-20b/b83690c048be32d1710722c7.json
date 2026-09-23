@@ -1,0 +1,164 @@
+{
+ "data": {
+  "summary": "This 10\u2011week plan tackles the student\u2019s weak units first, interleaves new material, and ends with a mixed review and timed practice. Each week is a single, focused session of 6 hours, with concrete tasks and optional live class attendance when available.",
+  "final_week_advice": "Use the last week for full-length practice exams and a thorough review of all units, focusing on problem areas identified during the plan.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Review atomic fundamentals and moles",
+    "topics": [
+     "1.1",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do 15 practice problems on mole calculations and convert between mass and moles, then check answers with the scoring guide.",
+     "Watch a 30\u2011minute video on electron configuration and solve 10 related questions.",
+     "Create a flashcard set for key periodic trends from 1.7."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deep dive into kinetics with live class",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [
+     9000
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9000 and take detailed notes.",
+     "After class, solve 20 rate law problems, marking each with the rubric.",
+     "Summarize the relationship between concentration and rate in a 3\u2011sentence paragraph."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Stoichiometry and reaction representations",
+    "topics": [
+     "4.5",
+     "4.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Complete a stoichiometry worksheet with 25 problems.",
+     "Convert 10 reactions into net ionic equations and verify with 4.2."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Equilibrium fundamentals with live class",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [
+     9001
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9001 and record key points.",
+     "Work through 15 equilibrium constant calculations, including Q and K comparisons.",
+     "Create a concept map linking direction of reversible reactions to Q and K."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Thermochemistry basics",
+    "topics": [
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Draw 10 energy diagrams for endothermic and exothermic reactions.",
+     "Solve 12 calorimetry problems, noting heat transfer direction."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Acids and bases introduction",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Calculate pH and pOH for 10 strong acid/base solutions.",
+     "Solve 8 buffer capacity problems and record results."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Acid\u2013base equilibria with live class",
+    "topics": [
+     "8.3"
+    ],
+    "classes": [
+     9002
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9002 and take notes on weak acid equilibria.",
+     "Complete 12 weak acid/base equilibrium calculations, including Ka and pKa."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Thermodynamics and electrochemistry",
+    "topics": [
+     "9.1",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Write a short essay on entropy change in spontaneous reactions.",
+     "Solve 10 Gibbs free energy problems, noting \u0394G, \u0394H, and \u0394S."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Review and practice mixed topics",
+    "topics": [
+     "1.8",
+     "2.5",
+     "3.4",
+     "5.4",
+     "7.4",
+     "8.4",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do a 60\u2011minute timed practice test covering all listed topics.",
+     "Review incorrect answers and update flashcards accordingly."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Full-length exam simulation",
+    "topics": [],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a full 90\u2011minute AP Chemistry practice exam under timed conditions.",
+     "Score the exam, identify top 3 weak areas, and plan a brief review session for each."
+    ]
+   }
+  ]
+ },
+ "raw": "{\"summary\":\"This 10\u2011week plan tackles the student\u2019s weak units first, interleaves new material, and ends with a mixed review and timed practice. Each week is a single, focused session of 6 hours, with concrete tasks and optional live class attendance when available.\",\"final_week_advice\":\"Use the last week for full-length practice exams and a thorough review of all units, focusing on problem areas identified during the plan.\",\"weeks\":[{\"week\":1,\"focus\":\"Review atomic fundamentals and moles\",\"topics\":[\"1.1\",\"1.5\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do 15 practice problems on mole calculations and convert between mass and moles, then check answers with the scoring guide.\",\"Watch a 30\u2011minute video on electron configuration and solve 10 related questions.\",\"Create a flashcard set for key periodic trends from 1.7.\"],\"week\":1},{\"week\":2,\"focus\":\"Deep dive into kinetics with live class\",\"topics\":[\"5.1\",\"5.2\"],\"classes\":[9000],\"hours\":6,\"tasks\":[\"Attend live class 9000 and take detailed notes.\",\"After class, solve 20 rate law problems, marking each with the rubric.\",\"Summarize the relationship between concentration and rate in a 3\u2011sentence paragraph.\"],\"week\":2},{\"week\":3,\"focus\":\"Stoichiometry and reaction representations\",\"topics\":[\"4.5\",\"4.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Complete a stoichiometry worksheet with 25 problems.\",\"Convert 10 reactions into net ionic equations and verify with 4.2.\"],\"week\":3},{\"week\":4,\"focus\":\"Equilibrium fundamentals with live class\",\"topics\":[\"7.1\",\"7.2\",\"7.3\"],\"classes\":[9001],\"hours\":6,\"tasks\":[\"Attend live class 9001 and record key points.\",\"Work through 15 equilibrium constant calculations, including Q and K comparisons.\",\"Create a concept map linking direction of reversible reactions to Q and K.\"],\"week\":4},{\"week\":5,\"focus\":\"Thermochemistry basics\",\"topics\":[\"6.1\",\"6.2\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Draw 10 energy diagrams for endothermic and exothermic reactions.\",\"Solve 12 calorimetry problems, noting heat transfer direction.\"],\"week\":5},{\"week\":6,\"focus\":\"Acids and bases introduction\",\"topics\":[\"8.1\",\"8.2\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Calculate pH and pOH for 10 strong acid/base solutions.\",\"Solve 8 buffer capacity problems and record results.\"],\"week\":6},{\"week\":7,\"focus\":\"Acid\u2013base equilibria with live class\",\"topics\":[\"8.3\"],\"classes\":[9002],\"hours\":6,\"tasks\":[\"Attend live class 9002 and take notes on weak acid equilibria.\",\"Complete 12 weak acid/base equilibrium calculations, including Ka and pKa.\"],\"week\":7},{\"week\":8,\"focus\":\"Thermodynamics and electrochemistry\",\"topics\":[\"9.1\",\"9.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Write a short essay on entropy change in spontaneous reactions.\",\"Solve 10 Gibbs free energy problems, noting \u0394G, \u0394H, and \u0394S.\"],\"week\":8},{\"week\":9,\"focus\":\"Review and practice mixed topics\",\"topics\":[\"1.8\",\"2.5\",\"3.4\",\"5.4\",\"7.4\",\"8.4\",\"9.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do a 60\u2011minute timed practice test covering all listed topics.\",\"Review incorrect answers and update flashcards accordingly.\"],\"week\":9},{\"week\":10,\"focus\":\"Full-length exam simulation\",\"topics\":[],\"classes\":[],\"hours\":6,\"tasks\":[\"Take a full 90\u2011minute AP Chemistry practice exam under timed conditions.\",\"Score the exam, identify top 3 weak areas, and plan a brief review session for each.\"],\"week\":10}]}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1260,
+ "output_tokens": 889,
+ "latency_ms": 1255
+}

@@ -1,0 +1,246 @@
+{
+ "data": {
+  "summary": "The 16\u2011week plan builds a solid foundation in Limits (the student\u2019s weak unit) early, then progresses through differentiation, integration, and differential equations while interleaving practice and review. Each week stays within the 5\u2011hour limit, includes concrete tasks, and reserves the final two weeks for mixed review and timed practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce limits and practice estimating them",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read the textbook sections for 1.1\u20111.4 and take concise notes.",
+     "Do 10 limit\u2011value estimation problems from graphs (1.3) and 10 from tables (1.4).",
+     "Complete 5 algebraic limit problems (1.5) and check answers with the solution guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen limit concepts and join live class",
+    "topics": [
+     "1.5",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [
+     10800
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend live class 10800 and actively participate in the limit examples.",
+     "After class, redo the class\u2019s example problems for 1.1\u20111.3.",
+     "Solve 8 practice problems on defining average and instantaneous rates (2.1).",
+     "Write derivative definitions for 5 functions (2.2) and verify with calculator."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Derivative basics and power rule",
+    "topics": [
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Estimate derivatives at 10 points using difference quotients (2.3).",
+     "Complete a worksheet connecting differentiability and continuity (2.4).",
+     "Practice the Power Rule on 15 polynomial functions (2.5)."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Chain rule and implicit differentiation",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Watch a tutorial on the Chain Rule and do 12 chain\u2011rule problems (3.1).",
+     "Do 8 implicit differentiation problems (3.2) and check each step against the solution key."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Inverse functions and trig derivatives",
+    "topics": [
+     "3.3",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Derive formulas for the derivatives of inverse functions (3.3) for 5 examples.",
+     "Complete 10 problems differentiating inverse trigonometric functions (3.4)."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Derivative applications in motion",
+    "topics": [
+     "4.1",
+     "4.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Write a short explanation of the derivative\u2019s meaning in context (4.1).",
+     "Solve 6 straight\u2011line motion problems connecting position, velocity, and acceleration (4.2)."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Rates of change and related rates",
+    "topics": [
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Complete 8 applied\u2011rate\u2011of\u2011change problems (4.3).",
+     "Work through 5 related\u2011rates scenarios (4.4), showing all setup steps."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Mean Value and Extreme Value Theorems",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Prove the Mean Value Theorem for 3 functions (5.1).",
+     "Identify critical points and classify them using the Extreme Value Theorem for 6 functions (5.2)."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "First derivative test and monotonicity",
+    "topics": [
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Determine intervals of increase/decrease for 8 functions (5.3).",
+     "Apply the First Derivative Test to find local extrema for 6 functions (5.4)."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Riemann sums and area approximation",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Explore 4 accumulation scenarios and describe them verbally (6.1).",
+     "Compute left, right, and midpoint Riemann sums for 5 regions (6.2).",
+     "Write the summation notation for each Riemann sum and evaluate (6.3)."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Fundamental Theorem of Calculus",
+    "topics": [
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Prove the FTC for 2 functions and use it to evaluate 8 definite integrals (6.4).",
+     "Create a one\u2011page cheat sheet linking accumulation functions to antiderivatives."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Differential equations modeling",
+    "topics": [
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Set up differential equations for 5 real\u2011world situations (7.1).",
+     "Verify solutions for those equations using substitution (7.2)."
+    ]
+   },
+   {
+    "week": 13,
+    "focus": "Slope fields and qualitative analysis",
+    "topics": [
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Sketch slope fields for 4 differential equations (7.3).",
+     "Answer reasoning questions about solution behavior from the slope fields (7.4)."
+    ]
+   },
+   {
+    "week": 14,
+    "focus": "Integration applications \u2013 average value & motion",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Calculate the average value of 6 functions on given intervals (8.1).",
+     "Use integrals to find position, velocity, and acceleration for 4 motion problems (8.2)."
+    ]
+   },
+   {
+    "week": 15,
+    "focus": "Mixed integration review and area between curves",
+    "topics": [
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Solve 5 applied\u2011context accumulation problems (8.3).",
+     "Find the area between curves for 6 pairs of functions (8.4)."
+    ]
+   },
+   {
+    "week": 16,
+    "focus": "Comprehensive timed practice and review",
+    "topics": [],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a full\u2011length timed practice exam (all units).",
+     "Review every incorrect answer, writing a brief explanation of the error.",
+     "Do a final 20\u2011question mixed\u2011topic drill focusing on weak spots (limits, related rates)."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, simulate exam conditions, focus on speed and accuracy, and use the error\u2011analysis sheet to fix lingering misconceptions. Rest well the night before the exam and trust the systematic practice you\u2019ve built."
+ },
+ "raw": "{\n  \"summary\": \"The 16\u2011week plan builds a solid foundation in Limits (the student\u2019s weak unit) early, then progresses through differentiation, integration, and differential equations while interleaving practice and review. Each week stays within the 5\u2011hour limit, includes concrete tasks, and reserves the final two weeks for mixed review and timed practice.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce limits and practice estimating them\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read the textbook sections for 1.1\u20111.4 and take concise notes.\",\n        \"Do 10 limit\u2011value estimation problems from graphs (1.3) and 10 from tables (1.4).\",\n        \"Complete 5 algebraic limit problems (1.5) and check answers with the solution guide.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Deepen limit concepts and join live class\",\n      \"topics\": [\"1.5\", \"2.1\", \"2.2\"],\n      \"classes\": [10800],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Attend live class 10800 and actively participate in the limit examples.\",\n        \"After class, redo the class\u2019s example problems for 1.1\u20111.3.\",\n        \"Solve 8 practice problems on defining average and instantaneous rates (2.1).\",\n        \"Write derivative definitions for 5 functions (2.2) and verify with calculator.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Derivative basics and power rule\",\n      \"topics\": [\"2.3\", \"2.4\", \"2.5\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Estimate derivatives at 10 points using difference quotients (2.3).\",\n        \"Complete a worksheet connecting differentiability and continuity (2.4).\",\n        \"Practice the Power Rule on 15 polynomial functions (2.5).\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Chain rule and implicit differentiation\",\n      \"topics\": [\"3.1\", \"3.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch a tutorial on the Chain Rule and do 12 chain\u2011rule problems (3.1).\",\n        \"Do 8 implicit differentiation problems (3.2) and check each step against the solution key.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Inverse functions and trig derivatives\",\n      \"topics\": [\"3.3\", \"3.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Derive formulas for the derivatives of inverse functions (3.3) for 5 examples.\",\n        \"Complete 10 problems differentiating inverse trigonometric functions (3.4).\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Derivative applications in motion\",\n      \"topics\": [\"4.1\", \"4.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Write a short explanation of the derivative\u2019s meaning in context (4.1).\",\n        \"Solve 6 straight\u2011line motion problems connecting position, velocity, and acceleration (4.2).\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Rates of change and related rates\",\n      \"topics\": [\"4.3\", \"4.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Complete 8 applied\u2011rate\u2011of\u2011change problems (4.3).\",\n        \"Work through 5 related\u2011rates scenarios (4.4), showing all setup steps.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Mean Value and Extreme Value Theorems\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Prove the Mean Value Theorem for 3 functions (5.1).\",\n        \"Identify critical points and classify them using the Extreme Value Theorem for 6 functions (5.2).\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"First derivative test and monotonicity\",\n      \"topics\": [\"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Determine intervals of increase/decrease for 8 functions (5.3).\",\n        \"Apply the First Derivative Test to find local extrema for 6 functions (5.4).\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Riemann sums and area approximation\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Explore 4 accumulation scenarios and describe them verbally (6.1).\",\n        \"Compute left, right, and midpoint Riemann sums for 5 regions (6.2).\",\n        \"Write the summation notation for each Riemann sum and evaluate (6.3).\"\n      ]\n    },\n    {\n      \"week\": 11,\n      \"focus\": \"Fundamental Theorem of Calculus\",\n      \"topics\": [\"6.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Prove the FTC for 2 functions and use it to evaluate 8 definite integrals (6.4).\",\n        \"Create a one\u2011page cheat sheet linking accumulation functions to antiderivatives.\"\n      ]\n    },\n    {\n      \"week\": 12,\n      \"focus\": \"Differential equations modeling\",\n      \"topics\": [\"7.1\", \"7.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Set up differential equations for 5 real\u2011world situations (7.1).\",\n        \"Verify solutions for those equations using substitution (7.2).\"\n      ]\n    },\n    {\n      \"week\": 13,\n      \"focus\": \"Slope fields and qualitative analysis\",\n      \"topics\": [\"7.3\", \"7.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Sketch slope fields for 4 differential equations (7.3).\",\n        \"Answer reasoning questions about solution behavior from the slope fields (7.4).\"\n      ]\n    },\n    {\n      \"week\": 14,\n      \"focus\": \"Integration applications \u2013 average value & motion\",\n      \"topics\": [\"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Calculate the average value of 6 functions on given intervals (8.1).\",\n        \"Use integrals to find position, velocity, and acceleration for 4 motion problems (8.2).\"\n      ]\n    },\n    {\n      \"week\": 15,\n      \"focus\": \"Mixed integration review and area between curves\",\n      \"topics\": [\"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Solve 5 applied\u2011context accumulation problems (8.3).\",\n        \"Find the area between curves for 6 pairs of functions (8.4).\"\n      ]\n    },\n    {\n      \"week\": 16,\n      \"focus\": \"Comprehensive timed practice and review\",\n      \"topics\": [],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Take a full\u2011length timed practice exam (all units).\",\n        \"Review every incorrect answer, writing a brief explanation of the error.\",\n        \"Do a final 20\u2011question mixed\u2011topic drill focusing on weak spots (limits, related rates).\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, simulate exam conditions, focus on speed and accuracy, and use the error\u2011analysis sheet to fix lingering misconceptions. Rest well the night before the exam and trust the systematic practice you\u2019ve built.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1173,
+ "output_tokens": 1883,
+ "latency_ms": 4299
+}

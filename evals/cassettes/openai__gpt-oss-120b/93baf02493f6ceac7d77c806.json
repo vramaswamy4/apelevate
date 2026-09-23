@@ -1,0 +1,103 @@
+{
+ "data": {
+  "summary": "The plan front\u2011loads Unit\u202f3 (the student\u2019s weak area) while introducing core concepts from Units\u202f1 and\u202f2. Subsequent weeks rotate through the remaining units, reinforcing earlier material and ending with mixed review and timed practice. Each week stays within the 15\u2011hour limit and includes the live class that matches the week\u2019s topics.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Foundations in kinematics and forces",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "hours": 14,
+    "tasks": [
+     "Read textbook sections 1.1\u20111.2 and 2.1\u20112.2; take concise notes.",
+     "Do 12 free\u2011response problems on displacement, velocity, acceleration, and free\u2011body diagrams; check answers with the solution guide.",
+     "Create a one\u2011page summary sheet of key equations for kinematics and Newton\u2019s second law."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Work, energy, and conservation concepts (weak unit)",
+    "topics": [
+     "3.2",
+     "3.4"
+    ],
+    "classes": [
+     10500
+    ],
+    "hours": 13,
+    "tasks": [
+     "Watch the live class 10500 and take notes on work and energy conservation.",
+     "Complete the class worksheet (provided by the instructor) covering 3.2 and 3.4.",
+     "Solve 10 FRQs on work\u2011energy theorem and conservation of energy; grade with the scoring rubric."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Power and momentum fundamentals",
+    "topics": [
+     "3.5",
+     "4.1",
+     "4.2"
+    ],
+    "classes": [],
+    "hours": 15,
+    "tasks": [
+     "Read sections on power (3.5) and linear momentum (4.1\u20114.2).",
+     "Do 8 problems calculating power in various scenarios.",
+     "Do 8 impulse\u2011momentum problems; compare solutions to answer key.",
+     "Write a brief paragraph linking work\u2011energy concepts to momentum (for synthesis)."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Rotational dynamics and angular momentum",
+    "topics": [
+     "5.1",
+     "5.3",
+     "6.1",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 14,
+    "tasks": [
+     "Read textbook chapters on rotational kinematics, torque, rotational kinetic energy, and angular momentum conservation.",
+     "Complete 6 problems on rotational kinematics (5.1) and 6 on torque (5.3).",
+     "Solve 6 FRQs on rotational kinetic energy (6.1) and angular momentum conservation (6.4).",
+     "Create a comparison table of linear vs. rotational dynamics equations."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Mixed review and timed practice",
+    "topics": [
+     "1.5",
+     "2.5",
+     "3.1",
+     "4.3",
+     "5.2",
+     "7.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 15,
+    "tasks": [
+     "Take a 60\u2011minute timed practice exam covering all units; use official AP practice test.",
+     "Review each incorrect answer, referencing notes and solution guides.",
+     "Do 5 free\u2011response questions from each of the listed topics for targeted reinforcement.",
+     "Update the master formula sheet with any missing equations discovered during review."
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on exam strategy: practice pacing, eliminate answer choices quickly, and simulate test conditions. Review your formula sheet, and ensure you can explain each core concept in under a minute."
+ },
+ "raw": "{\n  \"summary\": \"The plan front\u2011loads Unit\u202f3 (the student\u2019s weak area) while introducing core concepts from Units\u202f1 and\u202f2. Subsequent weeks rotate through the remaining units, reinforcing earlier material and ending with mixed review and timed practice. Each week stays within the 15\u2011hour limit and includes the live class that matches the week\u2019s topics.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Foundations in kinematics and forces\",\n      \"topics\": [\"1.1\", \"1.2\", \"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"hours\": 14,\n      \"tasks\": [\n        \"Read textbook sections 1.1\u20111.2 and 2.1\u20112.2; take concise notes.\",\n        \"Do 12 free\u2011response problems on displacement, velocity, acceleration, and free\u2011body diagrams; check answers with the solution guide.\",\n        \"Create a one\u2011page summary sheet of key equations for kinematics and Newton\u2019s second law.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Work, energy, and conservation concepts (weak unit)\",\n      \"topics\": [\"3.2\", \"3.4\"],\n      \"classes\": [10500],\n      \"hours\": 13,\n      \"tasks\": [\n        \"Watch the live class 10500 and take notes on work and energy conservation.\",\n        \"Complete the class worksheet (provided by the instructor) covering 3.2 and 3.4.\",\n        \"Solve 10 FRQs on work\u2011energy theorem and conservation of energy; grade with the scoring rubric.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Power and momentum fundamentals\",\n      \"topics\": [\"3.5\", \"4.1\", \"4.2\"],\n      \"classes\": [],\n      \"hours\": 15,\n      \"tasks\": [\n        \"Read sections on power (3.5) and linear momentum (4.1\u20114.2).\",\n        \"Do 8 problems calculating power in various scenarios.\",\n        \"Do 8 impulse\u2011momentum problems; compare solutions to answer key.\",\n        \"Write a brief paragraph linking work\u2011energy concepts to momentum (for synthesis).\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Rotational dynamics and angular momentum\",\n      \"topics\": [\"5.1\", \"5.3\", \"6.1\", \"6.4\"],\n      \"classes\": [],\n      \"hours\": 14,\n      \"tasks\": [\n        \"Read textbook chapters on rotational kinematics, torque, rotational kinetic energy, and angular momentum conservation.\",\n        \"Complete 6 problems on rotational kinematics (5.1) and 6 on torque (5.3).\",\n        \"Solve 6 FRQs on rotational kinetic energy (6.1) and angular momentum conservation (6.4).\",\n        \"Create a comparison table of linear vs. rotational dynamics equations.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Mixed review and timed practice\",\n      \"topics\": [\"1.5\", \"2.5\", \"3.1\", \"4.3\", \"5.2\", \"7.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 15,\n      \"tasks\": [\n        \"Take a 60\u2011minute timed practice exam covering all units; use official AP practice test.\",\n        \"Review each incorrect answer, referencing notes and solution guides.\",\n        \"Do 5 free\u2011response questions from each of the listed topics for targeted reinforcement.\",\n        \"Update the master formula sheet with any missing equations discovered during review.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the last week, focus on exam strategy: practice pacing, eliminate answer choices quickly, and simulate test conditions. Review your formula sheet, and ensure you can explain each core concept in under a minute.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 998,
+ "output_tokens": 897,
+ "latency_ms": 2485
+}

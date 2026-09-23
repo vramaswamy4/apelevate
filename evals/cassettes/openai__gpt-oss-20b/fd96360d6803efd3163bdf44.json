@@ -1,0 +1,143 @@
+{
+ "data": {
+  "summary": "This 8\u2011week plan uses the two available live classes to anchor the schedule, then builds on each unit with focused practice and timed drills. Each week is capped at 6 hours, and the final week is devoted to mixed review and timed practice to simulate exam conditions.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Master basic kinematics and free\u2011body diagram fundamentals.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.2"
+    ],
+    "classes": [
+     10300
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend Class 1 (1.1, 1.2).",
+     "Do 15 free\u2011body diagram problems on 2.2 and self\u2011grade using the rubric."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of motion and Newton\u2019s laws.",
+    "topics": [
+     "1.3",
+     "1.4",
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 20 problems on 1.3 and 1.4, then compare solutions with a peer.",
+     "Complete 10 Newton\u2019s 2nd law word problems (2.5) and check answers with the scoring guide."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Apply work, energy, and conservation principles.",
+    "topics": [
+     "3.1",
+     "3.4",
+     "4.1"
+    ],
+    "classes": [
+     10301
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend Class 2 (3.1, 3.4).",
+     "Do 12 work\u2011energy problems (3.1, 3.4) and annotate each step."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Explore momentum concepts and collisions.",
+    "topics": [
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Practice 15 impulse problems (4.2).",
+     "Solve 10 collision scenarios (4.3, 4.4) and write a brief explanation of conservation reasoning."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Introduce rotational dynamics and torque.",
+    "topics": [
+     "5.1",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Complete 10 rotational kinematics problems (5.1).",
+     "Do 8 torque calculations (5.3) and verify with a calculator."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Link rotational energy and angular momentum.",
+    "topics": [
+     "6.1",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 10 problems on rotational kinetic energy (6.1).",
+     "Work through 5 angular momentum conservation problems (6.3, 6.4)."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Study simple harmonic motion and fluid concepts.",
+    "topics": [
+     "7.1",
+     "7.4",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do 10 SHM energy problems (7.4).",
+     "Answer 5 fluid density questions (8.1) and 5 pressure problems (8.2)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Mixed review and timed practice.",
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.4",
+     "4.3",
+     "5.3",
+     "6.4",
+     "7.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 60\u2011minute timed practice test covering all units. Afterward, review incorrect answers and summarize key concepts."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the final week to simulate exam conditions: complete a full-length timed test, then review mistakes in detail, reinforcing any weak spots before the exam."
+ },
+ "raw": "{\"summary\":\"This 8\u2011week plan uses the two available live classes to anchor the schedule, then builds on each unit with focused practice and timed drills. Each week is capped at 6 hours, and the final week is devoted to mixed review and timed practice to simulate exam conditions.\",\"weeks\":[{\"week\":1,\"focus\":\"Master basic kinematics and free\u2011body diagram fundamentals.\",\"topics\":[\"1.1\",\"1.2\",\"2.2\"],\"classes\":[10300],\"hours\":6,\"tasks\":[\"Attend Class 1 (1.1, 1.2).\",\"Do 15 free\u2011body diagram problems on 2.2 and self\u2011grade using the rubric.\"]},{\"week\":2,\"focus\":\"Deepen understanding of motion and Newton\u2019s laws.\",\"topics\":[\"1.3\",\"1.4\",\"2.4\",\"2.5\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Solve 20 problems on 1.3 and 1.4, then compare solutions with a peer.\",\"Complete 10 Newton\u2019s 2nd law word problems (2.5) and check answers with the scoring guide.\"]},{\"week\":3,\"focus\":\"Apply work, energy, and conservation principles.\",\"topics\":[\"3.1\",\"3.4\",\"4.1\"],\"classes\":[10301],\"hours\":6,\"tasks\":[\"Attend Class 2 (3.1, 3.4).\",\"Do 12 work\u2011energy problems (3.1, 3.4) and annotate each step.\"]},{\"week\":4,\"focus\":\"Explore momentum concepts and collisions.\",\"topics\":[\"4.2\",\"4.3\",\"4.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Practice 15 impulse problems (4.2).\",\"Solve 10 collision scenarios (4.3, 4.4) and write a brief explanation of conservation reasoning.\"]},{\"week\":5,\"focus\":\"Introduce rotational dynamics and torque.\",\"topics\":[\"5.1\",\"5.3\",\"5.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Complete 10 rotational kinematics problems (5.1).\",\"Do 8 torque calculations (5.3) and verify with a calculator.\"]},{\"week\":6,\"focus\":\"Link rotational energy and angular momentum.\",\"topics\":[\"6.1\",\"6.3\",\"6.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Solve 10 problems on rotational kinetic energy (6.1).\",\"Work through 5 angular momentum conservation problems (6.3, 6.4).\"]},{\"week\":7,\"focus\":\"Study simple harmonic motion and fluid concepts.\",\"topics\":[\"7.1\",\"7.4\",\"8.1\",\"8.2\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do 10 SHM energy problems (7.4).\",\"Answer 5 fluid density questions (8.1) and 5 pressure problems (8.2).\"]},{\"week\":8,\"focus\":\"Mixed review and timed practice.\",\"topics\":[\"1.1\",\"2.5\",\"3.4\",\"4.3\",\"5.3\",\"6.4\",\"7.1\",\"8.2\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Take a 60\u2011minute timed practice test covering all units. Afterward, review incorrect answers and summarize key concepts.\"]}],\"final_week_advice\":\"Use the final week to simulate exam conditions: complete a full-length timed test, then review mistakes in detail, reinforcing any weak spots before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1010,
+ "output_tokens": 762,
+ "latency_ms": 1207
+}

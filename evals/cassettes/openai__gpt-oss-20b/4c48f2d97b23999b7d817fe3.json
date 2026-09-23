@@ -1,0 +1,50 @@
+{
+ "data": {
+  "final_week_advice": "Conclude with a comprehensive review and timed practice to reinforce all topics and ensure confidence for the exam.",
+  "summary": "The two\u2011week plan focuses first on the student\u2019s weak unit (Acids and Bases) with a live class and targeted practice, then moves to a mixed review of kinetics and related topics with another live class, ensuring all units are touched and exam readiness is built.",
+  "weeks": [
+   {
+    "classes": [
+     9100
+    ],
+    "focus": "Master unit 8 concepts and apply them in practice",
+    "hours": 8,
+    "tasks": [
+     "Attend live class #9100 (week 1) to review 8.1 and 8.2 concepts",
+     "Do 15 practice problems on pH calculations for strong acids and bases",
+     "Mark each solution against the scoring guide and note any errors",
+     "Review the class notes and summarize key formulas for pH and pOH"
+    ],
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [
+     4
+    ],
+    "focus": "Integrate kinetics and review key concepts for exam",
+    "hours": 8,
+    "tasks": [
+     "Attend live class #4 (week 2) on rate laws and concentration changes",
+     "Complete 20 timed practice problems on rate laws and reaction order",
+     "Create a one\u2011page cheat sheet summarizing rate law formulas and common pitfalls",
+     "Simulate a mock exam section on kinetics using past AP questions"
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "week": 2
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\":\"Conclude with a comprehensive review and timed practice to reinforce all topics and ensure confidence for the exam.\",\"summary\":\"The two\u2011week plan focuses first on the student\u2019s weak unit (Acids and Bases) with a live class and targeted practice, then moves to a mixed review of kinetics and related topics with another live class, ensuring all units are touched and exam readiness is built.\",\"weeks\":[{\"classes\":[9100],\"focus\":\"Master unit 8 concepts and apply them in practice\",\"hours\":8,\"tasks\":[\"Attend live class #9100 (week 1) to review 8.1 and 8.2 concepts\",\"Do 15 practice problems on pH calculations for strong acids and bases\",\"Mark each solution against the scoring guide and note any errors\",\"Review the class notes and summarize key formulas for pH and pOH\"],\"topics\":[\"8.1\",\"8.2\"],\"week\":1},{\"classes\":[4],\"focus\":\"Integrate kinetics and review key concepts for exam\",\"hours\":8,\"tasks\":[\"Attend live class #4 (week 2) on rate laws and concentration changes\",\"Complete 20 timed practice problems on rate laws and reaction order\",\"Create a one\u2011page cheat sheet summarizing rate law formulas and common pitfalls\",\"Simulate a mock exam section on kinetics using past AP questions\"],\"topics\":[\"5.1\",\"5.2\",\"5.3\"],\"week\":2}]}\n",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1166,
+ "output_tokens": 394,
+ "latency_ms": 922
+}

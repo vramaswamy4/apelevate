@@ -1,0 +1,201 @@
+{
+ "data": {
+  "summary": "The plan front\u2011loads the student\u2019s weak units (Kinetics and Equilibrium) while still covering the core curriculum. Each week balances lecture topics, live class participation, and focused practice within a 6\u2011hour limit. The final two weeks are reserved for mixed review and timed free\u2011response practice to build stamina for the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce foundational concepts and begin Kinetics basics.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read AP Chemistry textbook sections on Moles and Molar Mass and Atomic Structure; take notes on key formulas.",
+     "Watch a 20\u2011minute video on Reaction Rates and write a one\u2011page summary.",
+     "Do 8 practice problems on calculating reaction rates (5.1) and check answers with the solution guide.",
+     "Complete 5 free\u2011response style questions on rate law basics (5.2) and self\u2011grade using the AP scoring rubric."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Live class on Kinetics; reinforce rate law concepts.",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [
+     9000
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9000 and actively take notes on examples presented.",
+     "After class, redo the class\u2019s example problems without notes to test retention.",
+     "Complete 10 additional rate\u2011law FRQs, marking each against the scoring guide.",
+     "Create a one\u2011page cheat sheet summarizing the steps to determine a rate law from experimental data."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Complete Kinetics unit and start Thermochemistry.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read sections on Concentration Changes Over Time and Elementary Reactions; outline key equations.",
+     "Solve 6 problems on concentration vs. time graphs (5.3).",
+     "Watch a tutorial on Energy Diagrams and label endothermic vs. exothermic curves.",
+     "Do 5 calorimetry calculations (6.1, 6.2) and verify with answer key."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Live class on Equilibrium; introduce equilibrium concepts.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [
+     9001
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9001, focusing on the derivation of the reaction quotient.",
+     "After class, write out the steps to determine direction of a reversible reaction for 4 different examples.",
+     "Complete 8 practice problems calculating Q and comparing to K (7.3).",
+     "Summarize the three equilibrium principles on a one\u2011page mind map."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Finish Equilibrium unit and begin Acids & Bases.",
+    "topics": [
+     "7.4",
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read textbook sections on Calculating the Equilibrium Constant; solve 6 problems (7.4).",
+     "Watch a video on Acid\u2011Base introductions; list the definitions of acids and bases.",
+     "Do 10 pH calculations for strong acids and bases (8.2).",
+     "Create a table converting between pH, pOH, [H+], and [OH-] for quick reference."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Deepen Acids & Bases; start Thermodynamics & Electrochemistry.",
+    "topics": [
+     "8.3",
+     "8.4",
+     "9.1",
+     "9.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 8 weak\u2011acid equilibrium problems (8.3) using ICE tables.",
+     "Write a short explanation of buffer action and solve 4 buffer\u2011preparation problems (8.4).",
+     "Read sections on Entropy; complete 5 conceptual questions (9.1).",
+     "Calculate entropy changes for 3 reactions (9.2) and check work with solution set."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Live class on Acids & Bases; practice strong\u2011acid/base calculations.",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [
+     9002
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9002 and note any alternative methods shown for pH calculations.",
+     "Redo the class examples without notes to ensure mastery.",
+     "Complete 12 mixed strong\u2011acid/base FRQs, grading with the AP rubric.",
+     "Update the pH/pOH reference table with any new shortcuts learned."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Complete Thermodynamics & Electrochemistry; review all units briefly.",
+    "topics": [
+     "9.3",
+     "9.4",
+     "4.5",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Work through 6 Gibbs free\u2011energy problems (9.3) and interpret spontaneity.",
+     "Solve 5 cell\u2011potential calculations for galvanic and electrolytic cells (9.4).",
+     "Do 4 stoichiometry word problems that involve gases (4.5, 3.4).",
+     "Create a one\u2011page summary linking \u0394G, K, and equilibrium concepts."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mixed review of all units; timed free\u2011response practice.",
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.1",
+     "4.3",
+     "5.4",
+     "7.4",
+     "8.4",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Set a 90\u2011minute timer and complete 3 full\u2011length AP free\u2011response questions covering different units.",
+     "Review answers using the scoring guide; note any recurring mistakes.",
+     "Do a quick\u2011fire round: 15 multiple\u2011choice questions (one from each listed topic).",
+     "Update a personal error\u2011log with strategies to avoid those mistakes."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Final comprehensive review and exam\u2011day strategy.",
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.1",
+     "4.5",
+     "5.4",
+     "7.4",
+     "8.4",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a full 90\u2011minute practice exam under timed conditions.",
+     "Score the exam, then spend 2 hours reviewing every incorrect answer with the rubric.",
+     "Re\u2011read the one\u2011page cheat sheets created earlier for each major unit.",
+     "Write a brief exam\u2011day checklist (materials, timing plan, stress\u2011relief techniques)."
+    ]
+   }
+  ],
+  "final_week_advice": "Stay calm, trust your preparation, and use the checklist to manage time on exam day. Review your error\u2011log quickly before the test, and remember to pace yourself\u2014answer every free\u2011response prompt even if you\u2019re unsure, and allocate a minute per multiple\u2011choice question."
+ },
+ "raw": "{\n  \"summary\": \"The plan front\u2011loads the student\u2019s weak units (Kinetics and Equilibrium) while still covering the core curriculum. Each week balances lecture topics, live class participation, and focused practice within a 6\u2011hour limit. The final two weeks are reserved for mixed review and timed free\u2011response practice to build stamina for the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce foundational concepts and begin Kinetics basics.\",\n      \"topics\": [\"1.1\", \"1.5\", \"5.1\", \"5.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read AP Chemistry textbook sections on Moles and Molar Mass and Atomic Structure; take notes on key formulas.\",\n        \"Watch a 20\u2011minute video on Reaction Rates and write a one\u2011page summary.\",\n        \"Do 8 practice problems on calculating reaction rates (5.1) and check answers with the solution guide.\",\n        \"Complete 5 free\u2011response style questions on rate law basics (5.2) and self\u2011grade using the AP scoring rubric.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Live class on Kinetics; reinforce rate law concepts.\",\n      \"topics\": [\"5.1\", \"5.2\"],\n      \"classes\": [9000],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class 9000 and actively take notes on examples presented.\",\n        \"After class, redo the class\u2019s example problems without notes to test retention.\",\n        \"Complete 10 additional rate\u2011law FRQs, marking each against the scoring guide.\",\n        \"Create a one\u2011page cheat sheet summarizing the steps to determine a rate law from experimental data.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Complete Kinetics unit and start Thermochemistry.\",\n      \"topics\": [\"5.3\", \"5.4\", \"6.1\", \"6.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read sections on Concentration Changes Over Time and Elementary Reactions; outline key equations.\",\n        \"Solve 6 problems on concentration vs. time graphs (5.3).\",\n        \"Watch a tutorial on Energy Diagrams and label endothermic vs. exothermic curves.\",\n        \"Do 5 calorimetry calculations (6.1, 6.2) and verify with answer key.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Live class on Equilibrium; introduce equilibrium concepts.\",\n      \"topics\": [\"7.1\", \"7.2\", \"7.3\"],\n      \"classes\": [9001],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class 9001, focusing on the derivation of the reaction quotient.\",\n        \"After class, write out the steps to determine direction of a reversible reaction for 4 different examples.\",\n        \"Complete 8 practice problems calculating Q and comparing to K (7.3).\",\n        \"Summarize the three equilibrium principles on a one\u2011page mind map.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Finish Equilibrium unit and begin Acids & Bases.\",\n      \"topics\": [\"7.4\", \"8.1\", \"8.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read textbook sections on Calculating the Equilibrium Constant; solve 6 problems (7.4).\",\n        \"Watch a video on Acid\u2011Base introductions; list the definitions of acids and bases.\",\n        \"Do 10 pH calculations for strong acids and bases (8.2).\",\n        \"Create a table converting between pH, pOH, [H+], and [OH-] for quick reference.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Deepen Acids & Bases; start Thermodynamics & Electrochemistry.\",\n      \"topics\": [\"8.3\", \"8.4\", \"9.1\", \"9.2\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Solve 8 weak\u2011acid equilibrium problems (8.3) using ICE tables.\",\n        \"Write a short explanation of buffer action and solve 4 buffer\u2011preparation problems (8.4).\",\n        \"Read sections on Entropy; complete 5 conceptual questions (9.1).\",\n        \"Calculate entropy changes for 3 reactions (9.2) and check work with solution set.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Live class on Acids & Bases; practice strong\u2011acid/base calculations.\",\n      \"topics\": [\"8.1\", \"8.2\"],\n      \"classes\": [9002],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class 9002 and note any alternative methods shown for pH calculations.\",\n        \"Redo the class examples without notes to ensure mastery.\",\n        \"Complete 12 mixed strong\u2011acid/base FRQs, grading with the AP rubric.\",\n        \"Update the pH/pOH reference table with any new shortcuts learned.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Complete Thermodynamics & Electrochemistry; review all units briefly.\",\n      \"topics\": [\"9.3\", \"9.4\", \"4.5\", \"3.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Work through 6 Gibbs free\u2011energy problems (9.3) and interpret spontaneity.\",\n        \"Solve 5 cell\u2011potential calculations for galvanic and electrolytic cells (9.4).\",\n        \"Do 4 stoichiometry word problems that involve gases (4.5, 3.4).\",\n        \"Create a one\u2011page summary linking \u0394G, K, and equilibrium concepts.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Mixed review of all units; timed free\u2011response practice.\",\n      \"topics\": [\"1.1\", \"2.5\", \"3.1\", \"4.3\", \"5.4\", \"7.4\", \"8.4\", \"9.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Set a 90\u2011minute timer and complete 3 full\u2011length AP free\u2011response questions covering different units.\",\n        \"Review answers using the scoring guide; note any recurring mistakes.\",\n        \"Do a quick\u2011fire round: 15 multiple\u2011choice questions (one from each listed topic).\",\n        \"Update a personal error\u2011log with strategies to avoid those mistakes.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Final comprehensive review and exam\u2011day strategy.\",\n      \"topics\": [\"1.1\", \"2.5\", \"3.1\", \"4.5\", \"5.4\", \"7.4\", \"8.4\", \"9.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Take a full 90\u2011minute practice exam under timed conditions.\",\n        \"Score the exam, then spend 2 hours reviewing every incorrect answer with the rubric.\",\n        \"Re\u2011read the one\u2011page cheat sheets created earlier for each major unit.\",\n        \"Write a brief exam\u2011day checklist (materials, timing plan, stress\u2011relief techniques).\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Stay calm, trust your preparation, and use the checklist to manage time on exam day. Review your error\u2011log quickly before the test, and remember to pace yourself\u2014answer every free\u2011response prompt even if you\u2019re unsure, and allocate a minute per multiple\u2011choice question.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 2885,
+ "output_tokens": 1777,
+ "latency_ms": 4141
+}

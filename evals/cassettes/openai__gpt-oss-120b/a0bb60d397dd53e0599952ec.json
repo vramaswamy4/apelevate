@@ -1,0 +1,170 @@
+{
+ "data": {
+  "summary": "The eight\u2011week schedule balances new content with practice, using the live classes when they align with the topics. Each week the student spends the full 6\u202fhours on focused study, problem sets, and short quizzes, ending with a mixed review in the final week to consolidate knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Kinematics fundamentals and vectors",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4"
+    ],
+    "classes": [
+     10300
+    ],
+    "hours": 6,
+    "tasks": [
+     "Watch the live class (ID 10300) and take notes on Scalars/Vectors and Displacement/Velocity/Acceleration.",
+     "Complete the textbook problems for 1.1 and 1.2 (10 problems each).",
+     "Do 5 free\u2011response questions on representing motion (1.3) and check answers with the scoring guide.",
+     "Create a one\u2011page cheat sheet summarizing reference frames and relative motion (1.4)."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Force, free\u2011body diagrams, and Newton's laws",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read the unit chapter on forces and draw free\u2011body diagrams for 8 different scenarios.",
+     "Solve 12 problems covering Newton's First, Second, and Third Laws.",
+     "Complete a 15\u2011minute timed quiz on systems and center of mass (2.1).",
+     "Review solutions and write a one\u2011sentence explanation for each law."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Work, energy, and power basics",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "classes": [
+     10301
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class (ID 10301) covering Translational Kinetic Energy and Conservation of Energy.",
+     "Do the class worksheet: 8 problems on 3.1 and 6 problems on 3.4.",
+     "Complete textbook exercises on Work (3.2) and Power (3.5) \u2013 5 problems each.",
+     "Create a concept map linking kinetic, potential, and total energy."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Linear momentum and collisions",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read the momentum unit and summarize the impulse\u2011momentum theorem in 3 bullet points.",
+     "Solve 10 problems on linear momentum conservation, including one elastic and one inelastic collision.",
+     "Run a 20\u2011minute timed free\u2011response set covering 4.2 and 4.3.",
+     "Check answers against the scoring guide and note any mistakes."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Rotational kinematics and torque",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Watch a short video on rotational kinematics and take notes on angular displacement, velocity, and acceleration.",
+     "Complete 8 problems linking linear and rotational motion (5.2).",
+     "Do 6 torque problems (5.3) and 4 rotational inertia calculations (5.4).",
+     "Summarize the key equations on a flash\u2011card sheet."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Energy and momentum of rotating systems",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read the chapter on rotational kinetic energy and torque work; write a one\u2011paragraph explanation of each.",
+     "Solve 5 problems on rotational kinetic energy (6.1) and 5 on torque\u2011work (6.2).",
+     "Complete a set of 6 angular momentum and impulse questions (6.3).",
+     "Do a short practice test on conservation of angular momentum (6.4)."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Oscillations and simple harmonic motion",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Read the SHM unit and derive the formulas for period and frequency.",
+     "Work through 8 problems on defining SHM and calculating period/frequency.",
+     "Analyze 5 oscillator graphs and write a brief interpretation for each (7.3).",
+     "Calculate the energy of 4 simple harmonic oscillators (7.4)."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Mixed review and timed practice",
+    "topics": [
+     "1.5",
+     "2.5",
+     "3.5",
+     "4.4",
+     "5.4",
+     "6.4",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a 60\u2011minute full\u2011length AP Physics 1 practice exam (mixed units).",
+     "Mark the exam using the official scoring guide; record which topics lost points.",
+     "Do a targeted review: 2 problems each from the lowest\u2011scoring topics.",
+     "Create a final one\u2011page summary sheet covering formulas from all units."
+    ]
+   }
+  ],
+  "final_week_advice": "After the mixed review, focus on your weakest question types, redo those problems without notes, and keep a calm, timed routine for the actual exam day."
+ },
+ "raw": "{\n  \"summary\": \"The eight\u2011week schedule balances new content with practice, using the live classes when they align with the topics. Each week the student spends the full 6\u202fhours on focused study, problem sets, and short quizzes, ending with a mixed review in the final week to consolidate knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Kinematics fundamentals and vectors\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.3\", \"1.4\"],\n      \"classes\": [10300],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch the live class (ID 10300) and take notes on Scalars/Vectors and Displacement/Velocity/Acceleration.\",\n        \"Complete the textbook problems for 1.1 and 1.2 (10 problems each).\",\n        \"Do 5 free\u2011response questions on representing motion (1.3) and check answers with the scoring guide.\",\n        \"Create a one\u2011page cheat sheet summarizing reference frames and relative motion (1.4).\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Force, free\u2011body diagrams, and Newton's laws\",\n      \"topics\": [\"2.1\", \"2.2\", \"2.3\", \"2.4\", \"2.5\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read the unit chapter on forces and draw free\u2011body diagrams for 8 different scenarios.\",\n        \"Solve 12 problems covering Newton's First, Second, and Third Laws.\",\n        \"Complete a 15\u2011minute timed quiz on systems and center of mass (2.1).\",\n        \"Review solutions and write a one\u2011sentence explanation for each law.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Work, energy, and power basics\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\", \"3.4\", \"3.5\"],\n      \"classes\": [10301],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Attend live class (ID 10301) covering Translational Kinetic Energy and Conservation of Energy.\",\n        \"Do the class worksheet: 8 problems on 3.1 and 6 problems on 3.4.\",\n        \"Complete textbook exercises on Work (3.2) and Power (3.5) \u2013 5 problems each.\",\n        \"Create a concept map linking kinetic, potential, and total energy.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Linear momentum and collisions\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.3\", \"4.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read the momentum unit and summarize the impulse\u2011momentum theorem in 3 bullet points.\",\n        \"Solve 10 problems on linear momentum conservation, including one elastic and one inelastic collision.\",\n        \"Run a 20\u2011minute timed free\u2011response set covering 4.2 and 4.3.\",\n        \"Check answers against the scoring guide and note any mistakes.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Rotational kinematics and torque\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Watch a short video on rotational kinematics and take notes on angular displacement, velocity, and acceleration.\",\n        \"Complete 8 problems linking linear and rotational motion (5.2).\",\n        \"Do 6 torque problems (5.3) and 4 rotational inertia calculations (5.4).\",\n        \"Summarize the key equations on a flash\u2011card sheet.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Energy and momentum of rotating systems\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.3\", \"6.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read the chapter on rotational kinetic energy and torque work; write a one\u2011paragraph explanation of each.\",\n        \"Solve 5 problems on rotational kinetic energy (6.1) and 5 on torque\u2011work (6.2).\",\n        \"Complete a set of 6 angular momentum and impulse questions (6.3).\",\n        \"Do a short practice test on conservation of angular momentum (6.4).\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Oscillations and simple harmonic motion\",\n      \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Read the SHM unit and derive the formulas for period and frequency.\",\n        \"Work through 8 problems on defining SHM and calculating period/frequency.\",\n        \"Analyze 5 oscillator graphs and write a brief interpretation for each (7.3).\",\n        \"Calculate the energy of 4 simple harmonic oscillators (7.4).\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Mixed review and timed practice\",\n      \"topics\": [\"1.5\", \"2.5\", \"3.5\", \"4.4\", \"5.4\", \"6.4\", \"7.4\", \"8.1\", \"8.2\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 6,\n      \"tasks\": [\n        \"Take a 60\u2011minute full\u2011length AP Physics 1 practice exam (mixed units).\",\n        \"Mark the exam using the official scoring guide; record which topics lost points.\",\n        \"Do a targeted review: 2 problems each from the lowest\u2011scoring topics.\",\n        \"Create a final one\u2011page summary sheet covering formulas from all units.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the mixed review, focus on your weakest question types, redo those problems without notes, and keep a calm, timed routine for the actual exam day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1010,
+ "output_tokens": 1446,
+ "latency_ms": 3357
+}

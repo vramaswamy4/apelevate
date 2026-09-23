@@ -1,0 +1,101 @@
+{
+ "data": {
+  "final_week_advice": "Use the final week for timed practice and mixed review to solidify all concepts before the exam.",
+  "summary": "A focused six\u2011week plan that covers all AP Chemistry units, balances theory with practice, and culminates in a mixed review week. Each week includes a concrete task, a live class when available, and a short focus line.",
+  "weeks": [
+   {
+    "classes": [
+     9500
+    ],
+    "focus": "Atomic structure fundamentals and gas laws",
+    "hours": 20,
+    "tasks": [
+     "Read 1.1 and 1.5 notes, then solve 15 mol\u2011mass problems with solutions; review 3.4 derivation and solve 10 ideal gas law problems; attend Class 9500 and take detailed notes on 3.1 and 3.2."
+    ],
+    "topics": [
+     "1.1",
+     "1.5",
+     "3.4"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Bonding concepts and stoichiometry",
+    "hours": 20,
+    "tasks": [
+     "Create flashcards for 2.1 bond types; draw Lewis structures for 10 compounds (2.5); solve 15 stoichiometry word problems (4.5)."
+    ],
+    "topics": [
+     "2.1",
+     "2.5",
+     "4.5"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [
+     9501
+    ],
+    "focus": "Reaction mechanisms and net ionic equations",
+    "hours": 20,
+    "tasks": [
+     "Do 10 rate law derivations (5.1,5.2); write net ionic equations for 8 reactions (4.2); attend Class 9501 and practice 4.1 and 4.2 problems."
+    ],
+    "topics": [
+     "5.1",
+     "5.2",
+     "4.2"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [],
+    "focus": "Thermochemistry and equilibrium basics",
+    "hours": 20,
+    "tasks": [
+     "Plot 5 energy diagrams (6.2); calculate \u0394H for 5 reactions (6.1); solve 10 equilibrium constant problems (7.1)."
+    ],
+    "topics": [
+     "6.1",
+     "6.2",
+     "7.1"
+    ],
+    "week": 4
+   },
+   {
+    "classes": [],
+    "focus": "Acids, bases, and advanced kinetics",
+    "hours": 20,
+    "tasks": [
+     "Calculate pH for 5 weak acids (8.3); solve 10 kinetic rate problems (5.3); write a short essay on acid\u2013base buffer systems (8.4)."
+    ],
+    "topics": [
+     "8.1",
+     "8.3",
+     "5.3"
+    ],
+    "week": 5
+   },
+   {
+    "classes": [],
+    "focus": "Electrochemistry and comprehensive review",
+    "hours": 20,
+    "tasks": [
+     "Compute \u0394G for 5 reactions (9.3); solve 10 entropy change problems (9.1); mixed review: timed practice of 30 mixed-topic questions covering all units."
+    ],
+    "topics": [
+     "9.1",
+     "9.3",
+     "7.3"
+    ],
+    "week": 6
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\":\"Use the final week for timed practice and mixed review to solidify all concepts before the exam.\",\"summary\":\"A focused six\u2011week plan that covers all AP Chemistry units, balances theory with practice, and culminates in a mixed review week. Each week includes a concrete task, a live class when available, and a short focus line.\",\"weeks\":[{\"classes\":[9500],\"focus\":\"Atomic structure fundamentals and gas laws\",\"hours\":20,\"tasks\":[\"Read 1.1 and 1.5 notes, then solve 15 mol\u2011mass problems with solutions; review 3.4 derivation and solve 10 ideal gas law problems; attend Class 9500 and take detailed notes on 3.1 and 3.2.\"],\"topics\":[\"1.1\",\"1.5\",\"3.4\"],\"week\":1},{\"classes\":[],\"focus\":\"Bonding concepts and stoichiometry\",\"hours\":20,\"tasks\":[\"Create flashcards for 2.1 bond types; draw Lewis structures for 10 compounds (2.5); solve 15 stoichiometry word problems (4.5).\"],\"topics\":[\"2.1\",\"2.5\",\"4.5\"],\"week\":2},{\"classes\":[9501],\"focus\":\"Reaction mechanisms and net ionic equations\",\"hours\":20,\"tasks\":[\"Do 10 rate law derivations (5.1,5.2); write net ionic equations for 8 reactions (4.2); attend Class 9501 and practice 4.1 and 4.2 problems.\"],\"topics\":[\"5.1\",\"5.2\",\"4.2\"],\"week\":3},{\"classes\":[],\"focus\":\"Thermochemistry and equilibrium basics\",\"hours\":20,\"tasks\":[\"Plot 5 energy diagrams (6.2); calculate \u0394H for 5 reactions (6.1); solve 10 equilibrium constant problems (7.1).\"],\"topics\":[\"6.1\",\"6.2\",\"7.1\"],\"week\":4},{\"classes\":[],\"focus\":\"Acids, bases, and advanced kinetics\",\"hours\":20,\"tasks\":[\"Calculate pH for 5 weak acids (8.3); solve 10 kinetic rate problems (5.3); write a short essay on acid\u2013base buffer systems (8.4).\"],\"topics\":[\"8.1\",\"8.3\",\"5.3\"],\"week\":5},{\"classes\":[],\"focus\":\"Electrochemistry and comprehensive review\",\"hours\":20,\"tasks\":[\"Compute \u0394G for 5 reactions (9.3); solve 10 entropy change problems (9.1); mixed review: timed practice of 30 mixed-topic questions covering all units.\"],\"topics\":[\"9.1\",\"9.3\",\"7.3\"],\"week\":6}]}\n",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1154,
+ "output_tokens": 617,
+ "latency_ms": 1629
+}

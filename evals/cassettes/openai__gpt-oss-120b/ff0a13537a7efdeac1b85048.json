@@ -1,0 +1,35 @@
+{
+ "data": {
+  "summary": "In the single week before the exam, the student will concentrate on Unit\u202f4 (Contextual Applications of Differentiation), the identified weak area, while also reviewing key derivative concepts needed for the FRQ. All 12 study hours are allocated to focused practice and timed drills.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Intensive practice of Unit\u202f4 applications and related derivative review",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "2.1",
+     "2.2",
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 12,
+    "tasks": [
+     "Do 5 free\u2011response FRQ prompts on interpreting derivatives in context (4.1) and write complete solutions, then compare with the scoring guide (2\u202fhrs).",
+     "Complete 4 related\u2011rates problems (4.4) from past exams, timing each for 15\u202fmin, and check answers using the solution key (2\u202fhrs).",
+     "Work through 6 straight\u2011line motion scenarios (4.2) calculating position, velocity, and acceleration; verify results with a calculator (2\u202fhrs).",
+     "Solve 5 applied\u2011rate\u2011of\u2011change questions (4.3) involving economics or biology contexts; create a one\u2011page summary of strategies (2\u202fhrs).",
+     "Review derivative basics: quickly re\u2011derive the power rule (2.5) and average\u2011instantaneous rate concepts (2.1\u20112.2); do 10 mixed derivative practice problems for speed (2\u202fhrs)."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the remaining time to take a full\u2011length practice exam under timed conditions, then focus on any lingering mistakes in Unit\u202f4 before the test day."
+ },
+ "raw": "{\n  \"summary\": \"In the single week before the exam, the student will concentrate on Unit\u202f4 (Contextual Applications of Differentiation), the identified weak area, while also reviewing key derivative concepts needed for the FRQ. All 12 study hours are allocated to focused practice and timed drills.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Intensive practice of Unit\u202f4 applications and related derivative review\",\n      \"topics\": [\n        \"4.1\",\n        \"4.2\",\n        \"4.3\",\n        \"4.4\",\n        \"2.1\",\n        \"2.2\",\n        \"2.5\"\n      ],\n      \"classes\": [],\n      \"hours\": 12,\n      \"tasks\": [\n        \"Do 5 free\u2011response FRQ prompts on interpreting derivatives in context (4.1) and write complete solutions, then compare with the scoring guide (2\u202fhrs).\",\n        \"Complete 4 related\u2011rates problems (4.4) from past exams, timing each for 15\u202fmin, and check answers using the solution key (2\u202fhrs).\",\n        \"Work through 6 straight\u2011line motion scenarios (4.2) calculating position, velocity, and acceleration; verify results with a calculator (2\u202fhrs).\",\n        \"Solve 5 applied\u2011rate\u2011of\u2011change questions (4.3) involving economics or biology contexts; create a one\u2011page summary of strategies (2\u202fhrs).\",\n        \"Review derivative basics: quickly re\u2011derive the power rule (2.5) and average\u2011instantaneous rate concepts (2.1\u20112.2); do 10 mixed derivative practice problems for speed (2\u202fhrs).\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use the remaining time to take a full\u2011length practice exam under timed conditions, then focus on any lingering mistakes in Unit\u202f4 before the test day.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1147,
+ "output_tokens": 475,
+ "latency_ms": 1529
+}

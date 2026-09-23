@@ -64,7 +64,7 @@ def test_command_writes_results_and_report(tmp_evals, monkeypatch, settings):
         "--report",
         stdout=io.StringIO(),
     )
-    data = json.loads((tmp_evals / "results" / "fake.json").read_text())
+    data = json.loads((tmp_evals / "results" / "fake@v2.json").read_text())
     assert data["summary"]["cases"] == 1
     text = (tmp_evals / "docs" / "EVALS.md").read_text()
-    assert "| `fake` | 100% |" in text and "Use the fake." in text
+    assert "| `fake` | v2 | 100% |" in text and "Use the fake." in text

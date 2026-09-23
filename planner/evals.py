@@ -27,6 +27,7 @@ from classes.models import TutoringClass
 from .checks import ERROR, WARNING, errors
 from .context import build_context
 from .llm import Completion, LLMRateLimited, LLMSchemaError
+from .prompts import PROMPT_VERSION
 from .services import run_model
 
 ROOT = Path(settings.BASE_DIR) / "evals"
@@ -197,8 +198,9 @@ def summarise(results) -> dict:
 
 def write_results(model, results):
     RESULTS.mkdir(parents=True, exist_ok=True)
-    path = RESULTS / f"{model.replace('/', '__')}.json"
+    path = RESULTS / f"{model.replace('/', '__')}@{PROMPT_VERSION}.json"
+    summary = {**summarise(results), "prompt": PROMPT_VERSION}
     path.write_text(
-        json.dumps({"summary": summarise(results), "cases": [asdict(r) for r in results]}, indent=1)
+        json.dumps({"summary": summary, "cases": [asdict(r) for r in results]}, indent=1)
     )
     return path

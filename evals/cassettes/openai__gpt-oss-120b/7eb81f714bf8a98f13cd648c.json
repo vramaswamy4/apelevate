@@ -1,0 +1,226 @@
+{
+ "data": {
+  "summary": "The 12\u2011week plan distributes the 45 AP Chemistry topics across the first 11 weeks, giving the student 6 focused study hours each week. Early weeks prioritize the weak units, rotating through all units to build depth and retention. The final week is reserved for mixed review and timed practice to simulate exam conditions.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Foundations of atomic structure and bonding basics.",
+    "topics": [
+     "1.1",
+     "1.5",
+     "2.1",
+     "2.5"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Read textbook sections on Moles and Molar Mass and Atomic Structure; take concise notes.",
+     "Do 12 conversion problems involving moles, grams, and particles; verify with answer key.",
+     "Complete 8 Lewis diagram exercises for simple molecules; compare with solutions.",
+     "Watch a tutorial on Types of Chemical Bonds and summarize differences in a table."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deeper dive into electron configuration and molecular geometry.",
+    "topics": [
+     "1.7",
+     "1.8",
+     "2.7",
+     "3.1"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Create flashcards for Periodic Trends and practice recalling trends for 20 elements.",
+     "Solve 10 problems on Valence Electrons and Ionic Compounds formation.",
+     "Draw VSEPR shapes for 15 given molecules; check against answer key.",
+     "Write brief explanations of Intermolecular Forces for 5 substances."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Properties of solids, liquids, gases, and introductory reactions.",
+    "topics": [
+     "3.2",
+     "3.3",
+     "3.4",
+     "4.1"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Complete a table comparing properties of solids, liquids, and gases.",
+     "Work through 10 Ideal Gas Law problems with varying conditions.",
+     "Read the Introduction for Reactions section and list 5 key concepts.",
+     "Do 5 stoichiometry practice problems using the Ideal Gas Law."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Stoichiometry and net ionic equations.",
+    "topics": [
+     "4.2",
+     "4.3",
+     "4.5",
+     "5.1"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Write net ionic equations for 8 given reactions; compare with provided solutions.",
+     "Practice 10 representation problems (molecular, complete ionic, net ionic).",
+     "Solve 12 stoichiometry problems involving mass\u2011mass and mass\u2011volume conversions.",
+     "Calculate reaction rates for 6 simple rate problems."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Rate laws and kinetic concepts.",
+    "topics": [
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Derive the rate law for 4 sample reactions from given data.",
+     "Plot concentration vs. time for 3 reactions and interpret the curves.",
+     "Identify elementary steps in 5 reaction mechanisms.",
+     "List characteristics of endothermic vs. exothermic processes; give 3 examples each."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Energy diagrams and calorimetry.",
+    "topics": [
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Label 5 energy diagrams (reactants, products, activation energy).",
+     "Solve 8 calorimetry problems calculating q = mc\u0394T.",
+     "Determine heat capacity for 3 substances from experimental data.",
+     "Write a short paragraph explaining the concept of chemical equilibrium."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Equilibrium constants and reaction direction.",
+    "topics": [
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Predict direction of 6 reversible reactions using Q vs. K.",
+     "Calculate equilibrium constants from given concentrations for 5 reactions.",
+     "Convert Kc to Kp for 3 gas\u2011phase equilibria.",
+     "Summarize the definitions of acids and bases; list 5 examples of each."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "pH calculations and weak acid/base equilibria.",
+    "topics": [
+     "8.2",
+     "8.3",
+     "8.4",
+     "9.1"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Compute pH and pOH for 10 strong acid/base solutions.",
+     "Solve Ka/ Kb problems for 8 weak acids/bases; determine pH.",
+     "Design a buffer system for a target pH of 7.4 and show calculations.",
+     "Explain entropy concept with 5 everyday examples."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Entropy, Gibbs free energy, and electrochemistry basics.",
+    "topics": [
+     "9.2",
+     "9.3",
+     "9.4",
+     "1.2"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Calculate \u0394S\u00b0 for 4 standard reactions using tabulated values.",
+     "Determine \u0394G\u00b0 for 6 reactions and state spontaneity.",
+     "Draw cell diagrams for 3 galvanic cells and identify anode/cathode.",
+     "Interpret a mass\u2011spectroscopy graph for an element; answer 5 questions."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Advanced bonding and intermolecular forces.",
+    "topics": [
+     "2.2",
+     "2.3",
+     "2.4",
+     "3.5"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Explain intramolecular force and potential energy curves for 4 molecules.",
+     "Sketch lattice structures for 3 ionic solids and label coordination numbers.",
+     "Describe metallic bonding in 2 alloys and relate to conductivity.",
+     "Apply kinetic molecular theory to explain pressure\u2011temperature relationships in 5 scenarios."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Comprehensive synthesis and problem set.",
+    "topics": [
+     "1.3",
+     "1.4",
+     "2.6",
+     "4.4",
+     "1.6"
+    ],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Determine elemental composition of 5 pure substances from given data.",
+     "Analyze composition of mixtures using gravimetric data (4 problems).",
+     "Calculate resonance structures and formal charges for 6 molecules.",
+     "Classify 8 changes as physical or chemical and justify.",
+     "Complete a mixed\u2011topic practice set of 12 free\u2011response questions covering weeks 1\u201110."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Mixed review and timed practice.",
+    "topics": [],
+    "hours": 6,
+    "classes": [],
+    "tasks": [
+     "Take a 90\u2011minute full\u2011length timed practice exam.",
+     "Review each incorrect answer, referencing notes and solutions.",
+     "Do a rapid\u2011fire round: 20 FRQ outlines in 30 minutes.",
+     "Create a one\u2011page cheat sheet of key equations and concepts for final revision."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the timed practice to identify any lingering weak spots, then spend the remaining days before the exam reviewing those specific topics and doing targeted FRQ drills. Keep sleep, nutrition, and stress\u2011management routines consistent for optimal performance."
+ },
+ "raw": "{\n  \"summary\": \"The 12\u2011week plan distributes the 45 AP Chemistry topics across the first 11 weeks, giving the student 6 focused study hours each week. Early weeks prioritize the weak units, rotating through all units to build depth and retention. The final week is reserved for mixed review and timed practice to simulate exam conditions.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Foundations of atomic structure and bonding basics.\",\n      \"topics\": [\"1.1\", \"1.5\", \"2.1\", \"2.5\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Read textbook sections on Moles and Molar Mass and Atomic Structure; take concise notes.\",\n        \"Do 12 conversion problems involving moles, grams, and particles; verify with answer key.\",\n        \"Complete 8 Lewis diagram exercises for simple molecules; compare with solutions.\",\n        \"Watch a tutorial on Types of Chemical Bonds and summarize differences in a table.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Deeper dive into electron configuration and molecular geometry.\",\n      \"topics\": [\"1.7\", \"1.8\", \"2.7\", \"3.1\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Create flashcards for Periodic Trends and practice recalling trends for 20 elements.\",\n        \"Solve 10 problems on Valence Electrons and Ionic Compounds formation.\",\n        \"Draw VSEPR shapes for 15 given molecules; check against answer key.\",\n        \"Write brief explanations of Intermolecular Forces for 5 substances.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Properties of solids, liquids, gases, and introductory reactions.\",\n      \"topics\": [\"3.2\", \"3.3\", \"3.4\", \"4.1\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete a table comparing properties of solids, liquids, and gases.\",\n        \"Work through 10 Ideal Gas Law problems with varying conditions.\",\n        \"Read the Introduction for Reactions section and list 5 key concepts.\",\n        \"Do 5 stoichiometry practice problems using the Ideal Gas Law.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Stoichiometry and net ionic equations.\",\n      \"topics\": [\"4.2\", \"4.3\", \"4.5\", \"5.1\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Write net ionic equations for 8 given reactions; compare with provided solutions.\",\n        \"Practice 10 representation problems (molecular, complete ionic, net ionic).\",\n        \"Solve 12 stoichiometry problems involving mass\u2011mass and mass\u2011volume conversions.\",\n        \"Calculate reaction rates for 6 simple rate problems.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Rate laws and kinetic concepts.\",\n      \"topics\": [\"5.2\", \"5.3\", \"5.4\", \"6.1\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Derive the rate law for 4 sample reactions from given data.\",\n        \"Plot concentration vs. time for 3 reactions and interpret the curves.\",\n        \"Identify elementary steps in 5 reaction mechanisms.\",\n        \"List characteristics of endothermic vs. exothermic processes; give 3 examples each.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Energy diagrams and calorimetry.\",\n      \"topics\": [\"6.2\", \"6.3\", \"6.4\", \"7.1\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Label 5 energy diagrams (reactants, products, activation energy).\",\n        \"Solve 8 calorimetry problems calculating q = mc\u0394T.\",\n        \"Determine heat capacity for 3 substances from experimental data.\",\n        \"Write a short paragraph explaining the concept of chemical equilibrium.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Equilibrium constants and reaction direction.\",\n      \"topics\": [\"7.2\", \"7.3\", \"7.4\", \"8.1\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Predict direction of 6 reversible reactions using Q vs. K.\",\n        \"Calculate equilibrium constants from given concentrations for 5 reactions.\",\n        \"Convert Kc to Kp for 3 gas\u2011phase equilibria.\",\n        \"Summarize the definitions of acids and bases; list 5 examples of each.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"pH calculations and weak acid/base equilibria.\",\n      \"topics\": [\"8.2\", \"8.3\", \"8.4\", \"9.1\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Compute pH and pOH for 10 strong acid/base solutions.\",\n        \"Solve Ka/ Kb problems for 8 weak acids/bases; determine pH.\",\n        \"Design a buffer system for a target pH of 7.4 and show calculations.\",\n        \"Explain entropy concept with 5 everyday examples.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Entropy, Gibbs free energy, and electrochemistry basics.\",\n      \"topics\": [\"9.2\", \"9.3\", \"9.4\", \"1.2\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Calculate \u0394S\u00b0 for 4 standard reactions using tabulated values.\",\n        \"Determine \u0394G\u00b0 for 6 reactions and state spontaneity.\",\n        \"Draw cell diagrams for 3 galvanic cells and identify anode/cathode.\",\n        \"Interpret a mass\u2011spectroscopy graph for an element; answer 5 questions.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Advanced bonding and intermolecular forces.\",\n      \"topics\": [\"2.2\", \"2.3\", \"2.4\", \"3.5\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Explain intramolecular force and potential energy curves for 4 molecules.\",\n        \"Sketch lattice structures for 3 ionic solids and label coordination numbers.\",\n        \"Describe metallic bonding in 2 alloys and relate to conductivity.\",\n        \"Apply kinetic molecular theory to explain pressure\u2011temperature relationships in 5 scenarios.\"\n      ]\n    },\n    {\n      \"week\": 11,\n      \"focus\": \"Comprehensive synthesis and problem set.\",\n      \"topics\": [\"1.3\", \"1.4\", \"2.6\", \"4.4\", \"1.6\"],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Determine elemental composition of 5 pure substances from given data.\",\n        \"Analyze composition of mixtures using gravimetric data (4 problems).\",\n        \"Calculate resonance structures and formal charges for 6 molecules.\",\n        \"Classify 8 changes as physical or chemical and justify.\",\n        \"Complete a mixed\u2011topic practice set of 12 free\u2011response questions covering weeks 1\u201110.\"\n      ]\n    },\n    {\n      \"week\": 12,\n      \"focus\": \"Mixed review and timed practice.\",\n      \"topics\": [],\n      \"hours\": 6,\n      \"classes\": [],\n      \"tasks\": [\n        \"Take a 90\u2011minute full\u2011length timed practice exam.\",\n        \"Review each incorrect answer, referencing notes and solutions.\",\n        \"Do a rapid\u2011fire round: 20 FRQ outlines in 30 minutes.\",\n        \"Create a one\u2011page cheat sheet of key equations and concepts for final revision.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use the timed practice to identify any lingering weak spots, then spend the remaining days before the exam reviewing those specific topics and doing targeted FRQ drills. Keep sleep, nutrition, and stress\u2011management routines consistent for optimal performance.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 2955,
+ "output_tokens": 1829,
+ "latency_ms": 4293
+}

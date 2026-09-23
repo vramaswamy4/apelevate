@@ -1,0 +1,175 @@
+{
+ "data": {
+  "summary": "The 10\u2011week plan balances core content review with intensive practice on the weak Unit\u202f9. Early weeks introduce thermodynamics and electrochemistry, then rotate through the other units while revisiting Unit\u202f9 before the exam. The final week is dedicated to mixed review and timed free\u2011response practice.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Introduce thermodynamics fundamentals and start entropy concepts.",
+    "topics": [
+     "9.1",
+     "9.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read the textbook sections on 9.1 and 9.2, taking concise notes on definitions and key equations.",
+     "Complete 5 end\u2011of\u2011chapter problems on entropy calculations.",
+     "Create a one\u2011page summary sheet for entropy terms and units."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Gibbs free energy and spontaneity; link to entropy.",
+    "topics": [
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Watch a Khan Academy video on Gibbs free energy and work through the example problems.",
+     "Do 8 free\u2011response style questions on \u0394G = \u0394H \u2013 T\u0394S, checking answers with the scoring guide.",
+     "Update the summary sheet to include \u0394G calculations and sign conventions."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Electrochemical cells basics and cell notation.",
+    "topics": [
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read the unit on galvanic and electrolytic cells; diagram a standard Zn/Cu cell.",
+     "Solve 6 problems calculating cell potentials using standard reduction potentials.",
+     "Practice writing balanced overall reactions for 3 given cell setups."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Atomic structure and periodic trends.",
+    "topics": [
+     "1.5",
+     "1.7",
+     "1.8"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Review lecture notes on electron configuration and periodic trends; fill in a periodic table worksheet.",
+     "Complete 10 multiple\u2011choice questions on valence electrons and ion formation.",
+     "Write out electron configurations for the first 20 elements, noting trends."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Chemical bonding and molecular geometry.",
+    "topics": [
+     "2.1",
+     "2.5",
+     "2.7"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Draw Lewis structures for 5 molecules, including formal charge checks.",
+     "Determine VSEPR shapes for each molecule and justify hybridization.",
+     "Do 4 FRQ\u2011style questions on bond polarity and molecular geometry."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Kinetics fundamentals and rate laws.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Summarize the definition of reaction rate and write rate laws for 3 sample reactions.",
+     "Calculate concentration vs. time profiles for a first\u2011order reaction using provided data.",
+     "Complete 6 practice problems on determining reaction order from experimental data."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Equilibrium concepts and calculations.",
+    "topics": [
+     "7.1",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Review equilibrium constant expressions; practice converting Kc to Kp for 2 reactions.",
+     "Solve 5 problems calculating equilibrium concentrations from ICE tables.",
+     "Write a short explanation of Le\u202fChatelier\u2019s principle applied to temperature changes."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Acid\u2011base equilibria and buffers.",
+    "topics": [
+     "8.1",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Derive the Henderson\u2013Hasselbalch equation and work through 3 buffer calculations.",
+     "Complete 7 FRQ\u2011style questions on weak acid/base pH calculations.",
+     "Create a comparison chart of strong vs. weak acids and bases."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Revisit thermodynamics/electrochemistry and integrate with other units.",
+    "topics": [
+     "9.1",
+     "9.3",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Do a mixed set of 5 timed free\u2011response questions covering entropy, Gibbs free energy, and cell potentials.",
+     "Review mistakes from weeks 1\u20113 and rewrite solutions with correct reasoning.",
+     "Prepare a one\u2011page cheat sheet linking \u0394G, K, and cell potential for quick reference."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Comprehensive mixed review and timed practice.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "2.2",
+     "3.4",
+     "4.5",
+     "5.4",
+     "6.1",
+     "7.2",
+     "8.2",
+     "9.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a full 90\u2011minute practice exam (official AP FRQs).",
+     "Score the exam using the AP rubric and note areas needing final polish.",
+     "Review all incorrect answers, re\u2011doing the underlying calculations or concepts."
+    ]
+   }
+  ],
+  "final_week_advice": "In the days before the exam, focus on timed practice, quick\u2011recall flashcards for equations, and targeted review of any persisting weak spots identified from the practice test."
+ },
+ "raw": "{\n  \"summary\": \"The 10\u2011week plan balances core content review with intensive practice on the weak Unit\u202f9. Early weeks introduce thermodynamics and electrochemistry, then rotate through the other units while revisiting Unit\u202f9 before the exam. The final week is dedicated to mixed review and timed free\u2011response practice.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Introduce thermodynamics fundamentals and start entropy concepts.\",\n      \"topics\": [\"9.1\", \"9.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read the textbook sections on 9.1 and 9.2, taking concise notes on definitions and key equations.\",\n        \"Complete 5 end\u2011of\u2011chapter problems on entropy calculations.\",\n        \"Create a one\u2011page summary sheet for entropy terms and units.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Gibbs free energy and spontaneity; link to entropy.\",\n      \"topics\": [\"9.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch a Khan Academy video on Gibbs free energy and work through the example problems.\",\n        \"Do 8 free\u2011response style questions on \u0394G = \u0394H \u2013 T\u0394S, checking answers with the scoring guide.\",\n        \"Update the summary sheet to include \u0394G calculations and sign conventions.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Electrochemical cells basics and cell notation.\",\n      \"topics\": [\"9.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read the unit on galvanic and electrolytic cells; diagram a standard Zn/Cu cell.\",\n        \"Solve 6 problems calculating cell potentials using standard reduction potentials.\",\n        \"Practice writing balanced overall reactions for 3 given cell setups.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Atomic structure and periodic trends.\",\n      \"topics\": [\"1.5\", \"1.7\", \"1.8\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Review lecture notes on electron configuration and periodic trends; fill in a periodic table worksheet.\",\n        \"Complete 10 multiple\u2011choice questions on valence electrons and ion formation.\",\n        \"Write out electron configurations for the first 20 elements, noting trends.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Chemical bonding and molecular geometry.\",\n      \"topics\": [\"2.1\", \"2.5\", \"2.7\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Draw Lewis structures for 5 molecules, including formal charge checks.\",\n        \"Determine VSEPR shapes for each molecule and justify hybridization.\",\n        \"Do 4 FRQ\u2011style questions on bond polarity and molecular geometry.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Kinetics fundamentals and rate laws.\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Summarize the definition of reaction rate and write rate laws for 3 sample reactions.\",\n        \"Calculate concentration vs. time profiles for a first\u2011order reaction using provided data.\",\n        \"Complete 6 practice problems on determining reaction order from experimental data.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Equilibrium concepts and calculations.\",\n      \"topics\": [\"7.1\", \"7.3\", \"7.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Review equilibrium constant expressions; practice converting Kc to Kp for 2 reactions.\",\n        \"Solve 5 problems calculating equilibrium concentrations from ICE tables.\",\n        \"Write a short explanation of Le\u202fChatelier\u2019s principle applied to temperature changes.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Acid\u2011base equilibria and buffers.\",\n      \"topics\": [\"8.1\", \"8.3\", \"8.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Derive the Henderson\u2013Hasselbalch equation and work through 3 buffer calculations.\",\n        \"Complete 7 FRQ\u2011style questions on weak acid/base pH calculations.\",\n        \"Create a comparison chart of strong vs. weak acids and bases.\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Revisit thermodynamics/electrochemistry and integrate with other units.\",\n      \"topics\": [\"9.1\", \"9.3\", \"9.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Do a mixed set of 5 timed free\u2011response questions covering entropy, Gibbs free energy, and cell potentials.\",\n        \"Review mistakes from weeks 1\u20113 and rewrite solutions with correct reasoning.\",\n        \"Prepare a one\u2011page cheat sheet linking \u0394G, K, and cell potential for quick reference.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Comprehensive mixed review and timed practice.\",\n      \"topics\": [\"1.1\",\"1.2\",\"2.2\",\"3.4\",\"4.5\",\"5.4\",\"6.1\",\"7.2\",\"8.2\",\"9.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Take a full 90\u2011minute practice exam (official AP FRQs).\",\n        \"Score the exam using the AP rubric and note areas needing final polish.\",\n        \"Review all incorrect answers, re\u2011doing the underlying calculations or concepts.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"In the days before the exam, focus on timed practice, quick\u2011recall flashcards for equations, and targeted review of any persisting weak spots identified from the practice test.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1119,
+ "output_tokens": 1372,
+ "latency_ms": 3060
+}

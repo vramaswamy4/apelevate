@@ -1,0 +1,197 @@
+{
+ "data": {
+  "summary": "The plan tackles the weak units first, then cycles through the remaining units, ending with a mixed review week. Each week\u2019s tasks are concrete, single\u2011sitting activities that fit the 5\u2011hour limit.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Review kinematics fundamentals",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Do 20 practice problems on 1.1 and 1.2, marking each answer",
+     "Create a motion\u2011graph worksheet for 1.3 and solve it"
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Linear momentum basics",
+    "topics": [
+     "4.1",
+     "4.2"
+    ],
+    "classes": [
+     10000
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend live class 10000",
+     "After class, solve 15 problems on impulse and momentum change"
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Momentum conservation",
+    "topics": [
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Work through 10 collision problems (elastic and inelastic)",
+     "Write a short summary of conservation of momentum principles"
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Torque fundamentals",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Complete 12 torque\u2011kinematics problems",
+     "Draw free\u2011body diagrams for a rotating system"
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Torque and rotational dynamics",
+    "topics": [
+     "5.3",
+     "5.4"
+    ],
+    "classes": [
+     10001
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend live class 10001",
+     "Post\u2011class, solve 10 problems on torque and rotational inertia"
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Energy and momentum of rotating systems",
+    "topics": [
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Solve 8 problems on rotational kinetic energy and torque work",
+     "Create a concept map linking energy and momentum in rotation"
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Oscillations basics",
+    "topics": [
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Do 10 practice problems on SHM frequency and period",
+     "Sketch displacement\u2011time graphs for two oscillators"
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Fluid mechanics fundamentals",
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Solve 10 problems on density and pressure calculations",
+     "Explain how pressure varies with depth in a fluid"
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Mixed review of all units",
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.4",
+     "4.3",
+     "5.3",
+     "6.4",
+     "7.4",
+     "8.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a timed practice quiz covering all listed topics",
+     "Review incorrect answers and note key concepts"
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Final timed practice",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.5",
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "3.1",
+     "3.2",
+     "3.3",
+     "3.4",
+     "3.5",
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4",
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4",
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Complete a full-length AP Physics 1 practice exam under timed conditions",
+     "Analyze performance and create a brief action plan for weak areas"
+    ]
+   }
+  ],
+  "final_week_advice": "Use week 10 to simulate exam conditions, then focus on any remaining weak spots before the actual test."
+ },
+ "raw": "{\"summary\":\"The plan tackles the weak units first, then cycles through the remaining units, ending with a mixed review week. Each week\u2019s tasks are concrete, single\u2011sitting activities that fit the 5\u2011hour limit.\",\"weeks\":[{\"week\":1,\"focus\":\"Review kinematics fundamentals\",\"topics\":[\"1.1\",\"1.2\",\"1.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Do 20 practice problems on 1.1 and 1.2, marking each answer\",\"Create a motion\u2011graph worksheet for 1.3 and solve it\"]},{\"week\":2,\"focus\":\"Linear momentum basics\",\"topics\":[\"4.1\",\"4.2\"],\"classes\":[10000],\"hours\":5,\"tasks\":[\"Attend live class 10000\",\"After class, solve 15 problems on impulse and momentum change\"]},{\"week\":3,\"focus\":\"Momentum conservation\",\"topics\":[\"4.3\",\"4.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Work through 10 collision problems (elastic and inelastic)\",\"Write a short summary of conservation of momentum principles\"]},{\"week\":4,\"focus\":\"Torque fundamentals\",\"topics\":[\"5.1\",\"5.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Complete 12 torque\u2011kinematics problems\",\"Draw free\u2011body diagrams for a rotating system\"]},{\"week\":5,\"focus\":\"Torque and rotational dynamics\",\"topics\":[\"5.3\",\"5.4\"],\"classes\":[10001],\"hours\":5,\"tasks\":[\"Attend live class 10001\",\"Post\u2011class, solve 10 problems on torque and rotational inertia\"]},{\"week\":6,\"focus\":\"Energy and momentum of rotating systems\",\"topics\":[\"6.1\",\"6.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Solve 8 problems on rotational kinetic energy and torque work\",\"Create a concept map linking energy and momentum in rotation\"]},{\"week\":7,\"focus\":\"Oscillations basics\",\"topics\":[\"7.1\",\"7.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Do 10 practice problems on SHM frequency and period\",\"Sketch displacement\u2011time graphs for two oscillators\"]},{\"week\":8,\"focus\":\"Fluid mechanics fundamentals\",\"topics\":[\"8.1\",\"8.2\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Solve 10 problems on density and pressure calculations\",\"Explain how pressure varies with depth in a fluid\"]},{\"week\":9,\"focus\":\"Mixed review of all units\",\"topics\":[\"1.1\",\"2.5\",\"3.4\",\"4.3\",\"5.3\",\"6.4\",\"7.4\",\"8.3\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Take a timed practice quiz covering all listed topics\",\"Review incorrect answers and note key concepts\"]},{\"week\":10,\"focus\":\"Final timed practice\",\"topics\":[\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.5\",\"2.1\",\"2.2\",\"2.3\",\"2.4\",\"2.5\",\"3.1\",\"3.2\",\"3.3\",\"3.4\",\"3.5\",\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.1\",\"6.2\",\"6.3\",\"6.4\",\"7.1\",\"7.2\",\"7.3\",\"7.4\",\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":5,\"tasks\":[\"Complete a full-length AP Physics 1 practice exam under timed conditions\",\"Analyze performance and create a brief action plan for weak areas\"]}],\"final_week_advice\":\"Use week 10 to simulate exam conditions, then focus on any remaining weak spots before the actual test.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1718,
+ "output_tokens": 846,
+ "latency_ms": 1274
+}

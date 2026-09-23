@@ -1,0 +1,181 @@
+{
+ "data": {
+  "summary": "This 10\u2011week plan starts with the student\u2019s weak units (Kinetics and Equilibrium) and interleaves them with other units, ensuring every unit appears at least once. Live classes are scheduled in the weeks they occur and are paired with matching topics. The final week is a mixed review and timed practice session.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Review fundamentals of moles and atomic structure",
+    "topics": [
+     "1.1",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do 15 practice problems on mole calculations, then check answers with the scoring guide",
+     "Read the chapter on atomic structure and write a 200\u2011word summary of key concepts"
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deep dive into kinetics with live class",
+    "topics": [
+     "5.1",
+     "5.2",
+     "1.8"
+    ],
+    "classes": [
+     9000
+    ],
+    "hours": 6,
+    "tasks": [
+     "Watch live class 9000 and take detailed notes",
+     "Do 10 free\u2011response questions on rate laws, then mark them against the scoring guide",
+     "Solve 5 problems on reaction rates using stoichiometry"
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Solid\u2011state chemistry and stoichiometry",
+    "topics": [
+     "2.3",
+     "4.5",
+     "3.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Create flashcards for ionic solid structures",
+     "Solve 8 stoichiometry problems involving gas laws",
+     "Do a timed practice set on the ideal gas law"
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Equilibrium concepts with live class",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3"
+    ],
+    "classes": [
+     9001
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9001 and summarize key points",
+     "Do 12 practice problems on equilibrium constants and reaction quotients",
+     "Write a short explanation of Le Chatelier\u2019s principle"
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Thermochemistry fundamentals",
+    "topics": [
+     "6.1",
+     "6.2",
+     "3.5"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Draw energy diagrams for 5 reactions",
+     "Calculate \u0394H for 5 endothermic/exothermic processes",
+     "Do 10 practice problems on kinetic molecular theory"
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Acids, bases, and buffers",
+    "topics": [
+     "8.1",
+     "8.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Calculate pH for 5 weak acid solutions",
+     "Solve 5 buffer capacity problems",
+     "Do a mixed practice set on equilibrium constants for acid\u2013base reactions"
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Electrochemistry and review of acids",
+    "topics": [
+     "9.1",
+     "9.4",
+     "8.2"
+    ],
+    "classes": [
+     9002
+    ],
+    "hours": 6,
+    "tasks": [
+     "Attend live class 9002 and note key concepts",
+     "Do 10 problems on galvanic cells and Gibbs free energy",
+     "Review pOH calculations for strong bases"
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Integrated review of kinetics and equilibrium",
+    "topics": [
+     "5.3",
+     "5.4",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Solve 8 elementary reaction rate problems",
+     "Do 8 practice problems on reaction direction and equilibrium shifts",
+     "Create a concept map linking kinetics to equilibrium"
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Comprehensive mixed review",
+    "topics": [
+     "1.2",
+     "2.5",
+     "4.2",
+     "6.3",
+     "9.3"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Do a 60\u2011minute timed practice test covering all units",
+     "Review incorrect answers and rewrite explanations",
+     "Summarize key formulas for each unit in a single sheet"
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Final timed practice and exam strategy",
+    "topics": [
+     "1.1",
+     "5.1",
+     "7.1",
+     "8.1",
+     "9.1"
+    ],
+    "classes": [],
+    "hours": 6,
+    "tasks": [
+     "Take a full-length AP Chemistry practice exam under timed conditions",
+     "Analyze performance and identify remaining weak spots",
+     "Create a one\u2011page cheat sheet of essential equations and concepts"
+    ]
+   }
+  ],
+  "final_week_advice": "In the last week, focus on timed practice and quick recall of formulas. Review any remaining weak areas, but prioritize overall confidence and test\u2011taking strategies."
+ },
+ "raw": "{\"summary\":\"This 10\u2011week plan starts with the student\u2019s weak units (Kinetics and Equilibrium) and interleaves them with other units, ensuring every unit appears at least once. Live classes are scheduled in the weeks they occur and are paired with matching topics. The final week is a mixed review and timed practice session.\",\"weeks\":[{\"week\":1,\"focus\":\"Review fundamentals of moles and atomic structure\",\"topics\":[\"1.1\",\"1.5\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do 15 practice problems on mole calculations, then check answers with the scoring guide\",\"Read the chapter on atomic structure and write a 200\u2011word summary of key concepts\"]},{\"week\":2,\"focus\":\"Deep dive into kinetics with live class\",\"topics\":[\"5.1\",\"5.2\",\"1.8\"],\"classes\":[9000],\"hours\":6,\"tasks\":[\"Watch live class 9000 and take detailed notes\",\"Do 10 free\u2011response questions on rate laws, then mark them against the scoring guide\",\"Solve 5 problems on reaction rates using stoichiometry\"]},{\"week\":3,\"focus\":\"Solid\u2011state chemistry and stoichiometry\",\"topics\":[\"2.3\",\"4.5\",\"3.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Create flashcards for ionic solid structures\",\"Solve 8 stoichiometry problems involving gas laws\",\"Do a timed practice set on the ideal gas law\"]},{\"week\":4,\"focus\":\"Equilibrium concepts with live class\",\"topics\":[\"7.1\",\"7.2\",\"7.3\"],\"classes\":[9001],\"hours\":6,\"tasks\":[\"Attend live class 9001 and summarize key points\",\"Do 12 practice problems on equilibrium constants and reaction quotients\",\"Write a short explanation of Le Chatelier\u2019s principle\"]},{\"week\":5,\"focus\":\"Thermochemistry fundamentals\",\"topics\":[\"6.1\",\"6.2\",\"3.5\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Draw energy diagrams for 5 reactions\",\"Calculate \u0394H for 5 endothermic/exothermic processes\",\"Do 10 practice problems on kinetic molecular theory\"]},{\"week\":6,\"focus\":\"Acids, bases, and buffers\",\"topics\":[\"8.1\",\"8.3\",\"7.4\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Calculate pH for 5 weak acid solutions\",\"Solve 5 buffer capacity problems\",\"Do a mixed practice set on equilibrium constants for acid\u2013base reactions\"]},{\"week\":7,\"focus\":\"Electrochemistry and review of acids\",\"topics\":[\"9.1\",\"9.4\",\"8.2\"],\"classes\":[9002],\"hours\":6,\"tasks\":[\"Attend live class 9002 and note key concepts\",\"Do 10 problems on galvanic cells and Gibbs free energy\",\"Review pOH calculations for strong bases\"]},{\"week\":8,\"focus\":\"Integrated review of kinetics and equilibrium\",\"topics\":[\"5.3\",\"5.4\",\"7.2\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Solve 8 elementary reaction rate problems\",\"Do 8 practice problems on reaction direction and equilibrium shifts\",\"Create a concept map linking kinetics to equilibrium\"]},{\"week\":9,\"focus\":\"Comprehensive mixed review\",\"topics\":[\"1.2\",\"2.5\",\"4.2\",\"6.3\",\"9.3\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Do a 60\u2011minute timed practice test covering all units\",\"Review incorrect answers and rewrite explanations\",\"Summarize key formulas for each unit in a single sheet\"]},{\"week\":10,\"focus\":\"Final timed practice and exam strategy\",\"topics\":[\"1.1\",\"5.1\",\"7.1\",\"8.1\",\"9.1\"],\"classes\":[],\"hours\":6,\"tasks\":[\"Take a full-length AP Chemistry practice exam under timed conditions\",\"Analyze performance and identify remaining weak spots\",\"Create a one\u2011page cheat sheet of essential equations and concepts\"]}],\"final_week_advice\":\"In the last week, focus on timed practice and quick recall of formulas. Review any remaining weak areas, but prioritize overall confidence and test\u2011taking strategies.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1244,
+ "output_tokens": 887,
+ "latency_ms": 1486
+}

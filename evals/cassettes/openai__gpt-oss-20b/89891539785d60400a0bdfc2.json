@@ -1,0 +1,240 @@
+{
+ "data": {
+  "summary": "This 16\u2011week plan starts with the student\u2019s weak units (Atomic Structure and Compound Structure) and interleaves new material with review. Each week is a single 4\u2011hour block of focused study, including a concrete task and, when available, a live class that matches the week\u2019s topics. The last two weeks are dedicated to mixed review and timed practice to solidify knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Atomic Structure fundamentals",
+    "topics": [
+     "1.1",
+     "1.5"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Read the textbook section on moles and molar mass, then solve 10 practice problems on converting grams to moles and vice versa."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Atomic Structure details",
+    "topics": [
+     "1.2",
+     "1.6"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Watch a recorded lecture on mass spectroscopy, then annotate the key peaks for three elements. Create a summary sheet of how mass spectra reveal isotopic composition."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Atomic Composition",
+    "topics": [
+     "1.3",
+     "1.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Do 15 problems calculating elemental composition of pure substances and mixtures. Mark each answer against the scoring guide."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Periodic Trends",
+    "topics": [
+     "1.7",
+     "1.8"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Create a chart of periodic trends (atomic radius, ionization energy, electronegativity). Use it to predict valence electrons and ionic compound formation for five elements."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Compound Structure basics",
+    "topics": [
+     "2.1",
+     "2.2"
+    ],
+    "classes": [
+     9300
+    ],
+    "hours": 4,
+    "tasks": [
+     "Attend live class 9300. After class, review the lecture notes and solve 10 problems on bond types and potential energy curves."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Ionic and covalent solids",
+    "topics": [
+     "2.3",
+     "2.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Read the chapter on ionic solids and metals. Then, write a short paragraph comparing lattice energy and metallic bonding, citing at least two examples."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Lewis structures",
+    "topics": [
+     "2.5"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Practice drawing Lewis diagrams for 12 molecules, including resonance cases. Check each diagram against the formal charge rules."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Resonance and VSEPR",
+    "topics": [
+     "2.6",
+     "2.7"
+    ],
+    "classes": [
+     9301
+    ],
+    "hours": 4,
+    "tasks": [
+     "Attend live class 9301. Post\u2011class, solve 8 resonance structure problems and 5 VSEPR geometry questions, then self\u2011grade using the rubric."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Intermolecular forces",
+    "topics": [
+     "3.1",
+     "3.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Do a concept map linking types of intermolecular forces to physical properties of solids. Then, answer 10 multiple\u2011choice questions on the topic."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Gases and kinetic theory",
+    "topics": [
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Solve 12 ideal gas law problems, including partial pressure and combined gas law scenarios. Follow up with 5 kinetic molecular theory questions."
+    ]
+   },
+   {
+    "week": 11,
+    "focus": "Stoichiometry and reactions",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4",
+     "4.5"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Create a reaction worksheet: write net ionic equations for 8 reactions, then balance each full equation. Verify each step with a stoichiometry calculation."
+    ]
+   },
+   {
+    "week": 12,
+    "focus": "Reaction rates",
+    "topics": [
+     "5.1",
+     "5.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Conduct a virtual lab simulation on reaction rates. Record data, plot rate vs. concentration, and write a brief report interpreting the rate law."
+    ]
+   },
+   {
+    "week": 13,
+    "focus": "Thermochemistry",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.3",
+     "6.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Solve 10 calorimetry problems, then draw and label energy diagrams for two exothermic and two endothermic reactions."
+    ]
+   },
+   {
+    "week": 14,
+    "focus": "Equilibrium concepts",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Calculate equilibrium constants for 5 reactions. Then, predict the direction of shift when concentration or pressure changes."
+    ]
+   },
+   {
+    "week": 15,
+    "focus": "Acids, bases, and buffers",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Compute pH for 6 solutions (strong and weak). Create a buffer capacity table for two buffer systems and explain the effect of adding a strong acid."
+    ]
+   },
+   {
+    "week": 16,
+    "focus": "Mixed review & timed practice",
+    "topics": [
+     "1.1",
+     "2.1",
+     "3.4",
+     "4.5",
+     "5.2",
+     "6.1",
+     "7.3",
+     "8.2"
+    ],
+    "classes": [],
+    "hours": 4,
+    "tasks": [
+     "Take a 60\u2011minute timed practice quiz covering all reviewed topics. Afterward, review mistakes and update a personal error log."
+    ]
+   }
+  ],
+  "final_week_advice": "In the final week, focus on consolidating knowledge through timed practice and error analysis. Use the review log to target lingering weak spots before the exam."
+ },
+ "raw": "{\"summary\":\"This 16\u2011week plan starts with the student\u2019s weak units (Atomic Structure and Compound Structure) and interleaves new material with review. Each week is a single 4\u2011hour block of focused study, including a concrete task and, when available, a live class that matches the week\u2019s topics. The last two weeks are dedicated to mixed review and timed practice to solidify knowledge before the exam.\",\"weeks\":[{\"week\":1,\"focus\":\"Atomic Structure fundamentals\",\"topics\":[\"1.1\",\"1.5\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Read the textbook section on moles and molar mass, then solve 10 practice problems on converting grams to moles and vice versa.\"]},{\"week\":2,\"focus\":\"Atomic Structure details\",\"topics\":[\"1.2\",\"1.6\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Watch a recorded lecture on mass spectroscopy, then annotate the key peaks for three elements. Create a summary sheet of how mass spectra reveal isotopic composition.\"]},{\"week\":3,\"focus\":\"Atomic Composition\",\"topics\":[\"1.3\",\"1.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Do 15 problems calculating elemental composition of pure substances and mixtures. Mark each answer against the scoring guide.\"]},{\"week\":4,\"focus\":\"Periodic Trends\",\"topics\":[\"1.7\",\"1.8\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Create a chart of periodic trends (atomic radius, ionization energy, electronegativity). Use it to predict valence electrons and ionic compound formation for five elements.\"]},{\"week\":5,\"focus\":\"Compound Structure basics\",\"topics\":[\"2.1\",\"2.2\"],\"classes\":[9300],\"hours\":4,\"tasks\":[\"Attend live class 9300. After class, review the lecture notes and solve 10 problems on bond types and potential energy curves.\"]},{\"week\":6,\"focus\":\"Ionic and covalent solids\",\"topics\":[\"2.3\",\"2.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Read the chapter on ionic solids and metals. Then, write a short paragraph comparing lattice energy and metallic bonding, citing at least two examples.\"]},{\"week\":7,\"focus\":\"Lewis structures\",\"topics\":[\"2.5\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Practice drawing Lewis diagrams for 12 molecules, including resonance cases. Check each diagram against the formal charge rules.\"]},{\"week\":8,\"focus\":\"Resonance and VSEPR\",\"topics\":[\"2.6\",\"2.7\"],\"classes\":[9301],\"hours\":4,\"tasks\":[\"Attend live class 9301. Post\u2011class, solve 8 resonance structure problems and 5 VSEPR geometry questions, then self\u2011grade using the rubric.\"]},{\"week\":9,\"focus\":\"Intermolecular forces\",\"topics\":[\"3.1\",\"3.2\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Do a concept map linking types of intermolecular forces to physical properties of solids. Then, answer 10 multiple\u2011choice questions on the topic.\"]},{\"week\":10,\"focus\":\"Gases and kinetic theory\",\"topics\":[\"3.3\",\"3.4\",\"3.5\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Solve 12 ideal gas law problems, including partial pressure and combined gas law scenarios. Follow up with 5 kinetic molecular theory questions.\"]},{\"week\":11,\"focus\":\"Stoichiometry and reactions\",\"topics\":[\"4.1\",\"4.2\",\"4.3\",\"4.4\",\"4.5\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Create a reaction worksheet: write net ionic equations for 8 reactions, then balance each full equation. Verify each step with a stoichiometry calculation.\"]},{\"week\":12,\"focus\":\"Reaction rates\",\"topics\":[\"5.1\",\"5.2\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Conduct a virtual lab simulation on reaction rates. Record data, plot rate vs. concentration, and write a brief report interpreting the rate law.\"]},{\"week\":13,\"focus\":\"Thermochemistry\",\"topics\":[\"6.1\",\"6.2\",\"6.3\",\"6.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Solve 10 calorimetry problems, then draw and label energy diagrams for two exothermic and two endothermic reactions.\"]},{\"week\":14,\"focus\":\"Equilibrium concepts\",\"topics\":[\"7.1\",\"7.2\",\"7.3\",\"7.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Calculate equilibrium constants for 5 reactions. Then, predict the direction of shift when concentration or pressure changes.\"]},{\"week\":15,\"focus\":\"Acids, bases, and buffers\",\"topics\":[\"8.1\",\"8.2\",\"8.3\",\"8.4\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Compute pH for 6 solutions (strong and weak). Create a buffer capacity table for two buffer systems and explain the effect of adding a strong acid.\"]},{\"week\":16,\"focus\":\"Mixed review & timed practice\",\"topics\":[\"1.1\",\"2.1\",\"3.4\",\"4.5\",\"5.2\",\"6.1\",\"7.3\",\"8.2\"],\"classes\":[],\"hours\":4,\"tasks\":[\"Take a 60\u2011minute timed practice quiz covering all reviewed topics. Afterward, review mistakes and update a personal error log.\"]}],\"final_week_advice\":\"In the final week, focus on consolidating knowledge through timed practice and error analysis. Use the review log to target lingering weak spots before the exam.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1178,
+ "output_tokens": 1217,
+ "latency_ms": 1687
+}

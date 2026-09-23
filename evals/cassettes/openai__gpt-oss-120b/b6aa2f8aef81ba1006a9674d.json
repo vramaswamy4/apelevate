@@ -1,0 +1,65 @@
+{
+ "data": {
+  "summary": "This two\u2011week plan front\u2011loads the weak Unit\u202f8 material while giving a rapid overview of the remaining units. Week\u202f1 builds core concepts and introduces practice problems; Week\u202f2 is dedicated to mixed review and timed free\u2011response practice to solidify knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 8,
+    "focus": "Master Unit\u202f8 fundamentals and get a broad survey of all other units.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "1.5",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.1",
+     "6.1",
+     "7.3",
+     "9.3"
+    ],
+    "classes": [
+     9100
+    ],
+    "tasks": [
+     "Watch the live Class\u202f9100 recording and take detailed notes on 8.1 and 8.2.",
+     "Do 15 free\u2011response questions on acid\u2011base concepts (8.1\u20118.2) and grade with the AP scoring guide.",
+     "Complete a set of 10 mixed\u2011topic multiple\u2011choice questions covering the listed topics from Units\u202f1,\u202f2,\u202f3,\u202f4,\u202f5,\u202f6,\u202f7,\u202f9.",
+     "Create a one\u2011page concept map linking acid\u2011base ideas to related concepts in thermochemistry, equilibrium, and kinetics."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 8,
+    "focus": "Mixed review and timed practice across all units.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3",
+     "8.4",
+     "1.5",
+     "2.5",
+     "3.4",
+     "4.5",
+     "5.1",
+     "6.1",
+     "7.3",
+     "9.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete a 60\u2011minute full\u2011length AP Chemistry practice exam (focus on free\u2011response).",
+     "Review each answer, noting any recurring errors and revisiting the specific topic codes.",
+     "Do 20 targeted free\u2011response questions: 5 from each of Units\u202f1,\u202f2,\u202f3,\u202f4,\u202f5,\u202f6,\u202f7,\u202f8,\u202f9.",
+     "Summarize key formulas and concepts on a two\u2011page cheat sheet for final exam review."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the timed practice to simulate exam conditions, then spend any remaining time reinforcing weak spots identified in the review. Keep a calm pacing strategy and trust the systematic problem\u2011solving skills you built in week\u202f1."
+ },
+ "raw": "{\n  \"summary\": \"This two\u2011week plan front\u2011loads the weak Unit\u202f8 material while giving a rapid overview of the remaining units. Week\u202f1 builds core concepts and introduces practice problems; Week\u202f2 is dedicated to mixed review and timed free\u2011response practice to solidify knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 8,\n      \"focus\": \"Master Unit\u202f8 fundamentals and get a broad survey of all other units.\",\n      \"topics\": [\n        \"8.1\",\n        \"8.2\",\n        \"1.5\",\n        \"2.5\",\n        \"3.4\",\n        \"4.5\",\n        \"5.1\",\n        \"6.1\",\n        \"7.3\",\n        \"9.3\"\n      ],\n      \"classes\": [9100],\n      \"tasks\": [\n        \"Watch the live Class\u202f9100 recording and take detailed notes on 8.1 and 8.2.\",\n        \"Do 15 free\u2011response questions on acid\u2011base concepts (8.1\u20118.2) and grade with the AP scoring guide.\",\n        \"Complete a set of 10 mixed\u2011topic multiple\u2011choice questions covering the listed topics from Units\u202f1,\u202f2,\u202f3,\u202f4,\u202f5,\u202f6,\u202f7,\u202f9.\",\n        \"Create a one\u2011page concept map linking acid\u2011base ideas to related concepts in thermochemistry, equilibrium, and kinetics.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 8,\n      \"focus\": \"Mixed review and timed practice across all units.\",\n      \"topics\": [\n        \"8.1\",\n        \"8.2\",\n        \"8.3\",\n        \"8.4\",\n        \"1.5\",\n        \"2.5\",\n        \"3.4\",\n        \"4.5\",\n        \"5.1\",\n        \"6.1\",\n        \"7.3\",\n        \"9.3\"\n      ],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete a 60\u2011minute full\u2011length AP Chemistry practice exam (focus on free\u2011response).\",\n        \"Review each answer, noting any recurring errors and revisiting the specific topic codes.\",\n        \"Do 20 targeted free\u2011response questions: 5 from each of Units\u202f1,\u202f2,\u202f3,\u202f4,\u202f5,\u202f6,\u202f7,\u202f8,\u202f9.\",\n        \"Summarize key formulas and concepts on a two\u2011page cheat sheet for final exam review.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"Use the timed practice to simulate exam conditions, then spend any remaining time reinforcing weak spots identified in the review. Keep a calm pacing strategy and trust the systematic problem\u2011solving skills you built in week\u202f1.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1185,
+ "output_tokens": 758,
+ "latency_ms": 1850
+}

@@ -1,0 +1,102 @@
+{
+ "data": {
+  "summary": "The plan tackles the weak Unit\u202f3 early, cycles through all units, and ends with a mixed review week. Each week uses the 15\u2011hour limit, concrete tasks, and the single live class available in week\u202f2.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Start with Unit\u202f3 fundamentals and reinforce kinematics basics.",
+    "topics": [
+     "3.1",
+     "1.1",
+     "1.2"
+    ],
+    "classes": [],
+    "hours": 15,
+    "tasks": [
+     "Read textbook sections on translational kinetic energy and 1\u2011D kinematics.",
+     "Solve 10 problems on kinetic energy calculations and 1\u2011D motion.",
+     "Create a 5\u2011minute video explaining the relationship between kinetic energy and velocity.",
+     "Do 5 free\u2011response practice questions on work and mark them with the scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Deepen understanding of work and energy with the live class.",
+    "topics": [
+     "3.2",
+     "3.4",
+     "1.3"
+    ],
+    "classes": [
+     10500
+    ],
+    "hours": 15,
+    "tasks": [
+     "Attend live class 10500 covering work and conservation of energy.",
+     "Take detailed notes and summarize key equations in a study notebook.",
+     "Complete the post\u2011class worksheet: 8 problems on work and energy conservation.",
+     "Review class recordings and create flashcards for the main concepts."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Cover momentum and rotational dynamics, linking to earlier units.",
+    "topics": [
+     "4.1",
+     "4.4",
+     "5.3"
+    ],
+    "classes": [],
+    "hours": 15,
+    "tasks": [
+     "Read chapters on linear momentum and elastic collisions.",
+     "Solve 12 problems on impulse and momentum conservation.",
+     "Watch a 10\u2011minute tutorial on torque and solve 5 torque problems.",
+     "Write a short reflection on how momentum concepts connect to energy."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Introduce oscillations and fluids, reinforcing problem\u2011solving skills.",
+    "topics": [
+     "7.1",
+     "8.2",
+     "6.1"
+    ],
+    "classes": [],
+    "hours": 15,
+    "tasks": [
+     "Read sections on simple harmonic motion and fluid pressure.",
+     "Do 10 practice problems on SHM equations and 5 on fluid pressure.",
+     "Create a concept map linking SHM, energy, and fluid dynamics.",
+     "Simulate a pendulum motion using a free\u2011response calculator and analyze results."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Mixed review and timed practice before the exam.",
+    "topics": [
+     "3.5",
+     "4.2",
+     "5.4",
+     "7.4",
+     "8.3"
+    ],
+    "classes": [],
+    "hours": 15,
+    "tasks": [
+     "Take a 60\u2011minute timed practice test covering all units.",
+     "Review incorrect answers and update a master error log.",
+     "Do a 30\u2011minute review session on power, impulse, and angular momentum.",
+     "Summarize key formulas on a single cheat sheet for quick reference."
+    ]
+   }
+  ],
+  "final_week_advice": "Use the last week for comprehensive review, timed practice, and addressing any remaining weak spots. Focus on application and exam\u2011style questions to build confidence."
+ },
+ "raw": "{\"summary\":\"The plan tackles the weak Unit\u202f3 early, cycles through all units, and ends with a mixed review week. Each week uses the 15\u2011hour limit, concrete tasks, and the single live class available in week\u202f2.\",\"weeks\":[{\"week\":1,\"focus\":\"Start with Unit\u202f3 fundamentals and reinforce kinematics basics.\",\"topics\":[\"3.1\",\"1.1\",\"1.2\"],\"classes\":[],\"hours\":15,\"tasks\":[\"Read textbook sections on translational kinetic energy and 1\u2011D kinematics.\",\"Solve 10 problems on kinetic energy calculations and 1\u2011D motion.\",\"Create a 5\u2011minute video explaining the relationship between kinetic energy and velocity.\",\"Do 5 free\u2011response practice questions on work and mark them with the scoring guide.\"]},{\"week\":2,\"focus\":\"Deepen understanding of work and energy with the live class.\",\"topics\":[\"3.2\",\"3.4\",\"1.3\"],\"classes\":[10500],\"hours\":15,\"tasks\":[\"Attend live class 10500 covering work and conservation of energy.\",\"Take detailed notes and summarize key equations in a study notebook.\",\"Complete the post\u2011class worksheet: 8 problems on work and energy conservation.\",\"Review class recordings and create flashcards for the main concepts.\"]},{\"week\":3,\"focus\":\"Cover momentum and rotational dynamics, linking to earlier units.\",\"topics\":[\"4.1\",\"4.4\",\"5.3\"],\"classes\":[],\"hours\":15,\"tasks\":[\"Read chapters on linear momentum and elastic collisions.\",\"Solve 12 problems on impulse and momentum conservation.\",\"Watch a 10\u2011minute tutorial on torque and solve 5 torque problems.\",\"Write a short reflection on how momentum concepts connect to energy.\"]},{\"week\":4,\"focus\":\"Introduce oscillations and fluids, reinforcing problem\u2011solving skills.\",\"topics\":[\"7.1\",\"8.2\",\"6.1\"],\"classes\":[],\"hours\":15,\"tasks\":[\"Read sections on simple harmonic motion and fluid pressure.\",\"Do 10 practice problems on SHM equations and 5 on fluid pressure.\",\"Create a concept map linking SHM, energy, and fluid dynamics.\",\"Simulate a pendulum motion using a free\u2011response calculator and analyze results.\"]},{\"week\":5,\"focus\":\"Mixed review and timed practice before the exam.\",\"topics\":[\"3.5\",\"4.2\",\"5.4\",\"7.4\",\"8.3\"],\"classes\":[],\"hours\":15,\"tasks\":[\"Take a 60\u2011minute timed practice test covering all units.\",\"Review incorrect answers and update a master error log.\",\"Do a 30\u2011minute review session on power, impulse, and angular momentum.\",\"Summarize key formulas on a single cheat sheet for quick reference.\"]}],\"final_week_advice\":\"Use the last week for comprehensive review, timed practice, and addressing any remaining weak spots. Focus on application and exam\u2011style questions to build confidence.\"}",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1057,
+ "output_tokens": 644,
+ "latency_ms": 975
+}

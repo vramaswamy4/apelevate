@@ -1,0 +1,88 @@
+{
+ "data": {
+  "final_week_advice": "Use this week to solidify concepts and practice under timed conditions.",
+  "summary": "A concise 4\u2011week plan that covers all AP Chemistry units, balances independent study with the single available live class, and reserves the final week for mixed review and timed practice.",
+  "weeks": [
+   {
+    "classes": [],
+    "focus": "Build a solid foundation in atomic structure and basic chemical bonding.",
+    "hours": 5,
+    "tasks": [
+     "Read the textbook section on 1.1 and 1.5, then write a 200\u2011word summary of how moles relate to atomic mass.",
+     "Do 10 practice problems on electron configuration (1.5) and record the answers.",
+     "Create flashcards for key terms in 2.1 and 2.5 and quiz yourself 3 times.",
+     "Solve 5 mixed\u2011bonding problems (2.1) and check solutions against the answer key."
+    ],
+    "topics": [
+     "1.1",
+     "1.5",
+     "2.1",
+     "2.5"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Deepen understanding of molecular structure and intermolecular forces.",
+    "hours": 5,
+    "tasks": [
+     "Read 2.2 and 2.6, then diagram 3 examples of resonance structures.",
+     "Solve 8 problems on VSEPR (2.6) and compare with textbook solutions.",
+     "Complete a worksheet on 3.1, focusing on hydrogen bonding and dipole\u2011dipole interactions.",
+     "Calculate the pressure of a gas using the ideal gas law (3.4) for 3 different scenarios."
+    ],
+    "topics": [
+     "2.2",
+     "2.6",
+     "3.1",
+     "3.4"
+    ],
+    "week": 2
+   },
+   {
+    "classes": [],
+    "focus": "Apply stoichiometry and kinetics to real\u2011world scenarios.",
+    "hours": 5,
+    "tasks": [
+     "Perform a stoichiometry calculation for a combustion reaction (4.5).",
+     "Do 5 rate\u2011law problems (5.2) and plot the data on a graph.",
+     "Write a short lab report on an endothermic process (6.1) including a heat diagram.",
+     "Solve 3 problems involving heat capacity (6.1) and verify units."
+    ],
+    "topics": [
+     "4.5",
+     "5.1",
+     "5.2",
+     "6.1"
+    ],
+    "week": 3
+   },
+   {
+    "classes": [
+     9900
+    ],
+    "focus": "Integrate equilibrium concepts and review all units before the exam.",
+    "hours": 5,
+    "tasks": [
+     "Attend live class 9900 covering 7.1, 7.3, and 7.4; take detailed notes.",
+     "After class, solve 4 equilibrium constant problems (7.3) and 2 Gibbs free energy problems (9.3).",
+     "Create a mixed\u2011topic practice set: 2 questions each from 8.3, 9.3, and 4.5.",
+     "Do a 30\u2011minute timed practice quiz covering all units, then review mistakes."
+    ],
+    "topics": [
+     "7.1",
+     "7.3",
+     "7.4",
+     "8.3",
+     "9.3"
+    ],
+    "week": 4
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\":\"Use this week to solidify concepts and practice under timed conditions.\",\"summary\":\"A concise 4\u2011week plan that covers all AP Chemistry units, balances independent study with the single available live class, and reserves the final week for mixed review and timed practice.\",\"weeks\":[{\"classes\":[],\"focus\":\"Build a solid foundation in atomic structure and basic chemical bonding.\",\"hours\":5,\"tasks\":[\"Read the textbook section on 1.1 and 1.5, then write a 200\u2011word summary of how moles relate to atomic mass.\",\"Do 10 practice problems on electron configuration (1.5) and record the answers.\",\"Create flashcards for key terms in 2.1 and 2.5 and quiz yourself 3 times.\",\"Solve 5 mixed\u2011bonding problems (2.1) and check solutions against the answer key.\"],\"topics\":[\"1.1\",\"1.5\",\"2.1\",\"2.5\"],\"week\":1},{\"classes\":[],\"focus\":\"Deepen understanding of molecular structure and intermolecular forces.\",\"hours\":5,\"tasks\":[\"Read 2.2 and 2.6, then diagram 3 examples of resonance structures.\",\"Solve 8 problems on VSEPR (2.6) and compare with textbook solutions.\",\"Complete a worksheet on 3.1, focusing on hydrogen bonding and dipole\u2011dipole interactions.\",\"Calculate the pressure of a gas using the ideal gas law (3.4) for 3 different scenarios.\"],\"topics\":[\"2.2\",\"2.6\",\"3.1\",\"3.4\"],\"week\":2},{\"classes\":[],\"focus\":\"Apply stoichiometry and kinetics to real\u2011world scenarios.\",\"hours\":5,\"tasks\":[\"Perform a stoichiometry calculation for a combustion reaction (4.5).\",\"Do 5 rate\u2011law problems (5.2) and plot the data on a graph.\",\"Write a short lab report on an endothermic process (6.1) including a heat diagram.\",\"Solve 3 problems involving heat capacity (6.1) and verify units.\"],\"topics\":[\"4.5\",\"5.1\",\"5.2\",\"6.1\"],\"week\":3},{\"classes\":[9900],\"focus\":\"Integrate equilibrium concepts and review all units before the exam.\",\"hours\":5,\"tasks\":[\"Attend live class 9900 covering 7.1, 7.3, and 7.4; take detailed notes.\",\"After class, solve 4 equilibrium constant problems (7.3) and 2 Gibbs free energy problems (9.3).\",\"Create a mixed\u2011topic practice set: 2 questions each from 8.3, 9.3, and 4.5.\",\"Do a 30\u2011minute timed practice quiz covering all units, then review mistakes.\"],\"topics\":[\"7.1\",\"7.3\",\"7.4\",\"8.3\",\"9.3\"],\"week\":4}]}\n",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1125,
+ "output_tokens": 720,
+ "latency_ms": 1145
+}

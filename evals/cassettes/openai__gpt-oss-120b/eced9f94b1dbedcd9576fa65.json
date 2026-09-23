@@ -1,0 +1,168 @@
+{
+ "data": {
+  "summary": "The 10\u2011week plan front\u2011loads the student\u2019s weak units (Linear Momentum and Torque) with live class support, then cycles through the remaining units while keeping a steady 5\u2011hour weekly load. The final week is reserved for mixed review and timed free\u2011response practice to consolidate knowledge before the exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Linear Momentum fundamentals and collisions",
+    "topics": [
+     "4.3",
+     "4.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read textbook sections on conservation of linear momentum and elastic/inelastic collisions.",
+     "Do 8 free\u2011response problems on momentum conservation; check answers with the scoring guide.",
+     "Create a one\u2011page summary sheet of momentum equations and collision types."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Live class on Linear Momentum basics",
+    "topics": [
+     "4.1",
+     "4.2"
+    ],
+    "classes": [
+     10000
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend live class #10000 and take detailed notes on linear momentum and impulse.",
+     "Complete the class worksheet (10 problems) on 4.1 and 4.2.",
+     "Review class notes and redo 5 of the worksheet problems without looking at solutions."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Torque and rotational connections",
+    "topics": [
+     "5.2",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections on connecting linear and rotational motion and rotational inertia.",
+     "Solve 6 problems linking linear velocity to angular velocity (5.2).",
+     "Calculate rotational inertia for 4 different objects (5.4) and compare results."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Kinematics foundations",
+    "topics": [
+     "1.1",
+     "1.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Watch the AP review video on scalars/vectors and displacement/velocity/acceleration.",
+     "Do 12 free\u2011response questions covering 1.1 and 1.2; grade with the AP rubric.",
+     "Sketch motion graphs for three different scenarios and label key features."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Live class on Torque fundamentals",
+    "topics": [
+     "5.1",
+     "5.3"
+    ],
+    "classes": [
+     10001
+    ],
+    "hours": 5,
+    "tasks": [
+     "Attend live class #10001; focus on rotational kinematics and torque definitions.",
+     "Complete the class\u2019s problem set (8 questions) on 5.1 and 5.3.",
+     "Create flashcards for torque formulas and practice applying them to 4 new problems."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Force and free\u2011body diagrams",
+    "topics": [
+     "2.1",
+     "2.2",
+     "2.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read textbook chapters on systems, center of mass, and drawing free\u2011body diagrams.",
+     "Draw FBDs for 5 different systems and label all forces.",
+     "Solve 9 free\u2011response problems involving Newton\u2019s third law and force decomposition."
+    ]
+   },
+   {
+    "week": 7,
+    "focus": "Work, energy, and power basics",
+    "topics": [
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Watch tutorial on translational kinetic energy, work, and potential energy.",
+     "Complete a worksheet of 10 problems covering 3.1\u20133.3.",
+     "Summarize the work\u2011energy theorem in a one\u2011page cheat sheet."
+    ]
+   },
+   {
+    "week": 8,
+    "focus": "Rotational energy and work",
+    "topics": [
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Read sections on rotational kinetic energy and torque\u2011work relationships.",
+     "Calculate rotational kinetic energy for 5 rotating objects (6.1).",
+     "Solve 7 problems that require converting torque to work (6.2)."
+    ]
+   },
+   {
+    "week": 9,
+    "focus": "Fluids and simple harmonic motion",
+    "topics": [
+     "8.1",
+     "8.2",
+     "7.1",
+     "7.2"
+    ],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Review density and pressure concepts; do 6 problems on 8.1 and 8.2.",
+     "Read about simple harmonic motion definitions and period formulas.",
+     "Complete 8 free\u2011response questions on SHM basics (7.1, 7.2)."
+    ]
+   },
+   {
+    "week": 10,
+    "focus": "Mixed review and timed practice",
+    "topics": [],
+    "classes": [],
+    "hours": 5,
+    "tasks": [
+     "Take a 60\u2011minute timed free\u2011response practice exam covering all units.",
+     "Mark the exam using the AP scoring guidelines; note any recurring errors.",
+     "Review error log and redo 5 missed problems from each weak unit (4 and 5)."
+    ]
+   }
+  ],
+  "final_week_advice": "After the timed practice, focus on the specific question types that cost you points, review your summary sheets, and get plenty of rest the night before the exam. Confidence comes from knowing you\u2019ve systematically tackled every unit and reinforced your weak spots."
+ },
+ "raw": "{\n  \"summary\": \"The 10\u2011week plan front\u2011loads the student\u2019s weak units (Linear Momentum and Torque) with live class support, then cycles through the remaining units while keeping a steady 5\u2011hour weekly load. The final week is reserved for mixed review and timed free\u2011response practice to consolidate knowledge before the exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Linear Momentum fundamentals and collisions\",\n      \"topics\": [\"4.3\", \"4.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read textbook sections on conservation of linear momentum and elastic/inelastic collisions.\",\n        \"Do 8 free\u2011response problems on momentum conservation; check answers with the scoring guide.\",\n        \"Create a one\u2011page summary sheet of momentum equations and collision types.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Live class on Linear Momentum basics\",\n      \"topics\": [\"4.1\", \"4.2\"],\n      \"classes\": [10000],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Attend live class #10000 and take detailed notes on linear momentum and impulse.\",\n        \"Complete the class worksheet (10 problems) on 4.1 and 4.2.\",\n        \"Review class notes and redo 5 of the worksheet problems without looking at solutions.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Torque and rotational connections\",\n      \"topics\": [\"5.2\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections on connecting linear and rotational motion and rotational inertia.\",\n        \"Solve 6 problems linking linear velocity to angular velocity (5.2).\",\n        \"Calculate rotational inertia for 4 different objects (5.4) and compare results.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Kinematics foundations\",\n      \"topics\": [\"1.1\", \"1.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch the AP review video on scalars/vectors and displacement/velocity/acceleration.\",\n        \"Do 12 free\u2011response questions covering 1.1 and 1.2; grade with the AP rubric.\",\n        \"Sketch motion graphs for three different scenarios and label key features.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Live class on Torque fundamentals\",\n      \"topics\": [\"5.1\", \"5.3\"],\n      \"classes\": [10001],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Attend live class #10001; focus on rotational kinematics and torque definitions.\",\n        \"Complete the class\u2019s problem set (8 questions) on 5.1 and 5.3.\",\n        \"Create flashcards for torque formulas and practice applying them to 4 new problems.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Force and free\u2011body diagrams\",\n      \"topics\": [\"2.1\", \"2.2\", \"2.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read textbook chapters on systems, center of mass, and drawing free\u2011body diagrams.\",\n        \"Draw FBDs for 5 different systems and label all forces.\",\n        \"Solve 9 free\u2011response problems involving Newton\u2019s third law and force decomposition.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"focus\": \"Work, energy, and power basics\",\n      \"topics\": [\"3.1\", \"3.2\", \"3.3\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Watch tutorial on translational kinetic energy, work, and potential energy.\",\n        \"Complete a worksheet of 10 problems covering 3.1\u20133.3.\",\n        \"Summarize the work\u2011energy theorem in a one\u2011page cheat sheet.\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"focus\": \"Rotational energy and work\",\n      \"topics\": [\"6.1\", \"6.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Read sections on rotational kinetic energy and torque\u2011work relationships.\",\n        \"Calculate rotational kinetic energy for 5 rotating objects (6.1).\",\n        \"Solve 7 problems that require converting torque to work (6.2).\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"focus\": \"Fluids and simple harmonic motion\",\n      \"topics\": [\"8.1\", \"8.2\", \"7.1\", \"7.2\"],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Review density and pressure concepts; do 6 problems on 8.1 and 8.2.\",\n        \"Read about simple harmonic motion definitions and period formulas.\",\n        \"Complete 8 free\u2011response questions on SHM basics (7.1, 7.2).\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"focus\": \"Mixed review and timed practice\",\n      \"topics\": [],\n      \"classes\": [],\n      \"hours\": 5,\n      \"tasks\": [\n        \"Take a 60\u2011minute timed free\u2011response practice exam covering all units.\",\n        \"Mark the exam using the AP scoring guidelines; note any recurring errors.\",\n        \"Review error log and redo 5 missed problems from each weak unit (4 and 5).\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the timed practice, focus on the specific question types that cost you points, review your summary sheets, and get plenty of rest the night before the exam. Confidence comes from knowing you\u2019ve systematically tackled every unit and reinforced your weak spots.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1028,
+ "output_tokens": 1715,
+ "latency_ms": 3939
+}

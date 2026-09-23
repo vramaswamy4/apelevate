@@ -1,0 +1,156 @@
+{
+ "data": {
+  "summary": "The six\u2011week plan balances new content with practice, covering every unit at least once while keeping weekly load at 20 hours. Early weeks introduce foundational topics and include the scheduled live classes. Mid\u2011plan weeks deepen understanding and add free\u2011response drills. The final two weeks focus on mixed review and timed practice to build stamina for the October 13 exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "focus": "Foundations: atomic structure, periodic trends, and intermolecular forces",
+    "topics": [
+     "1.5",
+     "1.7",
+     "3.1",
+     "3.2"
+    ],
+    "classes": [
+     9500
+    ],
+    "hours": 20,
+    "tasks": [
+     "Read textbook sections on atomic structure and periodic trends; take concise notes.",
+     "Do 15 practice problems on electron configuration and periodic trends; check answers.",
+     "Complete the live class #9500 and review the class notes.",
+     "Watch a 20\u2011minute video on intermolecular forces; summarize key differences.",
+     "Do 10 free\u2011response questions on intermolecular forces; grade with the scoring guide."
+    ]
+   },
+   {
+    "week": 2,
+    "focus": "Bonding, structures, and gases",
+    "topics": [
+     "2.1",
+     "2.5",
+     "2.7",
+     "3.3",
+     "3.4",
+     "3.5"
+    ],
+    "classes": [],
+    "hours": 20,
+    "tasks": [
+     "Read chapters on chemical bonds, Lewis diagrams, and VSEPR; create a chart of bond types.",
+     "Complete 12 Lewis\u2011structure problems, including resonance structures.",
+     "Do 8 VSEPR shape exercises; verify with answer key.",
+     "Work through 10 ideal\u2011gas\u2011law problems, including KMT derivations.",
+     "Take a 30\u2011minute timed quiz covering bonds and gases; review mistakes."
+    ]
+   },
+   {
+    "week": 3,
+    "focus": "Chemical reactions and stoichiometry",
+    "topics": [
+     "4.1",
+     "4.2",
+     "4.5",
+     "5.1",
+     "5.2"
+    ],
+    "classes": [
+     9501
+    ],
+    "hours": 20,
+    "tasks": [
+     "Read sections on reaction types and net ionic equations; make a summary table.",
+     "Complete the live class #9501 and add class notes to study binder.",
+     "Do 12 stoichiometry problems involving limiting reagents and percent yield.",
+     "Watch a short video on reaction rates; write 5 notes on rate\u2011law terminology.",
+     "Solve 8 rate\u2011law introductory problems; check with solution guide."
+    ]
+   },
+   {
+    "week": 4,
+    "focus": "Thermochemistry and kinetics deeper dive",
+    "topics": [
+     "6.1",
+     "6.2",
+     "6.4",
+     "5.3",
+     "5.4"
+    ],
+    "classes": [],
+    "hours": 20,
+    "tasks": [
+     "Read textbook chapters on enthalpy, energy diagrams, and calorimetry; create flashcards for key equations.",
+     "Complete 10 calorimetry calculations using heat capacity data.",
+     "Do 8 problems on concentration\u2011time graphs and elementary reactions.",
+     "Watch a tutorial on activation energy; summarize the concept in 3 sentences.",
+     "Take a 25\u2011minute timed set of mixed thermochemistry and kinetics free\u2011response questions; grade yourself."
+    ]
+   },
+   {
+    "week": 5,
+    "focus": "Equilibrium, acids/bases, and electrochemistry",
+    "topics": [
+     "7.1",
+     "7.3",
+     "8.1",
+     "8.3",
+     "9.3",
+     "9.4"
+    ],
+    "classes": [],
+    "hours": 20,
+    "tasks": [
+     "Read sections on chemical equilibrium and equilibrium constants; fill out equilibrium\u2011constant worksheet.",
+     "Solve 10 problems calculating Kc and using reaction quotients.",
+     "Complete acid\u2011base equilibrium practice set (weak acids/bases and buffer calculations).",
+     "Work through 6 Gibbs free\u2011energy problems linking \u0394G to K.",
+     "Do 4 electrochemistry cell\u2011potential calculations; verify with answer key."
+    ]
+   },
+   {
+    "week": 6,
+    "focus": "Mixed review and timed AP practice",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.3",
+     "1.4",
+     "1.6",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.6",
+     "3.5",
+     "4.3",
+     "4.4",
+     "5.1",
+     "5.2",
+     "5.3",
+     "5.4",
+     "6.3",
+     "7.2",
+     "7.4",
+     "8.2",
+     "8.4",
+     "9.1",
+     "9.2"
+    ],
+    "classes": [],
+    "hours": 20,
+    "tasks": [
+     "Do a full\u2011length (90\u2011minute) AP Chemistry practice exam under timed conditions.",
+     "Mark the exam using the official scoring guide; note topics of incorrect answers.",
+     "Review each missed question by revisiting the corresponding textbook section or notes.",
+     "Complete a mixed\u2011topic drill set of 20 free\u2011response questions covering all units.",
+     "Create a one\u2011page \u201ccheat sheet\u201d of key equations and concepts for final review."
+    ]
+   }
+  ],
+  "final_week_advice": "After the timed practice, focus on the few remaining weak spots, review your cheat sheet daily, and get plenty of rest the night before the exam. Arrive early, bring all required materials, and manage your time wisely during the test."
+ },
+ "raw": "{\n  \"summary\": \"The six\u2011week plan balances new content with practice, covering every unit at least once while keeping weekly load at 20 hours. Early weeks introduce foundational topics and include the scheduled live classes. Mid\u2011plan weeks deepen understanding and add free\u2011response drills. The final two weeks focus on mixed review and timed practice to build stamina for the October 13 exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"focus\": \"Foundations: atomic structure, periodic trends, and intermolecular forces\",\n      \"topics\": [\"1.5\", \"1.7\", \"3.1\", \"3.2\"],\n      \"classes\": [9500],\n      \"hours\": 20,\n      \"tasks\": [\n        \"Read textbook sections on atomic structure and periodic trends; take concise notes.\",\n        \"Do 15 practice problems on electron configuration and periodic trends; check answers.\",\n        \"Complete the live class #9500 and review the class notes.\",\n        \"Watch a 20\u2011minute video on intermolecular forces; summarize key differences.\",\n        \"Do 10 free\u2011response questions on intermolecular forces; grade with the scoring guide.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"focus\": \"Bonding, structures, and gases\",\n      \"topics\": [\"2.1\", \"2.5\", \"2.7\", \"3.3\", \"3.4\", \"3.5\"],\n      \"classes\": [],\n      \"hours\": 20,\n      \"tasks\": [\n        \"Read chapters on chemical bonds, Lewis diagrams, and VSEPR; create a chart of bond types.\",\n        \"Complete 12 Lewis\u2011structure problems, including resonance structures.\",\n        \"Do 8 VSEPR shape exercises; verify with answer key.\",\n        \"Work through 10 ideal\u2011gas\u2011law problems, including KMT derivations.\",\n        \"Take a 30\u2011minute timed quiz covering bonds and gases; review mistakes.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"focus\": \"Chemical reactions and stoichiometry\",\n      \"topics\": [\"4.1\", \"4.2\", \"4.5\", \"5.1\", \"5.2\"],\n      \"classes\": [9501],\n      \"hours\": 20,\n      \"tasks\": [\n        \"Read sections on reaction types and net ionic equations; make a summary table.\",\n        \"Complete the live class #9501 and add class notes to study binder.\",\n        \"Do 12 stoichiometry problems involving limiting reagents and percent yield.\",\n        \"Watch a short video on reaction rates; write 5 notes on rate\u2011law terminology.\",\n        \"Solve 8 rate\u2011law introductory problems; check with solution guide.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"focus\": \"Thermochemistry and kinetics deeper dive\",\n      \"topics\": [\"6.1\", \"6.2\", \"6.4\", \"5.3\", \"5.4\"],\n      \"classes\": [],\n      \"hours\": 20,\n      \"tasks\": [\n        \"Read textbook chapters on enthalpy, energy diagrams, and calorimetry; create flashcards for key equations.\",\n        \"Complete 10 calorimetry calculations using heat capacity data.\",\n        \"Do 8 problems on concentration\u2011time graphs and elementary reactions.\",\n        \"Watch a tutorial on activation energy; summarize the concept in 3 sentences.\",\n        \"Take a 25\u2011minute timed set of mixed thermochemistry and kinetics free\u2011response questions; grade yourself.\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"focus\": \"Equilibrium, acids/bases, and electrochemistry\",\n      \"topics\": [\"7.1\", \"7.3\", \"8.1\", \"8.3\", \"9.3\", \"9.4\"],\n      \"classes\": [],\n      \"hours\": 20,\n      \"tasks\": [\n        \"Read sections on chemical equilibrium and equilibrium constants; fill out equilibrium\u2011constant worksheet.\",\n        \"Solve 10 problems calculating Kc and using reaction quotients.\",\n        \"Complete acid\u2011base equilibrium practice set (weak acids/bases and buffer calculations).\",\n        \"Work through 6 Gibbs free\u2011energy problems linking \u0394G to K.\",\n        \"Do 4 electrochemistry cell\u2011potential calculations; verify with answer key.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"focus\": \"Mixed review and timed AP practice\",\n      \"topics\": [\"1.1\",\"1.2\",\"1.3\",\"1.4\",\"1.6\",\"2.2\",\"2.3\",\"2.4\",\"2.6\",\"3.5\",\"4.3\",\"4.4\",\"5.1\",\"5.2\",\"5.3\",\"5.4\",\"6.3\",\"7.2\",\"7.4\",\"8.2\",\"8.4\",\"9.1\",\"9.2\"],\n      \"classes\": [],\n      \"hours\": 20,\n      \"tasks\": [\n        \"Do a full\u2011length (90\u2011minute) AP Chemistry practice exam under timed conditions.\",\n        \"Mark the exam using the official scoring guide; note topics of incorrect answers.\",\n        \"Review each missed question by revisiting the corresponding textbook section or notes.\",\n        \"Complete a mixed\u2011topic drill set of 20 free\u2011response questions covering all units.\",\n        \"Create a one\u2011page \u201ccheat sheet\u201d of key equations and concepts for final review.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"After the timed practice, focus on the few remaining weak spots, review your cheat sheet daily, and get plenty of rest the night before the exam. Arrive early, bring all required materials, and manage your time wisely during the test.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1154,
+ "output_tokens": 1280,
+ "latency_ms": 3004
+}

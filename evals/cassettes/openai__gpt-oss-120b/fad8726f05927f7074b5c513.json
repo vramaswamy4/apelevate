@@ -1,0 +1,198 @@
+{
+ "data": {
+  "summary": "The 10\u2011week plan front\u2011loads the student\u2019s weak units (Kinetics and Equilibrium) while weaving in core content from the other units. Live classes are slotted in their designated weeks, and each week stays within the 6\u2011hour limit. The final two weeks focus on comprehensive review and timed practice to build stamina for the November AP Chemistry exam.",
+  "weeks": [
+   {
+    "week": 1,
+    "hours": 6,
+    "focus": "Build foundation in atomic structure and periodic trends.",
+    "topics": [
+     "1.1",
+     "1.2",
+     "1.5",
+     "1.7",
+     "1.8"
+    ],
+    "classes": [],
+    "tasks": [
+     "Read textbook sections for topics 1.1\u20111.8 and create a one\u2011page summary sheet.",
+     "Do 15 practice problems on mole calculations and periodic trends, checking answers with the answer key.",
+     "Watch a 20\u2011minute video on electron configuration and write three example configurations."
+    ]
+   },
+   {
+    "week": 2,
+    "hours": 6,
+    "focus": "Introduce kinetics and attend live class on rate basics.",
+    "topics": [
+     "5.1",
+     "5.2",
+     "5.3"
+    ],
+    "classes": [
+     9000
+    ],
+    "tasks": [
+     "Review class notes from live session covering 5.1 and 5.2.",
+     "Complete the class worksheet: calculate reaction rates for five given reactions.",
+     "Do 10 free\u2011response FRQs on rate laws, grading with the AP scoring guide."
+    ]
+   },
+   {
+    "week": 3,
+    "hours": 6,
+    "focus": "Deepen kinetics and start bond fundamentals.",
+    "topics": [
+     "5.3",
+     "5.4",
+     "2.1",
+     "2.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Solve 8 problems on concentration\u2011time graphs (5.3) and identify elementary steps (5.4).",
+     "Create flashcards for bond types and intramolecular forces (2.1\u20112.2).",
+     "Write balanced equations for 5 reactions and label bond changes."
+    ]
+   },
+   {
+    "week": 4,
+    "hours": 6,
+    "focus": "Equilibrium fundamentals via live class.",
+    "topics": [
+     "7.1",
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "classes": [
+     9001
+    ],
+    "tasks": [
+     "Review live class notes on 7.1\u20117.3 and complete the provided practice worksheet.",
+     "Calculate Q and K for 6 given reactions, deciding direction of shift (7.2).",
+     "Do 5 FRQs that require writing equilibrium expressions and determining K (7.4)."
+    ]
+   },
+   {
+    "week": 5,
+    "hours": 6,
+    "focus": "Finish equilibrium and start intermolecular forces.",
+    "topics": [
+     "7.4",
+     "3.1",
+     "3.2",
+     "3.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Complete a set of 8 problems on equilibrium constant calculations (7.4).",
+     "Make a comparison table of intermolecular forces for solids, liquids, gases (3.1\u20113.3).",
+     "Answer 10 multiple\u2011choice questions on phase properties, checking explanations."
+    ]
+   },
+   {
+    "week": 6,
+    "hours": 6,
+    "focus": "Stoichiometry and introductory thermochemistry.",
+    "topics": [
+     "4.1",
+     "4.5",
+     "6.1",
+     "6.2"
+    ],
+    "classes": [],
+    "tasks": [
+     "Solve 12 stoichiometry problems involving net ionic equations (4.1, 4.5).",
+     "Draw energy diagrams for exothermic and endothermic reactions (6.1\u20116.2).",
+     "Complete a worksheet converting between \u0394H, q, and temperature changes."
+    ]
+   },
+   {
+    "week": 7,
+    "hours": 6,
+    "focus": "Acids & bases basics with live class.",
+    "topics": [
+     "8.1",
+     "8.2",
+     "8.3"
+    ],
+    "classes": [
+     9002
+    ],
+    "tasks": [
+     "Review class notes on 8.1\u20118.2 and answer the class quiz.",
+     "Calculate pH and pOH for 6 strong acid/base solutions (8.2).",
+     "Do 5 FRQs on weak acid equilibria, using Ka expressions (8.3)."
+    ]
+   },
+   {
+    "week": 8,
+    "hours": 6,
+    "focus": "Complete acid\u2011base unit and start thermodynamics.",
+    "topics": [
+     "8.4",
+     "9.1",
+     "9.2",
+     "9.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Write buffer preparation calculations and explain the Henderson\u2011Hasselbalch equation (8.4).",
+     "Solve entropy change problems for 4 processes (9.1\u20119.2).",
+     "Calculate \u0394G for 5 reactions using \u0394H and \u0394S (9.3)."
+    ]
+   },
+   {
+    "week": 9,
+    "hours": 6,
+    "focus": "Mixed review of all major units.",
+    "topics": [
+     "1.1",
+     "2.5",
+     "3.4",
+     "4.3",
+     "5.4",
+     "6.4",
+     "7.2",
+     "8.4",
+     "9.4"
+    ],
+    "classes": [],
+    "tasks": [
+     "Do a 40\u2011minute mixed\u2011topic practice set (10 questions from each listed topic).",
+     "Create a two\u2011page master cheat sheet summarizing key equations and concepts.",
+     "Review incorrect answers and write a brief explanation for each mistake."
+    ]
+   },
+   {
+    "week": 10,
+    "hours": 6,
+    "focus": "Timed full\u2011length practice and final review.",
+    "topics": [
+     "1.8",
+     "2.7",
+     "3.5",
+     "4.4",
+     "5.1",
+     "6.3",
+     "7.3",
+     "8.2",
+     "9.3"
+    ],
+    "classes": [],
+    "tasks": [
+     "Take a 90\u2011minute timed AP practice section covering all units.",
+     "Score the section using the official rubric and note areas needing last\u2011minute review.",
+     "Do a 30\u2011minute rapid\u2011fire review of any remaining weak spots."
+    ]
+   }
+  ],
+  "final_week_advice": "On the day before the exam, relax, review your master cheat sheet, get plenty of sleep, and trust the systematic practice you\u2019ve built over the past ten weeks."
+ },
+ "raw": "{\n  \"summary\": \"The 10\u2011week plan front\u2011loads the student\u2019s weak units (Kinetics and Equilibrium) while weaving in core content from the other units. Live classes are slotted in their designated weeks, and each week stays within the 6\u2011hour limit. The final two weeks focus on comprehensive review and timed practice to build stamina for the November AP Chemistry exam.\",\n  \"weeks\": [\n    {\n      \"week\": 1,\n      \"hours\": 6,\n      \"focus\": \"Build foundation in atomic structure and periodic trends.\",\n      \"topics\": [\"1.1\", \"1.2\", \"1.5\", \"1.7\", \"1.8\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Read textbook sections for topics 1.1\u20111.8 and create a one\u2011page summary sheet.\",\n        \"Do 15 practice problems on mole calculations and periodic trends, checking answers with the answer key.\",\n        \"Watch a 20\u2011minute video on electron configuration and write three example configurations.\"\n      ]\n    },\n    {\n      \"week\": 2,\n      \"hours\": 6,\n      \"focus\": \"Introduce kinetics and attend live class on rate basics.\",\n      \"topics\": [\"5.1\", \"5.2\", \"5.3\"],\n      \"classes\": [9000],\n      \"tasks\": [\n        \"Review class notes from live session covering 5.1 and 5.2.\",\n        \"Complete the class worksheet: calculate reaction rates for five given reactions.\",\n        \"Do 10 free\u2011response FRQs on rate laws, grading with the AP scoring guide.\"\n      ]\n    },\n    {\n      \"week\": 3,\n      \"hours\": 6,\n      \"focus\": \"Deepen kinetics and start bond fundamentals.\",\n      \"topics\": [\"5.3\", \"5.4\", \"2.1\", \"2.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Solve 8 problems on concentration\u2011time graphs (5.3) and identify elementary steps (5.4).\",\n        \"Create flashcards for bond types and intramolecular forces (2.1\u20112.2).\",\n        \"Write balanced equations for 5 reactions and label bond changes.\"\n      ]\n    },\n    {\n      \"week\": 4,\n      \"hours\": 6,\n      \"focus\": \"Equilibrium fundamentals via live class.\",\n      \"topics\": [\"7.1\", \"7.2\", \"7.3\", \"7.4\"],\n      \"classes\": [9001],\n      \"tasks\": [\n        \"Review live class notes on 7.1\u20117.3 and complete the provided practice worksheet.\",\n        \"Calculate Q and K for 6 given reactions, deciding direction of shift (7.2).\",\n        \"Do 5 FRQs that require writing equilibrium expressions and determining K (7.4).\"\n      ]\n    },\n    {\n      \"week\": 5,\n      \"hours\": 6,\n      \"focus\": \"Finish equilibrium and start intermolecular forces.\",\n      \"topics\": [\"7.4\", \"3.1\", \"3.2\", \"3.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Complete a set of 8 problems on equilibrium constant calculations (7.4).\",\n        \"Make a comparison table of intermolecular forces for solids, liquids, gases (3.1\u20113.3).\",\n        \"Answer 10 multiple\u2011choice questions on phase properties, checking explanations.\"\n      ]\n    },\n    {\n      \"week\": 6,\n      \"hours\": 6,\n      \"focus\": \"Stoichiometry and introductory thermochemistry.\",\n      \"topics\": [\"4.1\", \"4.5\", \"6.1\", \"6.2\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Solve 12 stoichiometry problems involving net ionic equations (4.1, 4.5).\",\n        \"Draw energy diagrams for exothermic and endothermic reactions (6.1\u20116.2).\",\n        \"Complete a worksheet converting between \u0394H, q, and temperature changes.\"\n      ]\n    },\n    {\n      \"week\": 7,\n      \"hours\": 6,\n      \"focus\": \"Acids & bases basics with live class.\",\n      \"topics\": [\"8.1\", \"8.2\", \"8.3\"],\n      \"classes\": [9002],\n      \"tasks\": [\n        \"Review class notes on 8.1\u20118.2 and answer the class quiz.\",\n        \"Calculate pH and pOH for 6 strong acid/base solutions (8.2).\",\n        \"Do 5 FRQs on weak acid equilibria, using Ka expressions (8.3).\"\n      ]\n    },\n    {\n      \"week\": 8,\n      \"hours\": 6,\n      \"focus\": \"Complete acid\u2011base unit and start thermodynamics.\",\n      \"topics\": [\"8.4\", \"9.1\", \"9.2\", \"9.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Write buffer preparation calculations and explain the Henderson\u2011Hasselbalch equation (8.4).\",\n        \"Solve entropy change problems for 4 processes (9.1\u20119.2).\",\n        \"Calculate \u0394G for 5 reactions using \u0394H and \u0394S (9.3).\"\n      ]\n    },\n    {\n      \"week\": 9,\n      \"hours\": 6,\n      \"focus\": \"Mixed review of all major units.\",\n      \"topics\": [\"1.1\", \"2.5\", \"3.4\", \"4.3\", \"5.4\", \"6.4\", \"7.2\", \"8.4\", \"9.4\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Do a 40\u2011minute mixed\u2011topic practice set (10 questions from each listed topic).\",\n        \"Create a two\u2011page master cheat sheet summarizing key equations and concepts.\",\n        \"Review incorrect answers and write a brief explanation for each mistake.\"\n      ]\n    },\n    {\n      \"week\": 10,\n      \"hours\": 6,\n      \"focus\": \"Timed full\u2011length practice and final review.\",\n      \"topics\": [\"1.8\", \"2.7\", \"3.5\", \"4.4\", \"5.1\", \"6.3\", \"7.3\", \"8.2\", \"9.3\"],\n      \"classes\": [],\n      \"tasks\": [\n        \"Take a 90\u2011minute timed AP practice section covering all units.\",\n        \"Score the section using the official rubric and note areas needing last\u2011minute review.\",\n        \"Do a 30\u2011minute rapid\u2011fire review of any remaining weak spots.\"\n      ]\n    }\n  ],\n  \"final_week_advice\": \"On the day before the exam, relax, review your master cheat sheet, get plenty of sleep, and trust the systematic practice you\u2019ve built over the past ten weeks.\"\n}",
+ "model": "openai/gpt-oss-120b",
+ "input_tokens": 1244,
+ "output_tokens": 1830,
+ "latency_ms": 4213
+}

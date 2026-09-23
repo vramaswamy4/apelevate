@@ -1,0 +1,53 @@
+{
+ "data": {
+  "final_week_advice": "Finish with a mock exam and a quick self\u2011assessment of confidence levels for each unit.",
+  "summary": "A concise two\u2011week plan that tackles the student\u2019s weak Acids and Bases unit first, then consolidates all topics with a mixed review and timed practice before the exam.",
+  "weeks": [
+   {
+    "classes": [
+     9100
+    ],
+    "focus": "Master Acids and Bases fundamentals",
+    "hours": 8,
+    "tasks": [
+     "Watch the live class 9100 and take detailed notes on pH calculations.",
+     "Do 15 practice problems on strong acid/base pH and pOH, then self\u2011grade using the rubric.",
+     "Review the class notes and create a one\u2011page cheat sheet summarizing key formulas and concepts."
+    ],
+    "topics": [
+     "8.1",
+     "8.2"
+    ],
+    "week": 1
+   },
+   {
+    "classes": [],
+    "focus": "Mixed review and timed practice",
+    "hours": 8,
+    "tasks": [
+     "Complete a full-length AP Chemistry practice test (timed) and mark each answer with the scoring guide.",
+     "Identify the top three weak areas from the test and review the corresponding textbook sections.",
+     "Do a 30\u2011minute timed quiz on equilibrium constants and Gibbs free energy, then analyze errors."
+    ],
+    "topics": [
+     "1.1",
+     "1.4",
+     "2.1",
+     "3.4",
+     "4.5",
+     "5.1",
+     "6.1",
+     "7.3",
+     "8.3",
+     "9.3"
+    ],
+    "week": 2
+   }
+  ]
+ },
+ "raw": "{\"final_week_advice\":\"Finish with a mock exam and a quick self\u2011assessment of confidence levels for each unit.\",\"summary\":\"A concise two\u2011week plan that tackles the student\u2019s weak Acids and Bases unit first, then consolidates all topics with a mixed review and timed practice before the exam.\",\"weeks\":[{\"classes\":[9100],\"focus\":\"Master Acids and Bases fundamentals\",\"hours\":8,\"tasks\":[\"Watch the live class 9100 and take detailed notes on pH calculations.\",\"Do 15 practice problems on strong acid/base pH and pOH, then self\u2011grade using the rubric.\",\"Review the class notes and create a one\u2011page cheat sheet summarizing key formulas and concepts.\"],\"topics\":[\"8.1\",\"8.2\"],\"week\":1},{\"classes\":[],\"focus\":\"Mixed review and timed practice\",\"hours\":8,\"tasks\":[\"Complete a full-length AP Chemistry practice test (timed) and mark each answer with the scoring guide.\",\"Identify the top three weak areas from the test and review the corresponding textbook sections.\",\"Do a 30\u2011minute timed quiz on equilibrium constants and Gibbs free energy, then analyze errors.\"],\"topics\":[\"1.1\",\"1.4\",\"2.1\",\"3.4\",\"4.5\",\"5.1\",\"6.1\",\"7.3\",\"8.3\",\"9.3\"],\"week\":2}]}\n",
+ "model": "openai/gpt-oss-20b",
+ "input_tokens": 1140,
+ "output_tokens": 366,
+ "latency_ms": 907
+}
