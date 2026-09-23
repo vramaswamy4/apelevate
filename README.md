@@ -14,6 +14,7 @@ server-verified payments and a new interface. The original code is kept in the h
 |---|---|
 | ![2022 class list](docs/screenshots/2022/classes.png) | ![2026 class list](docs/screenshots/classes.png) |
 
+- [Live demo](#live-demo)
 - [Run it](#run-it)
 - [History](#history)
 - [What it does](#what-it-does)
@@ -24,6 +25,27 @@ server-verified payments and a new interface. The original code is kept in the h
 - [Key decisions](#key-decisions)
 - [What I'd still do differently](#what-id-still-do-differently)
 - [Layout](#layout)
+
+---
+
+## Live demo
+
+**https://apelevate-1065774348021.us-west1.run.app**
+
+The sign-in page lists the demo accounts; click one to sign in. Payments are simulated, sign-up is
+off (so nobody leaves real details where the shared staff account could read them), the demo
+accounts can't change their name, email or password, and everything resets every night at 08:00
+UTC. The first request after a quiet spell takes a few seconds while an instance starts.
+
+It runs on Google Cloud Run in `us-west1`, with Neon Postgres in AWS `us-west-2` next door.
+Everything is Terraform in [`infra/`](infra/): the service, a migrate job and a reset job, a
+Cloud Scheduler trigger for the nightly reset, a private Cloud Storage bucket for uploaded
+documents, Secret Manager, a budget alert, and Workload Identity Federation so GitHub Actions
+deploys without a stored key. After CI passes on `main`,
+[`deploy.yml`](.github/workflows/deploy.yml) builds the image, runs migrations as a job, rolls
+out the new revision and smoke-tests it. The database URL is the one secret added by hand
+([`infra/set-database-url.sh`](infra/set-database-url.sh)), so it never appears in Terraform
+state.
 
 ---
 
@@ -50,7 +72,7 @@ http://localhost:8000. Sign in with any of these (password `apelevate-demo`):
 Other targets:
 
 ```bash
-make test          # 169 tests, about 2 seconds
+make test          # 176 tests, about 2 seconds
 make cov           # the same with a coverage report (95% of lines)
 make lint          # ruff check + ruff format --check
 make check         # Django's production checklist (check --deploy) with production settings
@@ -219,9 +241,9 @@ the same transaction as the ledger row. `manage.py audit_wallets` checks the two
 | Payments | PayPal buttons with `client-id=test`, trusted by the browser | PayPal Orders v2 over REST, created and captured by the server (httpx) |
 | Static files | None in production | whitenoise with hashed, compressed files |
 | Config | Secrets in `settings.py` | Environment variables (django-environ), `.env.example` |
-| Tests | None | pytest-django: 169 tests, 95% line coverage |
+| Tests | None | pytest-django: 176 tests, 95% line coverage |
 | Tooling | None | ruff, pre-commit, Makefile, Dockerfile, docker compose, GitHub Actions |
-| Hosting | PythonAnywhere | Not deployed; runs anywhere the Docker image runs |
+| Hosting | PythonAnywhere | Google Cloud Run + Neon Postgres, Terraform, keyless CD from GitHub Actions |
 
 ---
 
@@ -246,7 +268,7 @@ the same transaction as the ledger row. `manage.py audit_wallets` checks the two
 | Hours, students and revenue stored as counters that nothing updated | Computed from classes and enrolments (grouped SQL, by month and subject) |
 | Placeholder pages: subjects, profile, analytics, class requests | Built |
 | Zoom link limited to 30 characters | `URLField(max_length=500)`, https only |
-| No tests, CI, lint or formatting | 169 tests on SQLite and PostgreSQL in GitHub Actions, ruff, pre-commit |
+| No tests, CI, lint or formatting | 176 tests on SQLite and PostgreSQL in GitHub Actions, ruff, pre-commit |
 | Seven copies of a 70-line `<style>` block, two base layouts, three CSS frameworks | One design system with light and dark themes, accessible forms, responsive tables |
 | Nested project folder, misnamed UTF-16 requirements, empty Procfile | Flat layout (`config/` + one package per domain), pinned requirements, working Procfile with a release-phase migration, Dockerfile |
 
@@ -376,8 +398,6 @@ something about 2022, it says so.
   belong in a background worker.
 - Login has no rate limiting.
 - The seeded curriculum lists the opening topics of each unit, not the full course outline.
-- It isn't deployed. The Docker image, Procfile and `check --deploy` are ready, but there's no
-  live URL.
 
 **If I were starting it today**
 

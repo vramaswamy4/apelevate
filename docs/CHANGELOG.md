@@ -3,6 +3,16 @@
 The refresh of the recovered 2022 app, newest first. `docs/ORIGINAL.md` numbers the problems
 (S1, X1, C1, …), and the entries here refer to those numbers.
 
+## Hosting (2026-09-23)
+
+- Live at https://apelevate-1065774348021.us-west1.run.app: Cloud Run (us-west1) + Neon
+  Postgres (us-west-2), all in Terraform (`infra/`), keyless deploys from GitHub Actions after CI.
+- Demo mode: one-click demo sign-in, sign-up off, locked demo accounts, read-only admin for the
+  demo staff login, a banner, nightly `reset_demo` via Cloud Scheduler.
+- Private uploads move to a Cloud Storage bucket when `PRIVATE_STORAGE_BUCKET` is set.
+- Checked in production: all four demo logins, enrolment debits a token, staff download of an
+  application file from the bucket, 403 for a student, sign-up closed.
+
 ## Phase 4: README (2026-09-22)
 
 - Rewrote the README for a reader who has never seen the project: what it is, an honest

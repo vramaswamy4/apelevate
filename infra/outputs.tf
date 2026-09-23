@@ -1,5 +1,6 @@
 output "url" {
-  value = google_cloud_run_v2_service.web.uri
+  description = "The URL the app answers on (ALLOWED_HOSTS only includes this one)."
+  value       = "https://${local.service_host}"
 }
 
 output "artifact_repository" {
