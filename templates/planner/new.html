@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Study plan{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Build a study plan</h1><p class="muted">A week-by-week plan up to your exam, using the real AP topics and the live classes on APElevate. Written by an open-weights model, then checked by code before you see it.</p></div>{% if recent %}<a class="btn btn--ghost" href="{% url 'planner:list' %}">Your plans</a>{% endif %}</header>
+<div class="layout-2">
+  <form method="post" id="planner-form" class="card form" novalidate hx-post="{% url 'planner:new' %}" hx-target="this" hx-select="#planner-form" hx-swap="outerHTML" hx-disinherit="*" hx-disabled-elt="find button[type=submit]" hx-indicator="#planner-working">{% csrf_token %}
+    <div id="planner-form-errors">{% if error %}<div class="alert alert--error" role="alert">{{ error }}</div>{% endif %}{% include "partials/form_errors.html" %}</div>
+    <div hx-get="{% url 'planner:unit_options' %}" hx-trigger="change from:#id_subject" hx-target="#weak-units" hx-include="#id_subject">
+      {{ form.subject.as_field_group }}
+    </div>
+    <div class="form__row">{{ form.exam_date.as_field_group }}{{ form.hours_per_week.as_field_group }}</div>
+    <div id="weak-units">{% include "planner/_unit_options.html" with units=form.fields.weak_units.queryset selected=form.weak_units.value %}</div>
+    <div class="cluster">
+      <button class="btn btn--primary" type="submit">Build my plan</button>
+      <span id="planner-working" class="planner-working muted" role="status">Writing your plan and checking it. This takes a few seconds…</span>
+    </div>
+  </form>
+  <aside class="card card--quiet">
+    <h2 class="card__title">How it works</h2>
+    <ol class="bullets">
+      <li>Code works out your weeks, the topics that exist, and which live classes fall in which week.</li>
+      <li>An open-weights model (via Groq) turns that into a plan, as JSON that has to match a schema.</li>
+      <li>Code checks every topic, class, week and hour. If the model broke a rule it gets one chance to fix it; if it still can't, you get an error instead of a wrong plan.</li>
+    </ol>
+    <p class="muted small">No free text goes to the model, only your choices on this form.</p>
+  </aside>
+</div>
+{% endblock %}

@@ -20,6 +20,8 @@ STATIC_ROOT = tempfile.mkdtemp(prefix="apelevate-static-")
 PRIVATE_MEDIA_ROOT = tempfile.mkdtemp(prefix="apelevate-private-")
 EMAIL_BACKEND = "django.core.mail.backends.locmem.EmailBackend"
 PAYMENTS_BACKEND = "fake"
+LLM_BACKEND = "fake"
+LLM_API_KEY = ""
 PAYPAL_CLIENT_ID = ""
 PAYPAL_CLIENT_SECRET = ""
 LOGGING["root"]["level"] = "WARNING"  # noqa: F405

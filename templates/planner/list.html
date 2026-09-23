@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Your study plans{% endblock %}
+{% block content %}
+<header class="page-header"><div><h1>Your study plans</h1></div><a class="btn btn--primary" href="{% url 'planner:new' %}">New plan</a></header>
+<ul class="list">{% for p in plans %}
+  <li class="list__item"><div><a href="{% url 'planner:detail' p.pk %}"><strong>{{ p.subject.name }}</strong></a><p class="muted">Exam {{ p.exam_date|date:"j M Y" }} · {{ p.hours_per_week }} hours a week</p></div><time class="list__aside" datetime="{{ p.created_at|date:'c' }}">{{ p.created_at|date:"j M, g:i A" }}</time></li>
+{% endfor %}</ul>
+{% endblock %}

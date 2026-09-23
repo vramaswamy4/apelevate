@@ -24,6 +24,7 @@
           <a href="{% url 'classes:list' %}" {% active 'classes:list' 'classes:detail' %}>Classes</a>
           <a href="{% url 'classes:mine' %}" {% active 'classes:mine' %}>My classes</a>
           <a href="{% url 'catalog:subject_list' %}" {% active 'catalog:subject_list' 'catalog:subject_detail' %}>Subjects</a>
+          <a href="{% url 'planner:new' %}" {% active 'planner:new' 'planner:detail' 'planner:list' %}>Study plan</a>
           {% if nav_is_mentor %}<a href="{% url 'classes:teach' %}" {% active 'classes:teach' 'classes:teach_classes' 'classes:create' 'classes:analytics' %}>Teach</a>{% endif %}
           {% if user.is_staff %}<a href="{% url 'accounts:review_list' %}" {% active 'accounts:review_list' 'accounts:review_detail' %}>Review</a>{% endif %}
         {% else %}

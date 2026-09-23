@@ -1,0 +1,7 @@
+{% if units %}<fieldset class="field">
+  <legend class="field__label">Units you find hardest <span class="field__optional">optional</span></legend>
+  <p class="field__help">They'll be scheduled early and revisited before the exam.</p>
+  <div class="checkgrid checkgrid--compact">{% for u in units %}
+    <label class="check"><input type="checkbox" name="weak_units" value="{{ u.pk }}"{% if selected and u.pk|stringformat:"s" in selected %} checked{% endif %}> Unit {{ u.number }}: {{ u.name }}</label>
+  {% endfor %}</div>
+</fieldset>{% else %}<div class="field"><p class="field__label">Units you find hardest</p><p class="field__help">Choose a subject to see its units.</p></div>{% endif %}

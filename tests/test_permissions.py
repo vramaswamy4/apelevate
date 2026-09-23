@@ -25,6 +25,8 @@ MATRIX = [
     ("accounts:profile", None, [LOGIN, OK, OK, OK]),
     ("accounts:apply", None, [LOGIN, OK, OK, OK]),
     ("payments:buy", None, [LOGIN, OK, OK, OK]),
+    ("planner:new", None, [LOGIN, OK, OK, OK]),
+    ("planner:list", None, [LOGIN, "redirect", "redirect", "redirect"]),  # no plans yet
     ("classes:teach", None, [LOGIN, FORBIDDEN, OK, FORBIDDEN]),
     ("classes:teach_classes", None, [LOGIN, FORBIDDEN, OK, FORBIDDEN]),
     ("classes:create", None, [LOGIN, FORBIDDEN, OK, FORBIDDEN]),
@@ -87,6 +89,8 @@ def test_every_url_is_covered_by_the_matrix():
         "payments:capture",
         "payments:test_pay",
         "payments:receipt",
+        "planner:unit_options",
+        "planner:detail",
     }
     names = set()
     for pattern in get_resolver().url_patterns:

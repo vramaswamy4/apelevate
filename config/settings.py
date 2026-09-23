@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "catalog",
     "classes",
     "payments",
+    "planner",
 ]
 
 MIDDLEWARE = [
@@ -154,6 +155,16 @@ PAYMENTS_BACKEND = env("PAYMENTS_BACKEND", default="fake" if DEBUG else "paypal"
 PAYPAL_CLIENT_ID = env("PAYPAL_CLIENT_ID", default="")
 PAYPAL_CLIENT_SECRET = env("PAYPAL_CLIENT_SECRET", default="")
 PAYPAL_ENVIRONMENT = env("PAYPAL_ENVIRONMENT", default="sandbox")
+
+# Study-plan model: "fake" (offline, for dev and tests) or "openai" (any OpenAI-compatible API).
+# Defaults point at Groq's free tier and an open-weights model; docs/EVALS.md explains the pick.
+LLM_BACKEND = env("LLM_BACKEND", default="fake")
+LLM_BASE_URL = env("LLM_BASE_URL", default="https://api.groq.com/openai/v1")
+LLM_API_KEY = env("LLM_API_KEY", default="")
+LLM_MODEL = env("LLM_MODEL", default="openai/gpt-oss-120b")
+LLM_REASONING_EFFORT = env("LLM_REASONING_EFFORT", default="low")
+PLANNER_DAILY_LIMIT_PER_USER = env.int("PLANNER_DAILY_LIMIT_PER_USER", default=10)
+PLANNER_DAILY_TOKEN_BUDGET = env.int("PLANNER_DAILY_TOKEN_BUDGET", default=150_000)
 
 # HTTPS hardening. Off by default so `runserver` works over plain HTTP; production sets
 # DJANGO_SECURE=1 behind a TLS-terminating proxy.

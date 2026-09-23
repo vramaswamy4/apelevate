@@ -1,0 +1,49 @@
+{% extends "base.html" %}{% load ui %}
+{% block title %}{{ plan.subject.name }} study plan{% endblock %}
+{% block content %}
+<p class="breadcrumb"><a href="{% url 'planner:list' %}">Your plans</a></p>
+<header class="page-header">
+  <div><h1>{{ plan.subject.name }}: {{ weeks|length }}-week plan</h1>
+  <p class="muted">Exam {{ plan.exam_date|date:"l j F Y" }} · {{ plan.hours_per_week }} hours a week{% if plan.weak_units.all %} · weak units: {% for u in plan.weak_units.all %}{{ u.number }}{% if not forloop.last %}, {% endif %}{% endfor %}{% endif %}</p></div>
+  <a class="btn btn--secondary" href="{% url 'planner:new' %}?subject={{ plan.subject_id }}">Make another</a>
+</header>
+<div class="layout-2 layout-2--wide-left">
+  <section>
+    <p class="plan-summary">{{ data.summary }}</p>
+    <ol class="plan-weeks">
+      {% for w in weeks %}
+      <li class="plan-week card">
+        <div class="plan-week__head">
+          <span class="plan-week__n">Week {{ w.week }}</span>
+          <time class="muted small" datetime="{{ w.starts|date:'Y-m-d' }}">from {{ w.starts|date:"j M" }}</time>
+          <span class="badge">{{ w.hours }} hr</span>
+        </div>
+        <h2 class="plan-week__focus">{{ w.focus }}</h2>
+        {% if w.topic_objs %}<ul class="chips" aria-label="Topics">{% for t in w.topic_objs %}<li class="chip">{{ t.code }} {{ t.name }}</li>{% endfor %}</ul>{% endif %}
+        {% if w.tasks %}<ul class="bullets">{% for task in w.tasks %}<li>{{ task }}</li>{% endfor %}</ul>{% endif %}
+        {% for c in w.class_objs %}
+          <a class="plan-class" href="{{ c.get_absolute_url }}"><span class="badge {% if c.is_enrolled %}badge--success{% else %}badge--brand{% endif %}">{% if c.is_enrolled %}Enrolled{% else %}Live class{% endif %}</span> <strong>{{ c.title }}</strong> <span class="muted">{{ c.starts_at|date:"D j M, g:i A" }} · {{ c.mentor.user.get_full_name }}</span></a>
+        {% endfor %}
+      </li>
+      {% endfor %}
+    </ol>
+    <section class="card card--quiet"><h2 class="card__title">Final week</h2><p>{{ data.final_week_advice }}</p></section>
+  </section>
+  <aside class="stack">
+    <section class="card">
+      <h2 class="card__title">Checked by code</h2>
+      <p class="small">Every topic, class, week and hour in this plan was checked against the course and the class schedule.{% if plan.attempts > 1 %} The first draft broke a rule and was corrected.{% endif %}</p>
+      {% if notes %}<p class="small muted">Notes:</p><ul class="bullets">{% for n in notes %}<li>{{ n.message }}</li>{% endfor %}</ul>
+      {% else %}<p class="small"><span class="badge badge--success">All checks passed</span></p>{% endif %}
+    </section>
+    <section class="card card--quiet">
+      <h2 class="card__title">Under the hood</h2>
+      <dl class="meta meta--stacked small">
+        <div><dt>Model</dt><dd><code>{{ plan.model }}</code></dd></div>
+        <div><dt>Tokens</dt><dd>{{ plan.input_tokens }} in, {{ plan.output_tokens }} out</dd></div>
+        <div><dt>Time</dt><dd>{{ plan.latency_ms }} ms, {{ plan.attempts }} attempt{{ plan.attempts|pluralize }}</dd></div>
+      </dl>
+    </section>
+  </aside>
+</div>
+{% endblock %}

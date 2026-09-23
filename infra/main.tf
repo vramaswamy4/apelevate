@@ -89,10 +89,21 @@ resource "google_secret_manager_secret" "database_url" {
   depends_on = [google_project_service.apis]
 }
 
+# API key for the study-plan model (Groq's OpenAI-compatible API). Added by hand, like the
+# database URL: infra/set-llm-key.sh.
+resource "google_secret_manager_secret" "llm_api_key" {
+  secret_id = "llm-api-key"
+  replication {
+    auto {}
+  }
+  depends_on = [google_project_service.apis]
+}
+
 resource "google_secret_manager_secret_iam_member" "runtime_reads" {
   for_each = {
     django = google_secret_manager_secret.django_secret_key.id
     db     = google_secret_manager_secret.database_url.id
+    llm    = google_secret_manager_secret.llm_api_key.id
   }
   secret_id = each.value
   role      = "roles/secretmanager.secretAccessor"
